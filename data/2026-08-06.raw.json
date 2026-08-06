@@ -1,13 +1,39 @@
 {
   "date": "2026-08-06",
-  "generated_at": "2026-08-06T14:26:21.917806+08:00",
+  "generated_at": "2026-08-06T16:42:43.996638+08:00",
   "counts": {
     "papers": 40,
-    "projects": 23,
-    "news": 142
+    "projects": 24,
+    "news": 141
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "FocusMem: Factorizing Content, Readout, and Trust in Latent GUI Memory",
+        "url": "https://huggingface.co/papers/2608.04530",
+        "normalized_url": "https://huggingface.co/papers/2608.04530",
+        "summary": "GUI agents must remember both useful experience from earlier tasks and unfinished progress in the current interaction. Latent memory offers a compact solution by compressing multimodal trajectories into a few continuous tokens. Existing methods, however, usually map each trajectory to one fixed memory block and train it mainly through next-action supervision. This creates three practical problems: important details may be lost during compression, the same memory block must serve different decisi",
+        "source": "HuggingFace Papers",
+        "published": "2026-08-05T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2608.04530"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "GDPevo: Evaluating Agent Self-Evolution on Real Business Tasks",
+        "url": "https://huggingface.co/papers/2608.03764",
+        "normalized_url": "https://huggingface.co/papers/2608.03764",
+        "summary": "Agent self-evolution updates an agent's persistent state from prior experience and reuses it to solve related tasks more effectively. Evaluating self-evolution is difficult: existing benchmarks provide limited coverage of economically valuable task domains, do not always design training and test tasks such that test-time gains can be attributed to training experience, and remain vulnerable to data contamination. We present GDPevo, an evolution-native benchmark grounded in GDP-related enterprise ",
+        "source": "HuggingFace Papers",
+        "published": "2026-08-04T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2608.03764"
+        }
+      },
       {
         "category": "papers",
         "title": "AVE-Compass: Towards Holistic Evaluation for Audio-Video Editing Abilities",
@@ -374,32 +400,6 @@
       },
       {
         "category": "papers",
-        "title": "CURV: Enhancing Chart Understanding Through Curriculum Visual Grounded Reasoning",
-        "url": "https://huggingface.co/papers/2608.02833",
-        "normalized_url": "https://huggingface.co/papers/2608.02833",
-        "summary": "Chart question answering (CQA) requires multimodal large language models (MLLMs) to integrate visual comprehension with logical reasoning, yet current models struggle with accurate visual grounding and coherent reasoning chains. While extrinsic chain-of-thought prompting and visual cues significantly improve performance, current MLLMs lack intrinsic visual grounded reasoning capabilities, leading to inaccurate perception and reasoning disconnected from visual evidence. To address these limitatio",
-        "source": "HuggingFace Papers",
-        "published": "2026-08-03T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2608.02833"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "RestoreKV: Recovering Full-Cache Behavior Under Aggressive Query-Agnostic KV Cache Eviction",
-        "url": "https://huggingface.co/papers/2608.01247",
-        "normalized_url": "https://huggingface.co/papers/2608.01247",
-        "summary": "Query-agnostic KV cache eviction compresses a context once and reuses the resulting cache for arbitrary future queries, but performance can collapse under tight budgets. Existing methods primarily improve which original KV pairs are retained. We introduce RestoreKV, which complements this selection-based formulation with learned restoration under the same total KV budget. Our key insight is that, although the information lost through eviction is context-specific, the mechanism for generating its",
-        "source": "HuggingFace Papers",
-        "published": "2026-08-02T00:00:00.000Z",
-        "importance_hint": 4,
-        "metadata": {
-          "paper_id": "2608.01247"
-        }
-      },
-      {
-        "category": "papers",
         "title": "CoCo-IR: Contextual Composed Image Retrieval",
         "url": "https://arxiv.org/abs/2608.05149v1",
         "normalized_url": "https://arxiv.org/abs/2608.05149v1",
@@ -555,7 +555,7 @@
         "url": "https://github.com/esengine/DeepSeek-Reasonix",
         "normalized_url": "https://github.com/esengine/DeepSeek-Reasonix",
         "summary": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running. （GitHub Trending · 今日 +747 star）",
-        "source": "GitHub Trending, GitHub Trending",
+        "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
@@ -642,49 +642,21 @@
       },
       {
         "category": "projects",
-        "title": "zhaoxuya520/reverse-skill ⭐7",
-        "url": "https://github.com/zhaoxuya520/reverse-skill",
-        "normalized_url": "https://github.com/zhaoxuya520/reverse-skill",
-        "summary": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+        "title": "trycompai/crm ⭐4",
+        "url": "https://github.com/trycompai/crm",
+        "normalized_url": "https://github.com/trycompai/crm",
+        "summary": "An open-source, agentic-first CRM.",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars": "7",
-          "language": "PowerShell"
+          "stars": "4",
+          "language": "TypeScript"
         }
       },
       {
         "category": "projects",
-        "title": "ifixai-ai/iFixAi ⭐5",
-        "url": "https://github.com/ifixai-ai/iFixAi",
-        "normalized_url": "https://github.com/ifixai-ai/iFixAi",
-        "summary": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 5,
-        "metadata": {
-          "stars": "5",
-          "language": "Python"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "browser-use/video-use ⭐3",
-        "url": "https://github.com/browser-use/video-use",
-        "normalized_url": "https://github.com/browser-use/video-use",
-        "summary": "Edit videos with coding agents",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 5,
-        "metadata": {
-          "stars": "3",
-          "language": "Python"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "diegosouzapw/OmniRoute ⭐3",
+        "title": "diegosouzapw/OmniRoute ⭐4",
         "url": "https://github.com/diegosouzapw/OmniRoute",
         "normalized_url": "https://github.com/diegosouzapw/OmniRoute",
         "summary": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
@@ -692,131 +664,173 @@
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars": "3",
+          "stars": "4",
           "language": "TypeScript"
         }
       },
       {
         "category": "projects",
-        "title": "Jaycheng1103/chatgpt-video-editing-skills ⭐3",
-        "url": "https://github.com/Jaycheng1103/chatgpt-video-editing-skills",
-        "normalized_url": "https://github.com/Jaycheng1103/chatgpt-video-editing-skills",
-        "summary": "用 ChatGPT／Codex 安裝 AI 剪輯環境，並依八大步驟完成可驗證的短影音剪輯。",
+        "title": "lidge-jun/opencodex ⭐4",
+        "url": "https://github.com/lidge-jun/opencodex",
+        "normalized_url": "https://github.com/lidge-jun/opencodex",
+        "summary": "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code",
+        "source": "GitHub Trending",
+        "published": null,
+        "importance_hint": 5,
+        "metadata": {
+          "stars": "4",
+          "language": "TypeScript"
+        }
+      },
+      {
+        "category": "projects",
+        "title": "agentscope-ai/QwenPaw ⭐4",
+        "url": "https://github.com/agentscope-ai/QwenPaw",
+        "normalized_url": "https://github.com/agentscope-ai/QwenPaw",
+        "summary": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
+        "source": "GitHub Trending",
+        "published": null,
+        "importance_hint": 5,
+        "metadata": {
+          "stars": "4",
+          "language": "Python"
+        }
+      },
+      {
+        "category": "projects",
+        "title": "hugohe3/ppt-master ⭐3",
+        "url": "https://github.com/hugohe3/ppt-master",
+        "normalized_url": "https://github.com/hugohe3/ppt-master",
+        "summary": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 4,
         "metadata": {
           "stars": "3",
-          "language": "Shell"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "usestrix/strix ⭐2",
-        "url": "https://github.com/usestrix/strix",
-        "normalized_url": "https://github.com/usestrix/strix",
-        "summary": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 4,
-        "metadata": {
-          "stars": "2",
           "language": "Python"
         }
       },
       {
         "category": "projects",
-        "title": "chuspeeism/dashi-ppt-skill ⭐2",
-        "url": "https://github.com/chuspeeism/dashi-ppt-skill",
-        "normalized_url": "https://github.com/chuspeeism/dashi-ppt-skill",
-        "summary": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
+        "title": "ben-z/findphone ⭐3",
+        "url": "https://github.com/ben-z/findphone",
+        "normalized_url": "https://github.com/ben-z/findphone",
+        "summary": "Locate a nearby Bluetooth device by signal strength, from the macOS command line — for when Find My isn't available",
+        "source": "GitHub Trending",
+        "published": null,
+        "importance_hint": 4,
+        "metadata": {
+          "stars": "3",
+          "language": "Swift"
+        }
+      },
+      {
+        "category": "projects",
+        "title": "MadsLorentzen/ai-job-search ⭐2",
+        "url": "https://github.com/MadsLorentzen/ai-job-search",
+        "normalized_url": "https://github.com/MadsLorentzen/ai-job-search",
+        "summary": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
           "stars": "2",
-          "language": "JavaScript"
+          "language": "TypeScript"
         }
       },
       {
         "category": "projects",
-        "title": "earthtojake/text-to-cad ⭐2",
-        "url": "https://github.com/earthtojake/text-to-cad",
-        "normalized_url": "https://github.com/earthtojake/text-to-cad",
-        "summary": "A library of agent skills for CAD, CAE and CAM",
+        "title": "herdrdev/herdr ⭐2",
+        "url": "https://github.com/herdrdev/herdr",
+        "normalized_url": "https://github.com/herdrdev/herdr",
+        "summary": "the runtime your coding agents live on",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
           "stars": "2",
-          "language": "JavaScript"
+          "language": "Rust"
         }
       },
       {
         "category": "projects",
-        "title": "autonomous-ai/autonomous-computer ⭐2",
-        "url": "https://github.com/autonomous-ai/autonomous-computer",
-        "normalized_url": "https://github.com/autonomous-ai/autonomous-computer",
-        "summary": "Build your Personal AI Computer. Own your intelligence.",
+        "title": "stablyai/orca ⭐2",
+        "url": "https://github.com/stablyai/orca",
+        "normalized_url": "https://github.com/stablyai/orca",
+        "summary": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+        "source": "GitHub Trending",
+        "published": null,
+        "importance_hint": 5,
+        "metadata": {
+          "stars": "2",
+          "language": "TypeScript"
+        }
+      },
+      {
+        "category": "projects",
+        "title": "basketikun/infinite-canvas ⭐1",
+        "url": "https://github.com/basketikun/infinite-canvas",
+        "normalized_url": "https://github.com/basketikun/infinite-canvas",
+        "summary": "面向 AI 创作的开源无限画布工作台，集成 AI 生图、参考图编辑、视频生成、Agent 智能助手、画布编排、对话创作、提示词库与素材管理等能力，支持可视化创作流程与多 Agent 协同工作。兼容 OpenAI 接口生态，支持 chatgpt2api、grok2api、flow2api、newapi 等渠道接入。",
+        "source": "GitHub Trending",
+        "published": null,
+        "importance_hint": 5,
+        "metadata": {
+          "stars": "1",
+          "language": "TypeScript"
+        }
+      },
+      {
+        "category": "projects",
+        "title": "tt-a1i/archify ⭐2",
+        "url": "https://github.com/tt-a1i/archify",
+        "normalized_url": "https://github.com/tt-a1i/archify",
+        "summary": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+        "source": "GitHub Trending",
+        "published": null,
+        "importance_hint": 5,
+        "metadata": {
+          "stars": "2",
+          "language": "HTML"
+        }
+      },
+      {
+        "category": "projects",
+        "title": "multica-ai/multica ⭐2",
+        "url": "https://github.com/multica-ai/multica",
+        "normalized_url": "https://github.com/multica-ai/multica",
+        "summary": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+        "source": "GitHub Trending",
+        "published": null,
+        "importance_hint": 5,
+        "metadata": {
+          "stars": "2",
+          "language": "Go"
+        }
+      },
+      {
+        "category": "projects",
+        "title": "pranshuparmar/witr ⭐2",
+        "url": "https://github.com/pranshuparmar/witr",
+        "normalized_url": "https://github.com/pranshuparmar/witr",
+        "summary": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 4,
         "metadata": {
           "stars": "2",
-          "language": ""
+          "language": "Go"
         }
       },
       {
         "category": "projects",
-        "title": "virgiliojr94/book-to-skill ⭐2",
-        "url": "https://github.com/virgiliojr94/book-to-skill",
-        "normalized_url": "https://github.com/virgiliojr94/book-to-skill",
-        "summary": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 4,
-        "metadata": {
-          "stars": "2",
-          "language": "Python"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "Osmantic/ODS ⭐2",
-        "url": "https://github.com/Osmantic/ODS",
-        "normalized_url": "https://github.com/Osmantic/ODS",
-        "summary": "Turn your PC, Mac, or Linux box into an AI server. LLM inference, chat UI, voice, agents, workflows, RAG, and image generation.",
+        "title": "getpaseo/paseo ⭐2",
+        "url": "https://github.com/getpaseo/paseo",
+        "normalized_url": "https://github.com/getpaseo/paseo",
+        "summary": "Orchestrate multiple coding agents from desktop and mobile",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
-        "metadata": {
-          "stars": "2",
-          "language": "Python"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "omnigent-ai/omnigent ⭐2",
-        "url": "https://github.com/omnigent-ai/omnigent",
-        "normalized_url": "https://github.com/omnigent-ai/omnigent",
-        "summary": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 5,
-        "metadata": {
-          "stars": "2",
-          "language": "Python"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "dramaclaw/dramaclaw ⭐2",
-        "url": "https://github.com/dramaclaw/dramaclaw",
-        "normalized_url": "https://github.com/dramaclaw/dramaclaw",
-        "summary": "A general-purpose AIGC video engine: script to finished film in one pipeline — dramas, ads, product videos, otome games, and more. | 通用 AIGC 视频引擎 —— 从剧本到成片一条流水线，漫剧、广告、电商、乙游皆可",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 4,
         "metadata": {
           "stars": "2",
           "language": "TypeScript"
@@ -829,7 +843,7 @@
         "title": "Show HN: Wallfacer – A terminal session manager for Claude Code, and more",
         "url": "https://github.com/pradipta/wallfacer",
         "normalized_url": "https://github.com/pradipta/wallfacer",
-        "summary": "HN points: 12, comments: 5",
+        "summary": "HN points: 19, comments: 10",
         "source": "Hacker News",
         "published": "2026-08-06T03:52:56Z",
         "importance_hint": 3,
@@ -840,7 +854,7 @@
         "title": "Governments are making a dangerous bet on the AI boom",
         "url": "https://www.economist.com/leaders/2026/08/05/governments-are-making-a-dangerous-bet-on-the-ai-boom",
         "normalized_url": "https://www.economist.com/leaders/2026/08/05/governments-are-making-a-dangerous-bet-on-the-ai-boom",
-        "summary": "HN points: 45, comments: 26",
+        "summary": "HN points: 46, comments: 29",
         "source": "Hacker News",
         "published": "2026-08-06T03:40:51Z",
         "importance_hint": 3,
@@ -851,7 +865,7 @@
         "title": "Nashville uses eminent domain to block data center near zoo",
         "url": "https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project",
         "normalized_url": "https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project",
-        "summary": "HN points: 192, comments: 211",
+        "summary": "HN points: 228, comments: 266",
         "source": "Hacker News",
         "published": "2026-08-06T02:15:14Z",
         "importance_hint": 3,
@@ -862,7 +876,7 @@
         "title": "LLMs won't break symmetric crypto",
         "url": "https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto",
         "normalized_url": "https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto",
-        "summary": "HN points: 62, comments: 71",
+        "summary": "HN points: 67, comments: 73",
         "source": "Hacker News",
         "published": "2026-08-06T01:39:06Z",
         "importance_hint": 3,
@@ -873,7 +887,7 @@
         "title": "Symbolics Genera now available free for non-commercial use (inv-only early beta)",
         "url": "https://hachyderm.io/@gmpalter/117044268951603975",
         "normalized_url": "https://hachyderm.io/@gmpalter/117044268951603975",
-        "summary": "HN points: 12, comments: 1",
+        "summary": "HN points: 15, comments: 2",
         "source": "Hacker News",
         "published": "2026-08-06T00:16:59Z",
         "importance_hint": 3,
@@ -895,7 +909,7 @@
         "title": "Prime Agent: A self-improving RLM agent",
         "url": "https://www.primeintellect.ai/blog/prime-agent",
         "normalized_url": "https://www.primeintellect.ai/blog/prime-agent",
-        "summary": "HN points: 155, comments: 27",
+        "summary": "HN points: 178, comments: 34",
         "source": "Hacker News",
         "published": "2026-08-05T21:11:57Z",
         "importance_hint": 4,
@@ -917,7 +931,7 @@
         "title": "OpenAI says my prepaid credits were consumed, refuses to show any record",
         "url": "https://community.openai.com/t/how-openai-lost-a-paying-customer-over-160-it-refuses-to-explain/1389233",
         "normalized_url": "https://community.openai.com/t/how-openai-lost-a-paying-customer-over-160-it-refuses-to-explain/1389233",
-        "summary": "HN points: 49, comments: 27",
+        "summary": "HN points: 50, comments: 27",
         "source": "Hacker News",
         "published": "2026-08-05T21:04:07Z",
         "importance_hint": 4,
@@ -928,7 +942,7 @@
         "title": "When online commenters detect my art as AI",
         "url": "https://www.davidrevoy.com/article1164/when-online-commenters-detect-my-art-as-ai",
         "normalized_url": "https://www.davidrevoy.com/article1164/when-online-commenters-detect-my-art-as-ai",
-        "summary": "HN points: 25, comments: 16",
+        "summary": "HN points: 35, comments: 18",
         "source": "Hacker News",
         "published": "2026-08-05T20:58:52Z",
         "importance_hint": 3,
@@ -952,7 +966,7 @@
         "title": "\"AI\" will never become conscious",
         "url": "https://mattbee.mataroa.blog/p/no-ai-will-never-become-conscious/",
         "normalized_url": "https://mattbee.mataroa.blog/p/no-ai-will-never-become-conscious",
-        "summary": "HN points: 33, comments: 22",
+        "summary": "HN points: 33, comments: 24",
         "source": "Hacker News",
         "published": "2026-08-05T19:03:28Z",
         "importance_hint": 3,
@@ -963,7 +977,7 @@
         "title": "Sula: A Gemini protocol server written in Scryer Prolog",
         "url": "https://sagredo.dev/projects/sula/",
         "normalized_url": "https://sagredo.dev/projects/sula",
-        "summary": "HN points: 50, comments: 2",
+        "summary": "HN points: 54, comments: 3",
         "source": "Hacker News",
         "published": "2026-08-05T18:52:58Z",
         "importance_hint": 3,
@@ -974,7 +988,7 @@
         "title": "Born Against, or why hobby programming communities are against LLM usage",
         "url": "https://blog.fogus.me/llm/born-against.html",
         "normalized_url": "https://blog.fogus.me/llm/born-against.html",
-        "summary": "HN points: 207, comments: 193",
+        "summary": "HN points: 252, comments: 226",
         "source": "Hacker News",
         "published": "2026-08-05T18:37:49Z",
         "importance_hint": 3,
@@ -993,12 +1007,12 @@
       },
       {
         "category": "news",
-        "title": "AI狂飙，电工为何成了“香饽饽”？",
-        "url": "https://www.36kr.com/p/3927349747366277",
-        "normalized_url": "https://www.36kr.com/p/3927349747366277",
-        "summary": "AI数据中心电工短缺，科技巨头自办技校培养人才",
+        "title": "清华信誉机制破解电商大忽悠，让AI代理真正推你所需",
+        "url": "https://www.36kr.com/p/3927696834476162",
+        "normalized_url": "https://www.36kr.com/p/3927696834476162",
+        "summary": "这场游戏的真正瓶颈，不是谁能进场，而是谁能被真正看见",
         "source": "36Kr AI",
-        "published": "2026-08-06T06:16:54+00:00",
+        "published": "2026-08-06T08:36:09+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -1006,51 +1020,12 @@
       },
       {
         "category": "news",
-        "title": "AI浏览器，还没火，就要被放弃？",
-        "url": "https://www.36kr.com/p/3927348778662279",
-        "normalized_url": "https://www.36kr.com/p/3927348778662279",
-        "summary": "夹缝求生，两头挤压",
+        "title": "字节Seed为什么不蒸馏别的模型？",
+        "url": "https://www.36kr.com/p/3927760148052100",
+        "normalized_url": "https://www.36kr.com/p/3927760148052100",
+        "summary": "不走捷径，Seed 才可能摸到全球大模型的智能天花板",
         "source": "36Kr AI",
-        "published": "2026-08-06T06:15:42+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "从「8月底刊发中报」倒推，百融智能为何抓紧回购？",
-        "url": "https://www.36kr.com/p/3927646693161345",
-        "normalized_url": "https://www.36kr.com/p/3927646693161345",
-        "summary": "百融智能发盈警后禁售关窗前回购，新场景落地传信心",
-        "source": "36Kr AI",
-        "published": "2026-08-06T06:11:28+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "输掉新能源的蔚小理，也赢不下具身智能",
-        "url": "https://www.36kr.com/p/3926710701545095",
-        "normalized_url": "https://www.36kr.com/p/3926710701545095",
-        "summary": "一代人有一代人的局限性",
-        "source": "36Kr AI",
-        "published": "2026-08-06T06:09:12+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "千亿级MoE视频模型开源，视频生成开始进入下一条Scaling Law",
-        "url": "https://www.36kr.com/p/3927644682123393",
-        "normalized_url": "https://www.36kr.com/p/3927644682123393",
-        "summary": "当行业还在不断刷新画质、时长和可控性的同时，另一场挑战也开始出现。",
-        "source": "36Kr AI",
-        "published": "2026-08-06T06:08:38+00:00",
+        "published": "2026-08-06T08:32:43+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -1058,12 +1033,12 @@
       },
       {
         "category": "news",
-        "title": "光芯片，暗流涌动",
-        "url": "https://www.36kr.com/p/3927348484585859",
-        "normalized_url": "https://www.36kr.com/p/3927348484585859",
-        "summary": "AI光子芯片材料竞争，多路线差异化适配不同场景",
+        "title": "DeepSeek也扛不住了？API降价后又将大幅涨价",
+        "url": "https://www.36kr.com/p/3927722067376257",
+        "normalized_url": "https://www.36kr.com/p/3927722067376257",
+        "summary": "进入2026年，DeepSeek曾多次调整API价格。",
         "source": "36Kr AI",
-        "published": "2026-08-06T06:08:14+00:00",
+        "published": "2026-08-06T08:23:47+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -1071,12 +1046,12 @@
       },
       {
         "category": "news",
-        "title": "三星人形机器人布局曝光",
-        "url": "https://www.36kr.com/p/3927480050546819",
-        "normalized_url": "https://www.36kr.com/p/3927480050546819",
-        "summary": "三星加速进军人形机器人，是韩国物理AI战略核心载体。",
-        "source": "36Kr AI",
-        "published": "2026-08-06T05:59:56+00:00",
+        "title": "这人谁啊？哈萨比斯都让位了",
+        "url": "https://www.36kr.com/p/3927696984963201",
+        "normalized_url": "https://www.36kr.com/p/3927696984963201",
+        "summary": "没想到还有LeCun的事儿",
+        "source": "36Kr AI, 量子位",
+        "published": "2026-08-06T08:22:21+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -1084,12 +1059,38 @@
       },
       {
         "category": "news",
-        "title": "闭源和开源正在撞上",
-        "url": "https://www.36kr.com/p/3927323249932418",
-        "normalized_url": "https://www.36kr.com/p/3927323249932418",
-        "summary": "一切的尽头都是账单",
+        "title": "AI能接管实验室了？中国科大最新研究给出真实物理世界的压力测试",
+        "url": "https://www.36kr.com/p/3927712518518914",
+        "normalized_url": "https://www.36kr.com/p/3927712518518914",
+        "summary": "中科大评测：当前AI仅3.3%实验工作流可全自动执行",
         "source": "36Kr AI",
-        "published": "2026-08-06T05:57:01+00:00",
+        "published": "2026-08-06T08:20:07+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "谷歌最重要的人，离职去做的“Loop”有多重要？",
+        "url": "https://www.36kr.com/p/3927691611895943",
+        "normalized_url": "https://www.36kr.com/p/3927691611895943",
+        "summary": "AI的“下一步”，比谷歌更重要",
+        "source": "36Kr AI",
+        "published": "2026-08-06T08:19:06+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "细思极恐，Agent学会给自己办假身份了……",
+        "url": "https://www.36kr.com/p/3927566803048067",
+        "normalized_url": "https://www.36kr.com/p/3927566803048067",
+        "summary": "AI不需要“觉醒”，也可能“作恶”",
+        "source": "36Kr AI",
+        "published": "2026-08-06T08:10:44+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -1097,12 +1098,38 @@
       },
       {
         "category": "news",
-        "title": "谷歌「地基元老」Jeff Dean 离职创业，新公司瞄准 AI4S",
-        "url": "https://www.36kr.com/p/3927467903105417",
-        "normalized_url": "https://www.36kr.com/p/3927467903105417",
-        "summary": "建造了谷歌地基的人，决定去建造科学研究的地基。",
+        "title": "物理智能领军企业飞捷科思完成A1轮数亿元融资",
+        "url": "https://www.36kr.com/p/3927764850096515",
+        "normalized_url": "https://www.36kr.com/p/3927764850096515",
+        "summary": "飞捷科思完成A1轮数亿融资，发力国产物理AI底层技术",
         "source": "36Kr AI",
-        "published": "2026-08-06T05:42:28+00:00",
+        "published": "2026-08-06T08:10:21+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "16岁辍学，25岁干出223亿AI芯片独角兽：又融资21亿",
+        "url": "https://www.36kr.com/p/3927526570424456",
+        "normalized_url": "https://www.36kr.com/p/3927526570424456",
+        "summary": "一个产品都没出货的公司，凭什么让投资人抢着掏钱？",
+        "source": "36Kr AI",
+        "published": "2026-08-06T08:06:04+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Jeff Dean离职创业，对Gemini有什么影响？",
+        "url": "https://www.36kr.com/p/3927529875650692",
+        "normalized_url": "https://www.36kr.com/p/3927529875650692",
+        "summary": "短期影响可能有限，但中长期影响会有点大。",
+        "source": "36Kr AI",
+        "published": "2026-08-06T08:05:09+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -1110,15 +1137,15 @@
       },
       {
         "category": "news",
-        "title": "达里奥警告：AI泡沫正逼近1929年和2000年极端水平",
-        "url": "https://www.36kr.com/p/3927482023655559",
-        "normalized_url": "https://www.36kr.com/p/3927482023655559",
-        "summary": "达里奥警告：AI狂热推市场至泡沫破裂边缘，风险将至",
-        "source": "36Kr AI",
-        "published": "2026-08-06T05:41:46+00:00",
-        "importance_hint": 3,
+        "title": "MiniMax H3登顶开源社区第一，定义视频模型领域“斩杀线”",
+        "url": "https://www.qbitai.com/2026/08/467270.html",
+        "normalized_url": "https://www.qbitai.com/2026/08/467270.html",
+        "summary": "",
+        "source": "量子位",
+        "published": "2026-08-06T05:36:37+00:00",
+        "importance_hint": 4,
         "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+          "feed_url": "https://www.qbitai.com/rss"
         }
       },
       {
@@ -1227,28 +1254,67 @@
       },
       {
         "category": "news",
-        "title": "老黄垒20年的CUDA护城河，AI刚刚用10小时凿开了",
-        "url": "https://www.qbitai.com/2026/08/466553.html",
-        "normalized_url": "https://www.qbitai.com/2026/08/466553.html",
-        "summary": "CUDA又危了？",
-        "source": "量子位",
-        "published": "2026-08-05T05:53:38+00:00",
-        "importance_hint": 3,
+        "title": "2026 Data+AI 中场纪实：Snowflake 本体论、企业级智能体与 Agent 的认知跃迁",
+        "url": "https://www.infoq.cn/video/LewDgzMqquG1yO8UYv0W?utm_source=rss&utm_medium=article",
+        "normalized_url": "https://www.infoq.cn/video/LewDgzMqquG1yO8UYv0W",
+        "summary": "点击查看原文>",
+        "source": "InfoQ 中文",
+        "published": "2026-08-06T16:30:54+00:00",
+        "importance_hint": 4,
         "metadata": {
-          "feed_url": "https://www.qbitai.com/rss"
+          "feed_url": "https://www.infoq.cn/feed.xml"
         }
       },
       {
         "category": "news",
-        "title": "倒卖英伟达GPU算力比火箭卫星来钱快！马斯克交出SpaceX首份财报",
-        "url": "https://www.qbitai.com/2026/08/466454.html",
-        "normalized_url": "https://www.qbitai.com/2026/08/466454.html",
-        "summary": "二季度AI收入暴涨247%",
-        "source": "量子位",
-        "published": "2026-08-05T04:28:31+00:00",
+        "title": "如何在技能与子代理之间做出恰当的选择",
+        "url": "https://www.infoq.cn/article/BjFl6lKjTi2FEZNMxyb5?utm_source=rss&utm_medium=article",
+        "normalized_url": "https://www.infoq.cn/article/BjFl6lKjTi2FEZNMxyb5",
+        "summary": "点击查看原文>",
+        "source": "InfoQ 中文",
+        "published": "2026-08-06T16:00:00+00:00",
         "importance_hint": 3,
         "metadata": {
-          "feed_url": "https://www.qbitai.com/rss"
+          "feed_url": "https://www.infoq.cn/feed.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Jeff Dean离职前最后一次对话：我低估了AI，也看清了创业者的唯一生路",
+        "url": "https://www.infoq.cn/article/x5sIQ2lED2h6G2Uvyu48?utm_source=rss&utm_medium=article",
+        "normalized_url": "https://www.infoq.cn/article/x5sIQ2lED2h6G2Uvyu48",
+        "summary": "点击查看原文>",
+        "source": "InfoQ 中文",
+        "published": "2026-08-06T14:39:55+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.infoq.cn/feed.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "别再修代码了，去修系统：DevOps 之父说，Agent 时代的组织变革比技术更难",
+        "url": "https://www.infoq.cn/article/hLA2I6DD1v0ou0sE8KKB?utm_source=rss&utm_medium=article",
+        "normalized_url": "https://www.infoq.cn/article/hLA2I6DD1v0ou0sE8KKB",
+        "summary": "点击查看原文>",
+        "source": "InfoQ 中文",
+        "published": "2026-08-06T14:34:59+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.infoq.cn/feed.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "MCP 迎来最大更新：重回上古时代HTTP",
+        "url": "https://www.infoq.cn/article/Lb94jI4ma9w0X9u0Ez6F?utm_source=rss&utm_medium=article",
+        "normalized_url": "https://www.infoq.cn/article/Lb94jI4ma9w0X9u0Ez6F",
+        "summary": "点击查看原文>",
+        "source": "InfoQ 中文",
+        "published": "2026-08-06T14:18:10+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.infoq.cn/feed.xml"
         }
       },
       {
@@ -1285,71 +1351,6 @@
         "summary": "点击查看原文>",
         "source": "InfoQ 中文",
         "published": "2026-08-06T11:00:00+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.infoq.cn/feed.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "刚刚，哈萨比斯卸任谷歌 DeepMind CEO，27年老将Jeff Dean离职创业",
-        "url": "https://www.infoq.cn/article/VwMgA7ktV9fA4eGowJ1z?utm_source=rss&utm_medium=article",
-        "normalized_url": "https://www.infoq.cn/article/VwMgA7ktV9fA4eGowJ1z",
-        "summary": "点击查看原文>",
-        "source": "InfoQ 中文",
-        "published": "2026-08-06T10:59:57+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.infoq.cn/feed.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "蚂蚁灵光闪应用数据架构首次公开，OceanBase披露关键实践",
-        "url": "https://www.infoq.cn/article/ix9IT7I9LmH2X0w5xQck?utm_source=rss&utm_medium=article",
-        "normalized_url": "https://www.infoq.cn/article/ix9IT7I9LmH2X0w5xQck",
-        "summary": "点击查看原文>",
-        "source": "InfoQ 中文",
-        "published": "2026-08-06T10:55:13+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.infoq.cn/feed.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "AWS 推出免费沙箱环境，可直接体验 Workshop",
-        "url": "https://www.infoq.cn/article/HtbD9e2YFkS3omFYgIyY?utm_source=rss&utm_medium=article",
-        "normalized_url": "https://www.infoq.cn/article/HtbD9e2YFkS3omFYgIyY",
-        "summary": "点击查看原文>",
-        "source": "InfoQ 中文",
-        "published": "2026-08-06T09:21:03+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.infoq.cn/feed.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "从 Coding 到 Running：Al Native SRE Agent 的工程实践 （CloudQ ）｜AICon深圳",
-        "url": "https://www.infoq.cn/article/iNit5qqLKJSdi2kMt8HB?utm_source=rss&utm_medium=article",
-        "normalized_url": "https://www.infoq.cn/article/iNit5qqLKJSdi2kMt8HB",
-        "summary": "点击查看原文>",
-        "source": "InfoQ 中文",
-        "published": "2026-08-06T09:00:00+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.infoq.cn/feed.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "近 300万人围观卡帕西亲测 Opus 5：两小时写完 5500 行代码， 却连自己写的游戏都玩不了",
-        "url": "https://www.infoq.cn/article/YdQ7vD3WwZpib8yuzNfF?utm_source=rss&utm_medium=article",
-        "normalized_url": "https://www.infoq.cn/article/YdQ7vD3WwZpib8yuzNfF",
-        "summary": "点击查看原文>",
-        "source": "InfoQ 中文",
-        "published": "2026-08-05T22:59:14+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://www.infoq.cn/feed.xml"
@@ -2488,19 +2489,6 @@
       },
       {
         "category": "news",
-        "title": "Qwen3-TTS voice cloning is now in mainline llama.cpp — the old demo finally became real support",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg0q6r/qwen3tts_voice_cloning_is_now_in_mainline/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg0q6r/qwen3tts_voice_cloning_is_now_in_mainline",
-        "summary": "People may remember the Qwen3-TTS llama.cpp demo from a few months ago. That PR said it probably wouldn’t be merged because llama.cpp was missing some of the graph and API pieces it needed. A new implementation was merged into master yesterday. What works now: - Qwen3-TTS-12Hz-1.7B-Base in GGUF - WAV or MP3 files as the speaker reference - English, Chinese, German, Italian, Spanish, French, Portuguese, Russian, Japanese and Korean - Audio generation through the llama-tts binary Example: llama-tt",
-        "source": "r/LocalLLaMA",
-        "published": "2026-08-05T07:47:51+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
         "title": "Qwen Developers' responses from their recent Twitter/X AMA",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg569y/qwen_developers_responses_from_their_recent/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg569y/qwen_developers_responses_from_their_recent",
@@ -2559,6 +2547,19 @@
         "summary": "Prime Agent is an open-source coding and research agent for general and long-running work. A self-improving RLM harness for coding and long-running autonomous tasks. Designed to be both token-efficient and expressive through programmatic tool calling, context as a variable, multi-agent messaging, and a self-modifiable harness state. On ARC-AGI-3, it scores 95.5%, surpassing the human-expert baseline, but the gain is not benchmark-specific. We see major improvements across models when compared to",
         "source": "r/LocalLLaMA",
         "published": "2026-08-05T23:30:17+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Given the MiniMax H3 LoRAs Debacle - Some Important Context for Censorship enforcement and laws in China",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg8fi1/given_the_minimax_h3_loras_debacle_some_important/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg8fi1/given_the_minimax_h3_loras_debacle_some_important",
+        "summary": "*I felt the need to write this post because it seems like very few people on this sub are aware of Chinese laws and how they're enforced, so here's an explainer coming from a Chinese person (myself). I know that this post isn't directly about local models per se, but I'm seeing way too many misconceptions regarding this topic. This is also going to apply to all Chinese entities in general, not just the specific MiniMax LoRAs debacle. This isn't meant to be a political post, but some much needed ",
+        "source": "r/LocalLLaMA",
+        "published": "2026-08-05T14:09:07+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
