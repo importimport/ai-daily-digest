@@ -42,7 +42,47 @@ def send_to_buttondown(subject: str, markdown: str) -> None:
         print(f"[Buttondown] Sent! Email id: {resp.json().get('id')}")
     else:
         print(f"[Buttondown] Failed {resp.status_code}: {resp.text[:200]}")
+def send_to_wecom(date_str: str, data: dict) -> None:
+    """Send a short digest notification to a WeCom group robot."""
+    webhook = os.environ.get("WECOM_WEBHOOK")
+    if not webhook:
+        print("[WeCom] WECOM_WEBHOOK not set, skipping.")
+        return
 
+    news_count = len(data.get("news", []))
+    papers_count = len(data.get("papers", []))
+    projects_count = len(data.get("projects", []))
+    site_url = "https://importimport.github.io/ai-daily-digest/"
+
+    content = (
+        f"## AI 每日简报 · {date_str}\n"
+        f"> 今日资讯已经生成\n\n"
+        f"- 行业新闻：{news_count} 条\n"
+        f"- 重要论文：{papers_count} 篇\n"
+        f"- 开源项目：{projects_count} 个\n\n"
+        f"[点击阅读完整日报]({site_url})"
+    )
+
+    try:
+        response = requests.post(
+            webhook,
+            json={
+                "msgtype": "markdown",
+                "markdown": {
+                    "content": content
+                },
+            },
+            timeout=30,
+        )
+        response.raise_for_status()
+        result = response.json()
+
+        if result.get("errcode") == 0:
+            print("[WeCom] Message sent successfully.")
+        else:
+            print(f"[WeCom] Failed: {result}")
+    except Exception as exc:
+        print(f"[WeCom] Error: {exc}")
 
 def main():
     # Use Beijing time for date
@@ -111,8 +151,10 @@ def main():
     print("\n[Step 6] Rebuilding static site...")
     generate_site(root=Path(__file__).parent.parent)
     print("  Site rebuilt → docs/")
-
-    # Step 7: Send to Buttondown subscribers
+    # Step 7: Send notification to WeCom
+    print("\n[Step 7] Sending notification to WeCom...")
+    send_to_wecom(date_str, data)
+    # Step 8: Send to Buttondown subscribers
     print("\n[Step 7] Sending to Buttondown subscribers...")
     subject = f"AI Daily Digest · {date_str}"
     send_to_buttondown(subject, markdown)
