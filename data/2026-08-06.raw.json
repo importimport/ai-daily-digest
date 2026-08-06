@@ -1,13 +1,195 @@
 {
   "date": "2026-08-06",
-  "generated_at": "2026-08-06T10:20:20.497596+08:00",
+  "generated_at": "2026-08-06T14:26:21.917806+08:00",
   "counts": {
-    "papers": 30,
+    "papers": 40,
     "projects": 23,
-    "news": 143
+    "news": 142
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "AVE-Compass: Towards Holistic Evaluation for Audio-Video Editing Abilities",
+        "url": "https://huggingface.co/papers/2607.24821",
+        "normalized_url": "https://huggingface.co/papers/2607.24821",
+        "summary": "While instruction-based video editing has advanced rapidly, real-world videos contain tightly coupled audio and visual signals, and editing one modality often requires coordinated changes in the other. Existing benchmarks primarily evaluate visual transformations on silent clips or isolated audio editing, leaving complex audio-visual editing and cross-modal consistency underexplored. We introduce AVE-Compass, a comprehensive benchmark with 145 curated source videos, 196 audio-visually coupled ed",
+        "source": "HuggingFace Papers",
+        "published": "2026-07-17T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2607.24821"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Agent Against Agent: An Agentic System for Automatic Prompt Injection Red Teaming",
+        "url": "https://huggingface.co/papers/2608.05108",
+        "normalized_url": "https://huggingface.co/papers/2608.05108",
+        "summary": "Prompt injection poses significant security risks to LLM agents. Efficient and effective red-teaming is therefore critical, both for evaluating these risks and for collecting training data to improve defenses. Existing state-of-the-art prompt injection red-teaming methods primarily rely on reinforcement learning (RL), producing attacker models that often generalize poorly to new target LLMs. In this work, we develop PIMiner, an agentic system for prompt injection red-teaming. During training, PI",
+        "source": "HuggingFace Papers",
+        "published": "2026-08-05T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2608.05108"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Consistency-Driven Co-Evolution for Self-Supervised Cross-Representation Learning",
+        "url": "https://huggingface.co/papers/2608.04926",
+        "normalized_url": "https://huggingface.co/papers/2608.04926",
+        "summary": "As chart images, tabular data, and visualization code play increasingly important roles across diverse domains, cross-representation understanding across these modalities poses fundamental challenges for AI systems: the relationships across representations are inherently one-to-many, supervision is ambiguous and costly, and model optimization lacks a principled signal that is both direction-adaptive and representation-generalizable beyond task-specific objectives. We introduce CoCoEvolve to impr",
+        "source": "HuggingFace Papers",
+        "published": "2026-08-05T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2608.04926"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data",
+        "url": "https://huggingface.co/papers/2608.02580",
+        "normalized_url": "https://huggingface.co/papers/2608.02580",
+        "summary": "Learning generalizable robot manipulation policies requires large-scale and diverse demonstration data. Egocentric human manipulation videos offer rich scene and task diversity, and prior work has shown that retargeting and rendering such videos into robot-format data can yield effective per-task policies at small scale. However, whether this approach can provide pretraining benefits for vision-language-action models at scale remains unexplored. We present Ego2Robot, a scalable pipeline that con",
+        "source": "HuggingFace Papers",
+        "published": "2026-08-03T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2608.02580"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "K-EXAONE 2.0 Technical Report",
+        "url": "https://huggingface.co/papers/2608.04505",
+        "normalized_url": "https://huggingface.co/papers/2608.04505",
+        "summary": "This technical report presents K-EXAONE 2.0, an open-weight multilingual foundation model developed by LG AI Research as a step in our effort toward global frontier-scale foundation models. Rather than training from scratch, we upcycle K-EXAONE and expand its architecture, yielding a Mixture-of-Experts (MoE) model with 750B total parameters and approximately 37B activated per token---more than three times the capacity of its predecessor. K-EXAONE 2.0 supports context lengths of up to 256K tokens",
+        "source": "HuggingFace Papers",
+        "published": "2026-08-05T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2608.04505"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Distill Where You Fail: Recovering Learning Signals of Negative RL-Groups from Adaptive Teacher Guidance",
+        "url": "https://huggingface.co/papers/2608.00782",
+        "normalized_url": "https://huggingface.co/papers/2608.00782",
+        "summary": "Reinforcement learning with verifiable rewards (RLVR) has become a standard paradigm for post-training large language models (LLMs). While Group Relative Policy Optimization (GRPO) is widely adopted, it suffers from sparse reward signals and loses gradients entirely when all responses within a group receive identical rewards. On-policy distillation (OPD) offers a natural remedy by providing dense, token-level supervision from a teacher model. However, naively combining GRPO with OPD leads to deg",
+        "source": "HuggingFace Papers",
+        "published": "2026-08-01T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2608.00782"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "BridgeVLA++: A Data-Efficient, Generalizable, and Memory-Augmented Vision-Language-Action Framework for 3D Manipulation",
+        "url": "https://huggingface.co/papers/2608.05042",
+        "normalized_url": "https://huggingface.co/papers/2608.05042",
+        "summary": "Leveraging pre-trained vision-language models (VLMs) to construct vision-language-action (VLA) models has emerged as a promising paradigm for 3D robot manipulation. However, existing 3D VLA methods remain data-hungry, exhibit limited generalization under distribution shifts, and lack explicit memory of past observations. These limitations hinder their application to data-scarce, open-world, and memory-dependent manipulation scenarios. Our previous work, BridgeVLA, improves data efficiency and ge",
+        "source": "HuggingFace Papers",
+        "published": "2026-08-05T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2608.05042"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "WorldCycle: Self-Verifiable Reinforcement Learning for Long-Horizon Video World Models",
+        "url": "https://huggingface.co/papers/2608.04964",
+        "normalized_url": "https://huggingface.co/papers/2608.04964",
+        "summary": "Interactive video world models are essential for long-horizon planning and exploration, yet they suffer from compounding errors. Post-training methods such as reinforcement learning (RL) can improve these models, but they hit a verification bottleneck: for arbitrary action sequences, no ground-truth future state exists to measure long-term drift. Our key insight is that reversible action cycles make this verification possible: a sequence composed with its inverse must analytically return to the ",
+        "source": "HuggingFace Papers",
+        "published": "2026-08-05T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2608.04964"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "OneDayAgent: Towards a Long-Horizon Harness for Autonomous Agents",
+        "url": "https://huggingface.co/papers/2608.05013",
+        "normalized_url": "https://huggingface.co/papers/2608.05013",
+        "summary": "LLM agents are increasingly applied to open-ended everyday requests that span work, study, and life. These tasks are long-horizon, cross-environment, and multimodal, forcing the agent to preserve goals and constraints across many steps while navigating heterogeneous tools and attachments. While prior work has addressed individual failure modes such as goals drift, states loss, and context overflow, whether a single harness can manage them jointly and remain effective across backends has received",
+        "source": "HuggingFace Papers",
+        "published": "2026-08-04T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2608.05013"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "When Teachers Mislead: Spurious-Signal-Aware On-Policy Distillation",
+        "url": "https://huggingface.co/papers/2608.03632",
+        "normalized_url": "https://huggingface.co/papers/2608.03632",
+        "summary": "On-Policy distillation (OPD) transfers teacher capabilities by supervising student-sampled trajectories with dense token-level teacher signals. Recent selective OPD methods improve this process by prioritizing signals that are confident, informative, or learnable. However, the assumptions overlook a fundamental failure mode of language models: their token-level judgments can be driven by input-agnostic language priors, formatting conventions, or stereotyped reasoning templates rather than task-s",
+        "source": "HuggingFace Papers",
+        "published": "2026-08-04T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2608.03632"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "The Personalization Mirage: How LLMs Fabricate User Profiles, and Why Self-Monitoring Misleads",
+        "url": "https://huggingface.co/papers/2608.04570",
+        "normalized_url": "https://huggingface.co/papers/2608.04570",
+        "summary": "Personalized LLMs with persistent memory are increasingly deployed, yet the faithfulness of their user models remains unexamined. We study over-inference (OI): the phenomenon where LLMs fabricate user attributes beyond what evidence supports. We introduce MirageBench, comprising 150 personas balanced across stereotypical, counter-stereotypical, and neutral profiles, 6 personalization tasks spanning an ``imagination gradient'', a four-way faithfulness taxonomy operationalized by an independent ju",
+        "source": "HuggingFace Papers",
+        "published": "2026-08-05T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2608.04570"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning",
+        "url": "https://huggingface.co/papers/2608.05139",
+        "normalized_url": "https://huggingface.co/papers/2608.05139",
+        "summary": "Long-horizon reasoning in recent LLMs demands that the model switch between distinct skills inside a reasoning chain, such as first doing a math derivation, then using the result to plan a schedule. We call such problems cross-skill long-horizon tasks: multi-step tasks whose steps require different reasoning skills and depend on earlier outputs. Existing benchmarks often evaluate individual skills, lacking a principled way to measure how well a model switches between skills. We address this gap ",
+        "source": "HuggingFace Papers, arXiv",
+        "published": "2026-08-05T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2608.05139"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "When Memory Lies: An Empirical Study of Spatial Memory Staleness in VLM Agents",
+        "url": "https://huggingface.co/papers/2608.04574",
+        "normalized_url": "https://huggingface.co/papers/2608.04574",
+        "summary": "Memory-augmented VLM agents act on persistent spatial knowledge, yet that knowledge silently goes stale as the environment changes. We ask what happens when an agent must reconcile a confident memory claim with a contradicting observation, and whether current models can catch the conflict before it becomes a safety-relevant mistake. Using a dynamic FrozenLake testbed, we pair a staleness-detection task with a downstream navigation task across three closed-source models and three open-weight VLMs",
+        "source": "HuggingFace Papers",
+        "published": "2026-08-05T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2608.04574"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "NOLLI: A Difficulty-Calibrated Puzzle Benchmark for Diagnosing the English-Korean Performance Gap",
+        "url": "https://huggingface.co/papers/2608.04397",
+        "normalized_url": "https://huggingface.co/papers/2608.04397",
+        "summary": "We introduce NOLLI, a procedurally generated English-Korean puzzle benchmark designed to diagnose where Korean performance gaps arise. It comprises 15 puzzle types (25 tasks; 7,500 items), with every instance seed-regenerable, verified to have a unique solution, and scored deterministically. Rather than equating harder with bigger, we calibrate difficulty behaviorally, tuning each generator until a fixed reference model lands in target accuracy bands. Its three-level design combines matched dire",
+        "source": "HuggingFace Papers",
+        "published": "2026-08-05T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2608.04397"
+        }
+      },
       {
         "category": "papers",
         "title": "SKILL-KD: Contrastive Skill Distillation for LLM Agents",
@@ -92,7 +274,7 @@
         "url": "https://huggingface.co/papers/2608.05131",
         "normalized_url": "https://huggingface.co/papers/2608.05131",
         "summary": "On-Policy Self-Distillation (OPSD) has become a standard post-training approach for improving visual reasoning in multimodal large language models (MLLMs). Existing methods draw privileged information from diverse input sources to guide self-distillation. Yet these designs overlook Modality Imbalance, a challenge inherent to MLLM reasoning. When textual information dominates generation, the model cannot fully integrate its multimodal input. Consequently, carefully designed privileged information",
-        "source": "HuggingFace Papers",
+        "source": "HuggingFace Papers, arXiv",
         "published": "2026-08-05T00:00:00.000Z",
         "importance_hint": 5,
         "metadata": {
@@ -218,185 +400,113 @@
       },
       {
         "category": "papers",
-        "title": "ChronoLens: Measuring Language Change Across Time, Languages, and Linguistic Levels",
-        "url": "https://huggingface.co/papers/2608.03507",
-        "normalized_url": "https://huggingface.co/papers/2608.03507",
-        "summary": "Historical language change affects morphology, syntax, semantics, and pragmatics, yet computational studies typically examine these levels with incompatible representations and therefore cannot determine whether they evolve together across languages. We address this problem by asking how the magnitude and direction of change vary across linguistic levels, languages, and historical periods within a single analytical space. We introduce ChronoLens, a framework that combines frozen multilingual lan",
-        "source": "HuggingFace Papers",
-        "published": "2026-08-04T00:00:00.000Z",
+        "title": "CoCo-IR: Contextual Composed Image Retrieval",
+        "url": "https://arxiv.org/abs/2608.05149v1",
+        "normalized_url": "https://arxiv.org/abs/2608.05149v1",
+        "summary": "Current instruction-based image retrieval systems are powerful but limited to single-turn interactions, failing to capture the iterative nature of complex, real-world visual searches. To overcome this limitation, we introduce Contextual Composed Image Retrieval (CoCo-IR), a novel task that enables users to progressively refine search results through interactions. We address this new task by proposing a new model based on a Large Multimodal Model (LMM) that functions as a context-aware reasoner f",
+        "source": "arXiv",
+        "published": "2026-08-05T17:59:57+00:00",
+        "importance_hint": 5,
+        "metadata": {}
+      },
+      {
+        "category": "papers",
+        "title": "Reasoning Core: Designing Broad Procedural Data for Completion-Supervised Reasoning Training",
+        "url": "https://arxiv.org/abs/2608.05148v1",
+        "normalized_url": "https://arxiv.org/abs/2608.05148v1",
+        "summary": "Procedural generators produce useful verifiable reasoning problems at scale, but have received less attention as data for completion-supervised fine-tuning. We introduce Reasoning Core, a collection of 50 generators spanning mathematics, logic, planning, state tracking, formal languages, structured data, games, causality, and code, with semantic scorers, difficulty controls, and task evaluators. Under a matched completion-supervised protocol, we compare Reasoning Core with Procedural Warmup, Rea",
+        "source": "arXiv",
+        "published": "2026-08-05T17:59:44+00:00",
+        "importance_hint": 5,
+        "metadata": {}
+      },
+      {
+        "category": "papers",
+        "title": "Objects as Audio-Visual Modal Sound Fields",
+        "url": "https://arxiv.org/abs/2608.05145v1",
+        "normalized_url": "https://arxiv.org/abs/2608.05145v1",
+        "summary": "While modern 3D reconstruction excels at modeling object geometry and appearance, it largely ignores the rich acoustic cues revealed through physical interaction. Object impact sounds convey material, stiffness, and structural properties that complement vision, yet existing impact sound modeling approaches either rely on expensive physics-based simulation or require large datasets to generalize in a purely data-driven manner. We introduce Audio-Visual Modal Sound Field (AV-MSF), a novel object-l",
+        "source": "arXiv",
+        "published": "2026-08-05T17:59:19+00:00",
+        "importance_hint": 5,
+        "metadata": {}
+      },
+      {
+        "category": "papers",
+        "title": "Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning",
+        "url": "https://arxiv.org/abs/2608.05144v1",
+        "normalized_url": "https://arxiv.org/abs/2608.05144v1",
+        "summary": "Long-horizon reasoning requires an agentic runtime that can persist when evidence supports its current approach and pivot when measurements reveal failure, hidden constraints, or a misspecified objective. We present Argus, a persistent, self-evolving runtime in which Manager, Planner, Engineer, and Reviewer execute bounded missions over durable project state. Argus separates stable user intent from operational objectives, constraints, and verification criteria, and admits memories, skills, proce",
+        "source": "arXiv",
+        "published": "2026-08-05T17:58:58+00:00",
+        "importance_hint": 5,
+        "metadata": {}
+      },
+      {
+        "category": "papers",
+        "title": "OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling",
+        "url": "https://arxiv.org/abs/2608.05141v1",
+        "normalized_url": "https://arxiv.org/abs/2608.05141v1",
+        "summary": "Context lengths of language models (LMs) have dramatically increased, driven by the demands for in-context learning, self-improvement, and long-horizon agentic workflows. Existing long-context corpora, however, are dominated by books, academic articles, and code repositories, which are finite resources and often scarce in long-distance dependencies. In this work, we introduce OctoLong, a context engineering pipeline that instruments an AST parser, a language server backend, and a package manager",
+        "source": "arXiv",
+        "published": "2026-08-05T17:58:15+00:00",
+        "importance_hint": 5,
+        "metadata": {}
+      },
+      {
+        "category": "papers",
+        "title": "Teaching Nemotron Greek: Mining a Corpus, Adapting Retrieval, and Grounding Generation for Modern Greek across Specialist Domains",
+        "url": "https://arxiv.org/abs/2608.05138v1",
+        "normalized_url": "https://arxiv.org/abs/2608.05138v1",
+        "summary": "Modern Greek is absent from NVIDIA's Nemotron retrieval models and from major multilingual retrieval benchmarks, despite being important for retrieval-augmented generation (RAG) in legal, energy, financial, and medical applications. We present an end-to-end adaptation of the Nemotron retrieval stack for Modern Greek, including corpus mining, synthetic supervision, retrieval model training, reranker adaptation, reader fine-tuning, and a new benchmark called HERA. Our study shows that a parameter-",
+        "source": "arXiv",
+        "published": "2026-08-05T17:56:40+00:00",
+        "importance_hint": 5,
+        "metadata": {}
+      },
+      {
+        "category": "papers",
+        "title": "SmartMage: Dynamic Modality Orchestration for 3D Scene Understanding",
+        "url": "https://arxiv.org/abs/2608.05137v1",
+        "normalized_url": "https://arxiv.org/abs/2608.05137v1",
+        "summary": "Understanding 3D scenes is fundamental to embodied intelligence, requiring joint reasoning over heterogeneous information from multiple modalities, including visual and geometric cues. However, the relevance of these modalities often varies across queries. Existing Multimodal Large Language Models (MLLMs) typically rely on fixed modality combinations, overlooking query-dependent modality needs. Such a rigid design can introduce semantic noise from irrelevant modalities while underutilizing more ",
+        "source": "arXiv",
+        "published": "2026-08-05T17:56:35+00:00",
+        "importance_hint": 5,
+        "metadata": {}
+      },
+      {
+        "category": "papers",
+        "title": "The Loss Does Not See the Basis, but Adam Does",
+        "url": "https://arxiv.org/abs/2608.05136v1",
+        "normalized_url": "https://arxiv.org/abs/2608.05136v1",
+        "summary": "Gradient descent on a factored model $W = UV^\\top$ is implicitly biased toward low-rank solutions, while Adam, starting from the same small initialization, is not. We trace the difference to the gauge symmetry of the loss, its invariance under $(U, V) \\mapsto (UQ, VQ)$. Gradient flow's low-rank mechanism is available to an optimizer only if that optimizer is gauge-equivariant, a condition necessary for the transfer but not sufficient for low-rank recovery. Gradient descent, momentum, \"shared-sca",
+        "source": "arXiv",
+        "published": "2026-08-05T17:56:26+00:00",
+        "importance_hint": 5,
+        "metadata": {}
+      },
+      {
+        "category": "papers",
+        "title": "Predicting Brain Morphometry with MT-GNN: Mesh Evolution in Continuous Time with Graph-Based Metric Tensor Embeddings",
+        "url": "https://arxiv.org/abs/2608.05132v1",
+        "normalized_url": "https://arxiv.org/abs/2608.05132v1",
+        "summary": "Predicting how a subcortical structure's shape will evolve from a few prior scans could support prognosis and clinical-trial enrichment. Existing longitudinal mesh predictors either extrapolate shape trajectories via high-dimensional embeddings or regress vertex deformations directly. We instead predict the surface's intrinsic geometry in continuous time: a single per-structure graph network predicts the future per-vertex first fundamental form (metric tensor) for an arbitrary causal multiple-vi",
+        "source": "arXiv",
+        "published": "2026-08-05T17:53:33+00:00",
         "importance_hint": 4,
-        "metadata": {
-          "paper_id": "2608.03507"
-        }
+        "metadata": {}
       },
       {
         "category": "papers",
-        "title": "Better, Stronger, Faster, and Broader: Structured All-Mask Prediction for MLLM-Based Segmentation",
-        "url": "https://huggingface.co/papers/2608.02791",
-        "normalized_url": "https://huggingface.co/papers/2608.02791",
-        "summary": "MLLM-based segmentation faces a core segmentation trilemma: high segmentation performance, preserved dialogue ability, and fast inference. Embedding-prediction methods may disrupt language modeling through pixel-level objectives, whereas next-token generation is inefficient for dense masks. We propose All-Mask Prediction, decoupling autoregressive dialogue from non-autoregressive mask prediction. Its binary instantiation, STAMP (Simultaneous Textual All-Mask Prediction), emits an in-vocabulary t",
-        "source": "HuggingFace Papers",
-        "published": "2026-08-03T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2608.02791"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "When Attention Goes Blind: Numerical Failure in ALiBi Positional Encodings",
-        "url": "https://huggingface.co/papers/2608.03994",
-        "normalized_url": "https://huggingface.co/papers/2608.03994",
-        "summary": "We identify a previously overlooked failure mode of ALiBi positional encoding: its linear bias scaling underflows floating-point precision, which zeroes out a large fraction of attention weights and renders the affected attention heads partially blind. We analyze this failure mode, characterize its impact, and examine four mitigation strategies. We further demonstrate its occurrence in state-of-the-art pretrained models based on ALiBi. Comprehensive pretraining experiments with 148M-parameter de",
-        "source": "HuggingFace Papers",
-        "published": "2026-08-04T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2608.03994"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Multi-Task Multi-Frame Visual Piano Transcription",
-        "url": "https://huggingface.co/papers/2608.03419",
-        "normalized_url": "https://huggingface.co/papers/2608.03419",
-        "summary": "Audio-based piano transcription performs well on onset, pitch, and velocity, but the sustain pedal lets sound persist long after key release, so audio systems predict pedal-extended offsets rather than physical key release. Yet existing Visual Piano Transcription (VPT) systems focus on onset detection from short video windows, offset accuracy lags onset by a wide margin, and note-level velocity has not been reported. To address these gaps, we present V2N (Video to Notes), the first complete VPT ",
-        "source": "HuggingFace Papers",
-        "published": "2026-08-04T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2608.03419"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Are the Financial Reasoning from LLMs Credible? A Real World Test over Long-Horizon Statements",
-        "url": "https://huggingface.co/papers/2607.28661",
-        "normalized_url": "https://huggingface.co/papers/2607.28661",
-        "summary": "Do Large Language Models (LLMs) possess genuine structural reasoning, or merely rely on surface-level pattern matching? The financial domain, demanding numerical precision and multi-step logic over long contexts, is an ideal testbed. Existing benchmarks fail to capture real-world industrial complexity, predominantly relying on multiple-choice questions or single-hop QA over cropped tables while ignoring intricate cross-statement dynamics and temporal de-cumulation. To bridge this gap, we introdu",
-        "source": "HuggingFace Papers",
-        "published": "2026-07-22T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2607.28661"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Decoding Children's Gait Behavior",
-        "url": "https://huggingface.co/papers/2608.00371",
-        "normalized_url": "https://huggingface.co/papers/2608.00371",
-        "summary": "We introduce a new problem domain for human action recognition: the fine-grained analysis of children's gait behaviors from standard RGB video. We specifically target the ambulatory patterns of children aged 3-17 years. Such behaviors arise naturally in the diagnosis and treatment of several critical developmental and neuromuscular disorders, such as cerebral palsy and hemiplegia. Despite their clinical value, current 3D sensor-based gait analysis systems are expensive, intrusive, and often impr",
-        "source": "HuggingFace Papers",
-        "published": "2026-08-01T00:00:00.000Z",
+        "title": "SSTQ:Privacy-Preserving Vector Quantization via Subsampled Stochastic TurboQuant",
+        "url": "https://arxiv.org/abs/2608.05127v1",
+        "normalized_url": "https://arxiv.org/abs/2608.05127v1",
+        "summary": "Achieving local differential privacy in distributed optimization while maintaining low communication cost remains challenging. Existing vector quantization methods, such as vqSGD, use high-dimensional geometric constructions but incur unfavorable dimension-dependent variance. In this work, we propose Subsampled Stochastic TurboQuant (SSTQ), a framework that combines overcomplete equal-norm tight frames, coordinate subsampling, and privacy-aware one-dimensional quantization. SSTQ includes two var",
+        "source": "arXiv",
+        "published": "2026-08-05T17:51:25+00:00",
         "importance_hint": 4,
-        "metadata": {
-          "paper_id": "2608.00371"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "MiniWorld: Democratizing the Training of Video World Models from Scratch",
-        "url": "https://huggingface.co/papers/2608.01127",
-        "normalized_url": "https://huggingface.co/papers/2608.01127",
-        "summary": "Video world models predict future observations conditioned on historical observations and control signals, enabling long-horizon generation through autoregressive state transitions. Unlike conventional video generation models that primarily capture visual appearance and motion, video world models learn the underlying dynamics governing environment evolution under agent actions, providing a foundation for embodied AI and interactive simulation. Recent progress has largely relied on adapting pretr",
-        "source": "HuggingFace Papers",
-        "published": "2026-08-02T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2608.01127"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "ContinualSkillBench: Can LLM Agents Truly Evolve Their Capabilities?",
-        "url": "https://huggingface.co/papers/2608.03874",
-        "normalized_url": "https://huggingface.co/papers/2608.03874",
-        "summary": "Modern agent frameworks equip large language models with external skill libraries to solve complex tasks. However, it remains unclear whether these systems can effectively evolve their skills and whether the resulting skills improve task-solving capabilities. To bridge this gap, we introduce ContinualSkillBench, a dynamic evaluation framework for in-context continual skill learning. It covers five representative domains, each containing 100 interconnected subtasks ordered by increasing difficult",
-        "source": "HuggingFace Papers",
-        "published": "2026-08-04T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2608.03874"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "PosterMELD: Multi-Agent Paper-to-Poster Generation for Controllable Design Diversity with Editable Print-Ready Outputs",
-        "url": "https://huggingface.co/papers/2608.02218",
-        "normalized_url": "https://huggingface.co/papers/2608.02218",
-        "summary": "Scientific poster construction compresses a long multimodal paper into a readable, editable canvas. Existing systems hide request-level failures by scoring only completed outputs; direct image generation is not element-editable, while coding-agent workflows are costly. PosterMELD is a template-conditioned multi-agent pipeline: capacity-aware slots guide writing before rendering, and deterministic gates plus vision-language model (VLM) review route failures to bounded repair. Each accepted reques",
-        "source": "HuggingFace Papers",
-        "published": "2026-08-03T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2608.02218"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "LLaDA MoE v2: Scaling Mixture-of-Experts Diffusion Language Models",
-        "url": "https://huggingface.co/papers/2608.03457",
-        "normalized_url": "https://huggingface.co/papers/2608.03457",
-        "summary": "Diffusion language models (dLLMs) offer an alternative to autoregressive (AR) language modeling, yet the scaling behavior of Mixture-of-Experts (MoE) dLLMs remains poorly understood. We systematically characterize how optimization hyperparameters, compute allocation, and architecture scale for MoE dLLMs, identifying quantitative differences from scaling trends previously reported for AR models. Specifically, for optimization, the optimal nominal batch size grows faster, while the optimal learnin",
-        "source": "HuggingFace Papers",
-        "published": "2026-08-04T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2608.03457"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "When Agents Learn to Be You: Benchmarking Privacy Leakage, Impersonation Risk, and Defenses in Persona Skills",
-        "url": "https://huggingface.co/papers/2608.03700",
-        "normalized_url": "https://huggingface.co/papers/2608.03700",
-        "summary": "Persona skills distill personal interaction histories into portable and executable artifacts for downstream agents. While enabling flexible personalization, this process concentrates fragmented personal signals, amplifies their impact through reuse, and challenges defenses designed for individual records or retrieval-based memory. To systematically investigate the safety of the persona-skill pipeline, we introduce AntiSkillBench, an end-to-end benchmark for evaluating risks and defenses across t",
-        "source": "HuggingFace Papers",
-        "published": "2026-08-04T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2608.03700"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent",
-        "url": "https://huggingface.co/papers/2608.03979",
-        "normalized_url": "https://huggingface.co/papers/2608.03979",
-        "summary": "We introduce Video-DeepResearch (Video-DR), extending multimodal agents from static images to continuous video streams, a setting that demands dense spatiotemporal grounding coupled with open-web exploration. Preliminary evaluations reveal two critical bottlenecks in current models: (1) modality bias, where agents bypass visual tools in favor of textual search, and (2) parametric knowledge leakage, where models rely on internal memory rather than genuine tool-augmented execution. To address thes",
-        "source": "HuggingFace Papers",
-        "published": "2026-08-04T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2608.03979"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Push-Wiper: Toward General-Purpose Robotic Cleaning across Varied Stains and Surfaces with Segmented Pushing Trajectories",
-        "url": "https://huggingface.co/papers/2608.00730",
-        "normalized_url": "https://huggingface.co/papers/2608.00730",
-        "summary": "Viscous stains, characterized by high viscosity and complex rheological properties, remain a major challenge for robotic surface cleaning. Conventional wiping often spreads the stain, while scrubbing provides stronger friction but risks damaging the surface. In this paper, we propose Push-Wiper, a framework that reformulates viscous stain cleaning as an aggregation problem. Push-Wiper employs a sponge to progressively gather stains through segmented pushing trajectories, followed by a post-proce",
-        "source": "HuggingFace Papers",
-        "published": "2026-08-01T00:00:00.000Z",
-        "importance_hint": 4,
-        "metadata": {
-          "paper_id": "2608.00730"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "ST-WAM: Semantic-Temporal World Action Model for Robust Manipulation under Visual Distribution Shifts",
-        "url": "https://huggingface.co/papers/2607.28993",
-        "normalized_url": "https://huggingface.co/papers/2607.28993",
-        "summary": "World Action Models (WAMs) have emerged as a promising paradigm by jointly modeling robot actions and future visual dynamics. However, their reliance on pixel-generative future supervision can entangle action-relevant state transitions with task-irrelevant visual content, limiting robustness under visual distribution shifts. We identify Training-Distribution Hallucination, a recurring phenomenon in which futures conditioned on visually shifted observations hallucinate training-domain content rat",
-        "source": "HuggingFace Papers",
-        "published": "2026-07-31T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2607.28993"
-        }
+        "metadata": {}
       }
     ],
     "projects": [
@@ -716,12 +826,56 @@
     "news": [
       {
         "category": "news",
+        "title": "Show HN: Wallfacer – A terminal session manager for Claude Code, and more",
+        "url": "https://github.com/pradipta/wallfacer",
+        "normalized_url": "https://github.com/pradipta/wallfacer",
+        "summary": "HN points: 12, comments: 5",
+        "source": "Hacker News",
+        "published": "2026-08-06T03:52:56Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "Governments are making a dangerous bet on the AI boom",
+        "url": "https://www.economist.com/leaders/2026/08/05/governments-are-making-a-dangerous-bet-on-the-ai-boom",
+        "normalized_url": "https://www.economist.com/leaders/2026/08/05/governments-are-making-a-dangerous-bet-on-the-ai-boom",
+        "summary": "HN points: 45, comments: 26",
+        "source": "Hacker News",
+        "published": "2026-08-06T03:40:51Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "Nashville uses eminent domain to block data center near zoo",
+        "url": "https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project",
+        "normalized_url": "https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project",
+        "summary": "HN points: 192, comments: 211",
+        "source": "Hacker News",
+        "published": "2026-08-06T02:15:14Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "LLMs won't break symmetric crypto",
         "url": "https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto",
         "normalized_url": "https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto",
-        "summary": "HN points: 12, comments: 0",
+        "summary": "HN points: 62, comments: 71",
         "source": "Hacker News",
         "published": "2026-08-06T01:39:06Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "Symbolics Genera now available free for non-commercial use (inv-only early beta)",
+        "url": "https://hachyderm.io/@gmpalter/117044268951603975",
+        "normalized_url": "https://hachyderm.io/@gmpalter/117044268951603975",
+        "summary": "HN points: 12, comments: 1",
+        "source": "Hacker News",
+        "published": "2026-08-06T00:16:59Z",
         "importance_hint": 3,
         "metadata": {}
       },
@@ -741,7 +895,7 @@
         "title": "Prime Agent: A self-improving RLM agent",
         "url": "https://www.primeintellect.ai/blog/prime-agent",
         "normalized_url": "https://www.primeintellect.ai/blog/prime-agent",
-        "summary": "HN points: 108, comments: 19",
+        "summary": "HN points: 155, comments: 27",
         "source": "Hacker News",
         "published": "2026-08-05T21:11:57Z",
         "importance_hint": 4,
@@ -752,7 +906,7 @@
         "title": "A Fed official is asking whether AI is becoming 'too big to fail'",
         "url": "https://thenextweb.com/news/a-fed-official-is-asking-whether-ai-is-becoming-too-big-to-fail",
         "normalized_url": "https://thenextweb.com/news/a-fed-official-is-asking-whether-ai-is-becoming-too-big-to-fail",
-        "summary": "HN points: 18, comments: 10",
+        "summary": "HN points: 20, comments: 10",
         "source": "Hacker News",
         "published": "2026-08-05T21:08:25Z",
         "importance_hint": 3,
@@ -763,7 +917,7 @@
         "title": "OpenAI says my prepaid credits were consumed, refuses to show any record",
         "url": "https://community.openai.com/t/how-openai-lost-a-paying-customer-over-160-it-refuses-to-explain/1389233",
         "normalized_url": "https://community.openai.com/t/how-openai-lost-a-paying-customer-over-160-it-refuses-to-explain/1389233",
-        "summary": "HN points: 49, comments: 26",
+        "summary": "HN points: 49, comments: 27",
         "source": "Hacker News",
         "published": "2026-08-05T21:04:07Z",
         "importance_hint": 4,
@@ -774,7 +928,7 @@
         "title": "When online commenters detect my art as AI",
         "url": "https://www.davidrevoy.com/article1164/when-online-commenters-detect-my-art-as-ai",
         "normalized_url": "https://www.davidrevoy.com/article1164/when-online-commenters-detect-my-art-as-ai",
-        "summary": "HN points: 12, comments: 4",
+        "summary": "HN points: 25, comments: 16",
         "source": "Hacker News",
         "published": "2026-08-05T20:58:52Z",
         "importance_hint": 3,
@@ -798,7 +952,7 @@
         "title": "\"AI\" will never become conscious",
         "url": "https://mattbee.mataroa.blog/p/no-ai-will-never-become-conscious/",
         "normalized_url": "https://mattbee.mataroa.blog/p/no-ai-will-never-become-conscious",
-        "summary": "HN points: 31, comments: 20",
+        "summary": "HN points: 33, comments: 22",
         "source": "Hacker News",
         "published": "2026-08-05T19:03:28Z",
         "importance_hint": 3,
@@ -809,7 +963,7 @@
         "title": "Sula: A Gemini protocol server written in Scryer Prolog",
         "url": "https://sagredo.dev/projects/sula/",
         "normalized_url": "https://sagredo.dev/projects/sula",
-        "summary": "HN points: 46, comments: 2",
+        "summary": "HN points: 50, comments: 2",
         "source": "Hacker News",
         "published": "2026-08-05T18:52:58Z",
         "importance_hint": 3,
@@ -820,7 +974,7 @@
         "title": "Born Against, or why hobby programming communities are against LLM usage",
         "url": "https://blog.fogus.me/llm/born-against.html",
         "normalized_url": "https://blog.fogus.me/llm/born-against.html",
-        "summary": "HN points: 138, comments: 145",
+        "summary": "HN points: 207, comments: 193",
         "source": "Hacker News",
         "published": "2026-08-05T18:37:49Z",
         "importance_hint": 3,
@@ -839,56 +993,12 @@
       },
       {
         "category": "news",
-        "title": "Microsoft's AI Sales Mostly Come from OpenAI, Disclosures Show",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-05/microsoft-s-ai-sales-mostly-come-from-openai-disclosures-show",
-        "normalized_url": "https://www.bloomberg.com/news/articles/2026-08-05/microsoft-s-ai-sales-mostly-come-from-openai-disclosures-show",
-        "summary": "HN points: 62, comments: 16",
-        "source": "Hacker News",
-        "published": "2026-08-05T18:19:10Z",
-        "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models",
-        "url": "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency",
-        "normalized_url": "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency",
-        "summary": "HN points: 227, comments: 53",
-        "source": "Hacker News",
-        "published": "2026-08-05T18:18:56Z",
-        "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence (2025)",
-        "url": "https://arxiv.org/abs/2510.01395",
-        "normalized_url": "https://arxiv.org/abs/2510.01395",
-        "summary": "HN points: 78, comments: 54",
-        "source": "Hacker News",
-        "published": "2026-08-05T18:17:03Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Anthropic Is Building Its Own Chip",
-        "url": "https://www.businessinsider.com/anthropic-in-house-silicon-chip-team-claude-2026-8",
-        "normalized_url": "https://www.businessinsider.com/anthropic-in-house-silicon-chip-team-claude-2026-8",
-        "summary": "HN points: 22, comments: 11",
-        "source": "Hacker News",
-        "published": "2026-08-05T17:32:51Z",
-        "importance_hint": 5,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "携程放开酒店，飞猪仍困在淘宝里",
-        "url": "https://www.36kr.com/p/3927354836383880",
-        "normalized_url": "https://www.36kr.com/p/3927354836383880",
-        "summary": "沦为阿里AI战略的后台，飞猪还有自己的未来吗？",
+        "title": "AI狂飙，电工为何成了“香饽饽”？",
+        "url": "https://www.36kr.com/p/3927349747366277",
+        "normalized_url": "https://www.36kr.com/p/3927349747366277",
+        "summary": "AI数据中心电工短缺，科技巨头自办技校培养人才",
         "source": "36Kr AI",
-        "published": "2026-08-06T02:12:48+00:00",
+        "published": "2026-08-06T06:16:54+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -896,12 +1006,51 @@
       },
       {
         "category": "news",
-        "title": "36氪首发 | 清华系物理AI基建初创再融数千万美元，数据设备进入全球化规模交付",
-        "url": "https://www.36kr.com/p/3927411140425861",
-        "normalized_url": "https://www.36kr.com/p/3927411140425861",
-        "summary": "模型开始从互联网数据转向真实世界经验",
+        "title": "AI浏览器，还没火，就要被放弃？",
+        "url": "https://www.36kr.com/p/3927348778662279",
+        "normalized_url": "https://www.36kr.com/p/3927348778662279",
+        "summary": "夹缝求生，两头挤压",
         "source": "36Kr AI",
-        "published": "2026-08-06T02:09:31+00:00",
+        "published": "2026-08-06T06:15:42+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "从「8月底刊发中报」倒推，百融智能为何抓紧回购？",
+        "url": "https://www.36kr.com/p/3927646693161345",
+        "normalized_url": "https://www.36kr.com/p/3927646693161345",
+        "summary": "百融智能发盈警后禁售关窗前回购，新场景落地传信心",
+        "source": "36Kr AI",
+        "published": "2026-08-06T06:11:28+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "输掉新能源的蔚小理，也赢不下具身智能",
+        "url": "https://www.36kr.com/p/3926710701545095",
+        "normalized_url": "https://www.36kr.com/p/3926710701545095",
+        "summary": "一代人有一代人的局限性",
+        "source": "36Kr AI",
+        "published": "2026-08-06T06:09:12+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "千亿级MoE视频模型开源，视频生成开始进入下一条Scaling Law",
+        "url": "https://www.36kr.com/p/3927644682123393",
+        "normalized_url": "https://www.36kr.com/p/3927644682123393",
+        "summary": "当行业还在不断刷新画质、时长和可控性的同时，另一场挑战也开始出现。",
+        "source": "36Kr AI",
+        "published": "2026-08-06T06:08:38+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -909,51 +1058,12 @@
       },
       {
         "category": "news",
-        "title": "AI相亲，专业屏蔽海王",
-        "url": "https://www.36kr.com/p/3926636579690117",
-        "normalized_url": "https://www.36kr.com/p/3926636579690117",
-        "summary": "结婚越来越难，全靠技术加速匹配",
+        "title": "光芯片，暗流涌动",
+        "url": "https://www.36kr.com/p/3927348484585859",
+        "normalized_url": "https://www.36kr.com/p/3927348484585859",
+        "summary": "AI光子芯片材料竞争，多路线差异化适配不同场景",
         "source": "36Kr AI",
-        "published": "2026-08-06T02:09:14+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "大野心、做加法，瑞幸面临更高不确定性",
-        "url": "https://www.36kr.com/p/3927322619910025",
-        "normalized_url": "https://www.36kr.com/p/3927322619910025",
-        "summary": "瑞幸继续等待拐点。",
-        "source": "36Kr AI",
-        "published": "2026-08-06T02:02:49+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "谷歌也不再让顶尖科学家“当家”了",
-        "url": "https://www.36kr.com/p/3927354722335112",
-        "normalized_url": "https://www.36kr.com/p/3927354722335112",
-        "summary": "AI大厂人才的殊途同归",
-        "source": "36Kr AI",
-        "published": "2026-08-06T02:01:38+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "欧洲为什么没有OpenAI？",
-        "url": "https://www.36kr.com/p/3927347078502024",
-        "normalized_url": "https://www.36kr.com/p/3927347078502024",
-        "summary": "欧洲有ASML、西门子，却很难拥有OpenAI。",
-        "source": "36Kr AI",
-        "published": "2026-08-06T01:52:02+00:00",
+        "published": "2026-08-06T06:08:14+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -961,12 +1071,12 @@
       },
       {
         "category": "news",
-        "title": "一位谷歌科学家和他的疯狂组织实验",
-        "url": "https://www.36kr.com/p/3927287129602441",
-        "normalized_url": "https://www.36kr.com/p/3927287129602441",
-        "summary": "“现在不变，以后连变的机会都没有”",
+        "title": "三星人形机器人布局曝光",
+        "url": "https://www.36kr.com/p/3927480050546819",
+        "normalized_url": "https://www.36kr.com/p/3927480050546819",
+        "summary": "三星加速进军人形机器人，是韩国物理AI战略核心载体。",
         "source": "36Kr AI",
-        "published": "2026-08-06T01:50:13+00:00",
+        "published": "2026-08-06T05:59:56+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -974,12 +1084,12 @@
       },
       {
         "category": "news",
-        "title": "突发，谷歌首席科学家离职、DeepMind CEO卸任，股价跌超5%",
-        "url": "https://www.36kr.com/p/3927078590560386",
-        "normalized_url": "https://www.36kr.com/p/3927078590560386",
-        "summary": "公开信披露，Gemini 4已取得巨大进展。",
+        "title": "闭源和开源正在撞上",
+        "url": "https://www.36kr.com/p/3927323249932418",
+        "normalized_url": "https://www.36kr.com/p/3927323249932418",
+        "summary": "一切的尽头都是账单",
         "source": "36Kr AI",
-        "published": "2026-08-06T01:37:48+00:00",
+        "published": "2026-08-06T05:57:01+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -987,12 +1097,12 @@
       },
       {
         "category": "news",
-        "title": "为什么这些品牌还在被投资人追捧",
-        "url": "https://www.36kr.com/p/3926731795486339",
-        "normalized_url": "https://www.36kr.com/p/3926731795486339",
-        "summary": "未来品牌的可能面貌。",
+        "title": "谷歌「地基元老」Jeff Dean 离职创业，新公司瞄准 AI4S",
+        "url": "https://www.36kr.com/p/3927467903105417",
+        "normalized_url": "https://www.36kr.com/p/3927467903105417",
+        "summary": "建造了谷歌地基的人，决定去建造科学研究的地基。",
         "source": "36Kr AI",
-        "published": "2026-08-06T01:09:45+00:00",
+        "published": "2026-08-06T05:42:28+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -1000,15 +1110,28 @@
       },
       {
         "category": "news",
-        "title": "飞书并入豆包、千问办公整合，大厂AI大战从“赛马”到“合兵”？",
-        "url": "https://www.36kr.com/p/3926719442565256",
-        "normalized_url": "https://www.36kr.com/p/3926719442565256",
-        "summary": "一次从产品、技术到底层商业化体系的重新组合",
+        "title": "达里奥警告：AI泡沫正逼近1929年和2000年极端水平",
+        "url": "https://www.36kr.com/p/3927482023655559",
+        "normalized_url": "https://www.36kr.com/p/3927482023655559",
+        "summary": "达里奥警告：AI狂热推市场至泡沫破裂边缘，风险将至",
         "source": "36Kr AI",
-        "published": "2026-08-06T00:37:40+00:00",
+        "published": "2026-08-06T05:41:46+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "超级算力枢纽远景乌兰察布星河基地投产，全球最大AI算力超级单体落地",
+        "url": "https://www.qbitai.com/2026/08/467262.html",
+        "normalized_url": "https://www.qbitai.com/2026/08/467262.html",
+        "summary": "",
+        "source": "量子位",
+        "published": "2026-08-06T05:29:40+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
         }
       },
       {
@@ -1130,15 +1253,67 @@
       },
       {
         "category": "news",
-        "title": "开源版Claude Science来了！零依赖、MIT协议，内置30+项科研Skills",
-        "url": "https://www.qbitai.com/2026/08/466386.html",
-        "normalized_url": "https://www.qbitai.com/2026/08/466386.html",
-        "summary": "北京大学&元空AI Agent联合实验室",
-        "source": "量子位",
-        "published": "2026-08-04T13:14:27+00:00",
+        "title": "Claude Code之父：每半年清空一次claude.md、skills和hooks，模型自己会想办法",
+        "url": "https://www.infoq.cn/article/hUTEb0LSzFUTyib1AJ4W?utm_source=rss&utm_medium=article",
+        "normalized_url": "https://www.infoq.cn/article/hUTEb0LSzFUTyib1AJ4W",
+        "summary": "点击查看原文>",
+        "source": "InfoQ 中文",
+        "published": "2026-08-06T14:07:53+00:00",
         "importance_hint": 4,
         "metadata": {
-          "feed_url": "https://www.qbitai.com/rss"
+          "feed_url": "https://www.infoq.cn/feed.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Cloudflare 推出 Meerkat，实现全球强一致性协调",
+        "url": "https://www.infoq.cn/article/TzPsuyR3J7MlCA6vDwCx?utm_source=rss&utm_medium=article",
+        "normalized_url": "https://www.infoq.cn/article/TzPsuyR3J7MlCA6vDwCx",
+        "summary": "点击查看原文>",
+        "source": "InfoQ 中文",
+        "published": "2026-08-06T13:21:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.infoq.cn/feed.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Terraform 推出基于 HCL 的策略即代码框架 tfpolicy",
+        "url": "https://www.infoq.cn/article/ciBqgGa8fJIjYJdVaiq6?utm_source=rss&utm_medium=article",
+        "normalized_url": "https://www.infoq.cn/article/ciBqgGa8fJIjYJdVaiq6",
+        "summary": "点击查看原文>",
+        "source": "InfoQ 中文",
+        "published": "2026-08-06T11:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.infoq.cn/feed.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "刚刚，哈萨比斯卸任谷歌 DeepMind CEO，27年老将Jeff Dean离职创业",
+        "url": "https://www.infoq.cn/article/VwMgA7ktV9fA4eGowJ1z?utm_source=rss&utm_medium=article",
+        "normalized_url": "https://www.infoq.cn/article/VwMgA7ktV9fA4eGowJ1z",
+        "summary": "点击查看原文>",
+        "source": "InfoQ 中文",
+        "published": "2026-08-06T10:59:57+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.infoq.cn/feed.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "蚂蚁灵光闪应用数据架构首次公开，OceanBase披露关键实践",
+        "url": "https://www.infoq.cn/article/ix9IT7I9LmH2X0w5xQck?utm_source=rss&utm_medium=article",
+        "normalized_url": "https://www.infoq.cn/article/ix9IT7I9LmH2X0w5xQck",
+        "summary": "点击查看原文>",
+        "source": "InfoQ 中文",
+        "published": "2026-08-06T10:55:13+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.infoq.cn/feed.xml"
         }
       },
       {
@@ -1156,7 +1331,7 @@
       },
       {
         "category": "news",
-        "title": "从 Coding 到 Running：AI Native SRE Agent 的工程实践｜AICon深圳",
+        "title": "从 Coding 到 Running：Al Native SRE Agent 的工程实践 （CloudQ ）｜AICon深圳",
         "url": "https://www.infoq.cn/article/iNit5qqLKJSdi2kMt8HB?utm_source=rss&utm_medium=article",
         "normalized_url": "https://www.infoq.cn/article/iNit5qqLKJSdi2kMt8HB",
         "summary": "点击查看原文>",
@@ -1176,71 +1351,6 @@
         "source": "InfoQ 中文",
         "published": "2026-08-05T22:59:14+00:00",
         "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.infoq.cn/feed.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "苹果指控 OpenAI挖人、拿零件、偷文件，OpenAI 晒聊天记录全面反击！马斯克：别信 OpenAI",
-        "url": "https://www.infoq.cn/article/rvVpcZspLiqGpPQq6HPw?utm_source=rss&utm_medium=article",
-        "normalized_url": "https://www.infoq.cn/article/rvVpcZspLiqGpPQq6HPw",
-        "summary": "点击查看原文>",
-        "source": "InfoQ 中文",
-        "published": "2026-08-05T22:36:00+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.infoq.cn/feed.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "不碰核心代码、把7-Zip压缩速度提高97%：一个“外行”与 AI 的极致优化实验",
-        "url": "https://www.infoq.cn/article/Qp04AcNuAM8YqtVQHyu3?utm_source=rss&utm_medium=article",
-        "normalized_url": "https://www.infoq.cn/article/Qp04AcNuAM8YqtVQHyu3",
-        "summary": "点击查看原文>",
-        "source": "InfoQ 中文",
-        "published": "2026-08-05T18:45:26+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.infoq.cn/feed.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "一个 npm 恶意包，2小时毁掉数十亿下载？GitHub 终于给自动升级按下暂停键",
-        "url": "https://www.infoq.cn/article/mHKwxgo5SqfmtZEESCrN?utm_source=rss&utm_medium=article",
-        "normalized_url": "https://www.infoq.cn/article/mHKwxgo5SqfmtZEESCrN",
-        "summary": "点击查看原文>",
-        "source": "InfoQ 中文",
-        "published": "2026-08-05T18:00:00+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.infoq.cn/feed.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "IPO冲刺中，智元机器人核心班底“华为化”：前谷歌科学家从合伙人名单消失",
-        "url": "https://www.infoq.cn/article/mFDVYdsliuDByQKcWFkh?utm_source=rss&utm_medium=article",
-        "normalized_url": "https://www.infoq.cn/article/mFDVYdsliuDByQKcWFkh",
-        "summary": "点击查看原文>",
-        "source": "InfoQ 中文",
-        "published": "2026-08-05T17:00:00+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.infoq.cn/feed.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "AICon 深圳 2026 全日程揭晓｜聚焦 Agent 工程化，构建可靠智能的技术路径",
-        "url": "https://www.infoq.cn/article/1Xo5TimSeStpOARWhElb?utm_source=rss&utm_medium=article",
-        "normalized_url": "https://www.infoq.cn/article/1Xo5TimSeStpOARWhElb",
-        "summary": "点击查看原文>",
-        "source": "InfoQ 中文",
-        "published": "2026-08-05T16:14:30+00:00",
-        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.infoq.cn/feed.xml"
         }
@@ -2326,19 +2436,6 @@
       },
       {
         "category": "news",
-        "title": "Qwen 3.8 Max",
-        "url": "https://news.smol.ai/issues/26-08-03-qwen-38/",
-        "normalized_url": "https://news.smol.ai/issues/26-08-03-qwen-38",
-        "summary": "**Alibaba** launched **Qwen3.8-Max**, a **2.4T-parameter** open-weight model emphasizing autonomous coding, long-horizon execution, and multimodal feedback, with aggressive pricing. Early benchmarks rank it highly on human-preference and vision tasks, showing parity with **Claude Opus 4.7** and strong object-detection capabilities. However, operational demands remain high, especially for large MoE models like Qwen3.8-Max and **Kimi K3**, highlighting the strategic importance of smaller open mode",
-        "source": "smol.ai AINews",
-        "published": "2026-08-03T05:44:39+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://news.smol.ai/rss.xml"
-        }
-      },
-      {
-        "category": "news",
         "title": "Google LLM router ➡️, Cloudflare Wallets 💳, Anthropic and Volta 🤝",
         "url": "https://tldr.tech/ai/2026-08-05",
         "normalized_url": "https://tldr.tech/ai/2026-08-05",
@@ -2404,19 +2501,6 @@
       },
       {
         "category": "news",
-        "title": "China’s Open-Weight Models Will Be Spared US Safety Tests",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfujnc/chinas_openweight_models_will_be_spared_us_safety/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfujnc/chinas_openweight_models_will_be_spared_us_safety",
-        "summary": "submitted by /u/fallingdowndizzyvr [link] [comments]",
-        "source": "r/LocalLLaMA",
-        "published": "2026-08-05T02:25:24+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
         "title": "Qwen Developers' responses from their recent Twitter/X AMA",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg569y/qwen_developers_responses_from_their_recent/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg569y/qwen_developers_responses_from_their_recent",
@@ -2456,12 +2540,25 @@
       },
       {
         "category": "news",
-        "title": "Given the MiniMax H3 LoRAs Debacle - Some Important Context for Censorship enforcement and laws in China",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg8fi1/given_the_minimax_h3_loras_debacle_some_important/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg8fi1/given_the_minimax_h3_loras_debacle_some_important",
-        "summary": "*I felt the need to write this post because it seems like very few people on this sub are aware of Chinese laws and how they're enforced, so here's an explainer coming from a Chinese person (myself). I know that this post isn't directly about local models per se, but I'm seeing way too many misconceptions regarding this topic. This is also going to apply to all Chinese entities in general, not just the specific MiniMax LoRAs debacle. This isn't meant to be a political post, but some much needed ",
+        "title": "Zuck will \"share more on open source\" soon",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgp8y8/zuck_will_share_more_on_open_source_soon/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgp8y8/zuck_will_share_more_on_open_source_soon",
+        "summary": "submitted by /u/realmvp77 [link] [comments]",
         "source": "r/LocalLLaMA",
-        "published": "2026-08-05T14:09:07+00:00",
+        "published": "2026-08-06T00:40:40+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Prime Agent - a new coding harness surpassing Codex/CC/PI",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgnmny/prime_agent_a_new_coding_harness_surpassing/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgnmny/prime_agent_a_new_coding_harness_surpassing",
+        "summary": "Prime Agent is an open-source coding and research agent for general and long-running work. A self-improving RLM harness for coding and long-running autonomous tasks. Designed to be both token-efficient and expressive through programmatic tool calling, context as a variable, multi-agent messaging, and a self-modifiable harness state. On ARC-AGI-3, it scores 95.5%, surpassing the human-expert baseline, but the gain is not benchmark-specific. We see major improvements across models when compared to",
+        "source": "r/LocalLLaMA",
+        "published": "2026-08-05T23:30:17+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
