@@ -29,6 +29,7 @@ jobs:
           API_KEY: ${{ secrets.API_KEY }}
           API_BASE_URL: ${{ vars.API_BASE_URL || 'https://api.deepseek.com' }}
           API_MODEL: ${{ vars.API_MODEL || 'deepseek-chat' }}
+          WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
           BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
         run: cd scripts && python main.py
 
