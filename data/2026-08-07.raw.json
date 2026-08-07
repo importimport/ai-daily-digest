@@ -1,10 +1,10 @@
 {
   "date": "2026-08-07",
-  "generated_at": "2026-08-07T09:24:19.088322+08:00",
+  "generated_at": "2026-08-07T09:27:58.175506+08:00",
   "counts": {
     "papers": 41,
     "projects": 23,
-    "news": 132
+    "news": 142
   },
   "items": {
     "papers": [
@@ -841,7 +841,7 @@
         "title": "New Orleans will use AI to answer 911 calls instead of a human",
         "url": "https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007/",
         "normalized_url": "https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007",
-        "summary": "HN points: 17, comments: 9",
+        "summary": "HN points: 22, comments: 20",
         "source": "Hacker News",
         "published": "2026-08-07T00:37:30Z",
         "importance_hint": 3,
@@ -852,7 +852,7 @@
         "title": "Trump again tries to limit US birthright citizenship with new executive orders",
         "url": "https://www.bbc.com/news/articles/cj63966j95yo",
         "normalized_url": "https://www.bbc.com/news/articles/cj63966j95yo",
-        "summary": "HN points: 30, comments: 3",
+        "summary": "HN points: 30, comments: 4",
         "source": "Hacker News",
         "published": "2026-08-06T23:29:15Z",
         "importance_hint": 3,
@@ -907,7 +907,7 @@
         "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
         "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
         "normalized_url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
-        "summary": "HN points: 344, comments: 277",
+        "summary": "HN points: 350, comments: 279",
         "source": "Hacker News",
         "published": "2026-08-06T20:23:11Z",
         "importance_hint": 4,
@@ -986,7 +986,7 @@
         "title": "Dress made of living mycelium can renew and repair itself",
         "url": "https://www.dezeen.com/2026/08/05/dress-living-mycelium-renew-repair/",
         "normalized_url": "https://www.dezeen.com/2026/08/05/dress-living-mycelium-renew-repair",
-        "summary": "HN points: 80, comments: 48",
+        "summary": "HN points: 80, comments: 49",
         "source": "Hacker News",
         "published": "2026-08-06T16:39:26Z",
         "importance_hint": 3,
@@ -2002,6 +2002,136 @@
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://the-decoder.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Cloudflare Introduces Kitesurf: An Agent-First Web Browser That Runs Entirely in V8 Isolates on Cloudflare Workers",
+        "url": "https://www.marktechpost.com/2026/08/06/cloudflare-introduces-kitesurf-an-agent-first-web-browser-that-runs-entirely-in-v8-isolates-on-cloudflare-workers/",
+        "normalized_url": "https://www.marktechpost.com/2026/08/06/cloudflare-introduces-kitesurf-an-agent-first-web-browser-that-runs-entirely-in-v8-isolates-on-cloudflare-workers",
+        "summary": "Cloudflare has released Kitesurf, a stateless web browser built specifically for AI agents that runs entirely in V8 isolates on Cloudflare Workers, with no Chromium underneath. The browser drops human-facing features like tabs and extensions in favor of what agents need: machine-readable content, scalability, and isolation. Built in 12 weeks using Rust components like Blitz, Stylo, and Boa JS, it already passes 215,000+ Web Platform Tests. Benchmarks show 3.1–3.8× less CPU and 4.7–7.0× less memo",
+        "source": "MarkTechPost",
+        "published": "2026-08-06T19:35:32+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Adaptive Experimentation with Meta’s Ax: A Practical Coding Guide",
+        "url": "https://www.marktechpost.com/2026/08/06/adaptive-experimentation-with-metas-ax-a-practical-coding-guide/",
+        "normalized_url": "https://www.marktechpost.com/2026/08/06/adaptive-experimentation-with-metas-ax-a-practical-coding-guide",
+        "summary": "In this tutorial, we explore adaptive experimentation using Meta’s Ax with the modern Client API. We work through a complete workflow where we tune a RandomForest model on a synthetic classification dataset while balancing predictive accuracy against model footprint. We begin by defining a mixed search space with integer, float, log-scaled, and categorical parameters, then […] The post Adaptive Experimentation with Meta’s Ax: A Practical Coding Guide appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-08-06T17:17:52+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Prime Intellect Releases Prime Agent: An Open-Source RLM Harness Where Sub-Agents Are Function Calls Inside Persistent IPython Kernel",
+        "url": "https://www.marktechpost.com/2026/08/06/prime-intellect-releases-prime-agent/",
+        "normalized_url": "https://www.marktechpost.com/2026/08/06/prime-intellect-releases-prime-agent",
+        "summary": "Prime Intellect has open-sourced Prime Agent, a coding and research harness built on two abstractions: the Recursive Language Model, which turns sub-agent calls into functions inside a persistent IPython kernel, and the Continual Harness, which lets the agent edit its own prompts, skills, memory, and sub-agent specs mid-run. With Opus 5 it reports 95.5% RHAE Best@1 on ARC-AGI-3, above the reported human expert baseline of 95.4%. The post Prime Intellect Releases Prime Agent: An Open-Source RLM H",
+        "source": "MarkTechPost",
+        "published": "2026-08-06T09:00:08+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Microsoft’s SkillOpt Shows Optimized Agent Skill Artifacts Transfer Across Model Scales and Between Codex and Claude Code Harnesses",
+        "url": "https://www.marktechpost.com/2026/08/05/microsoft-skillopt-agent-skill-transfer-portability/",
+        "normalized_url": "https://www.marktechpost.com/2026/08/05/microsoft-skillopt-agent-skill-transfer-portability",
+        "summary": "Most coverage of Microsoft's SkillOpt centers on its 52/52 result. The more consequential finding is in Section 4.3: the exported best_skill.md keeps working in environments it was never trained on. A Codex-trained SpreadsheetBench skill lifted Claude Code from 22.1 to 81.8, slightly above the 80.4 that harness reached training its own skill. Retention varies sharply by task type — 102% on spreadsheets, 10% on math — which is what makes the result worth reading closely. The post Microsoft’s Skil",
+        "source": "MarkTechPost",
+        "published": "2026-08-06T00:37:42+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "End-to-End Bayesian Marketing Mix Modeling with Google Meridian: Media Measurement, ROI Analysis, and Budget Optimization",
+        "url": "https://www.marktechpost.com/2026/08/05/end-to-end-bayesian-marketing-mix-modeling-with-google-meridian-media-measurement-roi-analysis-and-budget-optimization/",
+        "normalized_url": "https://www.marktechpost.com/2026/08/05/end-to-end-bayesian-marketing-mix-modeling-with-google-meridian-media-measurement-roi-analysis-and-budget-optimization",
+        "summary": "In this tutorial, we build a complete Bayesian marketing mix modeling workflow using Google Meridian. We begin by installing the required libraries, verifying GPU availability, and exploring a geo-level marketing dataset that includes media impressions, spend, controls, promotions, conversions, population, and revenue. We then map the raw columns to Meridian’s data schema, define interpretable ROI-based […] The post End-to-End Bayesian Marketing Mix Modeling with Google Meridian: Media Measureme",
+        "source": "MarkTechPost",
+        "published": "2026-08-05T21:56:03+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meta AI Releases Muse Code (Beta): A Terminal Coding Agent Powered by the New Muse Spark 1.2 Model",
+        "url": "https://www.marktechpost.com/2026/08/05/meta-superintelligence-labs-releases-muse-code/",
+        "normalized_url": "https://www.marktechpost.com/2026/08/05/meta-superintelligence-labs-releases-muse-code",
+        "summary": "Meta Superintelligence Labs has released Muse Code, a terminal coding agent in beta, powered by the new Muse Spark 1.2 model. Muse Code plans changes, writes code, and validates results across large repositories. Async background agents stay active for the whole session instead of spawning per task. A local append-only event log makes the runtime replay-exact and restart-safe after a crash. Muse Spark 1.2 was co-trained with the harness and trained on long-horizon, repository-scale work. The pos",
+        "source": "MarkTechPost",
+        "published": "2026-08-05T20:07:32+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "NVIDIA Releases Alpamayo 2 Super: A 34B Open Vision-Language-Action Model for Robotaxis and Autonomous Driving Under OpenMDW-1.1",
+        "url": "https://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving/",
+        "normalized_url": "https://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving",
+        "summary": "NVIDIA released Alpamayo 2 Super, a 34B vision-language-action model for autonomous driving, under OpenMDW-1.1 — a permissive license covering fine-tuning, derivatives and commercial redistribution. It pairs a 32B Cosmos 3 Super Reasoner backbone with a 2.3B diffusion action decoder, scores 79.2 on LingoQA, and emits trajectories, Chain-of-Causation traces, meta-actions, auto-labels and grounded VQA from a single pass. The post NVIDIA Releases Alpamayo 2 Super: A 34B Open Vision-Language-Action ",
+        "source": "MarkTechPost",
+        "published": "2026-08-05T08:25:11+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "CopilotKit Open Sources Channels SDK: An MIT Licensed Library That Runs Any AG-UI Agent Inside Slack And Microsoft Teams",
+        "url": "https://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk/",
+        "normalized_url": "https://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk",
+        "summary": "CopilotKit has published the Channels SDK, an MIT licensed library that runs an existing AG-UI agent inside Slack and Microsoft Teams. Version 0.5.0 ships five platform adapters and a documented runtime contract. This breakdown covers the verified deployment paths, the baseline requirements, and the one dependency that is easy to miss The post CopilotKit Open Sources Channels SDK: An MIT Licensed Library That Runs Any AG-UI Agent Inside Slack And Microsoft Teams appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-08-05T04:43:17+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Pixel-Native RAG: A Practical Guide to Visual Document Indexing",
+        "url": "https://www.marktechpost.com/2026/08/04/pixel-native-rag-a-practical-guide-to-visual-document-indexing/",
+        "normalized_url": "https://www.marktechpost.com/2026/08/04/pixel-native-rag-a-practical-guide-to-visual-document-indexing",
+        "summary": "Move beyond traditional text-based parsing with PixelRAG, an end-to-end system that treats web pages and PDFs as images. This tutorial explores the complete pipeline—from rendering and tiling to multimodal embedding and hybrid search—enabling developers to build high-performance, visual document retrieval systems The post Pixel-Native RAG: A Practical Guide to Visual Document Indexing appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-08-04T22:27:38+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Cursor Open-Sources Mixture-of-Kittens (MoK): A Deterministic MoE Training Megakernel for GB300 NVL72 Racks",
+        "url": "https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks/",
+        "normalized_url": "https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks",
+        "summary": "Cursor Research has open-sourced Mixture-of-Kittens (MoK), the MoE training megakernel behind its Composer models. MoK fuses all mixture-of-experts communication and computation into a single deterministic kernel, and runs up to 2.37x faster than the strongest public baseline on GB300 NVL72 racks. It requires Blackwell SM100 or SM103 GPUs, which puts it out of reach for anyone without NVL72 capacity. The post Cursor Open-Sources Mixture-of-Kittens (MoK): A Deterministic MoE Training Megakernel f",
+        "source": "MarkTechPost",
+        "published": "2026-08-04T18:38:41+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
         }
       },
       {
