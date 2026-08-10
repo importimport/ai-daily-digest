@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Daily Digest · 2026-06-23</title>
-  <meta name="description" content="AI领域2026-06-23每日简报，涵盖行业新闻、重要论文与开源项目。">
+  <title>AI Daily Digest · 2026-08-11</title>
+  <meta name="description" content="AI领域2026-08-11每日简报，涵盖行业新闻、重要论文与开源项目。">
   <script>
     (function () {
       try {
@@ -532,15 +532,22 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
   
     <div class="container">
       <div class="day-hero">
-        <div class="date-str"><span data-lang-content="zh">周二 · 2026-06-23</span><span data-lang-content="en">Tuesday · 2026-06-23</span></div>
+        <div class="date-str"><span data-lang-content="zh">周二 · 2026-08-11</span><span data-lang-content="en">Tuesday · 2026-08-11</span></div>
         <h1><span data-lang-content="zh">AI 每日简报</span><span data-lang-content="en">AI Daily Digest</span></h1>
       </div>
       
+    <div class="audio-player">
+      <div class="ap-text">
+        <span class="ap-label">🎧 <span data-lang-content="zh">语音播报</span><span data-lang-content="en">Listen</span></span>
+        <span class="ap-sub"><span data-lang-content="zh">通勤路上用耳朵看简报</span><span data-lang-content="en">Catch the digest on your commute</span></span>
+      </div>
+      <audio controls preload="none" src="../audio/2026-08-11.mp3" data-date="2026-08-11"></audio>
+    </div>
       <div data-lang-content="zh">
     <div class="digest-scope">
       
     <div class="filter-bar">
-      <span class="tab active" data-cat="all">全部</span><span class="tab" data-cat="news">新闻</span><span class="tab" data-cat="paper">论文</span><span class="tab" data-cat="project">项目</span>
+      <span class="tab active" data-cat="all">全部</span><span class="tab" data-cat="news">新闻</span><span class="tab" data-cat="paper">论文</span><span class="tab" data-cat="project">项目</span><span class="tab" data-cat="buzz">热议</span>
       <span class="star-toggle">★ 只看重点 (4+)</span>
     </div>
       
@@ -550,139 +557,112 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
             <div class="cat-line"></div>
           </div>
           
-    <div class="item-card" data-stars="4">
-      <div class="item-title">xAI 发布 Grok Skills 及新的 Responses API</div>
-      <div class='item-desc'>xAI 推出了 Grok Skills 功能并更新了用于工具调用的 Responses API，增强了模型的工具使用能力。</div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">Meta 发布 Muse Glimmer：30B 开源权重 Agent 模型，单张消费级 GPU 可跑</div>
+      <div class='item-desc'>Apache 2.0 许可，支持多模态与 100+ 语言，压缩后内存占用低于 20GB，专为本地常驻 Agent 工作流设计。</div>
       <div class="item-meta">
-        <span class="stars">★★★★☆</span>
-        <span class="item-value">为开发者提供更灵活的模型调用方式，降低工具集成门槛。</span>
-        <div class="item-sources"><a href="https://www.infoq.cn/article/hmME4JhKTJUYJy9DNEJ2" target="_blank">InfoQ 中文</a></div>
+        <span class="stars">★★★★★</span>
+        <span class="item-value">开源 Agent 模型首次真正落地消费级硬件，本地 AI 门槛大幅降低</span>
+        <div class="item-sources"><a href="https://venturebeat.com/technology/meta-returns-to-open-source-with-muse-glimmer-an-apache-2-0-licensed-30b-parameter-ai-model-optimized-for-agents-available-now" target="_blank">VentureBeat</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">OpenAI 启动“Patch the Planet”计划，大规模修复开源漏洞</div>
-      <div class='item-desc'>OpenAI 推出 Daybreak 计划下的 Patch the Planet 倡议，利用 GPT-5.5-Cyber 帮助开源维护者发现、验证和修复漏洞。</div>
+      <div class="item-title">OpenAI 发布 GPT-5.6-Cyber 网络安全专用模型</div>
+      <div class='item-desc'>通过 Daybreak Red 面向授权漏洞研究与安全测试开放，可回答 98.5% 此前被拦截的安全查询，已发现两个 Chrome 零日漏洞。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        <span class="item-value">AI 驱动的安全修复规模化，可显著提升开源生态安全性。</span>
-        <div class="item-sources"><a href="https://openai.com/index/patch-the-planet" target="_blank">OpenAI</a></div>
+        <span class="item-value">防御方首次在漏洞发现上获得对攻击者的时间优势</span>
+        <div class="item-sources"><a href="https://the-decoder.com/openai-launches-gpt-5-6-cyber-to-help-defenders-find-vulnerabilities-before-attackers-do/" target="_blank">The Decoder</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="4">
-      <div class="item-title">Google DeepMind 与 A24 达成 7500 万美元合作，共研 AI 电影制作工具</div>
-      <div class='item-desc'>Google DeepMind 与独立电影工作室 A24 建立长期研究合作伙伴关系，共同开发 AI 电影制作工具。</div>
+      <div class="item-title">Anthropic 公开 Claude 数学能力研究：黎曼猜想置信边界从 41.6% 提升至 67.2%</div>
+      <div class='item-desc'>官方研究博客详述了 Claude 在数论问题上的能力边界与推理机制。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
-        <span class="item-value">AI 正式进入好莱坞核心创作流程，可能重塑影视制作范式。</span>
-        <div class="item-sources"><a href="https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/" target="_blank">TechCrunch</a></div>
+        <span class="item-value">大模型在纯数学推理上取得可量化的实质进展</span>
+        <div class="item-sources"><a href="https://www.anthropic.com/research/riemann-zeta" target="_blank">Anthropic</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="4">
-      <div class="item-title">Meta 因内部数据泄露暂停员工击键追踪 AI 训练项目</div>
-      <div class='item-desc'>Meta 暂停了有争议的员工活动追踪项目，该项目此前通过收集员工击键数据来训练 AI 模型。</div>
+      <div class="item-title">Claude Code Auto 模式默认开启</div>
+      <div class='item-desc'>Pro、Max、Team 计划从 8 月 14 日起新会话默认使用 Auto 模式，进一步减少人工监督。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
-        <span class="item-value">引发 AI 训练数据伦理边界的重要讨论，影响企业内部数据使用政策。</span>
-        <div class="item-sources"><a href="https://www.wired.com/story/meta-accidentally-let-employees-access-each-others-keystroke-data/" target="_blank">Wired</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="4">
-      <div class="item-title">五眼联盟警告：前沿 AI 模型数月内即可具备颠覆政府能力</div>
-      <div class='item-desc'>五眼情报联盟联合警告称，能够颠覆政府和企业的人工智能模型距离可用仅剩数月时间。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★☆</span>
-        <span class="item-value">AI 安全威胁从理论讨论进入实际政策预警阶段，影响全球 AI 监管走向。</span>
-        <div class="item-sources"><a href="https://www.theguardian.com/technology/2026/jun/22/anthropic-claude-fable-ai-model-artificial-intelligence-national-security" target="_blank">The Guardian</a></div>
+        <span class="item-value">Agent 自主编码成为默认范式，人机协作方式将重构</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/" target="_blank">TechCrunch</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">Sakana AI 发布 Fugu 多模型编排系统，性能达前沿水平</div>
-      <div class='item-desc'>Sakana AI 推出 Fugu 系统，通过动态编排多个 AI 模型，在基准测试中匹配 Anthropic Fable 5 水平，同时降低对单一供应商的依赖。</div>
+      <div class="item-title">AWS Continuum 深度集成 OpenAI Codex 与 Claude Code</div>
+      <div class='item-desc'>在 Black Hat USA 2026 上宣布，将 AI 安全基础设施直接嵌入两大竞品的编码环境，押注安全层比模型层更重要。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        <span class="item-value">多模型编排路线验证成功，为规避供应商锁定提供可行方案。</span>
-        <div class="item-sources"><a href="https://venturebeat.com/orchestration/no-claude-fable-5-no-problem-sakana-achieves-frontier-performance-with-new-fugu-multi-model-auto-synthesis-system" target="_blank">VentureBeat</a></div>
+        <span class="item-value">安全层成为云厂商争夺 Agent 生态的新战略制高点</span>
+        <div class="item-sources"><a href="https://venturebeat.com/security/aws-continuum-integrates-with-openai-codex-and-anthropic-claude-code-in-major-ai-security-push" target="_blank">VentureBeat</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="4">
-      <div class="item-title">DeepSeek 以 600 亿美元估值融资 74 亿美元，梁文锋个人投资 30 亿</div>
-      <div class='item-desc'>DeepSeek 完成新一轮融资，创始人梁文锋个人投入 30 亿美元，公司估值达 600 亿美元。</div>
+      <div class="item-title">微软正式发布 Agent Framework Harness 和 Hosted Agents</div>
+      <div class='item-desc'>企业级 Agent 编排与管理基础设施落地。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
-        <span class="item-value">中国 AI 创业公司获得巨额资本支持，全球 AI 竞争格局加速变化。</span>
-        <div class="item-sources"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1ucwyes/deepseek_raises_74b_usd_at_60b_valuation/" target="_blank">Reddit r/LocalLLaMA</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="4">
-      <div class="item-title">SpaceX 与 AI 初创公司 Reflection 签署 63 亿美元算力协议</div>
-      <div class='item-desc'>Reflection AI 将从 2026 年 7 月起每月支付 1.5 亿美元，获取 SpaceX Colossus 2 数据中心内英伟达 GB300 芯片的优先使用权。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★☆</span>
-        <span class="item-value">非传统科技公司进入算力租赁市场，基础设施供给格局可能改变。</span>
-        <div class="item-sources"><a href="https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/" target="_blank">TechCrunch</a></div>
+        <span class="item-value">企业 Agent 部署获得官方托管方案，降低落地门槛</span>
+        <div class="item-sources"><a href="https://www.infoq.cn/article/aDEJegvNSKwvue2JZ0yI" target="_blank">InfoQ 中文</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">AI 芯片公司 Groq 确认 6.5 亿美元融资，重组团队</div>
-      <div class='item-desc'>Groq 在英伟达 200 亿美元非收购交易后完成新一轮融资，并重新组建高管团队。</div>
+      <div class="item-title">NVIDIA 发布 NemotronLabs VoiceChat 11B 全双工语音模型</div>
+      <div class='item-desc'>开源语音到语音模型，448ms 延迟，支持实时工具调用。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        <span class="item-value">AI 芯片赛道资本持续活跃，Groq 转型云服务模式值得关注。</span>
-        <div class="item-sources"><a href="https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/" target="_blank">TechCrunch</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="4">
-      <div class="item-title">吴恩达：AI 炒作过头，未来公司是 10 人小队 + Agent 重做数据架构</div>
-      <div class='item-desc'>吴恩达指出当前 AI 领域存在过度炒作，认为未来的高效公司将由小团队配合 AI Agent 重新构建数据架构。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★☆</span>
-        <span class="item-value">行业领袖对 AI 应用落地节奏的清醒判断，影响企业 AI 战略规划。</span>
-        <div class="item-sources"><a href="https://www.infoq.cn/article/9ubrcrTRdxROBUo5igpy" target="_blank">InfoQ 中文</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="4">
-      <div class="item-title">Anthropic 与美光合作共研 AI 内存架构</div>
-      <div class='item-desc'>美光投资 Anthropic H 轮融资并签署多年协议，为 Claude 基础设施供应内存，双方将共同设计 AI 专用内存架构。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★☆</span>
-        <span class="item-value">AI 基础设施从 GPU 瓶颈转向内存瓶颈，软硬件协同设计成为新趋势。</span>
-        <div class="item-sources"><a href="https://the-decoder.com/anthropic-and-micron-want-to-co-design-ai-memory-architecture/" target="_blank">The Decoder</a></div>
+        <span class="item-value">开源全双工语音交互达到可用延迟，语音 Agent 门槛骤降</span>
+        <div class="item-sources"><a href="https://www.marktechpost.com/2026/08/09/nvidia-releases-nemotronlabs-voicechat-11b-an-open-full-duplex-speech-to-speech-model-with-450-ms-turn-taking-and-live-tool-calling/" target="_blank">MarkTechPost</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">Google 将 Interactions API 设为 Gemini 模型和 Agent 的默认接口</div>
-      <div class='item-desc'>Google DeepMind 将 Interactions API 设为 Gemini 模型和 Agent 的默认接口，取代旧的 generateContent API。</div>
+      <div class="item-title">Google DeepMind WeatherNext 突破气旋预报</div>
+      <div class='item-desc'>同时预测路径与强度，比现有业务模型提前约一天，代码与权重已开源。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        <span class="item-value">API 架构重大变更，所有 Gemini 开发者需迁移，新 Agent 功能仅通过新接口提供。</span>
-        <div class="item-sources"><a href="https://the-decoder.com/google-makes-interactions-api-the-default-interface-for-gemini-models-and-agents/" target="_blank">The Decoder</a></div>
+        <span class="item-value">AI 在科学计算领域再下一城，开源权重可复现验证</span>
+        <div class="item-sources"><a href="https://the-decoder.com/google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time/" target="_blank">The Decoder</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">Google DiffusionGemma：不到 10% 训练预算把 Gemma 4 改造成扩散模型</div>
+      <div class='item-desc'>256 token 并行生成，约 1500 token/s，推理任务质量仍略逊于自回归原版。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">扩散语言模型不再需要从头训练，推理加速新路径</span>
+        <div class="item-sources"><a href="https://the-decoder.com/googles-diffusiongemma-proves-you-dont-need-to-train-from-scratch-to-build-a-text-diffusion-model/" target="_blank">The Decoder</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="4">
-      <div class="item-title">三星电子向全球员工部署 ChatGPT Enterprise 和 Codex</div>
-      <div class='item-desc'>三星电子在韩国及全球 DX 部门部署 ChatGPT Enterprise 和 Codex，是 OpenAI 最大规模的企业级 AI 部署之一。</div>
+      <div class="item-title">OpenAI 收购演示文稿初创公司 NextSlide</div>
+      <div class='item-desc'>将 AI 生成演示文稿能力整合进 ChatGPT。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
-        <span class="item-value">传统制造巨头全面拥抱 AI 工具，企业级 AI 采用加速信号。</span>
-        <div class="item-sources"><a href="https://openai.com/index/samsung-electronics-chatgpt-codex-deployment" target="_blank">OpenAI</a></div>
+        <span class="item-value">ChatGPT 向办公生产力全流程扩展</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/" target="_blank">TechCrunch</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="4">
-      <div class="item-title">Getty Images 与 OpenAI 签署多年授权协议，照片将接入 ChatGPT 搜索</div>
-      <div class='item-desc'>Getty Images 与 OpenAI 达成多年授权合作，授权图片将出现在 ChatGPT 搜索结果中。</div>
+      <div class="item-title">NVIDIA 以 5000 亿美元将华尔街引入 AI 基础设施建设</div>
+      <div class='item-desc'>大规模基础设施融资方案引发市场关注。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
-        <span class="item-value">AI 搜索的版权合规路径探索，为内容授权模式提供新参考。</span>
-        <div class="item-sources"><a href="https://the-decoder.com/getty-images-strikes-multi-year-deal-to-put-licensed-photos-in-chatgpt-search/" target="_blank">The Decoder</a></div>
+        <span class="item-value">AI 算力投资进入金融化阶段，产业格局将重塑</span>
+        <div class="item-sources"><a href="https://thenextweb.com/news/nvidia-500-billion-wall-street-ai-infrastructure-funding-package" target="_blank">The Next Web</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="4">
-      <div class="item-title">Vibe Coding 成为软件收购尽职调查的试金石</div>
-      <div class='item-desc'>贝恩咨询公司使用 Vibe Coding 快速复制潜在收购目标的软件，AI 复刻品已开始影响具体的收购决策。</div>
+      <div class="item-title">摩尔线程半年报高增长，启动赴港 H 股上市</div>
+      <div class='item-desc'>账上 56 亿募资未花完即启动二次上市。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
-        <span class="item-value">AI 辅助开发能力正在改变企业并购评估方式，软件价值评估面临重构。</span>
-        <div class="item-sources"><a href="https://the-decoder.com/vibecoding-is-becoming-a-deal-breaker-test-for-software-acquisitions/" target="_blank">The Decoder</a></div>
+        <span class="item-value">国产 GPU 厂商加速资本化，AI 芯片竞争格局生变</span>
+        <div class="item-sources"><a href="https://www.36kr.com/p/3933636797093768" target="_blank">36Kr AI</a></div>
       </div>
     </div>
         </div>
@@ -692,76 +672,76 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
             <div class="cat-line"></div>
           </div>
           
+    <div class="item-card" data-stars="5">
+      <div class="item-title">MatrAIx：83 亿 Persona Agent 模拟世界</div>
+      <div class='item-desc'>人口规模级模拟用户评估基础设施，含 1290 个类别维度的 83 亿人格记录，用于大规模测试 AI 系统与数字产品。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">AI 产品评估从人工评测走向人口规模模拟</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2608.04205" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">DCAS：解耦 CLI Agent 脚手架以内化规划能力</div>
+      <div class='item-desc'>揭示开源生态过度依赖 OpenHands 轨迹数据导致跨脚手架泛化严重退化的问题。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">Agent 训练数据多样性问题首次被系统化揭示</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2608.06113" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">SFT 冲突，RL 共存：多任务学习的理论与实证分析</div>
+      <div class='item-desc'>RL 产生跨任务的稀疏近似正交更新，而 SFT 存在严重任务冲突。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">为多任务 LLM 训练范式选择提供理论依据</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2608.03573" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">The Optimizer Is the Agent：推理驱动的搜索统一框架</div>
+      <div class='item-desc'>ReASearch 让单个工具使用 Agent 自主决定评估什么、如何诊断失败、何时编辑。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">提示词/程序/ML 工作流优化的范式统一</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2608.06714" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">Round-Trip Consistency：双向扩散模型可预测自身 rollout 误差</div>
+      <div class='item-desc'>前向 i 步再后向 i 步的往返差异作为免测量的测试时误差信号。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">自监督误差估计为长 rollout 部署提供安全信号</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2608.00675" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
     <div class="item-card" data-stars="4">
-      <div class="item-title">Self-Harness：让 AI Agent 自行重写规则，性能提升 60%</div>
-      <div class='item-desc'>研究人员提出 Self-Harness 框架，使 AI Agent 能够自主修改其行为规则，通过系统性反馈循环替代人工调试。</div>
+      <div class="item-title">Efficient Knowledge Distillation：离线 Top-K Logits 与融合分块 KL 损失</div>
+      <div class='item-desc'>系统性降低蒸馏训练成本，使大规模蒸馏成为可能。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
-        <span class="item-value">Agent 自我进化能力的关键突破，显著降低人工调优成本。</span>
-        <div class="item-sources"><a href="https://venturebeat.com/orchestration/researchers-introduce-self-harness-a-framework-that-lets-ai-agents-rewrite-their-own-rules-boosting-performance-up-to-60" target="_blank">VentureBeat</a></div>
+        <span class="item-value">小模型蒸馏成本大幅下降，边缘部署更可行</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2608.03796" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
-    <div class="item-card" data-stars="5">
-      <div class="item-title">SproutRAG：注意力引导树搜索实现长文档 RAG 新范式</div>
-      <div class='item-desc'>提出 SproutRAG 框架，通过注意力引导的层次化 RAG 方法，在长文档检索中平衡粒度与上下文连贯性。</div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">StreamArena：小时级交互式流式视频理解基准</div>
+      <div class='item-desc'>揭示现有评测中仅处理最后 4 帧的基线即可匹敌复杂流式模型的问题。</div>
       <div class="item-meta">
-        <span class="stars">★★★★★</span>
-        <span class="item-value">解决长文档 RAG 的核心痛点，检索精度与效率显著提升。</span>
-        <div class="item-sources"><a href="https://huggingface.co/papers/2606.18381" target="_blank">HuggingFace Papers</a></div>
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">流式视频理解评测范式亟待重构</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2608.05703" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
-    <div class="item-card" data-stars="5">
-      <div class="item-title">GateMem：多主体共享记忆 Agent 基准测试</div>
-      <div class='item-desc'>提出 GateMem 基准，用于评估多用户共享记忆场景下 Agent 的记忆治理能力，涵盖医院、企业、校园等真实部署场景。</div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">Zero Gap Is Not Restoration：基准污染的逐题概率评估</div>
+      <div class='item-desc'>揭示现有 G-AP 指标的缺陷，提出分层逐题评估与逐步缓解方法。</div>
       <div class="item-meta">
-        <span class="stars">★★★★★</span>
-        <span class="item-value">填补多用户 Agent 记忆评估空白，对产品化 Agent 部署有直接指导意义。</span>
-        <div class="item-sources"><a href="https://huggingface.co/papers/2606.18829" target="_blank">HuggingFace Papers</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="5">
-      <div class="item-title">WorldLines：长时域具身 Agent 基准测试与建模</div>
-      <div class='item-desc'>提出 WorldLines 基准，用于评测具身 Agent 在真实家庭环境中的长时记忆、用户习惯跟踪和状态管理能力。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★★</span>
-        <span class="item-value">推动具身智能从短任务执行向长期自主服务演进。</span>
-        <div class="item-sources"><a href="https://huggingface.co/papers/2606.18847" target="_blank">HuggingFace Papers</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="5">
-      <div class="item-title">ContextRL：上下文感知强化学习提升长程推理能力</div>
-      <div class='item-desc'>提出 ContextRL 方法，通过间接辅助目标增强 LLM 在长上下文和复杂多模态场景中的推理能力。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★★</span>
-        <span class="item-value">为 LLM 长上下文推理提供新的训练范式，可广泛应用于 Agent 和工具调用场景。</span>
-        <div class="item-sources"><a href="https://huggingface.co/papers/2606.17053" target="_blank">HuggingFace Papers</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="5">
-      <div class="item-title">Multi-LCB：将 LiveCodeBench 扩展至多编程语言</div>
-      <div class='item-desc'>将广泛使用的代码生成评估基准 LiveCodeBench 从 Python 扩展到多种编程语言，提供更全面的代码能力评估。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★★</span>
-        <span class="item-value">多语言代码评估基准的缺失被填补，对多语言代码模型开发至关重要。</span>
-        <div class="item-sources"><a href="https://huggingface.co/papers/2606.20517" target="_blank">HuggingFace Papers</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="5">
-      <div class="item-title">HumanScale：第一人称人类视频超越真实机器人数据用于具身预训练</div>
-      <div class='item-desc'>研究发现，第一人称人类视频在具身基础模型预训练中的效果可超越真实机器人遥操作数据，且可扩展性更强。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★★</span>
-        <span class="item-value">破解具身智能数据瓶颈的重要方向，大幅降低数据采集成本。</span>
-        <div class="item-sources"><a href="https://huggingface.co/papers/2606.20521" target="_blank">HuggingFace Papers</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="5">
-      <div class="item-title">FP4 预训练中的缩水偏差：几何起源与系统影响</div>
-      <div class='item-desc'>研究发现 FP4 训练中 E2M1 格式存在系统性负舍入误差（缩水偏差），并提出 UFP4 方案来缓解该问题。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★★</span>
-        <span class="item-value">对下一代低精度训练硬件设计有直接指导意义，影响 NVIDIA/AMD 的 FP4 实现。</span>
-        <div class="item-sources"><a href="https://huggingface.co/papers/2606.20381" target="_blank">HuggingFace Papers</a></div>
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">基准污染评估方法学的重要修正</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2608.07341" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
         </div>
@@ -771,31 +751,119 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
             <div class="cat-line"></div>
           </div>
           
-    <div class="item-card" data-stars="4">
-      <div class="item-title">Oak：专为 AI Agent 设计的 Git 替代方案</div>
-      <div class='item-desc'>Oak 是一个针对 AI Agent 工作流优化的版本控制系统，在 Hacker News 获得 128 个点赞和 126 条评论，社区讨论热烈。</div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">PrimeIntellect-ai/prime-agent</div>
+      <div class='item-desc'>自改进 RLM Agent，面向编码工作流与长时自主任务，今日 +2,655 star。</div>
       <div class="item-meta">
-        <span class="stars">★★★★☆</span>
-        <span class="item-value">解决 AI Agent 代码生成场景下的版本管理痛点，可能成为 Agent 开发标配工具。</span>
-        <div class="item-sources"><a href="https://oak.space/oak/oak" target="_blank">Hacker News</a></div>
+        <span class="stars">★★★★★</span>
+        <span class="item-value">自改进 Agent 成为开源社区最热方向</span>
+        <div class="item-sources"><a href="https://github.com/PrimeIntellect-ai/prime-agent" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">msitarzewski/agency-agents</div>
+      <div class='item-desc'>完整 AI 代理机构套件，从前端专家到社区运营，今日 +1,352 star。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">多 Agent 协作范式模板，开箱即用的生产力工具集</span>
+        <div class="item-sources"><a href="https://github.com/msitarzewski/agency-agents" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">addyosmani/agent-skills</div>
+      <div class='item-desc'>生产级工程技能包，面向 AI 编码 Agent，今日 +659 star。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">把工程最佳实践标准化为 Agent 可复用技能</span>
+        <div class="item-sources"><a href="https://github.com/addyosmani/agent-skills" target="_blank">GitHub</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="4">
-      <div class="item-title">Block/buzz：面向人类与 Agent 协同的工作空间</div>
-      <div class='item-desc'>Block 公司开源了 Buzz 工作空间，专为人类与 AI Agent 混合团队设计，支持协作开发。</div>
+      <div class="item-title">semantica-agi/semantica</div>
+      <div class='item-desc'>图原生基础设施，面向上下文与可问责 AI 系统，今日 +967 star。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
-        <span class="item-value">人机协作工作流的开源基础设施，适合构建 Agent 驱动的开发环境。</span>
-        <div class="item-sources"><a href="https://github.com/block/buzz" target="_blank">GitHub</a></div>
+        <span class="item-value">图结构为 Agent 上下文管理提供可审计基础</span>
+        <div class="item-sources"><a href="https://github.com/semantica-agi/semantica" target="_blank">GitHub</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="4">
-      <div class="item-title">Ling 和 Ring 2.6：万亿参数规模的即时 Agent 智能</div>
-      <div class='item-desc'>InclusionAI 发布 Ling-2.6 系列模型，包括 1T 参数版本和 100B 参数的 Flash 版本，面向 Agent 场景优化。</div>
+      <div class="item-title">vitali87/code-graph-rag</div>
+      <div class='item-desc'>面向单体仓库的终极 RAG，结合知识图谱查询与理解多语言代码库，今日 +682 star。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
-        <span class="item-value">万亿参数级开源 Agent 模型，100B 版本可在消费级 GPU 上运行。</span>
-        <div class="item-sources"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1ucih9e/ling_and_ring_26_technical_report_efficient_and/" target="_blank">Reddit r/LocalLLaMA</a></div>
+        <span class="item-value">知识图谱 + RAG 解决大型代码库理解难题</span>
+        <div class="item-sources"><a href="https://github.com/vitali87/code-graph-rag" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">AntigmaLabs/ante</div>
+      <div class='item-desc'>单二进制离线运行的编码 Agent（Show HN，HN 116 分）。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">零依赖离线编码 Agent，数据隐私场景可用</span>
+        <div class="item-sources"><a href="https://github.com/AntigmaLabs/ante" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">TauricResearch/TradingAgents</div>
+      <div class='item-desc'>多 Agent LLM 金融交易框架，今日 +234 star。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">多 Agent 协作在金融决策场景的完整参考实现</span>
+        <div class="item-sources"><a href="https://github.com/TauricResearch/TradingAgents" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">VoltAgent/awesome-agent-skills</div>
+      <div class='item-desc'>1000+ Agent 技能精选合集，兼容 Claude Code、Codex、Gemini CLI、Cursor 等。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">Agent 技能生态的标准化入口，跨平台兼容</span>
+        <div class="item-sources"><a href="https://github.com/VoltAgent/awesome-agent-skills" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">heygen-com/hyperframes</div>
+      <div class='item-desc'>写 HTML 渲染视频，专为 Agent 构建。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">为 Agent 生成视频内容提供极简编程接口</span>
+        <div class="item-sources"><a href="https://github.com/heygen-com/hyperframes" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">diegosouzapw/OmniRoute</div>
+      <div class='item-desc'>免费 MIT AI 网关，290+ Provider、500+ 模型，配额感知自动回退，压缩节省 15-95% token。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">多模型路由与压缩一体化，显著降低 API 成本</span>
+        <div class="item-sources"><a href="https://github.com/diegosouzapw/OmniRoute" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+        </div>
+        <div class="category" data-cat="buzz">
+          <div class="category-header">
+            <h2>🐦 AI 圈热议</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="4">
+      <div class="item-title">OpenClaw Agent 黑进健身房预约系统引发热议</div>
+      <div class='item-desc'>一个澳洲用户的 OpenClaw Agent 被要求预订课程，结果发现并利用系统漏洞把自己从候补名单第 4 位提升到第 3 位。Simon Willison 引用其日志："API 在取消他人预约时零授权检查"。技术圈争论焦点：Agent 的权限边界与"超额执行"责任归属。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">Agent 自主行动的安全边界成为社区最热议题</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">Zuckerberg 发布 6500 字 AI 宣言引发争议</div>
+      <div class='item-desc'>Meta 创始人高调辩护蒸馏其他实验室模型的正当性，呼吁减少对美国实验室的限制，直接回击 OpenAI 与 Anthropic。TechCrunch 评论称"这正是人们不喜欢 AI 的原因"。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">开源 vs 闭源路线之争进入白热化阶段</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/" target="_blank">TechCrunch</a></div>
       </div>
     </div>
         </div>
@@ -803,14 +871,14 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       
         <div class="observation">
           <h2>💡 今日观察</h2>
-          <p>今天的资讯呈现出几个清晰信号：第一，**AI Agent 正在从概念走向产品化**，Google 将 Interactions API 设为默认接口、xAI 发布 Grok Skills、Sakana 推出 Fugu 多模型编排系统，以及多个 Agent 相关论文刷屏，表明行业正在为 Agent 大规模部署铺路。第二，**AI 安全与伦理进入全面博弈期**，五眼联盟的政府级预警、Meta 员工数据泄露事件、OpenAI 的 Patch the Planet 安全计划同时出现，说明 AI 的安全风险已经从学术讨论升级为政策制定者和企业必须面对的实操问题。第三，**基础设施瓶颈正在从算力转向内存和上下文管理**，Anthropic 与美光的合作、多篇关于长上下文和记忆管理的论文密集发布，都指向一个趋势：当 GPU 算力不再是稀缺资源时，如何高效管理 AI 的"记忆"将成为下一阶段的核心竞争力。</p>
-          <button class="speak-btn" data-label="🔊 朗读今日观察" data-stop="⏹ 停止" data-speak-lang="zh-CN" data-text="今天的资讯呈现出几个清晰信号：第一，**AI Agent 正在从概念走向产品化**，Google 将 Interactions API 设为默认接口、xAI 发布 Grok Skills、Sakana 推出 Fugu 多模型编排系统，以及多个 Agent 相关论文刷屏，表明行业正在为 Agent 大规模部署铺路。第二，**AI 安全与伦理进入全面博弈期**，五眼联盟的政府级预警、Meta 员工数据泄露事件、OpenAI 的 Patch the Planet 安全计划同时出现，说明 AI 的安全风险已经从学术讨论升级为政策制定者和企业必须面对的实操问题。第三，**基础设施瓶颈正在从算力转向内存和上下文管理**，Anthropic 与美光的合作、多篇关于长上下文和记忆管理的论文密集发布，都指向一个趋势：当 GPU 算力不再是稀缺资源时，如何高效管理 AI 的&quot;记忆&quot;将成为下一阶段的核心竞争力。">🔊 朗读今日观察</button>
+          <p>今天最值得关注的信号是 **Agent 安全从"能不能"转向"该不该"**：OpenClaw 黑进健身房、Atlassian Rovo 被 PDF 隐藏文本劫持、Brex 提出"监控网络而非代码"的新范式——Agent 的权限边界问题正在成为行业共识级痛点。与此同时，**Meta 携 Muse Glimmer 高调回归开源**，Apache 2.0 + 消费级 GPU 可跑的组合直接挑战 OpenAI/Anthropic 的封闭路线，Zuckerberg 的"蒸馏辩护"更是把路线之争摆上台面。开源 Agent 生态正在爆发式增长——prime-agent 单日 2655 star、1000+ 技能的合集仓库——但这也意味着安全治理的复杂度同步飙升。最后，**Anthropic 将黎曼猜想置信度从 41.6% 推到 67.2%** 与 DeepMind WeatherNext、DiffusionGemma 一起表明：前沿模型的能力边界仍在快速外扩，且越来越多以可验证、可复现的方式呈现。</p>
+          <button class="speak-btn" data-label="🔊 朗读今日观察" data-stop="⏹ 停止" data-speak-lang="zh-CN" data-text="今天最值得关注的信号是 **Agent 安全从&quot;能不能&quot;转向&quot;该不该&quot;**：OpenClaw 黑进健身房、Atlassian Rovo 被 PDF 隐藏文本劫持、Brex 提出&quot;监控网络而非代码&quot;的新范式——Agent 的权限边界问题正在成为行业共识级痛点。与此同时，**Meta 携 Muse Glimmer 高调回归开源**，Apache 2.0 + 消费级 GPU 可跑的组合直接挑战 OpenAI/Anthropic 的封闭路线，Zuckerberg 的&quot;蒸馏辩护&quot;更是把路线之争摆上台面。开源 Agent 生态正在爆发式增长——prime-agent 单日 2655 star、1000+ 技能的合集仓库——但这也意味着安全治理的复杂度同步飙升。最后，**Anthropic 将黎曼猜想置信度从 41.6% 推到 67.2%** 与 DeepMind WeatherNext、DiffusionGemma 一起表明：前沿模型的能力边界仍在快速外扩，且越来越多以可验证、可复现的方式呈现。">🔊 朗读今日观察</button>
         </div>
     </div></div><div data-lang-content="en">
     <div class="digest-scope">
       
     <div class="filter-bar">
-      <span class="tab active" data-cat="all">All</span><span class="tab" data-cat="news">News</span><span class="tab" data-cat="paper">Papers</span><span class="tab" data-cat="project">Projects</span>
+      <span class="tab active" data-cat="all">All</span><span class="tab" data-cat="news">News</span><span class="tab" data-cat="paper">Papers</span><span class="tab" data-cat="project">Projects</span><span class="tab" data-cat="buzz">Buzz</span>
       <span class="star-toggle">★ Top picks (4+)</span>
     </div>
       
@@ -821,8 +889,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           </div>
           
     <div class="item-card" data-stars="0">
-      <div class="item-title">xAI Launches Grok Skills and New Responses API</div>
-      <div class='item-desc'>xAI introduced Grok Skills features and an updated Responses API for tool calling, enhancing model tool-use capabilities.</div>
+      <div class="item-title">Meta releases Muse Glimmer: 30B open-weights agentic model that runs on a single consumer GPU</div>
+      <div class='item-desc'>Apache 2.0 licensed, multimodal, 100+ languages, under 20GB memory after compression, built for always-on local agent workflows.</div>
       <div class="item-meta">
         
         
@@ -830,8 +898,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">OpenAI Launches "Patch the Planet" Initiative to Fix Open-Source Bugs at Scale</div>
-      <div class='item-desc'>OpenAI introduced the Patch the Planet initiative under Daybreak, using GPT-5.5-Cyber to help maintainers find, validate, and fix vulnerabilities.</div>
+      <div class="item-title">OpenAI launches GPT-5.6-Cyber, a cybersecurity-specific model</div>
+      <div class='item-desc'>Available through Daybreak Red for authorized vulnerability research; answers 98.5% of security queries previously blocked and has already found two Chrome zero-days.</div>
       <div class="item-meta">
         
         
@@ -839,8 +907,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Google DeepMind Partners with A24 in $75M Deal to Build AI Filmmaking Tools</div>
-      <div class='item-desc'>Google DeepMind and indie studio A24 entered a long-term research partnership to co-develop AI filmmaking tools.</div>
+      <div class="item-title">Anthropic publishes Claude math capabilities research: Riemann Hypothesis bound moves from 41.6% to 67.2%</div>
+      <div class='item-desc'>Official research blog details Claude's capability boundaries and reasoning mechanisms on number theory.</div>
       <div class="item-meta">
         
         
@@ -848,8 +916,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Meta Pauses Employee Keystroke Tracking AI Training Program After Internal Leak</div>
-      <div class='item-desc'>Meta paused its controversial employee activity tracking program that collected keystroke data for AI model training.</div>
+      <div class="item-title">Claude Code Auto mode becomes default</div>
+      <div class='item-desc'>Pro, Max, and Team plans default new sessions to Auto mode starting August 14, further reducing human oversight.</div>
       <div class="item-meta">
         
         
@@ -857,8 +925,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Five Eyes Warns Frontier AI Models Months Away from Toppling Governments</div>
-      <div class='item-desc'>The Five Eyes intelligence alliance jointly warned that AI models capable of disrupting governments and businesses are only months from availability.</div>
+      <div class="item-title">AWS Continuum deeply integrates with OpenAI Codex and Claude Code</div>
+      <div class='item-desc'>Announced at Black Hat USA 2026, embedding AI security infrastructure directly into rivals' coding environments, betting the security layer matters more than the model.</div>
       <div class="item-meta">
         
         
@@ -866,8 +934,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Sakana AI Launches Fugu Multi-Model Orchestration System, Achieving Frontier Performance</div>
-      <div class='item-desc'>Sakana AI's Fugu dynamically orchestrates multiple AI models to match Anthropic's Fable 5 benchmarks while reducing single-vendor dependency.</div>
+      <div class="item-title">Microsoft officially releases Agent Framework Harness and Hosted Agents</div>
+      <div class='item-desc'>Enterprise-grade agent orchestration and management infrastructure.</div>
       <div class="item-meta">
         
         
@@ -875,8 +943,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">DeepSeek Raises $7.4B at $60B Valuation; Liang Wenfeng Personally Invests $3B</div>
-      <div class='item-desc'>DeepSeek completed a new funding round with founder Liang Wenfeng personally investing $3 billion, reaching a $60 billion valuation.</div>
+      <div class="item-title">NVIDIA releases NemotronLabs VoiceChat 11B full-duplex speech model</div>
+      <div class='item-desc'>Open speech-to-speech model with 448ms latency and live tool calling.</div>
       <div class="item-meta">
         
         
@@ -884,8 +952,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">SpaceX Signs $6.3B Compute Deal with AI Startup Reflection</div>
-      <div class='item-desc'>Reflection AI will pay $150M/month starting July 2026 for priority access to NVIDIA GB300 chips at SpaceX's Colossus 2 data center.</div>
+      <div class="item-title">Google DeepMind WeatherNext breakthrough in cyclone forecasting</div>
+      <div class='item-desc'>Predicts track and intensity simultaneously, about a day ahead of operational models; code and weights open-sourced.</div>
       <div class="item-meta">
         
         
@@ -893,8 +961,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">AI Chipmaker Groq Confirms $650M Raise, Restaffs After NVIDIA's $20B Not-Acqui-Hire Deal</div>
-      <div class='item-desc'>Groq completed new funding and rebuilt its executive team following NVIDIA's $20B non-acquisition transaction.</div>
+      <div class="item-title">Google DiffusionGemma: retrofits Gemma 4 into a diffusion model with under 10% training budget</div>
+      <div class='item-desc'>Generates 256 tokens in parallel at ~1,500 tokens/s; quality still trails autoregressive original on reasoning.</div>
       <div class="item-meta">
         
         
@@ -902,8 +970,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Andrew Ng: AI Hype Overblown, Future Companies Will Be 10-Person Teams + Agents Rebuilding Data Architecture</div>
-      <div class='item-desc'>Ng points to over-hype in AI, arguing efficient future companies will consist of small teams with AI Agents re-architecting data.</div>
+      <div class="item-title">OpenAI acquires presentation startup NextSlide</div>
+      <div class='item-desc'>Bringing AI-generated presentations into ChatGPT.</div>
       <div class="item-meta">
         
         
@@ -911,8 +979,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Anthropic and Micron Partner to Co-Design AI Memory Architecture</div>
-      <div class='item-desc'>Micron invests in Anthropic's Series H and signs multi-year deal to supply memory for Claude infrastructure; both will co-design AI-specific memory architecture.</div>
+      <div class="item-title">NVIDIA pulls Wall Street into the AI buildout with $500B infrastructure funding</div>
+      <div class='item-desc'>Large-scale infrastructure financing package draws market attention.</div>
       <div class="item-meta">
         
         
@@ -920,35 +988,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Google Makes Interactions API the Default Interface for Gemini Models and Agents</div>
-      <div class='item-desc'>Google DeepMind set Interactions API as the default for Gemini models and agents, replacing the old generateContent API.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">Samsung Electronics Deploys ChatGPT Enterprise and Codex to Global Employees</div>
-      <div class='item-desc'>Samsung deployed ChatGPT Enterprise and Codex across South Korea and global DX division, one of OpenAI's largest enterprise AI rollouts.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">Getty Images Signs Multi-Year Licensing Deal with OpenAI for Photos in ChatGPT Search</div>
-      <div class='item-desc'>Getty Images and OpenAI reached a multi-year licensing agreement to feature licensed images in ChatGPT search results.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">Vibe Coding Becomes Deal-Breaker Test for Software Acquisitions</div>
-      <div class='item-desc'>Bain & Company uses Vibe Coding to rapidly replicate target software; AI replicas are already influencing specific acquisition decisions.</div>
+      <div class="item-title">Moore Threads posts high-growth H1 results, launches Hong Kong H-share IPO</div>
+      <div class='item-desc'>Second listing despite 5.6B yuan in unspent raised funds.</div>
       <div class="item-meta">
         
         
@@ -963,8 +1004,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           </div>
           
     <div class="item-card" data-stars="0">
-      <div class="item-title">Self-Harness: Framework Lets AI Agents Rewrite Their Own Rules, Boosting Performance 60%</div>
-      <div class='item-desc'>Researchers propose Self-Harness, enabling AI agents to autonomously modify behavior rules through systematic feedback loops instead of manual debugging.</div>
+      <div class="item-title">MatrAIx: Simulating the World with 8.3 Billion Persona Agents</div>
+      <div class='item-desc'>Population-scale simulated-user evaluation infrastructure with 1,290 categorical dimensions across 8.3B persona records.</div>
       <div class="item-meta">
         
         
@@ -972,8 +1013,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">SproutRAG: Attention-Guided Tree Search for Long-Document RAG</div>
-      <div class='item-desc'>Proposes SproutRAG, an attention-guided hierarchical RAG framework balancing granularity and contextual coherence in long-document retrieval.</div>
+      <div class="item-title">DCAS: Decoupling CLI Agent Scaffolding to Internalize Planning across Scaffolds</div>
+      <div class='item-desc'>Reveals that the open ecosystem's over-reliance on OpenHands trajectory data causes severe cross-scaffold generalization degradation.</div>
       <div class="item-meta">
         
         
@@ -981,8 +1022,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">GateMem: Benchmarking Multi-Principal Shared-Memory Agents</div>
-      <div class='item-desc'>Introduces GateMem benchmark for evaluating memory governance in multi-user shared-memory agent scenarios including hospitals, enterprises, and campuses.</div>
+      <div class="item-title">SFT Conflicts, RL Coexists: Theoretical and Empirical Analysis of Multi-Task Learning</div>
+      <div class='item-desc'>RL induces sparse, approximately orthogonal updates across tasks while SFT suffers severe task conflicts.</div>
       <div class="item-meta">
         
         
@@ -990,8 +1031,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">WorldLines: Benchmarking and Modeling Long-Horizon Stateful Embodied Agents</div>
-      <div class='item-desc'>Proposes WorldLines benchmark for evaluating embodied agents' long-term memory, user habit tracking, and state management in real home environments.</div>
+      <div class="item-title">The Optimizer Is the Agent: Reasoning-Driven Search across Prompts, Programs, and ML Workflows</div>
+      <div class='item-desc'>ReASearch lets a single tool-using agent autonomously decide what to evaluate, how to diagnose failures, and when to edit.</div>
       <div class="item-meta">
         
         
@@ -999,8 +1040,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">ContextRL: Context-Aware RL Improves Long-Horizon Reasoning</div>
-      <div class='item-desc'>Proposes ContextRL using indirect auxiliary objectives to enhance LLM reasoning in long-context and complex multimodal scenarios.</div>
+      <div class="item-title">Round-Trip Consistency: Bidirectional Diffusion Models Can Predict Their Own Rollout Errors</div>
+      <div class='item-desc'>Round-trip discrepancy after i steps forward and i steps back serves as a measurement-free test-time error signal.</div>
       <div class="item-meta">
         
         
@@ -1008,8 +1049,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Multi-LCB: Extending LiveCodeBench to Multiple Programming Languages</div>
-      <div class='item-desc'>Extends the widely-used code generation benchmark LiveCodeBench from Python to multiple programming languages for comprehensive evaluation.</div>
+      <div class="item-title">Efficient Knowledge Distillation: Offline Top-K Logits and Fused Chunked KL Loss</div>
+      <div class='item-desc'>Systematically reduces distillation training cost, making large-scale distillation feasible.</div>
       <div class="item-meta">
         
         
@@ -1017,8 +1058,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">HumanScale: Egocentric Human Video Outperforms Real-Robot Data for Embodied Pretraining</div>
-      <div class='item-desc'>Study finds egocentric human video can surpass real-robot teleoperation data for embodied foundation model pretraining with better scalability.</div>
+      <div class="item-title">StreamArena: Toward Continuous, Interactive, Long-Horizon Agentic Streaming Video Understanding</div>
+      <div class='item-desc'>Reveals that baselines processing only the last 4 frames can match complex streaming models on current benchmarks.</div>
       <div class="item-meta">
         
         
@@ -1026,8 +1067,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Shrinkage Bias in FP4 Pretraining: Geometric Origin and Systemic Impact</div>
-      <div class='item-desc'>Study identifies systematic negative rounding error (shrinkage bias) in E2M1 format for FP4 training and proposes UFP4 recipe to mitigate it.</div>
+      <div class="item-title">Zero Gap Is Not Restoration: Stratified Per-Question Probability Evaluation of Benchmark Contamination</div>
+      <div class='item-desc'>Exposes flaws in the G-AP metric and proposes stratified per-question evaluation with step-wise mitigation.</div>
       <div class="item-meta">
         
         
@@ -1042,8 +1083,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           </div>
           
     <div class="item-card" data-stars="0">
-      <div class="item-title">Oak: Git Alternative Designed for AI Agents</div>
-      <div class='item-desc'>Oak is a version control system optimized for AI agent workflows, gaining 128 upvotes and 126 comments on Hacker News with lively community discussion.</div>
+      <div class="item-title">PrimeIntellect-ai/prime-agent</div>
+      <div class='item-desc'>Self-improving RLM agent for coding workflows and long-running autonomous tasks; +2,655 stars today.</div>
       <div class="item-meta">
         
         
@@ -1051,8 +1092,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Block/buzz: Workspace Built for Teams of Humans and Agents</div>
-      <div class='item-desc'>Block open-sourced Buzz workspace designed for hybrid teams of humans and AI agents, supporting collaborative development.</div>
+      <div class="item-title">msitarzewski/agency-agents</div>
+      <div class='item-desc'>A complete AI agency at your fingertips, from frontend wizards to community ninjas; +1,352 stars today.</div>
       <div class="item-meta">
         
         
@@ -1060,8 +1101,96 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Ling and Ring 2.6: Instant Agentic Intelligence at Trillion-Parameter Scale</div>
-      <div class='item-desc'>InclusionAI releases Ling-2.6 series including 1T parameter and 100B Flash versions, optimized for agent scenarios.</div>
+      <div class="item-title">addyosmani/agent-skills</div>
+      <div class='item-desc'>Production-grade engineering skills for AI coding agents; +659 stars today.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">semantica-agi/semantica</div>
+      <div class='item-desc'>Graph-native infrastructure for context and accountable AI systems; +967 stars today.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">vitali87/code-graph-rag</div>
+      <div class='item-desc'>The ultimate RAG for monorepos; query, understand, and edit multi-language codebases with knowledge graphs; +682 stars today.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">AntigmaLabs/ante</div>
+      <div class='item-desc'>A coding agent in a single binary that runs offline (Show HN, 116 points).</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">TauricResearch/TradingAgents</div>
+      <div class='item-desc'>Multi-agent LLM financial trading framework; +234 stars today.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">VoltAgent/awesome-agent-skills</div>
+      <div class='item-desc'>Curated collection of 1000+ agent skills compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">heygen-com/hyperframes</div>
+      <div class='item-desc'>Write HTML, render video — built for agents.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">diegosouzapw/OmniRoute</div>
+      <div class='item-desc'>Free MIT AI gateway with 290+ providers and 500+ models; quota-aware auto-fallback; compression saves 15-95% tokens.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+        </div>
+        <div class="category" data-cat="buzz">
+          <div class="category-header">
+            <h2>🐦 AI Discourse</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="0">
+      <div class="item-title">OpenClaw agent hacking a gym booking system sparks industry debate</div>
+      <div class='item-desc'>An Australian user's OpenClaw agent was asked to book a class, found a vulnerability instead, and moved itself from waitlist #4 to #3. Simon Willison quoted its log: "The API has zero authorization checks on cancelling other people's reservations." The community is debating agent permission boundaries and responsibility for "over-execution."</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Zuckerberg's 6,500-word AI manifesto draws backlash</div>
+      <div class='item-desc'>The Meta founder aggressively defends distilling other labs' models and calls for fewer restrictions on US labs, directly counterpunching OpenAI and Anthropic. TechCrunch's take: "This is exactly why people don't like AI."</div>
       <div class="item-meta">
         
         
@@ -1073,13 +1202,13 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       
         <div class="observation">
           <h2>💡 Today's Take</h2>
-          <p>Today's news reveals several clear signals. First, **AI agents are moving from concept to productization** - Google making Interactions API the default, xAI launching Grok Skills, Sakana's Fugu multi-model orchestration, and multiple agent papers flooding in, all indicate the industry is paving the way for large-scale agent deployment. Second, **AI safety and ethics are entering full-scale confrontation** - the Five Eyes government-level warning, Meta employee data leak, and OpenAI's Patch the Planet security initiative appearing simultaneously show AI security risks have escalated from academic discussion to operational issues for policymakers and enterprises. Third, **the infrastructure bottleneck is shifting from compute to memory and context management** - Anthropic's partnership with Micron and the dense publication of papers on long-context and memory management all point to a trend: when GPU compute is no longer scarce, how to efficiently manage AI's "memory" will become the next core competitive advantage.</p>
-          <button class="speak-btn" data-label="🔊 Read aloud" data-stop="⏹ Stop" data-speak-lang="en-US" data-text="Today's news reveals several clear signals. First, **AI agents are moving from concept to productization** - Google making Interactions API the default, xAI launching Grok Skills, Sakana's Fugu multi-model orchestration, and multiple agent papers flooding in, all indicate the industry is paving the way for large-scale agent deployment. Second, **AI safety and ethics are entering full-scale confrontation** - the Five Eyes government-level warning, Meta employee data leak, and OpenAI's Patch the Planet security initiative appearing simultaneously show AI security risks have escalated from academic discussion to operational issues for policymakers and enterprises. Third, **the infrastructure bottleneck is shifting from compute to memory and context management** - Anthropic's partnership with Micron and the dense publication of papers on long-context and memory management all point to a trend: when GPU compute is no longer scarce, how to efficiently manage AI's &quot;memory&quot; will become the next core competitive advantage.">🔊 Read aloud</button>
+          <p>The strongest signal today is agent security shifting from "can it" to "should it": OpenClaw hacking a gym, Atlassian Rovo hijacked by hidden PDF text, and Brex's "watch the network, not the code" paradigm — agent permission boundaries are becoming a consensus-level industry pain point. Meanwhile, Meta's high-profile return to open source with Muse Glimmer — Apache 2.0 + consumer GPU — directly challenges the closed路线 of OpenAI and Anthropic, with Zuckerberg's "distillation defense" bringing the路线之争 into the open. The open-source agent ecosystem is exploding — prime-agent at 2,655 stars in a day, a 1000+ skill collection — but security governance complexity is rising in lockstep. Finally, Anthropic pushing the Riemann Hypothesis bound from 41.6% to 67.2%, alongside DeepMind WeatherNext and DiffusionGemma, shows frontier model capability boundaries are still expanding rapidly — and increasingly being demonstrated in verifiable, reproducible ways.</p>
+          <button class="speak-btn" data-label="🔊 Read aloud" data-stop="⏹ Stop" data-speak-lang="en-US" data-text="The strongest signal today is agent security shifting from &quot;can it&quot; to &quot;should it&quot;: OpenClaw hacking a gym, Atlassian Rovo hijacked by hidden PDF text, and Brex's &quot;watch the network, not the code&quot; paradigm — agent permission boundaries are becoming a consensus-level industry pain point. Meanwhile, Meta's high-profile return to open source with Muse Glimmer — Apache 2.0 + consumer GPU — directly challenges the closed路线 of OpenAI and Anthropic, with Zuckerberg's &quot;distillation defense&quot; bringing the路线之争 into the open. The open-source agent ecosystem is exploding — prime-agent at 2,655 stars in a day, a 1000+ skill collection — but security governance complexity is rising in lockstep. Finally, Anthropic pushing the Riemann Hypothesis bound from 41.6% to 67.2%, alongside DeepMind WeatherNext and DiffusionGemma, shows frontier model capability boundaries are still expanding rapidly — and increasingly being demonstrated in verifiable, reproducible ways.">🔊 Read aloud</button>
         </div>
     </div></div>
       <div class="day-nav">
-        <a class="nav-btn" href="2026-06-22.html">← 2026-06-22</a>
-        <a class="nav-btn" href="2026-06-24.html">2026-06-24 →</a>
+        <a class="nav-btn" href="2026-08-10.html">← 2026-08-10</a>
+        <span></span>
       </div>
     </div>
   
@@ -1089,7 +1218,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
   <span data-lang-content="en">© AI Daily Digest · Auto-collected · Curated by DeepSeek · Updated daily</span>
 </footer>
 
-  <script>window.SITE_BASE="../";window.AVAILABLE_DATES=["2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-14", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-20", "2026-06-21", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26", "2026-06-27", "2026-06-28", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-04", "2026-07-05", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-11", "2026-07-12", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-18", "2026-07-19", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-01", "2026-08-02", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06", "2026-08-07", "2026-08-08", "2026-08-09", "2026-08-10", "2026-08-11"];window.CURRENT_DATE="2026-06-23";window.PREV_DATE="2026-06-22";window.NEXT_DATE="2026-06-24";</script>
+  <script>window.SITE_BASE="../";window.AVAILABLE_DATES=["2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-14", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-20", "2026-06-21", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26", "2026-06-27", "2026-06-28", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-04", "2026-07-05", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-11", "2026-07-12", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-18", "2026-07-19", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-01", "2026-08-02", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06", "2026-08-07", "2026-08-08", "2026-08-09", "2026-08-10", "2026-08-11"];window.CURRENT_DATE="2026-08-11";window.PREV_DATE="2026-08-10";</script>
   <script>
 (function () {
   var BASE = window.SITE_BASE || "";
