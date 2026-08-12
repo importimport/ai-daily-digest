@@ -15,6 +15,39 @@
     <image><url>https://importimport.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://importimport.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-08-13 周四</title>
+      <description>早上好，今天是八月十三号，星期四。欢迎收听今天的AI行业播报。今天的内容相当密集，从模型发布到资本动向，再到安全争议，信息量很大，咱们一件一件说。
+先看最重磅的。SpaceXAI 发布了 Grok 4.6，在 Artificial Analysis 智能指数上拿到了六十一分，跟 OpenAI 最强的模型打平，但价格便宜了六成以上。更关键的是，在 Agent 任务上它平均只需要五十多步就能完成，而 Claude Opus 5 要一百多步，这个推理成本优势非常明显。可以说，Grok 4.6 用更低的成本做到了同样的事，这对闭源模型的定价体系是个不小的冲击。
+另一边，Meta 开源了 Muse Glimmer，一个三百亿参数的多模态 Agent 模型，Apache 2.0 协议，量化之后不到二十个G，可以在消费级硬件上本地跑。这是开源模型第一次在端侧 Agent 全任务基准上达到前沿水平，意义不小。Nvidia 也正式入场万亿参数赛道，正在开发 Nemotron 4，目标是对标全球最好的开源模型。不过说实话，中国实验室已经先达到这个规模了，Nvidia 这次算是追赶者。
+说到中国，面壁智能正式启动 IPO，中信证券辅导，端侧模型公司走向资本市场，这也标志着端侧 AI 的商业化获得了资本市场认可。
+再来看 OpenAI 这边的动态。创始元老 Brad Lightcap 离职了，他是特殊项目负责人，也是前 COO，在 OpenAI 待了八年，现在要自己创业。核心高管连续流失，组织稳定性确实让人关注。另外 OpenAI 开始在 ChatGPT 里测试广告，目的是支撑免费访问，承诺会明确标注、保持答案独立性、保护隐私。超级 AI 应用转向广告模式，这个动向值得留意。还有一件事，OpenAI 终于发布了 Linux 版的 ChatGPT 桌面应用，补齐了桌面端最后一块拼图，对开发者生态是个好消息。
+用户规模方面，ChatGPT 和 Gemini 双双突破十亿用户，Gemini 成了 Google 历史上增长最快的产品。AI 应用正式进入十亿用户时代，入口之争越来越白热化。
+不过 Google 内部似乎不太平静。有消息说布林紧急接管了 Gemini 团队，算力分配内耗严重，连 3.5 Pro 都被取消了。创始人亲自下场，说明问题不小。
+安全方面有几件事值得警惕。Anthropic 新水印系统引发了用户不满，有人担心水印会暴露他们在工作或学业中使用 AI 的行为。这个争议背后其实是内容溯源和用户隐私之间的张力。另外，有研究团队实现了对 LLM 推理轨迹的窃取攻击，Anthropic、OpenAI、Google 返回的加密 CoT 块可以被重放，弱模型甚至能被越狱去恢复强模型的隐藏推理。这对所有 CoT 加密方案都是个重大威胁。还有一项研究显示，逆向工程 LLM Prompt 已经能达到近乎完美的精度，专有 system prompt 面临严重泄露风险。
+政策层面，六大 AI 公司签署了欧盟的 AI 生成内容透明度准则，Anthropic、OpenAI、Google、Meta、Microsoft、Mistral 都参与了。这意味着 AI 内容水印将成为法定要求，开源模型也会受影响。
+开源项目方面，今天有几个值得关注的。Meta 的 Muse Glimmer 正式开源，可以在本地跑。Nvidia 开源了 Magpie TTS，低延迟多语言语音 Agent 构建方案，开放权重加完整部署控制。还有 cactus-compute 的 needle，一个只有十四兆的基础模型，面向手机、可穿戴、智能家居和机器人这些微型设备，端侧 AI 覆盖到了最末端的场景。另外 stablyai 的 orca 是面向并行 Agent 群的开发环境，支持桌面、移动和 VPS，今天涨了一千多 star。编码 Agent 的基础设施也在快速成型，herdr 提供运行时环境，paperclip 做企业级 Agent 管理，opencodex 则打破了 Codex 和 Claude Code 的模型锁定，可以灵活切换任意后端。
+最后说一句，今天社区里 Qwen 3.8 系列发布在即，2.4T 参数的版本已经出来了，27B 版本也快了，大家都在期待中国开源模型再次刷新上限。
+今日观察。今天的核心</description>
+      <itunes:summary>早上好，今天是八月十三号，星期四。欢迎收听今天的AI行业播报。今天的内容相当密集，从模型发布到资本动向，再到安全争议，信息量很大，咱们一件一件说。
+先看最重磅的。SpaceXAI 发布了 Grok 4.6，在 Artificial Analysis 智能指数上拿到了六十一分，跟 OpenAI 最强的模型打平，但价格便宜了六成以上。更关键的是，在 Agent 任务上它平均只需要五十多步就能完成，而 Claude Opus 5 要一百多步，这个推理成本优势非常明显。可以说，Grok 4.6 用更低的成本做到了同样的事，这对闭源模型的定价体系是个不小的冲击。
+另一边，Meta 开源了 Muse Glimmer，一个三百亿参数的多模态 Agent 模型，Apache 2.0 协议，量化之后不到二十个G，可以在消费级硬件上本地跑。这是开源模型第一次在端侧 Agent 全任务基准上达到前沿水平，意义不小。Nvidia 也正式入场万亿参数赛道，正在开发 Nemotron 4，目标是对标全球最好的开源模型。不过说实话，中国实验室已经先达到这个规模了，Nvidia 这次算是追赶者。
+说到中国，面壁智能正式启动 IPO，中信证券辅导，端侧模型公司走向资本市场，这也标志着端侧 AI 的商业化获得了资本市场认可。
+再来看 OpenAI 这边的动态。创始元老 Brad Lightcap 离职了，他是特殊项目负责人，也是前 COO，在 OpenAI 待了八年，现在要自己创业。核心高管连续流失，组织稳定性确实让人关注。另外 OpenAI 开始在 ChatGPT 里测试广告，目的是支撑免费访问，承诺会明确标注、保持答案独立性、保护隐私。超级 AI 应用转向广告模式，这个动向值得留意。还有一件事，OpenAI 终于发布了 Linux 版的 ChatGPT 桌面应用，补齐了桌面端最后一块拼图，对开发者生态是个好消息。
+用户规模方面，ChatGPT 和 Gemini 双双突破十亿用户，Gemini 成了 Google 历史上增长最快的产品。AI 应用正式进入十亿用户时代，入口之争越来越白热化。
+不过 Google 内部似乎不太平静。有消息说布林紧急接管了 Gemini 团队，算力分配内耗严重，连 3.5 Pro 都被取消了。创始人亲自下场，说明问题不小。
+安全方面有几件事值得警惕。Anthropic 新水印系统引发了用户不满，有人担心水印会暴露他们在工作或学业中使用 AI 的行为。这个争议背后其实是内容溯源和用户隐私之间的张力。另外，有研究团队实现了对 LLM 推理轨迹的窃取攻击，Anthropic、OpenAI、Google 返回的加密 CoT 块可以被重放，弱模型甚至能被越狱去恢复强模型的隐藏推理。这对所有 CoT 加密方案都是个重大威胁。还有一项研究显示，逆向工程 LLM Prompt 已经能达到近乎完美的精度，专有 system prompt 面临严重泄露风险。
+政策层面，六大 AI 公司签署了欧盟的 AI 生成内容透明度准则，Anthropic、OpenAI、Google、Meta、Microsoft、Mistral 都参与了。这意味着 AI 内容水印将成为法定要求，开源模型也会受影响。
+开源项目方面，今天有几个值得关注的。Meta 的 Muse Glimmer 正式开源，可以在本地跑。Nvidia 开源了 Magpie TTS，低延迟多语言语音 Agent 构建方案，开放权重加完整部署控制。还有 cactus-compute 的 needle，一个只有十四兆的基础模型，面向手机、可穿戴、智能家居和机器人这些微型设备，端侧 AI 覆盖到了最末端的场景。另外 stablyai 的 orca 是面向并行 Agent 群的开发环境，支持桌面、移动和 VPS，今天涨了一千多 star。编码 Agent 的基础设施也在快速成型，herdr 提供运行时环境，paperclip 做企业级 Agent 管理，opencodex 则打破了 Codex 和 Claude Code 的模型锁定，可以灵活切换任意后端。
+最后说一句，今天社区里 Qwen 3.8 系列发布在即，2.4T 参数的版本已经出来了，27B 版本也快了，大家都在期待中国开源模型再次刷新上限。
+今日观察。今天的核心</itunes:summary>
+      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-08-13.mp3" length="2059488" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-08-13.mp3</guid>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>05:43</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-08-12 周三</title>
       <description>各位听众朋友，早上好！今天是2026年8月12号，星期三。欢迎收听今天的AI行业日报。今天的信息量非常大，从巨头们的战略动作到开源社区的热闹景象，再到几篇重磅论文，咱们一条一条慢慢聊。
 先来看行业里最重磅的几个消息。Anthropic宣布，从本月开始，所有Claude的输出都会嵌入隐形水印，旧模型也会追溯支持。这意味着以后基于Claude生成的内容，在传播链路上都有了“身份证”，合规和检测的成本肯定会上升。另一边，OpenAI也没闲着，发布了专门面向网络安全防御者的GPT-5.6-Cyber模型，在零日漏洞研究任务上完成率高达95%，据说已经挖出了Chrome的两个未知漏洞。安全攻防的节奏，肉眼可见地被AI拉快了。
@@ -415,33 +448,6 @@ Google 今天也有两个大新闻，一好一坏。坏的是，Google Earth 新
       <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-07-30.mp3</guid>
       <pubDate>Thu, 30 Jul 2026 08:00:00 +0800</pubDate>
       <itunes:duration>04:08</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-07-29 周三</title>
-      <description>各位听众朋友早上好，今天是2026年7月29号，欢迎收听今天的AI行业播报。今天的内容非常密集，核心看点有三个：一是AI智能体的企业级部署正在加速落地，二是AI安全治理从口号走向工程化，三是开源与闭源的路线之争继续升温。好，我们直接进入正题。
-先说智能体企业部署这条线。今天最重磅的消息是MCP协议迎来了有史以来最大的一次更新，由Linux基金会下属的Agentic AI Foundation管理，这次是架构级的重写，正式支持企业级生产部署。这意味着AI智能体和软件之间的连接标准走向成熟，企业可以直接拿来用了。紧接着，Snowflake发布了Cortex AI Gateway，专门用来集中管控AI智能体的访问，首批集成了1Password、SailPoint这些身份供应商。这两个消息放在一起看，智能体从实验室走向企业的通道正在被标准化和产品化。
-另一边，微软也发布了MAI-Cyber-1-Flash，一个137B总参数量、5B激活参数的稀疏MoE网络安全专用模型，在CyberGym基准上达到了95.95%的准确率，成本降低了50%。不过有意思的是，微软自己承认，最复杂的任务还是得依赖OpenAI。同时，Visa用Claude Mythos在自家支付网络里发现了一连串可被利用的漏洞，并且把测试工具开源了。这算是AI在真实金融基础设施安全审计中的里程碑应用。
-说到安全，今天有一个重要的联盟成立。Nvidia和微软牵头成立了开放AI安全联盟，创始成员包括SpaceX、IBM等，但注意，OpenAI、Google和Anthropic都缺席了。这个联盟的目标是构建开源AI安全工具来防御前沿模型攻击。AI安全阵营正在出现分化，开源安全工具链迎来了一股新力量。
-再来看模型和算力方面的消息。Nvidia向Ilya Sutskever的Safe Superintelligence投入了巨额资金，帮助它从Google TPU转向Nvidia GPU集群。顶级AI研究实验室的算力格局正在发生重大转变。另外，台湾检方拘留了一名Nvidia员工，涉嫌向中国非法出口Super Micro AI服务器，芯片出口管制执法正在升级。
-Google今天也有大动作，一口气发布了Gemini 3.6 Flash、3.5 Flash-Lite和3.5 Flash Cyber三个新模型，覆盖不同性能层级，Cyber版本专门为安全场景优化。同时，Gemini API推出了Managed Agents，支持3.6 Flash、Hooks和Triggers，为开发者提供了托管智能体框架。Amazon那边则据报缩减了Nova AI模型的投入，转而押注一个新的前沿研究团队。
-开源模型这边，Moonshot AI发布了Kimi K3的技术报告，2.8T参数、104B激活参数的MoE模型，采用了一系列创新架构，开源模型首次接近闭源前沿模型的性能。另外，Black Forest Labs发布了FLUX 3，一个统一的多模态流模型，能同时处理图像、视频、音频和机器人动作预测。还有Induction Labs的Photon-1，106B参数的稀疏MoE，仅通过无动作标签的原始视频预训练就能模拟桌面操作、下棋和物理建模。
-开源项目方面，今天有几个特别值得关注。微软开源的agent-governance-toolkit，覆盖策略执行、零信任身份、执行沙箱和可靠性工程，是企业级Agent治理的官方方案。Hugging Face官方出品的speech-to-speech项目，用开源模型构建本地语音Agent，降低了开发门槛。阿里开源的open-code-review，混合架构结合确定性管道和LLM Agent，内置了NPE、线程安全、XSS、SQL注入等规则集。还有一个叫colibri的项目，能在25GB RAM的消费级机器上运行744B参数的GLM-5.2模型，纯C实现，零依赖，大幅降低了部署门槛。
-最后说说行业热议。Anthropic CEO Dario Amodei关于开源权重模型的言论在Reddit引发了激烈争论。他警告开源模型的风险，但坚称从未要求全面禁止。社区反弹很强烈，有用户直接反问：闭源、秘密训练的模型难道不比开源权重模型更危险？另外，Simon Willison深度分析了OpenAI对Hu</description>
-      <itunes:summary>各位听众朋友早上好，今天是2026年7月29号，欢迎收听今天的AI行业播报。今天的内容非常密集，核心看点有三个：一是AI智能体的企业级部署正在加速落地，二是AI安全治理从口号走向工程化，三是开源与闭源的路线之争继续升温。好，我们直接进入正题。
-先说智能体企业部署这条线。今天最重磅的消息是MCP协议迎来了有史以来最大的一次更新，由Linux基金会下属的Agentic AI Foundation管理，这次是架构级的重写，正式支持企业级生产部署。这意味着AI智能体和软件之间的连接标准走向成熟，企业可以直接拿来用了。紧接着，Snowflake发布了Cortex AI Gateway，专门用来集中管控AI智能体的访问，首批集成了1Password、SailPoint这些身份供应商。这两个消息放在一起看，智能体从实验室走向企业的通道正在被标准化和产品化。
-另一边，微软也发布了MAI-Cyber-1-Flash，一个137B总参数量、5B激活参数的稀疏MoE网络安全专用模型，在CyberGym基准上达到了95.95%的准确率，成本降低了50%。不过有意思的是，微软自己承认，最复杂的任务还是得依赖OpenAI。同时，Visa用Claude Mythos在自家支付网络里发现了一连串可被利用的漏洞，并且把测试工具开源了。这算是AI在真实金融基础设施安全审计中的里程碑应用。
-说到安全，今天有一个重要的联盟成立。Nvidia和微软牵头成立了开放AI安全联盟，创始成员包括SpaceX、IBM等，但注意，OpenAI、Google和Anthropic都缺席了。这个联盟的目标是构建开源AI安全工具来防御前沿模型攻击。AI安全阵营正在出现分化，开源安全工具链迎来了一股新力量。
-再来看模型和算力方面的消息。Nvidia向Ilya Sutskever的Safe Superintelligence投入了巨额资金，帮助它从Google TPU转向Nvidia GPU集群。顶级AI研究实验室的算力格局正在发生重大转变。另外，台湾检方拘留了一名Nvidia员工，涉嫌向中国非法出口Super Micro AI服务器，芯片出口管制执法正在升级。
-Google今天也有大动作，一口气发布了Gemini 3.6 Flash、3.5 Flash-Lite和3.5 Flash Cyber三个新模型，覆盖不同性能层级，Cyber版本专门为安全场景优化。同时，Gemini API推出了Managed Agents，支持3.6 Flash、Hooks和Triggers，为开发者提供了托管智能体框架。Amazon那边则据报缩减了Nova AI模型的投入，转而押注一个新的前沿研究团队。
-开源模型这边，Moonshot AI发布了Kimi K3的技术报告，2.8T参数、104B激活参数的MoE模型，采用了一系列创新架构，开源模型首次接近闭源前沿模型的性能。另外，Black Forest Labs发布了FLUX 3，一个统一的多模态流模型，能同时处理图像、视频、音频和机器人动作预测。还有Induction Labs的Photon-1，106B参数的稀疏MoE，仅通过无动作标签的原始视频预训练就能模拟桌面操作、下棋和物理建模。
-开源项目方面，今天有几个特别值得关注。微软开源的agent-governance-toolkit，覆盖策略执行、零信任身份、执行沙箱和可靠性工程，是企业级Agent治理的官方方案。Hugging Face官方出品的speech-to-speech项目，用开源模型构建本地语音Agent，降低了开发门槛。阿里开源的open-code-review，混合架构结合确定性管道和LLM Agent，内置了NPE、线程安全、XSS、SQL注入等规则集。还有一个叫colibri的项目，能在25GB RAM的消费级机器上运行744B参数的GLM-5.2模型，纯C实现，零依赖，大幅降低了部署门槛。
-最后说说行业热议。Anthropic CEO Dario Amodei关于开源权重模型的言论在Reddit引发了激烈争论。他警告开源模型的风险，但坚称从未要求全面禁止。社区反弹很强烈，有用户直接反问：闭源、秘密训练的模型难道不比开源权重模型更危险？另外，Simon Willison深度分析了OpenAI对Hu</itunes:summary>
-      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-07-29.mp3" length="2162304" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-07-29.mp3</guid>
-      <pubDate>Wed, 29 Jul 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>06:00</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
