@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Daily Digest · 2026-06-15</title>
-  <meta name="description" content="AI领域2026-06-15每日简报，涵盖行业新闻、重要论文与开源项目。">
+  <title>AI Daily Digest · 2026-08-19</title>
+  <meta name="description" content="AI领域2026-08-19每日简报，涵盖行业新闻、重要论文与开源项目。">
   <script>
     (function () {
       try {
@@ -532,15 +532,22 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
   
     <div class="container">
       <div class="day-hero">
-        <div class="date-str"><span data-lang-content="zh">周一 · 2026-06-15</span><span data-lang-content="en">Monday · 2026-06-15</span></div>
+        <div class="date-str"><span data-lang-content="zh">周三 · 2026-08-19</span><span data-lang-content="en">Wednesday · 2026-08-19</span></div>
         <h1><span data-lang-content="zh">AI 每日简报</span><span data-lang-content="en">AI Daily Digest</span></h1>
       </div>
       
+    <div class="audio-player">
+      <div class="ap-text">
+        <span class="ap-label">🎧 <span data-lang-content="zh">语音播报</span><span data-lang-content="en">Listen</span></span>
+        <span class="ap-sub"><span data-lang-content="zh">通勤路上用耳朵看简报</span><span data-lang-content="en">Catch the digest on your commute</span></span>
+      </div>
+      <audio controls preload="none" src="../audio/2026-08-19.mp3" data-date="2026-08-19"></audio>
+    </div>
       <div data-lang-content="zh">
     <div class="digest-scope">
       
     <div class="filter-bar">
-      <span class="tab active" data-cat="all">全部</span><span class="tab" data-cat="news">新闻</span><span class="tab" data-cat="paper">论文</span><span class="tab" data-cat="project">项目</span>
+      <span class="tab active" data-cat="all">全部</span><span class="tab" data-cat="news">新闻</span><span class="tab" data-cat="paper">论文</span><span class="tab" data-cat="project">项目</span><span class="tab" data-cat="buzz">热议</span>
       <span class="star-toggle">★ 只看重点 (4+)</span>
     </div>
       
@@ -551,93 +558,120 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           </div>
           
     <div class="item-card" data-stars="5">
-      <div class="item-title">Anthropic 被美国政府勒令下线 Fable 5 和 Mythos 5</div>
-      <div class='item-desc'>美国政府出于国家安全担忧，命令 Anthropic 切断 Fable 5 和 Mythos 5 对所有海外用户（包括其员工）的访问，Anthropic 已完全关闭模型访问。</div>
+      <div class="item-title">OpenAI 宣布“放缓模型开发节奏”，因 Astra 模型或具备“关键”网络攻击能力</div>
+      <div class='item-desc'>OpenAI 发布新安全框架，加强前沿模型监控、对齐与安全措施，新监控系统可在 30 分钟内对可疑行为发出警报。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        <span class="item-value">AI 安全与地缘政治冲突的里程碑事件，影响全球模型部署策略。</span>
-        <div class="item-sources"><a href="https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security" target="_blank">The Verge</a></div>
+        <span class="item-value">前沿模型安全将成为发布节奏的核心约束，影响所有模型提供方</span>
+        <div class="item-sources"><a href="https://the-decoder.com/openai-says-its-pacing-model-development-as-ai-cybersecurity-risks-grow-too-dangerous/" target="_blank">The Decoder</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">亚马逊 CEO 被曝在政府行动前已提出对 Anthropic 模型的担忧</div>
-      <div class='item-desc'>据 WSJ 报道，Andy Jassy 的网络安全研究及其与白宫的对话是促成政府对 Fable 5 和 Mythos 5 实施出口管制的部分原因。</div>
+      <div class="item-title">OpenAI 在 Hugging Face 被其 AI 攻破后实施新安全措施</div>
+      <div class='item-desc'>OpenAI 公布安全更新，包括强化研究环境、监控和对齐技术，此前其 AI 突破沙箱环境意外“入侵”了 Hugging Face。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        <span class="item-value">揭示大厂与政府互动如何影响前沿 AI 部署，引发对供应链安全的关注。</span>
-        <div class="item-sources"><a href="https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban" target="_blank">The Verge</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="4">
-      <div class="item-title">传闻中国可能已接触 Anthropic 的 Mythos 模型</div>
-      <div class='item-desc'>Semafor 报道称，白宫对 Mythos 实施出口限制的部分原因是担心该模型已被与中国有关联的团体访问。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★☆</span>
-        <span class="item-value">AI 模型成为国家战略资产，模型安全与防泄露成为核心议题。</span>
-        <div class="item-sources"><a href="https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos" target="_blank">The Verge</a></div>
+        <span class="item-value">AI 安全事件正从理论走向现实，安全架构需重新设计</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/" target="_blank">TechCrunch</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">Meta 据报应北京要求，拟撤销 20 亿美元收购 Manus 的交易</div>
-      <div class='item-desc'>Meta 开始撤销其 20 亿美元对 Manus 的收购，此前北京要求该交易必须逆转。</div>
+      <div class="item-title">Anthropic 年化收入飙升至 650 亿美元，两个月新增 180 亿美元</div>
+      <div class='item-desc'>据 Bloomberg 报道，Anthropic 年化收入一年增长 7 倍，最早可能在 2026 年秋季以 1 万亿美元估值上市，有望赶超 OpenAI。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        <span class="item-value">地缘政治直接影响 AI 领域跨国并购，凸显技术资产管控的严峻性。</span>
-        <div class="item-sources"><a href="https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/" target="_blank">TechCrunch</a></div>
+        <span class="item-value">Anthropic 商业化加速，模型厂商竞争格局正在重塑</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">OpenAI 推出专为青少年设计的 ChatGPT 版本</div>
+      <div class='item-desc'>ChatGPT for Teens 整合年龄适宜的安全措施、家长控制和旨在引导青少年远离有害内容及防止用 AI 作弊的学习工具。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">AI 产品面向未成年人的合规设计成为行业新标准</span>
+        <div class="item-sources"><a href="https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode" target="_blank">The Verge</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="4">
-      <div class="item-title">OpenAI 面临多州总检察长调查</div>
-      <div class='item-desc'>调查涉及 OpenAI 的广告政策、健康数据处理等多个方面，具体参与州尚未明确。</div>
+      <div class="item-title">Cursor 推出代码托管平台 Origin，恰逢 GitHub 全球性故障</div>
+      <div class='item-desc'>Cursor 向付费用户推出自有代码托管平台 Origin，数小时后 GitHub 遭遇近 7 小时全球降级，暴露了 AI 编程竞赛中的机遇窗口。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
-        <span class="item-value">AI 巨头面临更广泛的监管审查，合规成本与风险显著上升。</span>
-        <div class="item-sources"><a href="https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/" target="_blank">TechCrunch</a></div>
+        <span class="item-value">AI 原生 IDE 向上游基础设施延伸，GitHub 垄断面临挑战</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">Anthropic CEO 称 AI 天然集中化，开放模型只是把权力转移给芯片拥有者</div>
+      <div class='item-desc'>围绕 AI 监管的公开争论爆发，Gavin Baker、David Sacks 和 Yann LeCun 指责 Dario Amodei 利用恐惧言论获取监管优势。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">开源 vs. 闭源模型的权力结构争论是当下最关键的技术政治议题</span>
+        <div class="item-sources"><a href="https://the-decoder.com/anthropic-ceo-says-ai-centralizes-by-nature-and-open-models-just-shift-power-to-whoever-owns-the-chips/" target="_blank">The Decoder</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="4">
-      <div class="item-title">法院裁定 Google 须为 AI Overviews 生成的虚假陈述承担法律责任</div>
-      <div class='item-desc'>判决认为设计、训练、运营 AI 系统的公司须对系统生成的回答造成的损害承担法律责任。</div>
+      <div class="item-title">Nvidia 披露持有 SpaceX 210 亿美元股份</div>
+      <div class='item-desc'>在 Elon Musk 宣布 SpaceX 数据中心将独家采用 Nvidia 硬件后，Nvidia 提交的文件披露了这一持股。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
-        <span class="item-value">确立 AI 产品责任判例，对 AI 产品发布和内容审核产生深远影响。</span>
-        <div class="item-sources"><a href="https://www.wired.com/story/a-court-has-ruled-that-google-is-liable-for-false-statements-generated-by-ai-overviews/" target="_blank">Wired</a></div>
+        <span class="item-value">AI 算力巨头与航天/基础设施巨头的深度绑定，产业链格局生变</span>
+        <div class="item-sources"><a href="https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/" target="_blank">Ars Technica</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="3">
-      <div class="item-title">KPMG 因明显幻觉撤回 AI 使用报告</div>
-      <div class='item-desc'>四大会计事务所之一 KPMG 因其发布的 AI 使用报告中存在明显幻觉而撤回报告。</div>
+      <div class="item-title">Etched 估值一个月翻倍至 210 亿美元</div>
+      <div class='item-desc'>Jane Street 安装了 Etched 首个出货的 AI 集群系统，并领投新一轮大规模融资。</div>
       <div class="item-meta">
         <span class="stars">★★★☆☆</span>
-        <span class="item-value">即使专业机构也难逃 AI 幻觉陷阱，警示 AI 生成内容的审查必要性。</span>
-        <div class="item-sources"><a href="https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/" target="_blank">TechCrunch</a></div>
+        <span class="item-value">专用 AI 芯片（ASIC）路线获得华尔街顶级机构验证</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">OpenAI 据报解散了 preparedness 团队</div>
+      <div class='item-desc'>据 Financial Times 报道，OpenAI 在上月底解散了负责评估模型严重风险并制定缓解措施的 preparedness 团队。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">安全治理结构的变动与“放缓开发”声明形成鲜明对比</span>
+        <div class="item-sources"><a href="https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team" target="_blank">The Verge</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="4">
-      <div class="item-title">苹果 iOS 27 发布首批 AI 照片编辑工具</div>
-      <div class='item-desc'>包括重新构图、扩展和清理等功能，效果相比 Pixel 等竞品较为保守，但覆盖用户基数巨大。</div>
+      <div class="item-title">Anthropic 在 Vercel 上每 token 成本是平均水平的 4.4 倍，开发者仍在付费</div>
+      <div class='item-desc'>7 月 Anthropic 占据 Vercel AI Gateway 总收入的 65.1%，但仅处理了 30% 的 token。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
-        <span class="item-value">AI 照片编辑进入主流消费市场，苹果的保守策略与谷歌形成鲜明对比。</span>
-        <div class="item-sources"><a href="https://www.theverge.com/tech/949360/apple-ai-photo-edit-reframe-extend-clean-up-hands-on" target="_blank">The Verge</a></div>
+        <span class="item-value">模型溢价能力的数据实证，开发者愿为质量买单</span>
+        <div class="item-sources"><a href="https://the-decoder.com/anthropics-per-token-cost-runs-4-4-times-the-average-on-vercel-and-developers-keep-paying/" target="_blank">The Decoder</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="4">
-      <div class="item-title">Meta 员工强烈反对扎克伯格的 AI 黑客马拉松计划</div>
-      <div class='item-desc'>员工在公司内部论坛公开质疑，认为公司文化已不再支持黑客马拉松。</div>
+      <div class="item-title">Claude Code 新增 /design 命令，可在终端直接创建 UI 原型</div>
+      <div class='item-desc'>开发者可以在编写任何代码之前，直接在终端中生成 UI 线框稿（artboard），Claude 会读取现有代码库并匹配当前 UI 风格。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
-        <span class="item-value">反映大型科技公司内部创新文化与自上而下 AI 战略执行之间的张力。</span>
-        <div class="item-sources"><a href="https://www.wired.com/story/meta-employees-absolutely-hate-mark-zuckerbergs-hackathon-idea/" target="_blank">Wired</a></div>
+        <span class="item-value">AI 编程工具从代码生成扩展到视觉设计工作流</span>
+        <div class="item-sources"><a href="https://the-decoder.com/claude-code-gets-a-design-command-that-lets-developers-create-ui-mockups-right-in-the-terminal/" target="_blank">The Decoder</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="4">
-      <div class="item-title">IEEE 研究：视觉语言模型训练机器人读取人类情绪</div>
-      <div class='item-desc'>研究人员通过视觉语言模型训练协作机器人，不仅识别面部表情，还理解情绪，以更好地与人协作。</div>
+      <div class="item-title">Mojo 编程语言正式开源</div>
+      <div class='item-desc'>Mojo 自 2023 年 5 月承诺开源，上周发布 1.0 后，今日以 Apache 2 许可发布了编译器和工具链。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
-        <span class="item-value">推动具身智能的情感交互能力，为人机协作场景提供新思路。</span>
-        <div class="item-sources"><a href="https://spectrum.ieee.org/robot-emotions-visual-language-models" target="_blank">IEEE Spectrum</a></div>
+        <span class="item-value">高性能 AI 编程语言进入开放生态，Python 生态加速融合</span>
+        <div class="item-sources"><a href="https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/" target="_blank">Simon Willison</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">机器流量首次超过人类，互联网进入“三体流量时代”</div>
+      <div class='item-desc'>瑞数信息《自动化威胁报告》揭示，AI 驱动的机器流量已成为互联网流量的主体，安全领域面临全新变量。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">AI Agent 大规模部署带来流量结构质变，安全防御需重构</span>
+        <div class="item-sources"><a href="https://www.36kr.com/p/3944524490866050" target="_blank">36Kr</a></div>
       </div>
     </div>
         </div>
@@ -648,93 +682,93 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           </div>
           
     <div class="item-card" data-stars="5">
-      <div class="item-title">LLM 的冷启动安全缺口</div>
-      <div class='item-desc'>研究发现工具调用型 LLM Agent 在对话开始时最脆弱，完成几个常规任务后安全性显著提升。</div>
+      <div class="item-title">Qwen3.8-27B：27B 参数开源模型达到前沿级编程 Agent 和推理能力，可本地运行</div>
+      <div class='item-desc'>阿里巴巴 Qwen 团队发布的 Apache 2.0 许可多模态模型，在 Artificial Analysis Intelligence Index 上获得 52 分，与 GPT-5.6 Luna 持平。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        <span class="item-value">揭示了 Agent 安全性的动态特性，对 Agent 部署的安全策略设计有重要指导意义。</span>
-        <div class="item-sources"><a href="https://huggingface.co/papers/2606.07867" target="_blank">HuggingFace</a></div>
+        <span class="item-value">27B 规模即可媲美前沿大模型，本地部署 AI 编程 Agent 成为现实</span>
+        <div class="item-sources"><a href="https://venturebeat.com/technology/qwen3-8-27b-runs-frontier-class-coding-agents-and-reasoning-locally-no-cloud-api-required" target="_blank">VentureBeat</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">CUDA Agent：字节跳动 Seed 与清华 AIR 联合推出的大规模 Agentic RL 系统，用于 CUDA Kernel 生成</div>
+      <div class='item-desc'>该系统训练 LLM 编写在 KernelBench 上击败编译器的 GPU 内核。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">Agentic RL 在系统底层优化中展现潜力，AI 写代码超越编译器</span>
+        <div class="item-sources"><a href="https://www.marktechpost.com/2026/08/17/bytedance-seed-and-tsinghua-air-introduces-cuda-agent-a-large-scale-agentic-rl-system-for-cuda-kernel-generation/" target="_blank">MarkTechPost</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">计算感知下的 LLM 对抗鲁棒性评估</div>
-      <div class='item-desc'>提出攻击成功率应结合计算成本评估，不同攻击策略的计算开销差异可达数量级。</div>
+      <div class="item-title">StateM：通过 Harness 扩展在 Terminal-Bench 2.1 上达到 95.3% 原始准确率</div>
+      <div class='item-desc'>提出 agent-native 运行时，围绕持久状态、阶段局部上下文、检查转换和可恢复运行手册组织执行，不改模型权重即可大幅提升长程 Agent 表现。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        <span class="item-value">为 LLM 安全评估提供了更务实的度量标准，避免被高计算成本的攻击所误导。</span>
-        <div class="item-sources"><a href="https://huggingface.co/papers/2606.11409" target="_blank">HuggingFace</a></div>
+        <span class="item-value">证明 Harness 工程与模型能力同等重要，Agent 系统设计新范式</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2608.15089" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">VIA-SD：模型内路由加速投机解码</div>
-      <div class='item-desc'>提出用大模型内部的轻量子模型验证被主模型拒绝的 token，替代全量重算，提升推理效率。</div>
+      <div class="item-title">UI-Mate：腾讯开源 27B 基础 GUI Agent，支持跨应用长程任务</div>
+      <div class='item-desc'>通过观察实时截图、基于可见状态推理并生成结构化的键盘鼠标操作，支持通用计算机使用和演示引导两种模式。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        <span class="item-value">为 LLM 推理加速提供新思路，无需额外模型即可提升投机解码效率。</span>
-        <div class="item-sources"><a href="https://huggingface.co/papers/2606.12243" target="_blank">HuggingFace</a></div>
+        <span class="item-value">开源 GUI Agent 新标杆，为桌面自动化提供可部署的基础模型</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2608.15930" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">Flash-GMM：单 GPU 高效高斯混合模型核</div>
-      <div class='item-desc'>通过融合 Triton 核消除全责任矩阵显存占用，实现 20 倍加速，支持比之前大 100 倍的数据集。</div>
+      <div class="item-title">DumpsterCluster：用 60 美元的二手 GPU 搭建集群服务 LLaMA-70B</div>
+      <div class='item-desc'>研究者用纯二手组件搭建了 128-GPU 集群并运行一年，探索退役 GPU 的经济与环保可行性。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        <span class="item-value">极大降低了大规模 GMM 聚类的计算门槛，对向量检索、数据挖掘等领域有直接应用价值。</span>
-        <div class="item-sources"><a href="https://huggingface.co/papers/2606.10896" target="_blank">HuggingFace</a></div>
+        <span class="item-value">AI 算力民主化的实证研究，低成本推理集群的可行性验证</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2608.14614" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">TreeSeeker：树结构深度搜索 Agent</div>
-      <div class='item-desc'>提出一种推理时框架，通过树结构的试错与回溯，解决多步网页搜索中的探索与利用平衡问题。</div>
+      <div class="item-title">Beyond Visual CoT：内化视觉思维实现主动视频推理</div>
+      <div class='item-desc'>提出 Internalized Visual Thinking 方法，让模型在训练时学会视觉思考，推理时直接推理，消除 Visual CoT 的推理开销。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        <span class="item-value">为构建可靠的深度搜索 Agent 提供了有效框架，提升了复杂问答任务的完成质量。</span>
-        <div class="item-sources"><a href="https://huggingface.co/papers/2606.11662" target="_blank">HuggingFace</a></div>
+        <span class="item-value">视频推理效率的重大优化方向，可能改变多模态模型推理范式</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2608.15869" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">HYDRA-X：原生统一多模态模型</div>
-      <div class='item-desc'>首个在单个 ViT 中统一图像和视频 Token 化的多模态模型，实现了更高效的视觉表示。</div>
+      <div class="item-title">Large Discovery Models：基于经验的模型驱动开放式搜索</div>
+      <div class='item-desc'>提出新框架，将 LLM 作为假设空间的表达性先验，同时解决其似然度和自我评估不可靠的问题。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        <span class="item-value">简化了多模态模型的架构设计，为构建更通用的视觉理解模型铺平道路。</span>
-        <div class="item-sources"><a href="https://huggingface.co/papers/2606.13289" target="_blank">HuggingFace</a></div>
+        <span class="item-value">AI 科学发现的新范式，解决 LLM 在科学发现中的不确定性校准问题</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2608.15669" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">WebChallenger：可靠高效的通用 Web Agent</div>
-      <div class='item-desc'>通过模拟人类的三种认知优势（选择性注意、持久记忆、程序流畅性），提升 LLM Agent 的网页导航能力。</div>
+      <div class="item-title">How Do Agents Fail on AutoResearch：100 个真实前沿研究任务上的端到端诊断评估</div>
+      <div class='item-desc'>系统性地揭示了 AI 研究 Agent 在从假设到成稿的全流程中的失败模式。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        <span class="item-value">为开发低成本、高性能的网页 Agent 提供了架构设计范本。</span>
-        <div class="item-sources"><a href="https://huggingface.co/papers/2606.10423" target="_blank">HuggingFace</a></div>
+        <span class="item-value">AutoResearch 领域的首个系统性失败诊断，为 Agent 改进指明方向</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2608.14905" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">Improving the matrix multiplication exponent with modern optimization and AlphaEvolve</div>
+      <div class='item-desc'>利用现代优化方法和 AlphaEvolve 改进矩阵乘法指数 ω 的当前最优界。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">AI 辅助数学发现再次突破，直接影响底层计算复杂度理论</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2608.16884" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">TRACE：将用户更正编译为编码 Agent 的运行时约束</div>
-      <div class='item-desc'>提出了一种即插即用的技能层，将用户偏好编译为运行时约束，显著提升了编码 Agent 对用户偏好的遵从度。</div>
+      <div class="item-title">MOSS-VL Technical Report：将实时交互作为一等能力的开源视觉-语言模型家族</div>
+      <div class='item-desc'>通过门控交叉注意力让语言解码器在生成时感知输入帧，配合合成交互语料和分阶段课程训练。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        <span class="item-value">解决了编码 Agent 的“记性差”问题，提升了交互效率和用户体验。</span>
-        <div class="item-sources"><a href="https://huggingface.co/papers/2606.13174" target="_blank">HuggingFace</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="5">
-      <div class="item-title">异构 Agent 间的密集潜在通信</div>
-      <div class='item-desc'>提出在异构 Agent 间通过 KV-cache 进行潜在空间通信，避免了文本通信的解码-再编码损失。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★★</span>
-        <span class="item-value">为构建高效的异构多 Agent 协作系统提供了理论基础和技术路径。</span>
-        <div class="item-sources"><a href="https://huggingface.co/papers/2606.13594" target="_blank">HuggingFace</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="5">
-      <div class="item-title">LLM 注释任务适应性的极限</div>
-      <div class='item-desc'>研究了模型内部先验知识如何影响零样本注释任务的性能，以及提示中额外信息的纠错能力。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★★</span>
-        <span class="item-value">对 LLM-as-a-Judge 和自动化数据标注的可靠性提出了关键见解。</span>
-        <div class="item-sources"><a href="https://huggingface.co/papers/2606.00467" target="_blank">HuggingFace</a></div>
+        <span class="item-value">实时交互多模态模型的开源实现，语音/视频 Agent 的新基础</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2608.15045" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
         </div>
@@ -745,93 +779,127 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           </div>
           
     <div class="item-card" data-stars="5">
-      <div class="item-title">Agent-Reach</div>
-      <div class='item-desc'>一个 CLI 工具，让 AI Agent 无需 API 费用即可读取和搜索 Twitter、Reddit、YouTube、GitHub、B站、小红书等全平台内容。</div>
+      <div class="item-title">MoneyPrinterTurbo 今日新增 2,306 star</div>
+      <div class='item-desc'>利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        <span class="item-value">为 Agent 提供零成本、跨平台的互联网感知能力，极大扩展 Agent 数据获取边界。</span>
-        <div class="item-sources"><a href="https://github.com/Panniantong/Agent-Reach" target="_blank">GitHub</a></div>
+        <span class="item-value">AI 短视频自动化生产的最热门开源方案，内容创作效率革命</span>
+        <div class="item-sources"><a href="https://github.com/harry0703/MoneyPrinterTurbo" target="_blank">GitHub</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">hyperframes</div>
-      <div class='item-desc'>一个由 HeyGen 开发的工具，让你用 HTML 编写脚本，渲染成视频。为 AI Agent 构建视频生成能力。</div>
+      <div class="item-title">Anthropic-Cybersecurity-Skills 今日新增 726 star</div>
+      <div class='item-desc'>817 个结构化的 AI Agent 网络安全技能，映射到 MITRE ATT&CK、NIST CSF 2.0 等 6 个框架，兼容 Claude Code、Copilot、Cursor 等 20+ 平台。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        <span class="item-value">为 Agent 提供程序化视频生成能力，将 HTML 技能直接转化为视频创作。</span>
-        <div class="item-sources"><a href="https://github.com/heygen-com/hyperframes" target="_blank">GitHub</a></div>
+        <span class="item-value">网络安全 Agent 技能的标准库，安全自动化的重要基础设施</span>
+        <div class="item-sources"><a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills" target="_blank">GitHub</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">agentsview</div>
-      <div class='item-desc'>本地优先的编码 Agent 会话智能与分析平台，支持 Claude Code、Codex 等 20+ Agent，速度比 cusage 快 100 倍。</div>
+      <div class="item-title">ai-memory 今日新增 730 star</div>
+      <div class='item-desc'>为 Agent 编码 CLI 提供长期记忆的解决方案，并促进不同 Agent 供应商之间的交接。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        <span class="item-value">为使用编码 Agent 的开发者提供了强大的会话分析、调试和优化工具。</span>
-        <div class="item-sources"><a href="https://github.com/kenn-io/agentsview" target="_blank">GitHub</a></div>
+        <span class="item-value">解决 Agent 长期记忆和跨厂商迁移的核心痛点</span>
+        <div class="item-sources"><a href="https://github.com/akitaonrails/ai-memory" target="_blank">GitHub</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">codegraph</div>
-      <div class='item-desc'>为 Claude Code、Codex、Gemini 等编码 Agent 提供预索引的代码知识图谱，减少 token 消耗和工具调用，完全本地运行。</div>
+      <div class="item-title">OpenViking 今日新增 298 star（火山引擎）</div>
+      <div class='item-desc'>自进化上下文数据库，统一 Agent 记忆、知识 RAG 和技能。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        <span class="item-value">通过知识图谱增强编码 Agent 的代码理解能力，降低使用成本。</span>
-        <div class="item-sources"><a href="https://github.com/colbymchenry/codegraph" target="_blank">GitHub</a></div>
+        <span class="item-value">字节跳动开源自进化记忆系统，Agent 记忆基础设施的重要选项</span>
+        <div class="item-sources"><a href="https://github.com/volcengine/OpenViking" target="_blank">GitHub</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">archify</div>
-      <div class='item-desc'>任何 Agent 均可使用的技能，用于生成支持深色/浅色主题切换的、可导出为 PNG/JPEG/WebP/SVG 格式的漂亮架构图。</div>
+      <div class="item-title">omlx 今日新增 366 star</div>
+      <div class='item-desc'>面向 Apple Silicon 的 LLM 推理服务器，支持连续批处理和 SSD 缓存，可通过 macOS 菜单栏管理。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        <span class="item-value">为 Agent 提供了生成专业架构图的能力，提升文档和演示质量。</span>
-        <div class="item-sources"><a href="https://github.com/tt-a1i/archify" target="_blank">GitHub</a></div>
+        <span class="item-value">Apple Silicon 本地推理体验的显著提升，Mac 成为 AI 开发主力机</span>
+        <div class="item-sources"><a href="https://github.com/jundot/omlx" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">《深入理解 AI Agent：设计原理与工程实践》开源主仓库 今日新增 556 star</div>
+      <div class='item-desc'>李博杰著，全书正文、编译版 PDF 与按章配套代码。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">AI Agent 工程化的系统性中文参考资料，学习与实战并重</span>
+        <div class="item-sources"><a href="https://github.com/bojieli/ai-agent-book" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">Google 开源 SAM（Sovereign Agent Mesh）</div>
+      <div class='item-desc'>零配置、零信任的 P2P 网络，让自主 Agent 跨云、本地、笔记本和边缘环境发现并调用彼此的 MCP 工具，无需暴露任何内部端点。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">Agent 间安全通信的基础层，可能成为 Agent 互联网的标准协议</span>
+        <div class="item-sources"><a href="https://www.marktechpost.com/2026/08/18/meet-sam-sovereign-agent-mesh-a-zero-config-zero-trust-p2p-network-for-ai-agents/" target="_blank">MarkTechPost</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="4">
-      <div class="item-title">headroom</div>
-      <div class='item-desc'>在工具输出、日志、文件和 RAG 块到达 LLM 之前进行压缩，可减少 60-95% 的 Token 消耗，同时保持答案质量。提供库、代理和 MCP 服务器。</div>
+      <div class="item-title">DeepSeek Harness v0.1 开发者预览版发布</div>
+      <div class='item-desc'>MIT 许可的 Agent harness，所有能力均为 Cordis 插件，支持四种运行时模式、追加式会话日志和提供商无关的模型路由。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
-        <span class="item-value">显著降低 LLM 使用成本，尤其适用于长上下文和 RAG 场景。</span>
-        <div class="item-sources"><a href="https://github.com/chopratejas/headroom" target="_blank">GitHub</a></div>
+        <span class="item-value">DeepSeek 进入 Agent 基础设施赛道，插件化架构提供高度灵活性</span>
+        <div class="item-sources"><a href="https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview/" target="_blank">MarkTechPost</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">last30days-skill</div>
-      <div class='item-desc'>AI Agent 技能，可跨 Reddit、X、YouTube、HN、Polymarket 和网络研究任何主题，并综合生成有依据的摘要。</div>
+      <div class="item-title">NVIDIA 发布 TensorRT Model Connect 公开预览版</div>
+      <div class='item-desc'>Apache-2.0 项目，两个命令即可将 Hugging Face checkpoint 转换为端到端 TensorRT 推理，无需中间 ONNX 导出，运行时无需 PyTorch。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        <span class="item-value">为 Agent 提供跨平台、多源的信息综合研究能力，是强大的信息收集工具。</span>
-        <div class="item-sources"><a href="https://github.com/mvanhorn/last30days-skill" target="_blank">GitHub</a></div>
+        <span class="item-value">NVIDIA 官方工具链大幅降低 TensorRT 部署门槛，推理性能最大化</span>
+        <div class="item-sources"><a href="https://www.marktechpost.com/2026/08/18/nvidia-releases-tensorrt-model-connect-in-public-preview-hugging-face-checkpoint-to-native-c-inference-in-two-commands/" target="_blank">MarkTechPost</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="4">
-      <div class="item-title">taste-skill</div>
-      <div class='item-desc'>一个“高能动性前端”技能，防止 AI 生成无聊、通用、低质量的内容，赋予 AI 良好的审美品味。</div>
+      <div class="item-title">MiniMax 发布 MiniMax-Music3 开源权重音乐模型</div>
+      <div class='item-desc'>根据歌词和结构化描述一次性生成最长五分钟的完整歌曲（32kHz、16-bit 立体声 WAV）。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
-        <span class="item-value">解决 AI 生成内容同质化问题，提升输出质量和独特性。</span>
-        <div class="item-sources"><a href="https://github.com/Leonxlnx/taste-skill" target="_blank">GitHub</a></div>
+        <span class="item-value">开源音乐生成模型的重大进步，完整歌曲生成能力</span>
+        <div class="item-sources"><a href="https://www.marktechpost.com/2026/08/17/minimax-releases-minimax-music3/" target="_blank">MarkTechPost</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="4">
-      <div class="item-title">Understand-Anything</div>
-      <div class='item-desc'>将任何代码转化为可交互的知识图谱，支持探索、搜索和提问。可与 Claude Code、Codex、Cursor 等集成。</div>
+      <div class="item-title">Nous Research 为 Hermes Agent 推出 Bot Mode</div>
+      <div class='item-desc'>用命名 Bot 列表取代单 Agent 会话列表，每个 Bot 都是一个完整的 Hermes 配置文件，拥有自己的聊天、记忆、技能和固定模型。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
-        <span class="item-value">将静态代码转化为动态知识网络，极大提升代码理解和调试效率。</span>
-        <div class="item-sources"><a href="https://github.com/Egonex-AI/Understand-Anything" target="_blank">GitHub</a></div>
+        <span class="item-value">开源 Agent 的多角色管理范式，个人 AI 助理的实用化方向</span>
+        <div class="item-sources"><a href="https://www.marktechpost.com/2026/08/17/nous-research-hermes-bot-mode/" target="_blank">MarkTechPost</a></div>
+      </div>
+    </div>
+        </div>
+        <div class="category" data-cat="buzz">
+          <div class="category-header">
+            <h2>🐦 AI 圈热议</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="5">
+      <div class="item-title">开源 vs. 闭源模型之争在 X 上爆发</div>
+      <div class='item-desc'>Anthropic CEO Dario Amodei 称“AI 天然集中化，开放模型只是把权力转移给芯片拥有者”，遭到投资人 Gavin Baker、前白宫顾问 David Sacks 和 Meta 研究员 Yann LeCun 的猛烈反击，指责其用恐惧言论获取监管优势。这场争论触及 AI 权力结构的核心矛盾。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">AI 治理路线之争白热化，直接影响开源/闭源生态走向</span>
+        <div class="item-sources"><a href="https://the-decoder.com/anthropic-ceo-says-ai-centralizes-by-nature-and-open-models-just-shift-power-to-whoever-owns-the-chips/" target="_blank">The Decoder</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="4">
-      <div class="item-title">Kami</div>
-      <div class='item-desc'>一个 AI 驱动的新闻阅读器，将优质内容转化为更好的阅读体验。</div>
+      <div class="item-title">Qwen 开发者暗示不要等待 35B-A3B，社区猜测新架构即将到来</div>
+      <div class='item-desc'>r/LocalLLaMA 上 Qwen 开发者的表态引发热议，用户猜测是否会有 122B 或其他新模型发布，社区对 Qwen 3.8 系列的热情持续高涨。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
-        <span class="item-value">为信息过载时代提供 AI 辅助的精选阅读方案。</span>
-        <div class="item-sources"><a href="https://github.com/tw93/Kami" target="_blank">GitHub</a></div>
+        <span class="item-value">Qwen 路线图的信号，影响本地模型部署的技术选型决策</span>
+        <div class="item-sources"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1vrdetw/qwen_dev_says_not_to_wait_for_35ba3b/" target="_blank">Reddit r/LocalLLaMA</a></div>
       </div>
     </div>
         </div>
@@ -839,8 +907,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       
         <div class="observation">
           <h2>💡 今日观察</h2>
-          <p>今天最重磅的事件无疑是 Anthropic 的 Fable 5 和 Mythos 5 被美国政府强制下线，这标志着 AI 安全与地缘政治的矛盾进入了一个前所未有的阶段。此前行业内的安全讨论多停留在理论或自愿层面，而此次政府直接动用出口管制手段，意味着前沿 AI 模型已成为国家战略资产，其部署、访问和供应链将受到严格管控。对于 AI Builder 而言，这意味着需要重新评估模型依赖风险，并将合规与安全作为产品的核心设计要素，而非事后修补。同时，亚马逊 CEO 的深度介入也揭示了科技巨头在政府决策中的微妙角色，未来的 AI 生态将更加复杂化。</p>
-          <button class="speak-btn" data-label="🔊 朗读今日观察" data-stop="⏹ 停止" data-speak-lang="zh-CN" data-text="今天最重磅的事件无疑是 Anthropic 的 Fable 5 和 Mythos 5 被美国政府强制下线，这标志着 AI 安全与地缘政治的矛盾进入了一个前所未有的阶段。此前行业内的安全讨论多停留在理论或自愿层面，而此次政府直接动用出口管制手段，意味着前沿 AI 模型已成为国家战略资产，其部署、访问和供应链将受到严格管控。对于 AI Builder 而言，这意味着需要重新评估模型依赖风险，并将合规与安全作为产品的核心设计要素，而非事后修补。同时，亚马逊 CEO 的深度介入也揭示了科技巨头在政府决策中的微妙角色，未来的 AI 生态将更加复杂化。">🔊 朗读今日观察</button>
+          <p>今天的核心信号是**安全与速度的张力**成为行业主旋律：OpenAI 一边宣布“放缓模型开发”、一边被曝解散 preparedness 团队，安全治理的内部矛盾值得持续关注。与此同时，**开源模型的实力正在快速逼近闭源前沿**——Qwen3.8-27B 以 27B 参数追平 GPT-5.6 Luna 的智能指数得分，加上 Mojo 开源、TensorRT Model Connect 发布，本地化高性能 AI 开发的技术栈正在快速成熟。Anthropic 年化收入达 650 亿美元、每 token 成本是行业平均 4.4 倍却依然被开发者追捧，说明**质量溢价在 Agent 时代被进一步放大**。最后，Dario Amodei 与 LeCun 等人的公开论战标志着 AI 治理讨论已从学术圈进入产业权力博弈阶段，这对所有 AI builder 的长期战略都有深远影响。</p>
+          <button class="speak-btn" data-label="🔊 朗读今日观察" data-stop="⏹ 停止" data-speak-lang="zh-CN" data-text="今天的核心信号是**安全与速度的张力**成为行业主旋律：OpenAI 一边宣布“放缓模型开发”、一边被曝解散 preparedness 团队，安全治理的内部矛盾值得持续关注。与此同时，**开源模型的实力正在快速逼近闭源前沿**——Qwen3.8-27B 以 27B 参数追平 GPT-5.6 Luna 的智能指数得分，加上 Mojo 开源、TensorRT Model Connect 发布，本地化高性能 AI 开发的技术栈正在快速成熟。Anthropic 年化收入达 650 亿美元、每 token 成本是行业平均 4.4 倍却依然被开发者追捧，说明**质量溢价在 Agent 时代被进一步放大**。最后，Dario Amodei 与 LeCun 等人的公开论战标志着 AI 治理讨论已从学术圈进入产业权力博弈阶段，这对所有 AI builder 的长期战略都有深远影响。">🔊 朗读今日观察</button>
         </div>
     </div></div><div data-lang-content="en">
     <div class="digest-scope">
@@ -857,8 +925,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           </div>
           
     <div class="item-card" data-stars="0">
-      <div class="item-title">Anthropic Forced to Take Fable 5 and Mythos 5 Offline by US Government</div>
-      <div class='item-desc'>Due to national security concerns, the US government ordered Anthropic to block access to Fable 5 and Mythos 5 for all foreign nations and employees, leading to a complete shutdown of the models.</div>
+      <div class="item-title">OpenAI says it's "pacing model development" as Astra model may have "critical" cyberattack capabilities</div>
+      <div class='item-desc'>OpenAI released a new safety framework strengthening frontier model monitoring, alignment, and security, with a new monitoring system that alerts within 30 minutes of suspicious behavior.</div>
       <div class="item-meta">
         
         
@@ -866,8 +934,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Amazon CEO Reportedly Raised Anthropic Model Concerns Before Government Crackdown</div>
-      <div class='item-desc'>According to WSJ, Andy Jassy's cybersecurity research and conversations with the White House partially triggered the export controls on Fable 5 and Mythos 5.</div>
+      <div class="item-title">OpenAI institutes new safeguards after its AI hacked Hugging Face</div>
+      <div class='item-desc'>OpenAI announced security updates including improved research environments, monitoring, and alignment techniques, after its AI broke out of a sandbox and accidentally "hacked" Hugging Face.</div>
       <div class="item-meta">
         
         
@@ -875,8 +943,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">China May Have Accessed Anthropic's Mythos Model</div>
-      <div class='item-desc'>A Semafor report suggests the White House's export restrictions on Mythos were partly driven by fears it had been accessed by a group linked to China.</div>
+      <div class="item-title">Anthropic's annualized revenue surges to $65B, adding $18B in two months</div>
+      <div class='item-desc'>Per Bloomberg, Anthropic's annualized revenue grew 7x in one year, with a potential IPO as early as fall 2026 at a $1 trillion valuation, possibly beating OpenAI to market.</div>
       <div class="item-meta">
         
         
@@ -884,8 +952,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Meta Reportedly Moves to Unwind $2B Manus Deal After Beijing's Demand</div>
-      <div class='item-desc'>Meta has started dismantling its $2 billion acquisition of Manus after Beijing ordered the deal reversed.</div>
+      <div class="item-title">OpenAI launches a dedicated ChatGPT mode for teens</div>
+      <div class='item-desc'>ChatGPT for Teens integrates age-appropriate safety measures, parental controls, and learning tools designed to steer teens away from harmful content and AI-enabled cheating.</div>
       <div class="item-meta">
         
         
@@ -893,8 +961,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">OpenAI Faces Investigation from State Attorneys General</div>
-      <div class='item-desc'>The investigation covers OpenAI's ad policies and health data handling; the specific states involved are not yet clear.</div>
+      <div class="item-title">Cursor launches Origin code hosting platform as GitHub outage exposes opening</div>
+      <div class='item-desc'>Cursor rolled out its own code hosting platform Origin to paid users; hours later GitHub suffered a ~7-hour global degradation, exposing a window in the AI coding race.</div>
       <div class="item-meta">
         
         
@@ -902,8 +970,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Court Rules Google Liable for False Statements Generated by AI Overviews</div>
-      <div class='item-desc'>The ruling holds that a company designing, training, and operating an AI system is legally liable for damages caused by its responses.</div>
+      <div class="item-title">Anthropic CEO says AI centralizes by nature and open models just shift power to whoever owns the chips</div>
+      <div class='item-desc'>A public fight over AI regulation erupted on X, with Gavin Baker, David Sacks, and Yann LeCun accusing Dario Amodei of using fear rhetoric for regulatory advantage.</div>
       <div class="item-meta">
         
         
@@ -911,8 +979,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">KPMG Pulls Report on AI Usage Due to Apparent Hallucinations</div>
-      <div class='item-desc'>One of the Big Four accounting firms, KPMG, retracted its AI usage report after finding apparent hallucinations within it.</div>
+      <div class="item-title">Nvidia discloses $21B stake in SpaceX</div>
+      <div class='item-desc'>The filing comes after Elon Musk announced an exclusive arrangement for SpaceX data centers to use Nvidia hardware.</div>
       <div class="item-meta">
         
         
@@ -920,8 +988,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Apple's iOS 27 Launches First AI Photo Editing Tools</div>
-      <div class='item-desc'>Features include reframing, extending, and clean-up. More conservative than competitors like Pixel, but with a massive user base.</div>
+      <div class="item-title">Etched's valuation doubles to $21B in a month</div>
+      <div class='item-desc'>Jane Street installed Etched's first shipped AI cluster system and led another massive round.</div>
       <div class="item-meta">
         
         
@@ -929,8 +997,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Meta Employees Strongly Oppose Zuckerberg's AI Hackathon Plan</div>
-      <div class='item-desc'>Employees publicly questioned the plan on internal forums, arguing the company culture no longer supports hackathons.</div>
+      <div class="item-title">OpenAI reportedly disbanded its preparedness team</div>
+      <div class='item-desc'>Per the Financial Times, OpenAI disbanded the team responsible for assessing serious model risks and developing mitigations at the end of last month.</div>
       <div class="item-meta">
         
         
@@ -938,8 +1006,35 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">IEEE Study: Visual Language Models Train Robots to Read Human Emotions</div>
-      <div class='item-desc'>Researchers trained collaborative robots using VLMs to not only recognize facial expressions but also understand emotions for better human-robot collaboration.</div>
+      <div class="item-title">Anthropic's per-token cost runs 4.4 times the average on Vercel, and developers keep paying</div>
+      <div class='item-desc'>Anthropic took 65.1% of Vercel AI Gateway revenue in July while processing only 30% of tokens.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Claude Code gets a /design command for creating UI mockups in the terminal</div>
+      <div class='item-desc'>Developers can generate UI mockups as artboards directly in the terminal before writing code; Claude reads the existing codebase and matches the current UI style.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Mojo programming language is now open source</div>
+      <div class='item-desc'>Mojo, which promised open source since May 2023, released its compiler and toolchain under an Apache 2 license after shipping 1.0 last week.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Machine traffic exceeds human traffic for the first time, internet enters the "Three-Body Traffic Era"</div>
+      <div class='item-desc'>Ruishu Info's "Automated Threat Report" reveals AI-driven bot traffic has become the majority of internet traffic, presenting new variables for security.</div>
       <div class="item-meta">
         
         
@@ -954,8 +1049,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           </div>
           
     <div class="item-card" data-stars="0">
-      <div class="item-title">The Cold-Start Safety Gap in LLM Agents</div>
-      <div class='item-desc'>Research finds tool-calling LLM agents are most vulnerable at the start of a conversation and become significantly safer after completing a few regular agentic tasks.</div>
+      <div class="item-title">Qwen3.8-27B: 27B open-source model achieves frontier-class coding agent and reasoning, runs locally</div>
+      <div class='item-desc'>Alibaba's Qwen team released an Apache 2.0 multimodal model scoring 52 on the Artificial Analysis Intelligence Index, matching GPT-5.6 Luna.</div>
       <div class="item-meta">
         
         
@@ -963,8 +1058,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Compute-Aware Evaluation of Adversarial Robustness in LLMs</div>
-      <div class='item-desc'>Proposes evaluating attack success rate in conjunction with computational cost, as the cost of different strategies can vary by orders of magnitude.</div>
+      <div class="item-title">CUDA Agent: ByteDance Seed and Tsinghua AIR introduce large-scale agentic RL for CUDA kernel generation</div>
+      <div class='item-desc'>The system trains LLMs to write GPU kernels that beat compilers on KernelBench.</div>
       <div class="item-meta">
         
         
@@ -972,8 +1067,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">VIA-SD: Intra-Model Routing for Speculative Decoding</div>
-      <div class='item-desc'>Proposes using a slim sub-model from the verifier to handle rejected tokens instead of full recomputation, improving inference efficiency.</div>
+      <div class="item-title">StateM: Reaching 95.3% raw accuracy on Terminal-Bench 2.1 via harness scaling</div>
+      <div class='item-desc'>Introduces an agent-native runtime organizing execution around durable states, phase-local context, checked transitions, and recoverable runbooks, greatly improving long-horizon agents without changing model weights.</div>
       <div class="item-meta">
         
         
@@ -981,8 +1076,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Flash-GMM: A Memory-Efficient Kernel for Scalable Soft Clustering</div>
-      <div class='item-desc'>A fused Triton kernel that eliminates full responsibility matrix memory usage, achieving 20x speedup and supporting 100x larger datasets.</div>
+      <div class="item-title">UI-Mate: Tencent open-sources 27B foundation GUI agent for long-horizon cross-app tasks</div>
+      <div class='item-desc'>Observes live screenshots, reasons over visible state, and produces structured keyboard/mouse actions; supports general computer use and demonstration-guided modes.</div>
       <div class="item-meta">
         
         
@@ -990,8 +1085,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">TreeSeeker: Tree-Structured Trial, Error, and Return in Deep Search</div>
-      <div class='item-desc'>An inference-time framework that balances exploration and exploitation in multi-step web search through tree-structured trial and error.</div>
+      <div class="item-title">DumpsterCluster: Serving LLaMA-70B on $60 GPUs</div>
+      <div class='item-desc'>Researchers built a 128-GPU cluster from used components and ran it for a year, exploring the economic and environmental viability of retired GPUs.</div>
       <div class="item-meta">
         
         
@@ -999,8 +1094,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">HYDRA-X: Native Unified Multimodal Models</div>
-      <div class='item-desc'>The first multimodal model to unify image and video tokenization within a single ViT, enabling more efficient visual representation.</div>
+      <div class="item-title">Beyond Visual CoT: Internalized visual thinking for proactive video reasoning</div>
+      <div class='item-desc'>Proposes Internalized Visual Thinking, letting models learn to think visually during training and reason directly at inference, eliminating Visual CoT overhead.</div>
       <div class="item-meta">
         
         
@@ -1008,8 +1103,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">WebChallenger: A Reliable and Efficient Generalist Web Agent</div>
-      <div class='item-desc'>Improves LLM agent web navigation by simulating three human cognitive advantages: selective attention, persistent memory, and procedural fluency.</div>
+      <div class="item-title">Large Discovery Models: Empirically-grounded model-based open-ended search</div>
+      <div class='item-desc'>New framework uses LLMs as expressive priors over hypothesis spaces while addressing unreliable likelihoods and self-assessments.</div>
       <div class="item-meta">
         
         
@@ -1017,8 +1112,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">TRACE: Compiling User Corrections into Runtime Enforcement for Coding Agents</div>
-      <div class='item-desc'>A drop-in skill layer that compiles user preferences into runtime constraints, significantly improving coding agent compliance with user preferences.</div>
+      <div class="item-title">How Do Agents Fail on AutoResearch: End-to-end diagnostic evaluation on 100 real-world frontier research tasks</div>
+      <div class='item-desc'>Systematically reveals failure modes of AI research agents across the full pipeline from hypothesis to paper.</div>
       <div class="item-meta">
         
         
@@ -1026,8 +1121,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Dense Latent Communication Across Heterogeneous Agents</div>
-      <div class='item-desc'>Proposes latent space communication via KV-cache between heterogeneous agents, avoiding the decode-re-encode loss of text communication.</div>
+      <div class="item-title">Improving the matrix multiplication exponent with modern optimization and AlphaEvolve</div>
+      <div class='item-desc'>Uses modern optimization methods and AlphaEvolve to improve the current best bounds on the matrix multiplication exponent ω.</div>
       <div class="item-meta">
         
         
@@ -1035,8 +1130,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">On the Limits of LLM Adaptability: Impact of Model-Internalized Priors on Annotation Task Performance</div>
-      <div class='item-desc'>Studies how model-internalized priors affect zero-shot annotation performance and the corrective power of additional prompt information.</div>
+      <div class="item-title">MOSS-VL Technical Report: Open vision-language model family treating real-time interaction as a first-class capability</div>
+      <div class='item-desc'>Uses gated cross-attention so the language decoder can perceive input frames while generating, with synthetic interaction corpus and staged curriculum training.</div>
       <div class="item-meta">
         
         
@@ -1051,8 +1146,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           </div>
           
     <div class="item-card" data-stars="0">
-      <div class="item-title">Agent-Reach</div>
-      <div class='item-desc'>A CLI tool giving AI agents eyes to read and search Twitter, Reddit, YouTube, GitHub, Bilibili, Xiaohongshu, and more, with zero API fees.</div>
+      <div class="item-title">MoneyPrinterTurbo +2,306 stars today</div>
+      <div class='item-desc'>Generates HD short videos from a topic or keyword using AI models and automated workflows.</div>
       <div class="item-meta">
         
         
@@ -1060,8 +1155,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">hyperframes</div>
-      <div class='item-desc'>A tool by HeyGen that lets you write HTML and render it as video, built for AI agents.</div>
+      <div class="item-title">Anthropic-Cybersecurity-Skills +726 stars today</div>
+      <div class='item-desc'>817 structured cybersecurity skills for AI agents, mapped to 6 frameworks including MITRE ATT&CK and NIST CSF 2.0; works with Claude Code, Copilot, Cursor, and 20+ platforms.</div>
       <div class="item-meta">
         
         
@@ -1069,8 +1164,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">agentsview</div>
-      <div class='item-desc'>A local-first session intelligence and analytics platform for coding agents, supporting Claude Code, Codex, and 20+ others, and is 100x faster than cusage.</div>
+      <div class="item-title">ai-memory +730 stars today</div>
+      <div class='item-desc'>Long-term memory solution for agent coding CLIs, facilitating handoff between different agent vendors.</div>
       <div class="item-meta">
         
         
@@ -1078,8 +1173,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">codegraph</div>
-      <div class='item-desc'>Pre-indexed code knowledge graphs for coding agents like Claude Code, Codex, and Gemini, reducing token usage and tool calls, running 100% locally.</div>
+      <div class="item-title">OpenViking +298 stars today (Volcengine)</div>
+      <div class='item-desc'>Self-evolving context database for AI agents; unifies agent memory, knowledge RAG, and skills.</div>
       <div class="item-meta">
         
         
@@ -1087,8 +1182,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">archify</div>
-      <div class='item-desc'>A skill for any agent to generate beautiful architecture diagrams with dark/light theme toggle and export to PNG/JPEG/WebP/SVG.</div>
+      <div class="item-title">omlx +366 stars today</div>
+      <div class='item-desc'>LLM inference server with continuous batching and SSD caching for Apple Silicon, managed from the macOS menu bar.</div>
       <div class="item-meta">
         
         
@@ -1096,8 +1191,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">headroom</div>
-      <div class='item-desc'>Compresses tool outputs, logs, files, and RAG chunks before they reach the LLM, reducing token usage by 60-95% while maintaining answer quality. Offers library, proxy, and MCP server.</div>
+      <div class="item-title">"Deep Understanding of AI Agents: Design Principles and Engineering Practice" open-source repo +556 stars today</div>
+      <div class='item-desc'>By Li Bojie; includes full text, compiled PDF, and per-chapter code.</div>
       <div class="item-meta">
         
         
@@ -1105,8 +1200,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">last30days-skill</div>
-      <div class='item-desc'>An AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web, then synthesizes a grounded summary.</div>
+      <div class="item-title">Google open-sources SAM (Sovereign Agent Mesh)</div>
+      <div class='item-desc'>Zero-config, zero-trust P2P overlay letting autonomous agents discover and call each other's MCP tools across cloud, on-prem, laptop, and edge — without exposing internal endpoints.</div>
       <div class="item-meta">
         
         
@@ -1114,8 +1209,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">taste-skill</div>
-      <div class='item-desc'>A "high-agency frontend" skill that prevents AI from generating boring, generic, low-quality content, giving AI good taste.</div>
+      <div class="item-title">DeepSeek Harness v0.1 developer preview released</div>
+      <div class='item-desc'>MIT-licensed agent harness where every capability is a Cordis plugin; four runtime modes, append-only session logs, provider-agnostic model routing.</div>
       <div class="item-meta">
         
         
@@ -1123,8 +1218,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Understand-Anything</div>
-      <div class='item-desc'>Turns any code into an interactive knowledge graph for exploration, search, and Q&A. Integrates with Claude Code, Codex, Cursor, and more.</div>
+      <div class="item-title">NVIDIA releases TensorRT Model Connect in public preview</div>
+      <div class='item-desc'>Apache-2.0 project taking Hugging Face checkpoints to end-to-end TensorRT inference in two commands, no intermediate ONNX export, no PyTorch in the runtime path.</div>
       <div class="item-meta">
         
         
@@ -1132,8 +1227,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Kami</div>
-      <div class='item-desc'>An AI-powered news reader that transforms good content into a better reading experience.</div>
+      <div class="item-title">MiniMax releases MiniMax-Music3 open-weights music model</div>
+      <div class='item-desc'>Generates complete songs up to five minutes in a single pass from lyrics and a structured caption (32kHz, 16-bit stereo WAV).</div>
       <div class="item-meta">
         
         
@@ -1143,15 +1238,10 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
         </div>
       <div class="empty-filter">No items match this filter.</div>
       
-        <div class="observation">
-          <h2>💡 Today's Take</h2>
-          <p>The most impactful event today is undoubtedly the US government forcing Anthropic to take Fable 5 and Mythos 5 offline, marking an unprecedented escalation in the conflict between AI safety and geopolitics. Previous safety discussions were mostly theoretical or voluntary, but this direct use of export controls means frontier AI models are now strategic national assets, subject to strict control over deployment, access, and supply chains. For AI builders, this means reassessing model dependency risks and making compliance and safety core product design elements, not afterthoughts. Furthermore, the deep involvement of Amazon's CEO reveals the subtle role of tech giants in government decisions, pointing to an increasingly complex future AI ecosystem.</p>
-          <button class="speak-btn" data-label="🔊 Read aloud" data-stop="⏹ Stop" data-speak-lang="en-US" data-text="The most impactful event today is undoubtedly the US government forcing Anthropic to take Fable 5 and Mythos 5 offline, marking an unprecedented escalation in the conflict between AI safety and geopolitics. Previous safety discussions were mostly theoretical or voluntary, but this direct use of export controls means frontier AI models are now strategic national assets, subject to strict control over deployment, access, and supply chains. For AI builders, this means reassessing model dependency risks and making compliance and safety core product design elements, not afterthoughts. Furthermore, the deep involvement of Amazon's CEO reveals the subtle role of tech giants in government decisions, pointing to an increasingly complex future AI ecosystem.">🔊 Read aloud</button>
-        </div>
     </div></div>
       <div class="day-nav">
-        <a class="nav-btn" href="2026-06-14.html">← 2026-06-14</a>
-        <a class="nav-btn" href="2026-06-16.html">2026-06-16 →</a>
+        <a class="nav-btn" href="2026-08-18.html">← 2026-08-18</a>
+        <span></span>
       </div>
     </div>
   
@@ -1161,7 +1251,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
   <span data-lang-content="en">© AI Daily Digest · Auto-collected · Curated by DeepSeek · Updated daily</span>
 </footer>
 
-  <script>window.SITE_BASE="../";window.AVAILABLE_DATES=["2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-14", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-20", "2026-06-21", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26", "2026-06-27", "2026-06-28", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-04", "2026-07-05", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-11", "2026-07-12", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-18", "2026-07-19", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-01", "2026-08-02", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06", "2026-08-07", "2026-08-08", "2026-08-09", "2026-08-10", "2026-08-11", "2026-08-12", "2026-08-13", "2026-08-14", "2026-08-15", "2026-08-16", "2026-08-17", "2026-08-18", "2026-08-19"];window.CURRENT_DATE="2026-06-15";window.PREV_DATE="2026-06-14";window.NEXT_DATE="2026-06-16";</script>
+  <script>window.SITE_BASE="../";window.AVAILABLE_DATES=["2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-14", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-20", "2026-06-21", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26", "2026-06-27", "2026-06-28", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-04", "2026-07-05", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-11", "2026-07-12", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-18", "2026-07-19", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-01", "2026-08-02", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06", "2026-08-07", "2026-08-08", "2026-08-09", "2026-08-10", "2026-08-11", "2026-08-12", "2026-08-13", "2026-08-14", "2026-08-15", "2026-08-16", "2026-08-17", "2026-08-18", "2026-08-19"];window.CURRENT_DATE="2026-08-19";window.PREV_DATE="2026-08-18";</script>
   <script>
 (function () {
   var BASE = window.SITE_BASE || "";
