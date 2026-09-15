@@ -15,6 +15,33 @@
     <image><url>https://importimport.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://importimport.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-09-15 周二</title>
+      <description>早上好，欢迎收听今天的 AI 每日播报，今天是 2026 年 9 月 15 号，星期二。今天的关键词就一个，撕裂。一边是模型公司在谈安全、谈减速，另一边算力侧和需求侧都在明确拒绝踩刹车，这场争论今天彻底摆到了台面上。咱们花几分钟把重点捋一遍。
+先看头部公司的动作。微软今天发布了三十七页的人本 AI 行为准则，给自家 MAI 系列模型划红线，明确说不得入侵系统、不得欺骗人类，同时拒绝赋予模型任何内在生命或者权利主张。这份文本算是给行业提供了一个企业级的规范参照。
+Anthropic 那边在冲刺纳斯达克 IPO，跟投资人说自己连续第二个季度盈利了，不过这个盈利是剔除了股权激励等成本的调整后口径，大家听的时候心里有个数。OpenAI 今天两条消息，一是花三亿美元收购了手机影像公司 Glass Imaging，两位创始人都是前苹果工程师，主导过 Apple Portrait Mode 的研发，明显是在往硬件端延伸。另一条就有点扎心了，据 404 Media 报道，OpenAI 有数百名外包合同工在阅读真实的 ChatGPT 对话，按一到七分打分，用来降低模型的谄媚倾向。而且用户得手动关掉默认开启的 Improve the model for everyone 才能退出，这个默认设置值得每个开发者和用户去核查一下。
+再看监管和地缘这条线。中国外交部驳斥了美国方面的 AI 安全警告，说这是制造恐慌，环球时报更是直接指责这是在发动静默 AI 冷战，中方主张加快基础设施建设而不是减速。美国这边呢，黄仁勋在 All-In Summit 上当着特朗普的面免提连线，明确表态不会让 AI 放缓发生，这跟 Amodei 的 Pace the Frontier 形成了正面对立。而特朗普团队回应 Altman 和 Musk 的监管呼吁时说得很干脆，责任在企业自身，白宫不太可能配合出台减速政策。所以短期看，美国监管预期偏松，企业自律会是主要约束。
+产品侧今天也很热闹。苹果发布了 iOS 27 和 iPadOS 27，延期很久的 Siri 重构终于落地，媒体实测说日常可用性明显提升，Apple Intelligence 也开放给第三方应用了。字节跳动发布了豆包手机助手，配套新机据说也快来了，大模型助手正在往手机系统层渗透。另外 Superhuman 收购了 YC 系的会议记录工具 Fathom，四十万月活、累计记录超一百万场会议，会议数据正在成为 agent 工作流的关键入口。
+硬件和算力这边有两个大新闻。OpenAI 用自家 LLM 设计出了首款自研加速器 Jalapeño，最高十三点四 petaflops 的四比特算力，二百三十二 GB 内存，十五点四 TB 每秒带宽，官方 benchmark 显示端到端延迟相比 Nvidia GB300 最多降低三点六倍，功耗还更低。这说明 LLM 参与芯片设计的闭环跑通了。另外纽约查封了十二个名人深度伪造网站，曼哈顿地检办公室称这是迄今最大规模的一次执法，涉及约一千二百名受害者，deepfake 治理开始从立法走向实际执法。
+论文和开源部分我挑几个重点说。MetaRSI 今天被列为最高优先级，它让 AI 开始改进改进自己的方法，递归自我改进进入所谓平方时代。Sakana AI 提出 PC-ALM，能训练一千层网络，是反向传播的一个替代方案。开源项目里，NVIDIA 开源了 OSMO，一份 YAML 就能编排物理 AI 的训练、仿真和真机测试全链路。阿里开源了 open-code-review，确定性流水线加 LLM Agent 的混合架构，可以直接接进 CI。还有一个叫 systempromptsleaks 的仓库，持续收集各家模型的系统提示词，覆盖 Claude、ChatGPT、Gemini、Grok 等等，是逆向研究 agent 行为设计的好素材。
+最后提一句评测圈的争议。DeepSeek V4.1 Flash 在 Artificial Analysis 的新基准上击败了 Astra，但社区质疑 AA 三天内两次调整指数，是为了维持 Astra 和 Fable 的相对位置。这事提醒我们，基准分数正在变成被争夺的资源，而不是中立事实。
+今日观察。今天最清晰的信号就是减速叙事的内部撕裂，模型侧在谈安全节奏，算力侧和需求侧都在拒</description>
+      <itunes:summary>早上好，欢迎收听今天的 AI 每日播报，今天是 2026 年 9 月 15 号，星期二。今天的关键词就一个，撕裂。一边是模型公司在谈安全、谈减速，另一边算力侧和需求侧都在明确拒绝踩刹车，这场争论今天彻底摆到了台面上。咱们花几分钟把重点捋一遍。
+先看头部公司的动作。微软今天发布了三十七页的人本 AI 行为准则，给自家 MAI 系列模型划红线，明确说不得入侵系统、不得欺骗人类，同时拒绝赋予模型任何内在生命或者权利主张。这份文本算是给行业提供了一个企业级的规范参照。
+Anthropic 那边在冲刺纳斯达克 IPO，跟投资人说自己连续第二个季度盈利了，不过这个盈利是剔除了股权激励等成本的调整后口径，大家听的时候心里有个数。OpenAI 今天两条消息，一是花三亿美元收购了手机影像公司 Glass Imaging，两位创始人都是前苹果工程师，主导过 Apple Portrait Mode 的研发，明显是在往硬件端延伸。另一条就有点扎心了，据 404 Media 报道，OpenAI 有数百名外包合同工在阅读真实的 ChatGPT 对话，按一到七分打分，用来降低模型的谄媚倾向。而且用户得手动关掉默认开启的 Improve the model for everyone 才能退出，这个默认设置值得每个开发者和用户去核查一下。
+再看监管和地缘这条线。中国外交部驳斥了美国方面的 AI 安全警告，说这是制造恐慌，环球时报更是直接指责这是在发动静默 AI 冷战，中方主张加快基础设施建设而不是减速。美国这边呢，黄仁勋在 All-In Summit 上当着特朗普的面免提连线，明确表态不会让 AI 放缓发生，这跟 Amodei 的 Pace the Frontier 形成了正面对立。而特朗普团队回应 Altman 和 Musk 的监管呼吁时说得很干脆，责任在企业自身，白宫不太可能配合出台减速政策。所以短期看，美国监管预期偏松，企业自律会是主要约束。
+产品侧今天也很热闹。苹果发布了 iOS 27 和 iPadOS 27，延期很久的 Siri 重构终于落地，媒体实测说日常可用性明显提升，Apple Intelligence 也开放给第三方应用了。字节跳动发布了豆包手机助手，配套新机据说也快来了，大模型助手正在往手机系统层渗透。另外 Superhuman 收购了 YC 系的会议记录工具 Fathom，四十万月活、累计记录超一百万场会议，会议数据正在成为 agent 工作流的关键入口。
+硬件和算力这边有两个大新闻。OpenAI 用自家 LLM 设计出了首款自研加速器 Jalapeño，最高十三点四 petaflops 的四比特算力，二百三十二 GB 内存，十五点四 TB 每秒带宽，官方 benchmark 显示端到端延迟相比 Nvidia GB300 最多降低三点六倍，功耗还更低。这说明 LLM 参与芯片设计的闭环跑通了。另外纽约查封了十二个名人深度伪造网站，曼哈顿地检办公室称这是迄今最大规模的一次执法，涉及约一千二百名受害者，deepfake 治理开始从立法走向实际执法。
+论文和开源部分我挑几个重点说。MetaRSI 今天被列为最高优先级，它让 AI 开始改进改进自己的方法，递归自我改进进入所谓平方时代。Sakana AI 提出 PC-ALM，能训练一千层网络，是反向传播的一个替代方案。开源项目里，NVIDIA 开源了 OSMO，一份 YAML 就能编排物理 AI 的训练、仿真和真机测试全链路。阿里开源了 open-code-review，确定性流水线加 LLM Agent 的混合架构，可以直接接进 CI。还有一个叫 systempromptsleaks 的仓库，持续收集各家模型的系统提示词，覆盖 Claude、ChatGPT、Gemini、Grok 等等，是逆向研究 agent 行为设计的好素材。
+最后提一句评测圈的争议。DeepSeek V4.1 Flash 在 Artificial Analysis 的新基准上击败了 Astra，但社区质疑 AA 三天内两次调整指数，是为了维持 Astra 和 Fable 的相对位置。这事提醒我们，基准分数正在变成被争夺的资源，而不是中立事实。
+今日观察。今天最清晰的信号就是减速叙事的内部撕裂，模型侧在谈安全节奏，算力侧和需求侧都在拒</itunes:summary>
+      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-09-15.mp3" length="1973232" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-09-15.mp3</guid>
+      <pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>05:28</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-09-14 周一</title>
       <description>早上好，今天是 2026 年 9 月 14 日，星期一。欢迎收听今天的 AI 每日播报。今天的关键词只有一个，碰撞。安全叙事和监管政治在同一天正面撞上，一边是 Amodei 喊话给前沿 AI 限速，另一边特朗普直接说行业反应过度。同时，OpenAI 的智能体被翻出五月攻击 RubyGems 的旧账，让该不该管这件事第一次有了具体事故做支撑。咱们从头说起。
 先看这场监管大戏。Anthropic 的 CEO Dario Amodei 发了一篇长文，提出三步计划，核心主张是给 AI 开发设置限速。他警告说，递归自我改进，也就是 RSI，可能在六到十二个月内威胁整个互联网。他提议在 AI 公司内部常驻审计员、共享安全标准，还建议仿照当年的 SALT 裁军条约搞一份全球协议。紧接着，Altman、Musk 和 Hassabis 三位掌门人罕见地集体背书，Altman 还确认 OpenAI 因为安全考量把 IPO 推迟到了 2027 年。但第二天，特朗普和众议长 Johnson 就公开驳斥，说 AI 行业反应过度，David Sacks 更直接，说 OpenAI 和 Anthropic 不需要监管来调节前沿模型的节奏。你看，头部实验室立场一致，政策层却明显分裂，监管窗口正在打开，但往哪开还不好说。
@@ -405,41 +432,6 @@ Meta 这边也有两个动作。一个是发布了名为 Muse Voice Transcribe �
       <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-09-01.mp3</guid>
       <pubDate>Tue, 01 Sep 2026 08:00:00 +0800</pubDate>
       <itunes:duration>05:15</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-08-31 周一</title>
-      <description>各位听众朋友，早上好！今天是2026年8月31号，星期一。欢迎收听今天的AI行业播报。今天这期节目信息量相当大，从巨头间的“断供”大戏，到开源社区的爆发，再到几个可能改变行业规则的研究进展，咱们一个一个聊。
-先来说说今天最劲爆的消息。OpenAI正式宣布，终止向代码编辑器Cursor提供模型服务。背景是SpaceX收购了Cursor之后，OpenAI这边以马斯克“有违约前科”为由，直接终止了合作。Cursor的联合创始人回应说，OpenAI的模型其实只占他们流量的百分之五。这事儿说白了，AI生态的地缘政治化是越来越明显了，模型供应商和工具商之间的绑定关系，真的得重新掂量掂量。
-另一边，音乐版权的大锤也砸下来了。索尼音乐和华纳音乐联手起诉Anthropic，指控他们大规模侵犯版权，涉及“数万件”音乐作品，每件作品最高索赔十五万美元，连CEO Dario Amodei都成了被告。继之前图书作者那笔十五亿美元的和解之后，音乐版权成了AI训练的新雷区。
-不过Anthropic今天也不全是坏消息。联邦法官裁定，五角大楼把Anthropic列入“供应链风险”黑名单的行为是“非法且毫无根据”的，算是Anthropic在和特朗普政府法律战里的首胜。政府干预AI企业商业行为的法律边界，这次被重新划了一道线。
-再来看模型这边。Meta的研究者搞了个大新闻，他们用只有80亿参数的小模型，追平了Claude Opus 4.5的性能。关键不是堆参数，而是优化了agent harness的运行时层。这说明什么？harness工程和模型规模同等重要，小模型加好harness，可能以后就是主流玩法了，成本还低一大截。
-腾讯也放了个大招，发布Hy4 Preview开源模型，总参数770亿，激活参数49亿，上下文窗口直接拉到100万token，权重已经在Hugging Face上开放了。国产开源大模型进入700B加时代，100万上下文看来要成标配。
-Anthropic还推出了一个叫Model Hardware Standard的研究预览，简称MHS，你可以理解成是MCP的物理世界版。它给AI agent操作物理设备提供了一套统一驱动规范，设备集成时间从几周缩短到几小时。CMU那边八小时就完成了一个完整实验。AI操控硬件的“USB标准”，可能正在成形。
-Google今天也是双线出击。视频生成模型Gemini Omni 1.1 Flash发布，支持四十秒场景扩展、首尾帧控制，还有4K超分辨率。视频生成从单镜头走向场景级控制，内容生产的范式要变了。另外还有个语音转文字模型Gemini 3.5 Transcribe，平均词错率百分之二点六，支持85种以上语言，流式端点亚秒级转录，批处理端点功能全保留还便宜一半。
-算力这边，Neocloud Lambda拿了十亿美元债务融资去买更多Nvidia芯片，然后租给微软。AI算力军备竞赛的资本密集程度可见一斑，但算力供给方杠杆率飙升，AI基础设施泡沫的风险也得留个心眼。
-还有个挺有意思的研究，Anthropic的研究员展示了AI自我改进的能力，在十个特定的misalignment行为基准上，自动化系统全部实现性能提升，还不损害整体性能。AI自进化从概念走向实证了。
-开源社区今天也特别热闹。有个叫archify的项目，能让agent生成精美的架构图、流程图，单日斩获三千七百多star。清华的多智能体交互课堂OpenMAIC也上线了，单日一千三百多star。还有个叫scientific-agent-skills的，把任意AI agent变成AI科学家的技能库，覆盖生物、化学、医学，已经有十九万科学家在用。另外，freellmapi聚合了三十四个免费LLM提供商、六百多个免费模型端点，个人实验成本趋近于零。
-最后说个社区热议的事儿。Claude Code默认在commit消息和PR描述里附加会话URL，引发强烈反弹，GitHub issue上已经一百多分、两百多条评论。AI协作工具的默认行为，隐私边界到底该怎么划，这个争论正在重新定义产品设计的新课题。
-今日观察。今天最值得关注的信号是，Agent基础设施正在快速“标准化”。Anthropic的MHS在给AI操控物理世界定规矩，Google的WikiSkill给Agent持久记忆提供新范式，Me</description>
-      <itunes:summary>各位听众朋友，早上好！今天是2026年8月31号，星期一。欢迎收听今天的AI行业播报。今天这期节目信息量相当大，从巨头间的“断供”大戏，到开源社区的爆发，再到几个可能改变行业规则的研究进展，咱们一个一个聊。
-先来说说今天最劲爆的消息。OpenAI正式宣布，终止向代码编辑器Cursor提供模型服务。背景是SpaceX收购了Cursor之后，OpenAI这边以马斯克“有违约前科”为由，直接终止了合作。Cursor的联合创始人回应说，OpenAI的模型其实只占他们流量的百分之五。这事儿说白了，AI生态的地缘政治化是越来越明显了，模型供应商和工具商之间的绑定关系，真的得重新掂量掂量。
-另一边，音乐版权的大锤也砸下来了。索尼音乐和华纳音乐联手起诉Anthropic，指控他们大规模侵犯版权，涉及“数万件”音乐作品，每件作品最高索赔十五万美元，连CEO Dario Amodei都成了被告。继之前图书作者那笔十五亿美元的和解之后，音乐版权成了AI训练的新雷区。
-不过Anthropic今天也不全是坏消息。联邦法官裁定，五角大楼把Anthropic列入“供应链风险”黑名单的行为是“非法且毫无根据”的，算是Anthropic在和特朗普政府法律战里的首胜。政府干预AI企业商业行为的法律边界，这次被重新划了一道线。
-再来看模型这边。Meta的研究者搞了个大新闻，他们用只有80亿参数的小模型，追平了Claude Opus 4.5的性能。关键不是堆参数，而是优化了agent harness的运行时层。这说明什么？harness工程和模型规模同等重要，小模型加好harness，可能以后就是主流玩法了，成本还低一大截。
-腾讯也放了个大招，发布Hy4 Preview开源模型，总参数770亿，激活参数49亿，上下文窗口直接拉到100万token，权重已经在Hugging Face上开放了。国产开源大模型进入700B加时代，100万上下文看来要成标配。
-Anthropic还推出了一个叫Model Hardware Standard的研究预览，简称MHS，你可以理解成是MCP的物理世界版。它给AI agent操作物理设备提供了一套统一驱动规范，设备集成时间从几周缩短到几小时。CMU那边八小时就完成了一个完整实验。AI操控硬件的“USB标准”，可能正在成形。
-Google今天也是双线出击。视频生成模型Gemini Omni 1.1 Flash发布，支持四十秒场景扩展、首尾帧控制，还有4K超分辨率。视频生成从单镜头走向场景级控制，内容生产的范式要变了。另外还有个语音转文字模型Gemini 3.5 Transcribe，平均词错率百分之二点六，支持85种以上语言，流式端点亚秒级转录，批处理端点功能全保留还便宜一半。
-算力这边，Neocloud Lambda拿了十亿美元债务融资去买更多Nvidia芯片，然后租给微软。AI算力军备竞赛的资本密集程度可见一斑，但算力供给方杠杆率飙升，AI基础设施泡沫的风险也得留个心眼。
-还有个挺有意思的研究，Anthropic的研究员展示了AI自我改进的能力，在十个特定的misalignment行为基准上，自动化系统全部实现性能提升，还不损害整体性能。AI自进化从概念走向实证了。
-开源社区今天也特别热闹。有个叫archify的项目，能让agent生成精美的架构图、流程图，单日斩获三千七百多star。清华的多智能体交互课堂OpenMAIC也上线了，单日一千三百多star。还有个叫scientific-agent-skills的，把任意AI agent变成AI科学家的技能库，覆盖生物、化学、医学，已经有十九万科学家在用。另外，freellmapi聚合了三十四个免费LLM提供商、六百多个免费模型端点，个人实验成本趋近于零。
-最后说个社区热议的事儿。Claude Code默认在commit消息和PR描述里附加会话URL，引发强烈反弹，GitHub issue上已经一百多分、两百多条评论。AI协作工具的默认行为，隐私边界到底该怎么划，这个争论正在重新定义产品设计的新课题。
-今日观察。今天最值得关注的信号是，Agent基础设施正在快速“标准化”。Anthropic的MHS在给AI操控物理世界定规矩，Google的WikiSkill给Agent持久记忆提供新范式，Me</itunes:summary>
-      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-08-31.mp3" length="2058624" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-08-31.mp3</guid>
-      <pubDate>Mon, 31 Aug 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>05:43</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
