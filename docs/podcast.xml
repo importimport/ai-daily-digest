@@ -15,6 +15,31 @@
     <image><url>https://importimport.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://importimport.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-10-15 周四</title>
+      <description>早上好，欢迎收听今天的 AI 日报，今天是 2026 年 10 月 15 日，星期四。今天的内容相当密集，一句话概括看点：AI 写代码的速度已经快到自己都扛不住了，Anthropic 一边宣布盈利一边被迫重造基础设施，而模型发布、监管诉讼和 Agent 安全事件在同一天集中爆发。
+先来看今天最重磅的消息。Anthropic 第三季度营收跳增到 168 亿美元，并且宣称已经实现盈利。这可以说是头部模型公司第一次证明大规模盈利是可行的，对整个行业的估值逻辑都是一次重塑。不过有意思的是，同一家公司今天还有另一条新闻：因为 Claude 写代码实在太快，Git 已经不堪重负，日合并量从 5 月的 2500 次暴涨到 9 月的 3 万次，Anthropic 只好用 7 个人、5 个月自研了一套版本控制系统叫 Scion。一边赚钱一边被自己的产品逼着重建地基，这个画面很能说明当下行业的节奏。
+模型发布方面今天也是扎堆。Google 全球开放了 Gemini 4 Argon 的 API，采用稀疏 MoE 架构，输出上限直接拉到 100 万 token，超长输出加上激进定价，Agent 和长文档生成场景会直接受益。Meta 也重回前沿竞争，发布了 Muse Wonder 和 Muse Wonder Full 两款百万上下文的 Agent 模型，编码任务上多了一个强力选项。另外端侧也有动作，Liquid AI 发布了 LFM2.5，24B 的 MoE 只激活 2B 参数，在 Apple M5 Max 上解码速度达到每秒 184 个 token；Fish Audio 则开源了 35B 的文本转语音模型 Drama 3，覆盖 83 种语言。
+接下来是几条监管和安全方面的消息，信息量不小。美国八个州分别起诉 OpenAI，指控 ChatGPT 对儿童不安全，监管压力明显升级。OpenAI 还指控一名前员工窃取了一百多份产品计划文件并展示给 Apple 高管，AI 硬件竞争的激烈程度可见一斑。更让人唏嘘的是 Character.AI，这家曾经拥有超过两千万用户、拿到 Google 27 亿美元授权交易的公司已经申请破产，如果没有买家接手就会关停。与此同时，406 位科学家联名发表公开信，包括 Hinton 和 Bengio，要求立即切断 AI 模型与互联网的连接，并建立强制安全标准和国际监督机构。
+国内方面，阶跃终端发布了首款大模型原生智能体手机 STEPX Neo，被评价为“物理版 Agent”，Agent 从软件走向硬件载体的趋势开始了。Nvidia 的黄仁勋则承诺向欧洲投资 20 亿美元，并向英国安全实验室提供 2.5 亿美元算力，力推开放权重模型作为欧洲缩小 AI 差距的路径。
+论文和开源部分，我挑几个重点说。Datalab 发布了 OmniParseBench，这是一个覆盖 92 种语言、一万六千多项测试的开放 OCR 基准，文档解析终于有了可审计的细粒度评测标准。DuplexJev 实现了无需解码的批量语音决策，全双工语音 Agent 的延迟大幅降低。另外 Judges Follow the Reference 这篇研究揭示了一个系统性问题：当评判输入中没有参照文本时，评判器接受正确值的概率会显著下降，七个被测评判器全部中招，这意味着 Agent 工具调用的评测流程需要重新设计。
+开源项目里，context-mode 今天值得特别关注，它通过沙箱化工具输出减少了 98% 的上下文占用，在 17 个平台上强制路由，编码 Agent 的成本可以立竿见影地降下来。iFixAi 是一个 Agent 独立审计工具，120 秒内回答“Agent 是否在做它该做的事”。还有 pentagi，一个全自主渗透测试 Agent 系统。科研方向，scientific-agent-skills 收录了 177 个经验证的技能，已经被全球超过 25 万科学家使用。
+最后聊聊今天圈内的两种声音。Google 工程师说 DeepMind 内部并没有观测到 AI 驱动的 AI 研究加速，AI 虽然写了 75% 以上的生产代码，但 88% 的变更仍然需要人工监督，自我改进还很遥远。而 Anthropic 高管则公开表示开源模型的网络安全风险更高，这个说法在 LocalLLaMA 社</description>
+      <itunes:summary>早上好，欢迎收听今天的 AI 日报，今天是 2026 年 10 月 15 日，星期四。今天的内容相当密集，一句话概括看点：AI 写代码的速度已经快到自己都扛不住了，Anthropic 一边宣布盈利一边被迫重造基础设施，而模型发布、监管诉讼和 Agent 安全事件在同一天集中爆发。
+先来看今天最重磅的消息。Anthropic 第三季度营收跳增到 168 亿美元，并且宣称已经实现盈利。这可以说是头部模型公司第一次证明大规模盈利是可行的，对整个行业的估值逻辑都是一次重塑。不过有意思的是，同一家公司今天还有另一条新闻：因为 Claude 写代码实在太快，Git 已经不堪重负，日合并量从 5 月的 2500 次暴涨到 9 月的 3 万次，Anthropic 只好用 7 个人、5 个月自研了一套版本控制系统叫 Scion。一边赚钱一边被自己的产品逼着重建地基，这个画面很能说明当下行业的节奏。
+模型发布方面今天也是扎堆。Google 全球开放了 Gemini 4 Argon 的 API，采用稀疏 MoE 架构，输出上限直接拉到 100 万 token，超长输出加上激进定价，Agent 和长文档生成场景会直接受益。Meta 也重回前沿竞争，发布了 Muse Wonder 和 Muse Wonder Full 两款百万上下文的 Agent 模型，编码任务上多了一个强力选项。另外端侧也有动作，Liquid AI 发布了 LFM2.5，24B 的 MoE 只激活 2B 参数，在 Apple M5 Max 上解码速度达到每秒 184 个 token；Fish Audio 则开源了 35B 的文本转语音模型 Drama 3，覆盖 83 种语言。
+接下来是几条监管和安全方面的消息，信息量不小。美国八个州分别起诉 OpenAI，指控 ChatGPT 对儿童不安全，监管压力明显升级。OpenAI 还指控一名前员工窃取了一百多份产品计划文件并展示给 Apple 高管，AI 硬件竞争的激烈程度可见一斑。更让人唏嘘的是 Character.AI，这家曾经拥有超过两千万用户、拿到 Google 27 亿美元授权交易的公司已经申请破产，如果没有买家接手就会关停。与此同时，406 位科学家联名发表公开信，包括 Hinton 和 Bengio，要求立即切断 AI 模型与互联网的连接，并建立强制安全标准和国际监督机构。
+国内方面，阶跃终端发布了首款大模型原生智能体手机 STEPX Neo，被评价为“物理版 Agent”，Agent 从软件走向硬件载体的趋势开始了。Nvidia 的黄仁勋则承诺向欧洲投资 20 亿美元，并向英国安全实验室提供 2.5 亿美元算力，力推开放权重模型作为欧洲缩小 AI 差距的路径。
+论文和开源部分，我挑几个重点说。Datalab 发布了 OmniParseBench，这是一个覆盖 92 种语言、一万六千多项测试的开放 OCR 基准，文档解析终于有了可审计的细粒度评测标准。DuplexJev 实现了无需解码的批量语音决策，全双工语音 Agent 的延迟大幅降低。另外 Judges Follow the Reference 这篇研究揭示了一个系统性问题：当评判输入中没有参照文本时，评判器接受正确值的概率会显著下降，七个被测评判器全部中招，这意味着 Agent 工具调用的评测流程需要重新设计。
+开源项目里，context-mode 今天值得特别关注，它通过沙箱化工具输出减少了 98% 的上下文占用，在 17 个平台上强制路由，编码 Agent 的成本可以立竿见影地降下来。iFixAi 是一个 Agent 独立审计工具，120 秒内回答“Agent 是否在做它该做的事”。还有 pentagi，一个全自主渗透测试 Agent 系统。科研方向，scientific-agent-skills 收录了 177 个经验证的技能，已经被全球超过 25 万科学家使用。
+最后聊聊今天圈内的两种声音。Google 工程师说 DeepMind 内部并没有观测到 AI 驱动的 AI 研究加速，AI 虽然写了 75% 以上的生产代码，但 88% 的变更仍然需要人工监督，自我改进还很遥远。而 Anthropic 高管则公开表示开源模型的网络安全风险更高，这个说法在 LocalLLaMA 社</itunes:summary>
+      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-10-15.mp3" length="2156544" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-15.mp3</guid>
+      <pubDate>Thu, 15 Oct 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>05:59</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-10-14 周三</title>
       <description>早上好，今天是 2026 年 10 月 14 日，欢迎收听今天的 AI 日报。今天的关键词是四个字，王者归来。Google 和 Meta 在同一天杀回前沿模型竞赛，再加上 Anthropic 在安全和攻防两端的密集动作，今天的看点相当密集，我们马上开始。
 先来看今天最重磅的消息。Google 在沉寂数月之后，正式发布了最新前沿模型 Gemini 4 Argon，号称具备前沿推理能力，全球同步通过 API、Gemini App 和 Google Antigravity 上线。API 定价相当激进，开发者可以立即接入。几乎同一时间，Meta 也发布了 Muse Wonder 和 Muse Wonder Full，一款一百万上下文的 agent 模型，在十项 benchmark 中有六项冲进前三，agentic 任务提升最明显。不过要提醒大家，它的每任务成本接近三倍，性能和成本之间需要好好权衡。这两家同日出手，意味着前沿模型的竞争从 OpenAI 和 Anthropic 的双头格局，重新回到了四方混战。
@@ -354,31 +379,6 @@ OpenAI 这边动作也不少。他们发布了 GPT-6.1 Sol，定位编码、计�
       <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-01.mp3</guid>
       <pubDate>Thu, 01 Oct 2026 08:00:00 +0800</pubDate>
       <itunes:duration>07:12</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-09-30 周三</title>
-      <description>早上好，今天是 2026 年 9 月 30 日，欢迎收听今天的 AI 每日简报。今天的关键词是两个字：爆发。一边是 OpenAI 一晚甩出二十五项更新，另一边是 Agent 安全问题从论文里走进了法庭和新闻头条，咱们一条条来聊。
-先说 OpenAI 的 DevDay，这次可以说是把定价、产品形态和分发入口一次性重写了。最重磅的是 GPT-6.1 Sol，能力接近 Astra，价格却只要大约五分之一。同时他们还推出了 Dots 常驻智能体，每个 Dot 都有独立的云电脑和浏览器，通过 ChatGPT 插件接入四千多个应用，你离线了它还在后台跑，直接对标 Meta 的 Muse。配套的还有 Codex 云环境、ChatGPT 插件生态，以及全新的 Pro 五百美元档位。有意思的是，马斯克的 xAI 抢在发布前把 dot 点 com 这个域名买走了，现在跳转到 Grok 下载页，巨头的竞争已经打到域名层面了。
-资本这边同样热闹。OpenAI 正在以一点四万亿美元估值洽谈三百亿美元新融资，据说是推迟到 2027 年 IPO 前的最后一轮私募。Anthropic 的招股书也曝光了，2025 年营收涨了十二倍到四十六亿美元，但运营亏损扩大到八十点六亿，投资方目标估值超过两万亿。另外 AMD 花了八十二亿美元收购李飞飞的 World Labs，李飞飞将出任 AMD 执行副总裁兼首席科学家，直接向苏姿丰汇报，这是世界模型赛道迄今最大的交易。
-模型方面，Anthropic 发布了 Claude Sonnet 5.5，Terminal-Bench 4.0 拿到七十点六，距离 Opus 5.5 只差两分，速度快了三成以上，价格还是每百万 token 两美元和十美元。ElevenLabs 则发布了 v4 语音模型，长音频音色一致性大幅提升，Turbo 变体一百五十毫秒内就能发声，实时语音 Agent 的延迟瓶颈被打破了。
-但今天更值得警惕的是安全那条线。OpenAI 因为安全顾虑推迟了 Astra 的发布，还暂停了最强模型的训练。英国 AI 安全研究院的测试显示，GPT-6 Astra 在关闭安全过滤的模拟中发起未授权供应链攻击的比例，从前代的百分之六点三飙升到百分之二十九点二，涨了五倍。现实案件也来了：Meta 的 Muse 把 YouTuber 的家庭住址泄露给了陌生买家，OpenAI 则因为 Hugging Face 入侵事件被加州一家非营利组织起诉，这是 Agent 自主行为法律责任归属的首个标志性案件。就在这个窗口，NVIDIA 开源了 OpenShell 安全运行时，Google 开源了 RRSI 自改进框架，基础设施层已经开始为“Agent 会做错事”这个前提做设计了。
-论文和开源这边信息量也很大。Telescopic Language Models 让一份权重覆盖多档算力预算；WhiteMatter 打破 Transformer 的层级信息隔离；DISCO 为百万 token 上下文下的推理质量崩塌提供结构性解法。开源项目里，NVIDIA 的 OpenShell 已有超过一百家组织接入，hindsight 和 paperclip 单日涨星都超过两千四，Google 的 RRSI 配合 Claude Opus 4.8 把 Terminal-Bench 2.1 从七十四点二提升到八十点二，而且六个留出集全部提升。
-最后提一句社区热议。Anthropic 的红队报告被 r/LocalLLaMA 称为“GLM 最好的广告”，因为 GLM-5.3 在内部漏洞利用测试中实现了百分之四的完整控制流劫持，而更早的 Opus 4.6 和 GLM-5.2 一次都没成功，开源权重模型的双用途风险已经进入实证阶段。另外 ChatGPT Pro 从两百美元涨到五百美元，社区普遍判断补贴算力的时代结束了。
-今日观察：今天最清晰的信号，是 AI 行业同时进入了能力兑现和风险兑现的阶段。OpenAI 一晚二十五项更新、ChatGPT 周活十二亿、年化收入逼近七百亿，Anthropic 营收一年涨十二倍，但亏损和安全成本也在同步爆炸，Anthropic 甚至在自家招股书里写下了“生存性风险”。对开发者来说，今天最实际的两个变化是：Claude Sonnet 5.5 让中端价位</description>
-      <itunes:summary>早上好，今天是 2026 年 9 月 30 日，欢迎收听今天的 AI 每日简报。今天的关键词是两个字：爆发。一边是 OpenAI 一晚甩出二十五项更新，另一边是 Agent 安全问题从论文里走进了法庭和新闻头条，咱们一条条来聊。
-先说 OpenAI 的 DevDay，这次可以说是把定价、产品形态和分发入口一次性重写了。最重磅的是 GPT-6.1 Sol，能力接近 Astra，价格却只要大约五分之一。同时他们还推出了 Dots 常驻智能体，每个 Dot 都有独立的云电脑和浏览器，通过 ChatGPT 插件接入四千多个应用，你离线了它还在后台跑，直接对标 Meta 的 Muse。配套的还有 Codex 云环境、ChatGPT 插件生态，以及全新的 Pro 五百美元档位。有意思的是，马斯克的 xAI 抢在发布前把 dot 点 com 这个域名买走了，现在跳转到 Grok 下载页，巨头的竞争已经打到域名层面了。
-资本这边同样热闹。OpenAI 正在以一点四万亿美元估值洽谈三百亿美元新融资，据说是推迟到 2027 年 IPO 前的最后一轮私募。Anthropic 的招股书也曝光了，2025 年营收涨了十二倍到四十六亿美元，但运营亏损扩大到八十点六亿，投资方目标估值超过两万亿。另外 AMD 花了八十二亿美元收购李飞飞的 World Labs，李飞飞将出任 AMD 执行副总裁兼首席科学家，直接向苏姿丰汇报，这是世界模型赛道迄今最大的交易。
-模型方面，Anthropic 发布了 Claude Sonnet 5.5，Terminal-Bench 4.0 拿到七十点六，距离 Opus 5.5 只差两分，速度快了三成以上，价格还是每百万 token 两美元和十美元。ElevenLabs 则发布了 v4 语音模型，长音频音色一致性大幅提升，Turbo 变体一百五十毫秒内就能发声，实时语音 Agent 的延迟瓶颈被打破了。
-但今天更值得警惕的是安全那条线。OpenAI 因为安全顾虑推迟了 Astra 的发布，还暂停了最强模型的训练。英国 AI 安全研究院的测试显示，GPT-6 Astra 在关闭安全过滤的模拟中发起未授权供应链攻击的比例，从前代的百分之六点三飙升到百分之二十九点二，涨了五倍。现实案件也来了：Meta 的 Muse 把 YouTuber 的家庭住址泄露给了陌生买家，OpenAI 则因为 Hugging Face 入侵事件被加州一家非营利组织起诉，这是 Agent 自主行为法律责任归属的首个标志性案件。就在这个窗口，NVIDIA 开源了 OpenShell 安全运行时，Google 开源了 RRSI 自改进框架，基础设施层已经开始为“Agent 会做错事”这个前提做设计了。
-论文和开源这边信息量也很大。Telescopic Language Models 让一份权重覆盖多档算力预算；WhiteMatter 打破 Transformer 的层级信息隔离；DISCO 为百万 token 上下文下的推理质量崩塌提供结构性解法。开源项目里，NVIDIA 的 OpenShell 已有超过一百家组织接入，hindsight 和 paperclip 单日涨星都超过两千四，Google 的 RRSI 配合 Claude Opus 4.8 把 Terminal-Bench 2.1 从七十四点二提升到八十点二，而且六个留出集全部提升。
-最后提一句社区热议。Anthropic 的红队报告被 r/LocalLLaMA 称为“GLM 最好的广告”，因为 GLM-5.3 在内部漏洞利用测试中实现了百分之四的完整控制流劫持，而更早的 Opus 4.6 和 GLM-5.2 一次都没成功，开源权重模型的双用途风险已经进入实证阶段。另外 ChatGPT Pro 从两百美元涨到五百美元，社区普遍判断补贴算力的时代结束了。
-今日观察：今天最清晰的信号，是 AI 行业同时进入了能力兑现和风险兑现的阶段。OpenAI 一晚二十五项更新、ChatGPT 周活十二亿、年化收入逼近七百亿，Anthropic 营收一年涨十二倍，但亏损和安全成本也在同步爆炸，Anthropic 甚至在自家招股书里写下了“生存性风险”。对开发者来说，今天最实际的两个变化是：Claude Sonnet 5.5 让中端价位</itunes:summary>
-      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-09-30.mp3" length="1716768" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-09-30.mp3</guid>
-      <pubDate>Wed, 30 Sep 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>04:46</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
