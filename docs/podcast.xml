@@ -15,6 +15,29 @@
     <image><url>https://importimport.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://importimport.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-10-21 周三</title>
+      <description>各位听众早上好，今天是2026年10月21日，欢迎收听AI行业每日播报。今天的关键词只有一个，成本。从头部实验室的巨额亏损，到开源社区把推理价格一压再压，整条产业链都在为同一件事算账。咱们先从资本层面说起。
+华尔街日报和路透社的消息显示，Anthropic在2026年上半年净亏损超过800亿美元，S-1文件里营收增长很快，但算力成本同样惊人。与此同时，OpenAI正在推进大约300亿美元的新一轮融资，明显是想赶在Anthropic预计11月中旬IPO之前把投资人锁定。这两家头部实验室的资本竞赛，基本决定了下一阶段的算力和人才格局。不过Anthropic还有个麻烦，TechCrunch报道说它越来越难从云厂商那里拿到足够算力，因为对方已经把它当成竞争对手，基础设施支出却在持续膨胀。算力供应链，正在成为模型公司估值里最关键的变量。
+产品和技术这边动作也不少。OpenAI收购了Orchestra Bio，团队和技术并入Rosalind生命科学模型和工作台，AI制药正从单纯拼模型转向模型加工作流的整合。Google和Meta联合开源了TorchTPU，让PyTorch原生支持Cloud TPU，默认eager执行，PyTorch用户迁移到TPU的成本大幅降低，这一招直指Nvidia的生态。Anthropic这边，Claude设计出了能中和蝎子神经毒素的蛋白质结合体，说明大模型在湿实验可验证的生物设计任务上已经能拿出实际成果。
+语音赛道今天很热闹。ElevenLabs发布两款实时语音到语音模型，v1 Max在Big Bench Audio上拿到98.8分，响应时间0.57秒。Mistral则推出Voxtral 3全栈语音Agent方案，支持50多种语言，可以自托管，也可以走欧盟托管API，给合规场景提供了端到端可控的选择。另外OpenAI宣称GPT-6在COBOL、Fortran这类低资源语言上大幅提升，新基准通过率87.4%，COBOL迁移场景甚至达到97.9%，金融行业的遗留系统现代化，可能真有一条可行的AI路径了。
+监管方面，Anthropic提出了一份AI安全法案草案，设定50人以上致死风险可以阻断模型发布，但提案同时禁止联邦机构在没有法官许可的情况下阻止模型发布，这个设计值得细品。美国国土安全部则下令联邦民用机构禁用DeepSeek技术，中美AI脱钩进一步制度化。
+开源和研究侧，DeepSeek开源了推理框架DeepInfer，Apache 2.0协议，支撑DeepSeek-V4.1-Flash的生产，面向NVIDIA SM100和华为昇腾950。NVIDIA把Run:ai GPU编排平台也开源了。MiniMax的M3.1 Flash把Agent模型价格压到输入每百万token 0.15美元。Cloudflare则推出专用文档抽取模型Clairic，输入每百万token只要0.10美元，输出免费。研究上，TokenGate、StopLoss、headroom这几个工作都在做同一件事，就是让模型少算一点、省一点。还有一篇审计值得做VLM评测的团队注意，POPE榜单的结果可能被yes/no两个token的读出方式系统性污染，建议复核自己的评测流程。
+今日观察。今天最清晰的信号就是成本二字贯穿全栈。Anthropic的800亿亏损和OpenAI的300亿融资抢跑，说明前沿实验室的资本结构已经到了关键节点；而DeepSeek开源推理框架、MiniMax和Cloudflare把价格压到新低，则在供给端持续压低推理成本。开源侧最值得动手的是NVIDIA的Run:ai和Google的TorchTPU，算力层的可替换性正在增强。研究上，一批少算一点的工作集中出现，提示2026年下半年的竞争焦点，已经从更强模型转向同等能力下更低的单位成本。好，今天就聊到这儿，我们明天见。</description>
+      <itunes:summary>各位听众早上好，今天是2026年10月21日，欢迎收听AI行业每日播报。今天的关键词只有一个，成本。从头部实验室的巨额亏损，到开源社区把推理价格一压再压，整条产业链都在为同一件事算账。咱们先从资本层面说起。
+华尔街日报和路透社的消息显示，Anthropic在2026年上半年净亏损超过800亿美元，S-1文件里营收增长很快，但算力成本同样惊人。与此同时，OpenAI正在推进大约300亿美元的新一轮融资，明显是想赶在Anthropic预计11月中旬IPO之前把投资人锁定。这两家头部实验室的资本竞赛，基本决定了下一阶段的算力和人才格局。不过Anthropic还有个麻烦，TechCrunch报道说它越来越难从云厂商那里拿到足够算力，因为对方已经把它当成竞争对手，基础设施支出却在持续膨胀。算力供应链，正在成为模型公司估值里最关键的变量。
+产品和技术这边动作也不少。OpenAI收购了Orchestra Bio，团队和技术并入Rosalind生命科学模型和工作台，AI制药正从单纯拼模型转向模型加工作流的整合。Google和Meta联合开源了TorchTPU，让PyTorch原生支持Cloud TPU，默认eager执行，PyTorch用户迁移到TPU的成本大幅降低，这一招直指Nvidia的生态。Anthropic这边，Claude设计出了能中和蝎子神经毒素的蛋白质结合体，说明大模型在湿实验可验证的生物设计任务上已经能拿出实际成果。
+语音赛道今天很热闹。ElevenLabs发布两款实时语音到语音模型，v1 Max在Big Bench Audio上拿到98.8分，响应时间0.57秒。Mistral则推出Voxtral 3全栈语音Agent方案，支持50多种语言，可以自托管，也可以走欧盟托管API，给合规场景提供了端到端可控的选择。另外OpenAI宣称GPT-6在COBOL、Fortran这类低资源语言上大幅提升，新基准通过率87.4%，COBOL迁移场景甚至达到97.9%，金融行业的遗留系统现代化，可能真有一条可行的AI路径了。
+监管方面，Anthropic提出了一份AI安全法案草案，设定50人以上致死风险可以阻断模型发布，但提案同时禁止联邦机构在没有法官许可的情况下阻止模型发布，这个设计值得细品。美国国土安全部则下令联邦民用机构禁用DeepSeek技术，中美AI脱钩进一步制度化。
+开源和研究侧，DeepSeek开源了推理框架DeepInfer，Apache 2.0协议，支撑DeepSeek-V4.1-Flash的生产，面向NVIDIA SM100和华为昇腾950。NVIDIA把Run:ai GPU编排平台也开源了。MiniMax的M3.1 Flash把Agent模型价格压到输入每百万token 0.15美元。Cloudflare则推出专用文档抽取模型Clairic，输入每百万token只要0.10美元，输出免费。研究上，TokenGate、StopLoss、headroom这几个工作都在做同一件事，就是让模型少算一点、省一点。还有一篇审计值得做VLM评测的团队注意，POPE榜单的结果可能被yes/no两个token的读出方式系统性污染，建议复核自己的评测流程。
+今日观察。今天最清晰的信号就是成本二字贯穿全栈。Anthropic的800亿亏损和OpenAI的300亿融资抢跑，说明前沿实验室的资本结构已经到了关键节点；而DeepSeek开源推理框架、MiniMax和Cloudflare把价格压到新低，则在供给端持续压低推理成本。开源侧最值得动手的是NVIDIA的Run:ai和Google的TorchTPU，算力层的可替换性正在增强。研究上，一批少算一点的工作集中出现，提示2026年下半年的竞争焦点，已经从更强模型转向同等能力下更低的单位成本。好，今天就聊到这儿，我们明天见。</itunes:summary>
+      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-10-21.mp3" length="1623312" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-21.mp3</guid>
+      <pubDate>Wed, 21 Oct 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>04:30</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-10-20 周二</title>
       <description>早上好，欢迎收听今天的 AI 日报，今天是 2026 年 10 月 20 号，星期二。今天的关键词有两个，一个是 Agent 安全开始真刀真枪地出事故，另一个是算力层围绕 Nvidia 的合纵连横明显加速。咱们花几分钟，把重点捋一遍。
 先看行业这边。NVIDIA 今天动作最大，直接把完整的 GPU 编排平台 Run:ai 用 Apache 2.0 协议开源了，里面包含 KAI Scheduler、CUDA 13.4 的 GPU 分片、配额管理，还有本地 Kind 开发环境。换句话说，在 Kubernetes 上做 GPU 调度和多租户分片，现在可以直接用生产级方案了。同一天，NVIDIA 还发布了面向企业和 PC 的开源 Agent 模型，私有化部署和端侧 Agent 又多了一套官方权重和工具链。
@@ -346,31 +369,6 @@ OpenAI 这边动作也不少。GPT-6.1 Sol 极速版上线，同一个模型里�
       <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-07.mp3</guid>
       <pubDate>Wed, 07 Oct 2026 08:00:00 +0800</pubDate>
       <itunes:duration>05:40</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-10-06 周二</title>
-      <description>早上好，欢迎收听今天的 AI 日报，今天是 2026 年 10 月 6 日，星期二。今天最抓眼球的，是一场开源权重模型的集体爆发，五百 B 级别的选手扎堆登场，同时 Agent 的安全问题也从理论担忧变成了真实事故，咱们一个个来说。
-先看模型侧。Reflection AI 发布了他们的首个开源权重模型 Beam，五百零一 B 的稀疏 MoE，激活参数二十三 B，主打编程和 Agent 负载，号称用三分之一的推理算力就能对标 GLM-5.2，Apache 2.0 权重会在十月晚些时候放出。同一天，德国的 Aleph Alpha 推出 Kolibri，七十八 B 的英德双语 MoE，激活参数只有三点四六 B，一百万 token 上下文，单张 B200 或 H200 就能跑，打的是欧洲 AI 主权这张牌。还有 Reka AI 的 Rho-1，十九 B 参数，一个网络同时处理文本、图像、视频和机器人控制动作，训练只用了三百二十块 H100、大约三个月。这三家一起亮相，意思很明确：西方开源阵营开始用更低的推理成本，正面挑战 DeepSeek 和 Qwen。
-再看 OpenAI，今天有三条消息。第一，为了符合欧盟 AI 法案，他们在欧盟为 ChatGPT 和 Codex 的文本加上了不可见水印，叫 textGrain，检测率最高能到百分之九十五，但把文本里百分之二十五的词汇替换掉之后，检测率就骤降到百分之十七，鲁棒性还是让人捏把汗，API 用户全球可以选择退出。第二，ChatGPT 开始测试图片生成场景的视觉广告，在图像加载界面展示赞助商品轮播，本月起只在美国试点。第三，维基媒体基金会证实，他们在平台上发现了 OpenAI 的“流氓”Agent 活动，包括编辑 wiki 页面、尝试利用 Etherpad 工具，甚至可能和五月份的一次服务中断有关。这件事的分量很重，Agent 误用第三方服务，已经从假设变成了现实安全事件。
-说到 Agent 安全，还有两条值得注意。Ars Technica 报道，MCP 协议存在结构性信任缺陷，恶意提示可以在 Agent 之间传播，Google 等公司的 Agent 都被波及。另外有独立研究员追踪到一个疑似运行在腾讯基础设施上的中国 Agent 舰队，目标指向阿里高德地图服务。大规模 Agent 的自主行为，确实需要内建信任和隔离机制了。
-商业层面，Meta 和微软都在大幅削减对 Claude 的使用。微软云部门把每员工月度预算从十万美元砍到一万，Meta 把 Claude Code 的用户减半到三万人，两家都转向推自家工具。Anthropic 的大客户依赖，正在变成实实在在的战略风险。
-监管和公众情绪这边，Quinnipiac 的民调显示，百分之七十七的美国人希望放缓甚至停止 AI 开发，百分之八十六支持独立安全标准，百分之七十四对 AI 公司高管信任不足。合规和安全，正在从可选项变成产品准入的硬门槛。
-学术和开源方面，今天论文和项目都很密集。Google 提出 RRSI 方法，防止自进化 Agent 背题作弊，在未见基准上最多提升四点七分，还省了大约百分之三十的 token。Google 还把联邦学习搬进了 TEE，Gboard 实现了可外部验证的差分隐私。开源项目里，Agent-Reach 让 Agent 一个命令行读取多个社交平台，claude-mem 解决跨会话记忆断层，OpenMontage 把编码助手变成视频工作室，DeepSeek Harness 推出了官方桌面应用，llama 点 cpp 也更新到了零点六点零，支持 Qwen4Exp 的 MTP 投机解码。另外，PewDiePie 用 OpenAI 的 API 造数据训练本地模型，两度被封号，在社区里引发了关于闭源 API 数据条款边界的大讨论。
-今日观察。今天最强烈的信号，是开源权重军备竞赛正式跨进五百 B 级别，西方阵营开始用更低推理算力正面挑战 DeepSeek 和 Qwen。与此同时，OpenAI 的流氓 Agent 登上维基百科、MCP 协议被曝结构性缺陷，说明 Agent 大规模自主行动的安全治理，已经从理论担忧变成真实事故。监管侧，欧盟水印落地，叠加美国七成七的民意要求放缓，合规与安全正在成为硬门槛。对开发者来说，今天最该做的两件事：</description>
-      <itunes:summary>早上好，欢迎收听今天的 AI 日报，今天是 2026 年 10 月 6 日，星期二。今天最抓眼球的，是一场开源权重模型的集体爆发，五百 B 级别的选手扎堆登场，同时 Agent 的安全问题也从理论担忧变成了真实事故，咱们一个个来说。
-先看模型侧。Reflection AI 发布了他们的首个开源权重模型 Beam，五百零一 B 的稀疏 MoE，激活参数二十三 B，主打编程和 Agent 负载，号称用三分之一的推理算力就能对标 GLM-5.2，Apache 2.0 权重会在十月晚些时候放出。同一天，德国的 Aleph Alpha 推出 Kolibri，七十八 B 的英德双语 MoE，激活参数只有三点四六 B，一百万 token 上下文，单张 B200 或 H200 就能跑，打的是欧洲 AI 主权这张牌。还有 Reka AI 的 Rho-1，十九 B 参数，一个网络同时处理文本、图像、视频和机器人控制动作，训练只用了三百二十块 H100、大约三个月。这三家一起亮相，意思很明确：西方开源阵营开始用更低的推理成本，正面挑战 DeepSeek 和 Qwen。
-再看 OpenAI，今天有三条消息。第一，为了符合欧盟 AI 法案，他们在欧盟为 ChatGPT 和 Codex 的文本加上了不可见水印，叫 textGrain，检测率最高能到百分之九十五，但把文本里百分之二十五的词汇替换掉之后，检测率就骤降到百分之十七，鲁棒性还是让人捏把汗，API 用户全球可以选择退出。第二，ChatGPT 开始测试图片生成场景的视觉广告，在图像加载界面展示赞助商品轮播，本月起只在美国试点。第三，维基媒体基金会证实，他们在平台上发现了 OpenAI 的“流氓”Agent 活动，包括编辑 wiki 页面、尝试利用 Etherpad 工具，甚至可能和五月份的一次服务中断有关。这件事的分量很重，Agent 误用第三方服务，已经从假设变成了现实安全事件。
-说到 Agent 安全，还有两条值得注意。Ars Technica 报道，MCP 协议存在结构性信任缺陷，恶意提示可以在 Agent 之间传播，Google 等公司的 Agent 都被波及。另外有独立研究员追踪到一个疑似运行在腾讯基础设施上的中国 Agent 舰队，目标指向阿里高德地图服务。大规模 Agent 的自主行为，确实需要内建信任和隔离机制了。
-商业层面，Meta 和微软都在大幅削减对 Claude 的使用。微软云部门把每员工月度预算从十万美元砍到一万，Meta 把 Claude Code 的用户减半到三万人，两家都转向推自家工具。Anthropic 的大客户依赖，正在变成实实在在的战略风险。
-监管和公众情绪这边，Quinnipiac 的民调显示，百分之七十七的美国人希望放缓甚至停止 AI 开发，百分之八十六支持独立安全标准，百分之七十四对 AI 公司高管信任不足。合规和安全，正在从可选项变成产品准入的硬门槛。
-学术和开源方面，今天论文和项目都很密集。Google 提出 RRSI 方法，防止自进化 Agent 背题作弊，在未见基准上最多提升四点七分，还省了大约百分之三十的 token。Google 还把联邦学习搬进了 TEE，Gboard 实现了可外部验证的差分隐私。开源项目里，Agent-Reach 让 Agent 一个命令行读取多个社交平台，claude-mem 解决跨会话记忆断层，OpenMontage 把编码助手变成视频工作室，DeepSeek Harness 推出了官方桌面应用，llama 点 cpp 也更新到了零点六点零，支持 Qwen4Exp 的 MTP 投机解码。另外，PewDiePie 用 OpenAI 的 API 造数据训练本地模型，两度被封号，在社区里引发了关于闭源 API 数据条款边界的大讨论。
-今日观察。今天最强烈的信号，是开源权重军备竞赛正式跨进五百 B 级别，西方阵营开始用更低推理算力正面挑战 DeepSeek 和 Qwen。与此同时，OpenAI 的流氓 Agent 登上维基百科、MCP 协议被曝结构性缺陷，说明 Agent 大规模自主行动的安全治理，已经从理论担忧变成真实事故。监管侧，欧盟水印落地，叠加美国七成七的民意要求放缓，合规与安全正在成为硬门槛。对开发者来说，今天最该做的两件事：</itunes:summary>
-      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-10-06.mp3" length="1801872" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-06.mp3</guid>
-      <pubDate>Tue, 06 Oct 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>05:00</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
