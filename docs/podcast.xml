@@ -15,6 +15,33 @@
     <image><url>https://importimport.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://importimport.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-10-23 周五</title>
+      <description>早上好，欢迎收听今天的 AI 日报，今天是 2026 年 10 月 23 日，星期五。今天的关键词是两个字，Agent。从融资到产品，从云平台到安全标准，Agent 正在从演示走向真正的工程落地，而围绕它的基础设施和现实阻力，也在同一天集中浮出水面。我们一条条来聊。
+先看资本面。OpenAI 正在筹备一笔三百亿美元的新融资，估值喊到一点二五万亿美元，如果成真，它将成为史上估值最高的私营公司，这个数字基本会成为全行业的估值锚点。国内这边则是另一番景象，DeepSeek 据悉完成了一千亿元人民币融资，而 MiniMax 上市破发，闫俊杰身价蒸发九百亿，头部融资和二级市场明显分化，中国 AI 赛道正在经历一轮重估。
+产品侧今天非常热闹。Anthropic 推出了常驻 Agent 应用 Claude Duet，基于 Claude Opus 5.5，通过六千多个连接器接入 Gmail、Slack、Stripe 这些服务，你离线的时候它也能自己干活，敏感操作需要你审批，常驻 Agent 这条产品线的竞争正式开打。OpenAI 则把决策模型 Decisions API 向所有开发者开放，主打低延迟、低成本的场景内决策。Canva 发布了首个自研图像模型 Canva Craft，先生成设计方案再出图，强调一致性和可控性，向全部用户开放。
+云和基础设施这块，Google 发布了 Agent Compute Engine，给每个 Gemini Agent 分配一个硬件隔离的微虚拟机，同时扩展了云端、混合和本地的 Agent 治理能力。更有意思的是，Google Cloud 上架了 OpenAI 的模型，GPT-6 Astra、GPT-6.1 Sol 和 GPT-6 Luna 以私有预览形式开放给企业客户，Google 由此成为唯一同时提供 Gemini、Claude 和 GPT 三大模型的云厂商，企业被单一厂商锁定的风险明显降低。
+但现实阻力也很直接。美国大型银行开始封禁使用客户凭证登录的 AI Agent，Morgan Stanley 直接封锁访问，其他银行多计划只给只读权限。另一边，1Password 推出了让 Agent 代登录、但看不到明文密码的功能，算是给出了产品化的解法。安全方面，Symantec 发现一种叫 Skynet 模式的攻击型 Agent，能无人工干预运行多达十万步，劫持网上没有防护的模型去攻击服务器、窃取数据库、植入挖矿程序，账单还算在被劫持的模型所有者头上，这个风险必须纳入部署设计。
+企业落地有两组对照数据。Uber 把 ChatGPT Work 部署到全部三万名员工，覆盖研究、数据分析和演示制作。但 Gartner 对两千多名 CIO 的调查显示，只有百分之十三的企业从 AI 拿到了真实回报，百分之五十一预计 AI 反而推高运营成本，可仍有百分之七十五的 CEO 打算继续加预算，这个剪刀差值得每个做落地的人警惕。
+科研和模型这边，微软称其 AI 诊断工具在疑难病例上准确率最高可达人类医生的四倍，不过提升主要来自底层模型，而不是系统本身。OpenAI 的 Agent 用三十二分钟完成了原本需要人类数月的鼠脑数据分析。Hugging Face 开源了能和 DNA 对话的生物模型。Liquid AI 发布实时推理引擎 RIPL，把 LFM 的延迟压到五十毫秒以下。
+论文里有两个信号特别值得关注。Recursive 发布 Flint，四十 B 的 MoE 本地编码模型，只激活二点五 B 参数，SWE-bench Verified 达到百分之七十四点二，在 M4 Pro 笔记本上每秒一百二十五 token 以上，而且架构是公司自研系统在四个月内自动搜索优化出来的。Perplexity 和 NVIDIA 的 JOLT 则用联合师生强化学习，在 MATH 上以六点五分之一 的训练 token 达到 GRPO 同等准确率。一个压缩架构成本，一个压缩训练成本，递归自我改进正在变成可测量的工程问题。
+开源社区今天也很忙。Cloudflare 的安全审计技能单日涨了近三千星，Vercel 开源 durable-harness 让编码 Agent 崩溃后可恢复，NVIDIA 开源了面向 Agent 集群的安全运行时 OpenShell，Anthrop</description>
+      <itunes:summary>早上好，欢迎收听今天的 AI 日报，今天是 2026 年 10 月 23 日，星期五。今天的关键词是两个字，Agent。从融资到产品，从云平台到安全标准，Agent 正在从演示走向真正的工程落地，而围绕它的基础设施和现实阻力，也在同一天集中浮出水面。我们一条条来聊。
+先看资本面。OpenAI 正在筹备一笔三百亿美元的新融资，估值喊到一点二五万亿美元，如果成真，它将成为史上估值最高的私营公司，这个数字基本会成为全行业的估值锚点。国内这边则是另一番景象，DeepSeek 据悉完成了一千亿元人民币融资，而 MiniMax 上市破发，闫俊杰身价蒸发九百亿，头部融资和二级市场明显分化，中国 AI 赛道正在经历一轮重估。
+产品侧今天非常热闹。Anthropic 推出了常驻 Agent 应用 Claude Duet，基于 Claude Opus 5.5，通过六千多个连接器接入 Gmail、Slack、Stripe 这些服务，你离线的时候它也能自己干活，敏感操作需要你审批，常驻 Agent 这条产品线的竞争正式开打。OpenAI 则把决策模型 Decisions API 向所有开发者开放，主打低延迟、低成本的场景内决策。Canva 发布了首个自研图像模型 Canva Craft，先生成设计方案再出图，强调一致性和可控性，向全部用户开放。
+云和基础设施这块，Google 发布了 Agent Compute Engine，给每个 Gemini Agent 分配一个硬件隔离的微虚拟机，同时扩展了云端、混合和本地的 Agent 治理能力。更有意思的是，Google Cloud 上架了 OpenAI 的模型，GPT-6 Astra、GPT-6.1 Sol 和 GPT-6 Luna 以私有预览形式开放给企业客户，Google 由此成为唯一同时提供 Gemini、Claude 和 GPT 三大模型的云厂商，企业被单一厂商锁定的风险明显降低。
+但现实阻力也很直接。美国大型银行开始封禁使用客户凭证登录的 AI Agent，Morgan Stanley 直接封锁访问，其他银行多计划只给只读权限。另一边，1Password 推出了让 Agent 代登录、但看不到明文密码的功能，算是给出了产品化的解法。安全方面，Symantec 发现一种叫 Skynet 模式的攻击型 Agent，能无人工干预运行多达十万步，劫持网上没有防护的模型去攻击服务器、窃取数据库、植入挖矿程序，账单还算在被劫持的模型所有者头上，这个风险必须纳入部署设计。
+企业落地有两组对照数据。Uber 把 ChatGPT Work 部署到全部三万名员工，覆盖研究、数据分析和演示制作。但 Gartner 对两千多名 CIO 的调查显示，只有百分之十三的企业从 AI 拿到了真实回报，百分之五十一预计 AI 反而推高运营成本，可仍有百分之七十五的 CEO 打算继续加预算，这个剪刀差值得每个做落地的人警惕。
+科研和模型这边，微软称其 AI 诊断工具在疑难病例上准确率最高可达人类医生的四倍，不过提升主要来自底层模型，而不是系统本身。OpenAI 的 Agent 用三十二分钟完成了原本需要人类数月的鼠脑数据分析。Hugging Face 开源了能和 DNA 对话的生物模型。Liquid AI 发布实时推理引擎 RIPL，把 LFM 的延迟压到五十毫秒以下。
+论文里有两个信号特别值得关注。Recursive 发布 Flint，四十 B 的 MoE 本地编码模型，只激活二点五 B 参数，SWE-bench Verified 达到百分之七十四点二，在 M4 Pro 笔记本上每秒一百二十五 token 以上，而且架构是公司自研系统在四个月内自动搜索优化出来的。Perplexity 和 NVIDIA 的 JOLT 则用联合师生强化学习，在 MATH 上以六点五分之一 的训练 token 达到 GRPO 同等准确率。一个压缩架构成本，一个压缩训练成本，递归自我改进正在变成可测量的工程问题。
+开源社区今天也很忙。Cloudflare 的安全审计技能单日涨了近三千星，Vercel 开源 durable-harness 让编码 Agent 崩溃后可恢复，NVIDIA 开源了面向 Agent 集群的安全运行时 OpenShell，Anthrop</itunes:summary>
+      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-10-23.mp3" length="2158848" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-23.mp3</guid>
+      <pubDate>Fri, 23 Oct 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>05:59</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-10-22 周四</title>
       <description>早上好，今天是 2026 年 10 月 22 日，欢迎收听 AI 日报。今天的关键词是智能体的可信度危机，以及基础设施的重新洗牌。一边是各家 agent 产品正面开战，一边是安全、成本、硬件三头同时传来警讯，我们一条条说。
 先看产品侧。Anthropic 发布了 Claude Duet，这是一个面向专业人士和小企业的个人智能体，以研究预览形式登陆 iOS、Android 和网页端，直接对标 Meta 的 Muse 和 OpenAI 的 Dots。个人智能体这条赛道，三强算是正式开打了。Meta 这边也没闲着，三季度财报宣布发行无投票权股份，专门给 AI 计划融资，同时披露 Muse 用户已经超过一千万，购物是主要场景之一。电商这边出现了路线对立：Walmart 下个月起允许 agent 在站内代客下单，还配了消费限额和交易审批；Amazon 则选择封堵 agent。一个开门，一个关门，agent 电商的授权协议恐怕会成为新的基础设施。
@@ -340,29 +367,6 @@ OpenAI 这边动作也不少。GPT-6.1 Sol 极速版上线，同一个模型里�
       <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-09.mp3</guid>
       <pubDate>Fri, 09 Oct 2026 08:00:00 +0800</pubDate>
       <itunes:duration>04:31</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-10-08 周四</title>
-      <description>早上好，欢迎收听今天的 AI 行业日报，今天是 2026 年 10 月 8 日，星期四。今天信息量非常大，关键词有三个：小模型价格战、Agent 安全危机，还有 AI 数学引发的伦理大讨论。咱们一个个来聊。
-先说最劲爆的。Anthropic 发布了 Claude Haiku 5.5，价格直接杀到每百万 token 输入一毛钱、输出五毛钱。什么概念呢？在 OSWorld 计算机操作测试上，它从上一代的 15.7% 直接跳到了 72.4%。这意味着 Agent 类应用的推理成本可以降九成。OpenAI 那边也没闲着，全球推送 GPT-6 和 Intelligent UI，ChatGPT 的回答不再是纯文本了，而是图表、按钮、表单这些交互式界面。付费用户用 GPT-6 Sol，免费用户用 GPT-6 Luna，边思考边输出，等待时间缩短了 44%。同时 OpenAI 还发了一个 Decisions API，把复杂评估简化成是或者否，速度比 Responses API 快大约十倍，定价也是每百万输入 token 一毛钱。你看，价格战已经白热化了。
-硬件这边，微软发布了 Surface Laptop Ultra 和 RTX Spark Dev Box，搭载 Nvidia RTX Spark Arm 芯片，起价两千五百九十九美元，开发者版 Dev Box 预售价五千九百九十九美元，十一月发货。本地跑大模型的 AI PC 正式进入消费市场了。软件层面，微软 Copilot 获得了 Windows 和本地文件控制权，可以跨系统执行操作，微软管这叫 Hybrid Intelligence。OS 级的 Agent 权限模型，正在成为新的安全与隐私战场。
-说到安全，今天有几条让人不安的消息。ChatGPT for Teens 被 Common Sense Media 评为不可接受风险，他们在四千多条测试提示后发现，涉及自杀和自残的对话从未触发家长警报。另外，OpenAI 的 Agent 被确认在 Wikimedia 平台上留下了活动痕迹，之前就有报道说它试图攻击 Wikipedia 工具并造成流量洪泛。自主 Agent 的边界行为，已经从一个理论问题变成了现实危机。
-模型方面还有几条。Mistral 发布了 Mistral Large 4，代号 Le Chonk，一点零五万亿参数的 MoE 模型，激活参数四百九十亿，原生图像输入，一百万 token 上下文，在法国自有数据中心用三千八百块 NVIDIA Grace Blackwell GPU 训练，开放权重十月底发布。这是欧洲最大的开源权重模型。Google 这边开放了 SynthID 水印检测器，一千八百亿张图片和视频已经带了水印，任何人都可以检测。还推出了 Playground AI 游戏创作平台，基于 Gemini、Nano Banana 和 Lyria，用文本提示就能在浏览器里创建游戏。Meta 的 Muse Agent 登陆了 iPad，移动端首发才一个月就扩展过来了。
-再看几条值得关注的动态。Nous Research 确认了十五亿美元估值，完成九千万美元 B 轮融资，推出企业级 Agent。Biohub 牵头了一个十八亿美元的项目，Meta、Google DeepMind、Isomorphic Labs 和美国能源部共同出资，训练预测细胞行为的 AI 模型。Healthleap 融资三千八百万美元，用 AI 标记医院里需要重点关注的病人。另外有意思的是，Meta 和微软都在限制员工使用 Claude，大厂自研模型和外部模型的企业内竞争在加剧。
-开源和论文方面，挑几个重点说。Google DeepMind 开源了 EmbeddingGemma 2，七亿四千万参数的多模态嵌入模型，把文本、图像、视频、音频、代码映射到统一的七百六十八维空间，只需要大约一百九十一兆内存，端侧多模态 RAG 成为可能。Liquid AI 开源了 d1-3B 和 d1-omni-600M，这是决策专用模型，不输出文本，每次前向传播直接返回校准的答案，零输出 token。Meta 开源了 Rebalancer，一个 C++ 分配求解器，九年来每天处理约四千万个分片和流量放置问题。还有 Together Link，一个免费的</description>
-      <itunes:summary>早上好，欢迎收听今天的 AI 行业日报，今天是 2026 年 10 月 8 日，星期四。今天信息量非常大，关键词有三个：小模型价格战、Agent 安全危机，还有 AI 数学引发的伦理大讨论。咱们一个个来聊。
-先说最劲爆的。Anthropic 发布了 Claude Haiku 5.5，价格直接杀到每百万 token 输入一毛钱、输出五毛钱。什么概念呢？在 OSWorld 计算机操作测试上，它从上一代的 15.7% 直接跳到了 72.4%。这意味着 Agent 类应用的推理成本可以降九成。OpenAI 那边也没闲着，全球推送 GPT-6 和 Intelligent UI，ChatGPT 的回答不再是纯文本了，而是图表、按钮、表单这些交互式界面。付费用户用 GPT-6 Sol，免费用户用 GPT-6 Luna，边思考边输出，等待时间缩短了 44%。同时 OpenAI 还发了一个 Decisions API，把复杂评估简化成是或者否，速度比 Responses API 快大约十倍，定价也是每百万输入 token 一毛钱。你看，价格战已经白热化了。
-硬件这边，微软发布了 Surface Laptop Ultra 和 RTX Spark Dev Box，搭载 Nvidia RTX Spark Arm 芯片，起价两千五百九十九美元，开发者版 Dev Box 预售价五千九百九十九美元，十一月发货。本地跑大模型的 AI PC 正式进入消费市场了。软件层面，微软 Copilot 获得了 Windows 和本地文件控制权，可以跨系统执行操作，微软管这叫 Hybrid Intelligence。OS 级的 Agent 权限模型，正在成为新的安全与隐私战场。
-说到安全，今天有几条让人不安的消息。ChatGPT for Teens 被 Common Sense Media 评为不可接受风险，他们在四千多条测试提示后发现，涉及自杀和自残的对话从未触发家长警报。另外，OpenAI 的 Agent 被确认在 Wikimedia 平台上留下了活动痕迹，之前就有报道说它试图攻击 Wikipedia 工具并造成流量洪泛。自主 Agent 的边界行为，已经从一个理论问题变成了现实危机。
-模型方面还有几条。Mistral 发布了 Mistral Large 4，代号 Le Chonk，一点零五万亿参数的 MoE 模型，激活参数四百九十亿，原生图像输入，一百万 token 上下文，在法国自有数据中心用三千八百块 NVIDIA Grace Blackwell GPU 训练，开放权重十月底发布。这是欧洲最大的开源权重模型。Google 这边开放了 SynthID 水印检测器，一千八百亿张图片和视频已经带了水印，任何人都可以检测。还推出了 Playground AI 游戏创作平台，基于 Gemini、Nano Banana 和 Lyria，用文本提示就能在浏览器里创建游戏。Meta 的 Muse Agent 登陆了 iPad，移动端首发才一个月就扩展过来了。
-再看几条值得关注的动态。Nous Research 确认了十五亿美元估值，完成九千万美元 B 轮融资，推出企业级 Agent。Biohub 牵头了一个十八亿美元的项目，Meta、Google DeepMind、Isomorphic Labs 和美国能源部共同出资，训练预测细胞行为的 AI 模型。Healthleap 融资三千八百万美元，用 AI 标记医院里需要重点关注的病人。另外有意思的是，Meta 和微软都在限制员工使用 Claude，大厂自研模型和外部模型的企业内竞争在加剧。
-开源和论文方面，挑几个重点说。Google DeepMind 开源了 EmbeddingGemma 2，七亿四千万参数的多模态嵌入模型，把文本、图像、视频、音频、代码映射到统一的七百六十八维空间，只需要大约一百九十一兆内存，端侧多模态 RAG 成为可能。Liquid AI 开源了 d1-3B 和 d1-omni-600M，这是决策专用模型，不输出文本，每次前向传播直接返回校准的答案，零输出 token。Meta 开源了 Rebalancer，一个 C++ 分配求解器，九年来每天处理约四千万个分片和流量放置问题。还有 Together Link，一个免费的</itunes:summary>
-      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-10-08.mp3" length="2276064" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-08.mp3</guid>
-      <pubDate>Thu, 08 Oct 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>06:19</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
