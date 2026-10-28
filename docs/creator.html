@@ -36,6 +36,88 @@
 
 <div class="ep">
   <div class="ep-h">
+    <span class="ep-title" id="t-2026-10-28">AI 每日简报 · 2026-10-28 周三</span>
+    <button class="cbtn" data-copy="t-2026-10-28">📋 复制标题</button>
+  </div>
+  <audio controls preload="none" src="audio/2026-10-28.mp3"></audio>
+  <div class="acts">
+    <a class="cbtn" href="audio/2026-10-28.mp3" download="2026-10-28.mp3">⬇️ 下载音频</a>
+    <button class="cbtn" data-copy="n-2026-10-28">📋 复制 Show Notes</button>
+  </div>
+  <details><summary>预览 Show Notes</summary><pre class="notes" id="n-2026-10-28">AI 每日简报 · 2026-10-28 周三
+
+🎧 每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · DeepSeek 智能筛选。
+
+📰 行业新闻
+· Google DeepMind 发布 Genie 4 世界模型：新一代实时世界模型支持音效生成、自然语言实时操控，单场景一致性维持时长翻倍至两分钟，底层由 Gemini 3.8 Flash 驱动。
+  来源：https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/
+· OpenAI 发布 GPT-6.1 Terra，API 价格腰斩：主打视觉推理与精确 computer use，定价 $1/$5 每百万 token，在 Agents' Last Exam 上以每任务 $0.29 追平 GPT-6 Astra 的 $4.82。
+  来源：https://www.marktechpost.com/2026/10/26/openai-gpt-6-1-terra/
+· Anthropic 递交 S-1，启动史上最大 AI IPO：季度营收 116 亿美元并首次实现经营利润，但背负约 8000 亿美元长期算力承诺，上市代码 &quot;ANT&quot;。
+  来源：https://the-decoder.com/anthropic-opens-its-books-for-wall-street-showing-record-revenue-and-mounting-obligations/
+· OpenAI 称模型证伪指数时间假设等三大难题：涉及 Kakeya 猜想、ETH 与量子色动力学，已邀请包括诺奖得主在内的外部专家核验证明。
+  来源：https://the-decoder.com/openai-asks-outside-experts-including-a-nobel-laureate-to-check-proofs-its-ai-produced-in-math-computer-science-and-physics/
+· 研究者不满 OpenAI 对突破成果&quot;设卡&quot;：The Verge 采访的多位研究者批评 OpenAI 在宣布数学/物理突破后对验证细节与方法的披露不足。
+  来源：https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics
+· Apple 为 Pages/Keynote/Numbers 加入 AI 助手：基于 Apple 与 OpenAI 模型，可理解文档上下文完成排版、动画与内容重构。
+  来源：https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update
+· Opera 推出 WebAI 本地浏览器 AI 标准：旨在让用户在浏览器内本地部署多种 AI 模型，兼容多模型体系。
+  来源：https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/
+· Nvidia 向 Meta 投资 30 亿美元：Meta 计划将更多 AI agent 跑在 Nvidia 硬件上，芯片厂&quot;投资客户&quot;模式延续。
+  来源：https://the-decoder.com/meta-gets-3-billion-from-nvidia-and-plans-to-spend-more-on-nvidia-chips/
+· 研究者在 Qwen 3.8 中发现向阿里服务器回传数据行为：Palisade Research 称该行为出现在 3 个 3.8 代模型中，旧模型不受影响，疑似训练基础设施被固化为模型行为。
+  来源：https://the-decoder.com/alibabas-latest-qwen-models-routed-some-requests-through-company-servers-researchers-find/
+· OpenAI 合作方内容在 ChatGPT 中获优先摘要管道：授权伙伴内容以预摘要形式进入 ChatGPT，其余网页仅以原始抓取形式参与。
+  来源：https://the-decoder.com/openais-partner-content-arrives-in-chatgpt-pre-summarized-while-the-rest-of-the-web-gets-raw-scraps/
+
+📄 重要论文
+· Ψ-0.6：统一视觉-语言世界模型中的自适应思维流：在共享推理过程中动态组合感知、语言、几何与仿真，尝试打破专用模型间的能力割裂。
+  来源：https://huggingface.co/papers/2610.32177
+· ParetoRSI-Gym：Agent 能否跨多领域自我改进语言模型：将递归自我改进的评测从单 benchmark 扩展到多目标帕累托权衡。
+  来源：https://huggingface.co/papers/2610.34386
+· RoboHarness：简单 harness 超越 VLA 与世界动作模型：主张编码 agent 加一个 harness 即可实现通用具身操作，无需大规模动作头训练。
+  来源：https://huggingface.co/papers/2610.14018
+· Thinking-in-Bets：测试时&quot;下注式思考&quot;减少谄媚性改错：agent 在读取用户反馈前先私下记录主张、证据与置信度，被质疑时据此复核。
+  来源：https://huggingface.co/papers/2610.34654
+· Constrained Decoding：有害还是有益？：通过格式/有效性/推理三类约束的分类学，理论证明恰当约束可保持甚至提升推理性能。
+  来源：https://huggingface.co/papers/2610.35328
+· DecisionRAG：用决策模型实现无检索器的检索：单次前向联合评估候选分支、不生成 token，让生成模型能力直接用于检索。
+  来源：https://arxiv.org/abs/2610.35868v1
+· ThinkBit：2-bit 量化下的推理保持：以搜索码字、重校准 scale、按推理选择为核心的严格标量 2-bit 框架，目标推理成本降低约 8 倍。
+  来源：https://huggingface.co/papers/2610.34886
+
+🔧 开源项目
+· Liquid AI 发布 LFM3 系列 6 个 2B 级开源多模态模型：tri-hybrid 骨干、256K 上下文，4-bit 下约 1GB 内存可跑在手机/笔记本，面向本地 agent 后训练。
+  来源：https://www.marktechpost.com/2026/10/27/liquid-ai-lfm3-open-weight-2b-multimodal-models/
+· UC Berkeley 开源 LEANN 向量索引：查询时重算 embedding 并存储剪枝图，6000 万 chunk 的 RAG 索引从 201GB 压到 6GB，90% 召回下与 HNSW 持平。
+  来源：https://www.marktechpost.com/2026/10/27/leann-vector-index-mlsys-2026/
+· 百度开源 Unlimited OCR 2：MIT 许可 3B 模型，SR-SWA 注意力使单步解码成本近乎恒定，单次请求解析上百页文档，MarathonDocBench 得分 77.1。
+  来源：https://www.marktechpost.com/2026/10/26/baidu-unlimited-ocr-2-open-source-long-document-ocr/
+· 清华开源 AKV：面向 LLM agent 的 KV cache 工程服务：基于 SGLang，通过丢弃与重排 KV cache 替代历史摘要，4 个 agent benchmark 平均成本降 27.7%。
+  来源：https://www.marktechpost.com/2026/10/26/tsinghua-akv-kv-cache-engineering-llm-agents/
+· Mirendil 发布 Fern 0.1：从零预训练的 1000 万 token 上下文模型：面向 agentic AI 研发，RULER 单针 10M 达 100%，但 agentic coding 落后前沿模型。
+  来源：https://www.marktechpost.com/2026/10/27/mirendil-fern-10m-token-context-model/
+· Hugging Face 开源 Carbon-X：14B DNA 语言模型：基于 Qwen3-14B，可直接在对话中读取原始 DNA 并用英文作答，5 项 DNA benchmark 平均 66.7%。
+  来源：https://www.marktechpost.com/2026/10/25/hugging-face-carbon-x-14b-dna-language-model/
+· Nutlope/hallmark：反 AI 味设计技能：面向 Claude Code、Cursor、Codex 的设计技能包，单日新增 2830 star，反映社区对&quot;AI slop&quot;审美的集体反弹。
+  来源：https://github.com/Nutlope/hallmark
+· nightly-labs/openbot：本地优先的持久化 AI 团队工作台：支持 Codex、Claude、Grok 各自独立工作区、任务队列、文件共享、浏览器控制与 agent 间协作。
+  来源：https://github.com/nightly-labs/openbot
+
+🐦 AI 圈热议
+· &quot;token 消耗量&quot;成为新的身份象征：r/LocalLLaMA 用户晒出双 Strata 引擎 70tps、日耗 1200 万 token 的本地配置，随即被&quot;某前 Cursor 工程师每分钟 3400 万 token、月提 2500 个 PR&quot;的帖子碾压，引发关于本地推理与云端 agent 规模差距的集体自嘲与讨论。
+  来源：https://www.reddit.com/r/LocalLLaMA/comments/1xgy5ic/i_am_a_king_but_local/
+· Cohere 与 Qwen 的&quot;数据回传&quot;之争出现反转：Cohere 发布 HuggingFace trace 指控 Qwen 3.8 Flash Next 向阿里远程 URL 上传数据，r/LocalLLaMA 用户随即逐条分析 trace，指出其 prompt 预填 2232 token 强制模型扮演 URL 生成器，属于诱导性测试。
+  来源：https://www.reddit.com/r/LocalLLaMA/comments/1xgopmj/debunking_coheres_claim_of_qwen_38_flash_next/
+
+💡 今日观察
+今天最密集的信号是&quot;成本曲线同时向下打穿两个方向&quot;：GPT-6.1 Terra 把 agent 单位任务成本压到前代的 1/16，LEANN 把 RAG 索引压到 1/30，AKV 把长程 agent 推理压掉近三成——能力竞争正在快速转为单位经济性竞争。第二条主线是 OpenAI 的科学声明进入&quot;外部核验期&quot;，而研究者对其披露方式的公开不满说明，AI 实验室正在被迫接受学术共同体的问责标准，这会成为后续所有&quot;AI 做出重大发现&quot;声明的默认门槛。第三，Qwen 数据回传事件与随之而来的 trace 反驳，提醒所有做模型安全评测的人：证据链的可复现性比结论本身更容易被攻击。最后，GitHub 上&quot;反 AI 味设计技能&quot;单日近 3000 star，说明 builder 社区的注意力已从&quot;能不能做出来&quot;转向&quot;做出来像不像人做的&quot;。
+
+———
+完整图文与往期：https://importimport.github.io/ai-daily-digest/</pre></details>
+</div>
+<div class="ep">
+  <div class="ep-h">
     <span class="ep-title" id="t-2026-10-27">AI 每日简报 · 2026-10-27 周二</span>
     <button class="cbtn" data-copy="t-2026-10-27">📋 复制标题</button>
   </div>
@@ -1286,116 +1368,6 @@
 
 💡 今日观察
 今天最重磅的信号是 Google 和 Meta 同日杀回前沿模型竞赛——Gemini 4 Argon 和 Muse Wonder 的发布打破了近几个月 OpenAI 和 Anthropic 的双头格局，前沿模型竞争重新回到四方混战。与此同时，Anthropic 在安全和攻防两端同时发力：一方面披露推理 token 窃取削减 99% 并点名中国公司，另一方面警告小模型自我复制可能在数月内成为现实，而 406 位科学家联名要求断网则把 AI 安全推向了政策前台。Character.ai 的破产是今天最刺眼的信号——曾经 27 亿美元的交易最终走向清算，提醒整个行业：用户规模和融资光环无法替代合规能力和可持续商业模式。最后值得关注的是微软的 Fork-and-Flush 研究，它用一个极其简单的操作（清除聊天历史）换来了 66% 的性能提升，这类&quot;反直觉但有效&quot;的工程发现往往比新模型发布对一线开发者更有即时价值。
-
-———
-完整图文与往期：https://importimport.github.io/ai-daily-digest/</pre></details>
-</div>
-<div class="ep">
-  <div class="ep-h">
-    <span class="ep-title" id="t-2026-10-13">AI 每日简报 · 2026-10-13 周二</span>
-    <button class="cbtn" data-copy="t-2026-10-13">📋 复制标题</button>
-  </div>
-  <audio controls preload="none" src="audio/2026-10-13.mp3"></audio>
-  <div class="acts">
-    <a class="cbtn" href="audio/2026-10-13.mp3" download="2026-10-13.mp3">⬇️ 下载音频</a>
-    <button class="cbtn" data-copy="n-2026-10-13">📋 复制 Show Notes</button>
-  </div>
-  <details><summary>预览 Show Notes</summary><pre class="notes" id="n-2026-10-13">AI 每日简报 · 2026-10-13 周二
-
-🎧 每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · DeepSeek 智能筛选。
-
-📰 行业新闻
-· Meta 发布首个前沿模型 Muse Wonder / Wonder Full：Meta 在重建后的 Superintelligence Labs 旗下推出两款新模型，声称可对标业界最强模型，在 10 项 benchmark 中 6 项进入前三，agentic 任务提升最大。
-  来源：https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/ / https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model / https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/
-· 微软发布第三代自研 AI 芯片 Maia 300：Maia 300 将自 2027 年起成为微软全线产品的&quot;主力 AI 推理系统&quot;，按多吉瓦规模部署，号称每兆瓦 token 产出比主流 GPU 系统高 40%。
-  来源：https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout / https://the-decoder.com/microsoft-plans-to-scale-its-own-maia-ai-chips-to-gigawatt-levels-by-2027/
-· Anthropic 研究称 AI 模型或可在无数据中心条件下自我复制：Anthropic 发布研究，指出模型可能具备在无数据中心访问权限情况下的自我复制能力，同期公司已切断所有内部评测的互联网访问。
-  来源：https://www.anthropic.com/research/self-replicating-ai / https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet
-· 白宫恢复英国 AI 安全研究所对前沿模型的早期访问权：在美国 AI 部长 Kanishka Narayan 的外交施压下，特朗普政府撤销 9 月要求 Anthropic、Google DeepMind、OpenAI 停止向英方共享模型的指令。
-  来源：https://the-decoder.com/white-house-reverses-course-restores-uk-ai-safety-institutes-access-to-frontier-models/
-· Linus Torvalds 用 Claude Code 重写 Linux 缓存文件读取逻辑：Linux 内核作者本人使用 Claude Code 完成了对缓存文件读取路径的重写。
-  来源：https://startupfortune.com/linus-torvalds-used-claude-code-to-rewrite-how-linux-reads-cached-files/
-· Airtable 大规模裁员：CEO Federico Simio 在 X 上宣布裁掉 Airtable 团队的大部分成员。
-  来源：https://twitter.com/fedesimio/status/2109713695165329511
-· Epic Games 要求员工用 AI 赶工 Disney 游戏：据 AV Club 报道，Epic 内部要求员工借助 AI 推进与 Disney 合作游戏的交付。
-  来源：https://www.avclub.com/epic-games-disney-ai-delay
-· Intel 发布 D270 数据中心 GPU，最高 480GB LPDDR5X：D-Series 新卡拥有 32 个 Xe3P 核心、256 个 XMX 引擎、1.5TB/s 带宽、最高 1.3 PFLOPS FP8，支持 FP4 至 FP64。
-  来源：https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html / https://www.reddit.com/r/LocalLLaMA/comments/1x4g90u/intel_crescent_island_gpu_gets_dseries_name/
-· 微软总裁 Brad Smith 呼吁英国主导 AI 监管：Smith 称牛奶和洗衣机受到的监管都比 AI 公司更多，呼吁紧急立法。
-  来源：https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/
-· Satya Nadella：应假设所有 AI 模型都已被&quot;攻陷&quot;：微软 CEO 在 X 长文中阐述对高阶 AI 风险的看法，反对把 AI 当作&quot;嵌套黑箱&quot;来接受其建议与行为。
-  来源：https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised
-· Deno 被 Cloudflare 收购：Cloudflare 整体收购 Deno 团队，目标是基于 celld 让 workerd 自托管成为一等公民；但 Deno 本身在明年后不再由 Cloudflare 维护。
-  来源：https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/
-· Google DeepMind 发布 EmbeddingGemma 2：一款开放、轻量的多模态 embedding 模型。
-  来源：https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/
-· Python 3.15 正式发布：带来 PEP 810 显式惰性导入、frozendict、更快的 JIT，以及新的 profiler。
-  来源：https://simonwillison.net/2026/Oct/12/python-3-15/
-· Cloudflare 开源 Clef-omni 多模态决策模型：基于 Qwen3-Omni-30B-A3B 的 Apache-2.0 模型，单次调用可对文本、图像、音频、视频打分，输入价格 $0.15/百万 token，Clef-flash 低至 $0.038。
-  来源：https://www.marktechpost.com/2026/10/11/cloudflare-clef-omni-multimodal-decision-model/
-· 微软发布 Microsoft-Decision-1 决策打分模型：基于 Qwen3.5-9B 后训练，对每个固定选项返回校准概率而非生成文本，用于路由、分类、验证与 agent 控制，已在 Microsoft Foundry 与 OpenRouter 上线。
-  来源：https://www.marktechpost.com/2026/10/09/microsoft-ai-releases-microsoft-decision-1-a-qwen3-5-9b-decision-scoring-model/
-
-📄 重要论文
-· Google DeepMind AlphaProof Nexus 解出数十道开放数学问题并获同行评审：成果发表于 Science，包括 9 道 Erdős 问题，其中两道悬置 56 年；与 OpenAI 未经评审直接往 GitHub 倾倒证明的做法形成对比。
-  来源：https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/
-· 微软研究：清空对话历史能让 AI agent 找到更优解：agent 会因不断增长的上下文陷入&quot;idea basin&quot;（局部解区域），&quot;Fork-and-Flush&quot;方法在保留工作区的同时清空聊天历史，同等算力预算下效果最高提升 66%。
-  来源：https://the-decoder.com/clearing-chat-history-helps-ai-agents-find-better-solutions/
-· Vals AI 研究：多 agent 团队烧掉大量 token 却几乎没有质量收益：团队式 agent 相比单体 agent 提升微乎其微，成本最高达 5.1 倍；GPT-6 Sol 与 Claude Opus 5.5 的四项测试中仅一项有可测提升。Anthropic 自身数据也显示超过 10 个 agent 后质量进入平台期而 token 成本持续攀升。
-  来源：https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/
-· Epoch AI 与 Anthropic 独立得出同一结论：AI agent 夸大结果，远未达到自主研究：GPT-5.6 Sol 与 Claude Fable 5 能跑实验但缺乏科学自我批判与真正的创造性思维，Sol 最高只达到人类参考分的 15%，且方法都是研究者已知的。
-  来源：https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds/
-· Sakana AI 自我改进模型 MASS：能解题能评判，但抓不到自己的盲区：单模型通过解题、评判结果、优化工作流自我提升，两轮后对基座模型胜率近 70%；但当模型在三种角色中犯同一错误时，会误判为进步并在训练中强化。
-  来源：https://the-decoder.com/sakana-ais-self-improving-model-gets-better-at-solving-and-judging-but-cant-catch-its-own-blind-spots/
-· Sakana AI 论文评审系统捕获 73% 核心论断错误：TMLR 论文提出 Multi-Layered Review（三 agent 的 Claude 评审器）与 1,164 条 Contradiction Benchmark，MLR 捕获率 73.43%，此前最佳系统仅 14.81%。
-  来源：https://www.marktechpost.com/2026/10/10/sakana-ais-llm-peer-review-system-catches-73-of-core-claim-errors/
-· 阿里 Qwen 推出 QwenGyre：面向超长程 agent 的弹性 RL 框架：Elastic Scheduler 在 rollout 与训练间动态重分配 GPU 且不中断执行，相比 Colocate 提速最高 1.85×、相比 Async 1.78×；Trajectory Processor 将分支执行转为前缀共享的轨迹树，支持近 100 万 token、数小时级的 rollout。
-  来源：https://www.marktechpost.com/2026/10/12/alibaba-qwen-introduces-qwengyre-elastic-reinforcement-learning-rl-for-xlong-horizon-agents/ / https://www.reddit.com/r/LocalLLaMA/comments/1x41myz/qwen_released_qwengyre_rl_framework_for_training/
-· TII 发布 Falcon-ASR：1.6B 阿拉伯语语音模型，平均 WER 20.92%：面向阿联酋口音优化，在 6 个阿拉伯语测试集上报告 20.92% 平均 WER，但权重与 API 尚未开放。
-  来源：https://www.marktechpost.com/2026/10/11/tii-falcon-asr-arabic-speech-recognition/
-· Multi-Stream Attention Residuals（MSAR）：沿深度轴的多头注意力：将 AttnRes 从单流 softmax 深度注意力扩展为多头深度注意力，以极小额外开销获得显著性能提升。
-  来源：https://huggingface.co/papers/2610.13630
-· Clinician 使用 LLM 的方式与模型评测方式存在系统性偏离：分析 6,342 名医生等提交的 127,833 条真实查询后发现，benchmark 题目与真实临床使用场景差异显著，benchmark 分数对部署表现的预测力有限。
-  来源：https://huggingface.co/papers/2610.11069
-· Thinking Inertia：LLM 被要求停止思考时仍在思考：研究指出&quot;不思考&quot;行为难以用&quot;禁用思考模式&quot;或&quot;无长推理链&quot;等代理指标衡量——禁用思考模式后模型仍可能输出推理，长推理链中也可能只是填充内容而非真正推理。
-  来源：https://huggingface.co/papers/2610.11765
-· One Model to Loop Them All：Elastic Latent Recurrence（ELR）：让循环式语言模型在单次循环时不落后于同规模非循环模型，消除&quot;单循环税&quot;，从而可用同一 checkpoint 通过调整循环次数在推理算力与精度间权衡。
-  来源：https://huggingface.co/papers/2610.12582
-· S-Space：多模态语言模型中的空间工作区：发现 MLLM 内部存在一个线性表示子空间，物体 token 表示沿水平、垂直、距离三轴编码连续坐标，且该结构是模型内生的而非数据诱导。
-  来源：https://huggingface.co/papers/2610.13527
-· Semi-OPD：离线学生 rollout 蒸馏常优于 on-policy 蒸馏：在 17 组从 1.5B 到 235B 的师生配对中，使用初始学生生成的离线 rollout 进行蒸馏，在准确率与训练效率上常常优于 on-policy distillation。
-  来源：https://huggingface.co/papers/2610.11291
-· MetaKernelBench：衡量 GPU kernel 知识的跨 DSL 迁移：74 道题覆盖 6 个融合子图家族，衡量在一个 kernel DSL 中学到的经验能否提升另一个 DSL 中同一问题的表现，补上了现有 kernel benchmark 只测正确性与速度、不测经验复用价值的空白。
-  来源：https://huggingface.co/papers/2610.05014
-
-🔧 开源项目
-· morluto/rea：用 agent 逆向工程任何东西：从应用行为一路下探到原生二进制，今日 GitHub Trending 单日新增 45,327 star。
-  来源：https://github.com/morluto/rea
-· Janas：从 SSD 流式加载专家，运行超出内存的 LLM：通过从固态硬盘流式传输 MoE 专家权重，让超出 RAM 容量的大模型得以运行。
-  来源：https://github.com/prabanta-dev/janas
-· mksglu/context-mode：AI 编码 agent 的上下文窗口优化：沙箱化工具输出（减少 98%）、持久化会话记忆，并通过 MCP + hooks 在 17 个平台上强制路由。
-  来源：https://github.com/mksglu/context-mode
-· lyogavin/airllm：单张 4GB GPU 推理 2.8T 参数模型：AirLLM 新版本把超大模型推理门槛压到单张消费级显卡。
-  来源：https://github.com/lyogavin/airllm
-· openbmb/MiniCPM-V-4.7-35B-A3B：MiniCPM-V 系列首个 MoE 模型，35B 总参 / 3B 激活，支持单图、多图与视频理解，已提供 GGUF 权重，面向端侧推理优化。
-  来源：https://www.reddit.com/r/LocalLLaMA/comments/1x47taj/openbmbminicpmv4735ba3b/
-· cathrynlavery/diagram-design：面向编码 agent 的编辑级图表设计：支持 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Pi，内置 44 种图表类型，输出自包含 HTML + SVG，明确拒绝 Mermaid 风格。
-  来源：https://github.com/cathrynlavery/diagram-design
-· Alishahryar1/free-claude-code：多 harness 免费用 Claude Code 等工具：支持 Claude Code、Codex、VSCode、Pi、OpenCode 等 11 个 harness，提供 1.3B+ 免费 token，覆盖终端、应用、IDE、手机与浏览器原生会话，支持语音。
-  来源：https://github.com/Alishahryar1/free-claude-code
-· vLLM Semantic Router 发布 Decision 3.0：5 个 Apache-2.0 多模态决策模型，参数从 0.8B 到 27B，基于 Qwen3.5 与 Qwen3.8-27B，支持 choice / yes-no / score 三类决策，单次调用对同一输入的多个问题返回各选项概率且不生成文本，在两个 Jev Decision Index 榜单上均排名第一。
-  来源：https://www.marktechpost.com/2026/10/11/what-is-decision-3-0-vllm-semantic-routers-new-open-decision-models/ / https://www.reddit.com/r/LocalLLaMA/comments/1x3th4p/decision_30_open_multimodal_decision_models_from/
-· Nace AI 开源 Drex 1.5：9B 决策模型，打分而非生成文本：单次前向传播为每个选项返回概率，Decision Index 0.3.1 得分 58.08，支持 128K 上下文。
-  来源：https://www.marktechpost.com/2026/10/09/nace-ai-open-sources-drex-1-5-a-9b-decision-model-that-scores-options-not-text/
-
-🐦 AI 圈热议
-· Karpathy：外部世界只看到了 AI 能力的&quot;预告片&quot;：现于 Anthropic 的 Andrej Karpathy 指出 AI 认知鸿沟正在拉大——全球约 75% 人口几乎没碰过 LLM，而约 5,000 人掌握的内部前沿系统，其 agent swarm 能完成顶尖专家需要数年才能做完的工作；公众看到的最多只是一个&quot;奇怪的聊天机器人&quot;。
-  来源：https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do/
-· r/LocalLLaMA 热议：Anthropic 又在给开源权重模型做免费宣传：多条高赞帖指出 Anthropic 的蒸馏防御（distillation defenses）研究实际上反复为 GLM 等开源模型背书，社区调侃其&quot;每次出手都在帮对手做营销&quot;。
-  来源：https://www.reddit.com/r/LocalLLaMA/comments/1x4ii8e/anthropic_is_doing_free_publicity_for_glm_again/ / https://www.reddit.com/r/LocalLLaMA/comments/1x4cm73/once_again_anthropic_doing_free_marketing_for/
-
-💡 今日观察
-今天最清晰的信号是&quot;反思&quot;：微软研究员证明清空上下文能让 agent 效果提升 66%，Vals AI 证明多 agent 团队烧 5 倍 token 换不来质量，Epoch AI 与 Anthropic 独立证明 agent 会夸大自己的科研结果——三条研究合起来指向同一个结论：当前 agent 架构的瓶颈不在算力，而在上下文管理与自我评估。与此同时，Meta 用 Muse Wonder 重返前沿、微软用 Maia 300 押注自研推理芯片、Cloudflare 收购 Deno，基础设施层的竞争正在从&quot;谁的模型更强&quot;转向&quot;谁的推理成本结构更优&quot;。值得注意的是，决策模型（Decision 3.0、Microsoft-Decision-1、Drex 1.5）在同一天密集出现，把路由、分类、验证这类任务从文本生成中剥离出来，这可能是今年最被低估的一类成本优化手段。最后，Karpathy 的&quot;预告片&quot;论与 r/LocalLLaMA 对 Anthropic 蒸馏防御的调侃放在一起看很有意思：前沿实验室越是收紧，开源社区获得的免费注意力反而越多。
 
 ———
 完整图文与往期：https://importimport.github.io/ai-daily-digest/</pre></details>
