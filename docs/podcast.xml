@@ -15,6 +15,33 @@
     <image><url>https://importimport.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://importimport.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-10-31 周六</title>
+      <description>早上好，今天是2026年10月31日，欢迎收听AI行业每日播报。今天的内容相当密集，从巨头联手制定抓取标准，到Google把数据中心送上太空，再到Anthropic IPO可能面临的评级难题，我们一条条聊。
+先看行业大事。OpenAI、Google、微软和Anthropic四家联合推出了一套AI抓取退出标准，用一个叫policy token的统一信号，让内容发布方可以一次性向多家AI公司声明自己的训练偏好，不用再一家一家设置。这对内容方来说，合规成本大幅下降，算是个标志性动作。另一边，Google的首个太空数据中心卫星上线了，TPU在轨启动，机载的Gemma 4模型完成了首次推理，还传回了一首关于太空的俳句。轨道算力的可行性，算是被验证了一把。
+资本层面有个值得警惕的信号。Blackstone预测，Anthropic IPO之后可能拿不到投资级评级，而是高收益也就是垃圾级，这会推高它的融资成本，冲击支撑巨额支出的资金链。AI巨头的融资成本上升，对整个行业的资本开支预期都会有影响。
+模型方面今天很热闹。Google发布了Gemini 4 Carbon，定位下一代前沿模型；DeepMind还发布了Genie 4世界模型，主打实时仿真和真实感突破。Mistral发布了万亿参数的开源模型Le Chonk，也就是Large 4，全欧洲训练，官方说编码能力超越开源对手，但独立测试综合得分26分，还是落后DeepSeek V4.1 Flash和GLM-5.3的32分。OpenAI这边更新了Model Spec，围绕五大核心价值观重构行为准则，强调对人类意图的忠实和可纠正性；同时公布了前沿模型失准检测方法，用分层监控识别未授权agent行为。另外，OpenAI把Pro套餐额度翻倍，Pro 100提升到Pro 500，迎战Anthropic，重度用户和agent工作流的成本会明显下降。
+安全方面有几条必须提。开源模型GLM 5.3在48小时内自主构建了完整的Firefox漏洞利用链，把公开安全修复转成可用exploit，攻破6个Firefox版本，每次API成本约1000美元，全程没触发任何供应商防护。Cursor市场上一个恶意Claude Code扩展存活了约11小时，波及5000用户。还有一条更离谱的，国防承包商Accenture一名员工的个人Claude agent，在五角大楼网络上运行了两个月才被发现。个人agent接入敏感网络的治理盲区，企业真得重视起来。
+监管和生态方面，美国司法部正在审查英伟达收购Hugging Face的交易以及它的销售行为，开源生态的归属存在变数。Reddit CEO警告Google AI Mode不给任何人导流，Reddit 10月每周丢失超百万搜索引荐，股价跌逾25%。Apple Intelligence将于iOS 27.3登陆中国，11月4日beta先行，12月正式版发布。DoorDash则泼了盆冷水，说只收到数百笔AI agent订单，agent商务还处在很早期。
+论文部分挑几个重点。有研究把预训练、midtraining、SFT和RL统一成单一基于似然的训练算法，分阶段训练可能并非本质必需。Multi-Token Prediction那篇指出标准MTP训练中残差梯度会干扰学习，给出了修正方案，能直接提升预训练效果和投机解码速度。还有一篇测试了Ollama库305个GGUF标签，7个官方标签也就是2.3%在HumanEval+上最多只解出6题，本地量化模型到货即坏的问题相当严重。EasyProver这个递归agent系统在PutnamBench解出669/672，IMO 2026全部6题，形式化验证接近饱和。
+开源项目里，claude-mem日增1140星，给agent提供跨会话持久上下文；impeccable日增2300星，把设计品味编码成agent技能；微软研究院和UC Berkeley联合发布的TokenEconomizer，零侵入降低编码agent token成本18.4%到30.9%，直接可用。NVIDIA的Nemotron 3.5 Transcribe开放权重，30B MoE，英文Open ASR平均WER 4.71%，达到生产级。
+最后是圈内热议。Anthropic的一项研究挺扎心：实验中agen</description>
+      <itunes:summary>早上好，今天是2026年10月31日，欢迎收听AI行业每日播报。今天的内容相当密集，从巨头联手制定抓取标准，到Google把数据中心送上太空，再到Anthropic IPO可能面临的评级难题，我们一条条聊。
+先看行业大事。OpenAI、Google、微软和Anthropic四家联合推出了一套AI抓取退出标准，用一个叫policy token的统一信号，让内容发布方可以一次性向多家AI公司声明自己的训练偏好，不用再一家一家设置。这对内容方来说，合规成本大幅下降，算是个标志性动作。另一边，Google的首个太空数据中心卫星上线了，TPU在轨启动，机载的Gemma 4模型完成了首次推理，还传回了一首关于太空的俳句。轨道算力的可行性，算是被验证了一把。
+资本层面有个值得警惕的信号。Blackstone预测，Anthropic IPO之后可能拿不到投资级评级，而是高收益也就是垃圾级，这会推高它的融资成本，冲击支撑巨额支出的资金链。AI巨头的融资成本上升，对整个行业的资本开支预期都会有影响。
+模型方面今天很热闹。Google发布了Gemini 4 Carbon，定位下一代前沿模型；DeepMind还发布了Genie 4世界模型，主打实时仿真和真实感突破。Mistral发布了万亿参数的开源模型Le Chonk，也就是Large 4，全欧洲训练，官方说编码能力超越开源对手，但独立测试综合得分26分，还是落后DeepSeek V4.1 Flash和GLM-5.3的32分。OpenAI这边更新了Model Spec，围绕五大核心价值观重构行为准则，强调对人类意图的忠实和可纠正性；同时公布了前沿模型失准检测方法，用分层监控识别未授权agent行为。另外，OpenAI把Pro套餐额度翻倍，Pro 100提升到Pro 500，迎战Anthropic，重度用户和agent工作流的成本会明显下降。
+安全方面有几条必须提。开源模型GLM 5.3在48小时内自主构建了完整的Firefox漏洞利用链，把公开安全修复转成可用exploit，攻破6个Firefox版本，每次API成本约1000美元，全程没触发任何供应商防护。Cursor市场上一个恶意Claude Code扩展存活了约11小时，波及5000用户。还有一条更离谱的，国防承包商Accenture一名员工的个人Claude agent，在五角大楼网络上运行了两个月才被发现。个人agent接入敏感网络的治理盲区，企业真得重视起来。
+监管和生态方面，美国司法部正在审查英伟达收购Hugging Face的交易以及它的销售行为，开源生态的归属存在变数。Reddit CEO警告Google AI Mode不给任何人导流，Reddit 10月每周丢失超百万搜索引荐，股价跌逾25%。Apple Intelligence将于iOS 27.3登陆中国，11月4日beta先行，12月正式版发布。DoorDash则泼了盆冷水，说只收到数百笔AI agent订单，agent商务还处在很早期。
+论文部分挑几个重点。有研究把预训练、midtraining、SFT和RL统一成单一基于似然的训练算法，分阶段训练可能并非本质必需。Multi-Token Prediction那篇指出标准MTP训练中残差梯度会干扰学习，给出了修正方案，能直接提升预训练效果和投机解码速度。还有一篇测试了Ollama库305个GGUF标签，7个官方标签也就是2.3%在HumanEval+上最多只解出6题，本地量化模型到货即坏的问题相当严重。EasyProver这个递归agent系统在PutnamBench解出669/672，IMO 2026全部6题，形式化验证接近饱和。
+开源项目里，claude-mem日增1140星，给agent提供跨会话持久上下文；impeccable日增2300星，把设计品味编码成agent技能；微软研究院和UC Berkeley联合发布的TokenEconomizer，零侵入降低编码agent token成本18.4%到30.9%，直接可用。NVIDIA的Nemotron 3.5 Transcribe开放权重，30B MoE，英文Open ASR平均WER 4.71%，达到生产级。
+最后是圈内热议。Anthropic的一项研究挺扎心：实验中agen</itunes:summary>
+      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-10-31.mp3" length="2173104" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-31.mp3</guid>
+      <pubDate>Sat, 31 Oct 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>06:02</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-10-30 周五</title>
       <description>早上好，今天是2026年10月30日，欢迎收听AI行业日报。今天的看点相当密集：前沿模型进入两周一代的节奏，Google一边发新模型一边被财报泼了冷水，Anthropic正式启动IPO，而开源社区的重心正在从模型本身转向Agent周边基建。我们一个个说。
 先看模型侧。Google发布了Gemini 4 Carbon，距离上一个版本Argon只隔了两周，在AA智能指数上拿下59分，超过Claude Opus 5.5和GPT-6 Astra，主打长时程Agent工作流和网络防御，定价是每百万token输入2美元、输出10美元。不过因为安全能力太强，初期只开放给审核过的安全专家。另一边，Mistral开源了1万亿参数的Large 4，代号Le Chonk，原生多模态MoE，每个token激活大约490亿参数，完全在欧洲用3800块NVIDIA Grace训练完成。官方说编码能力超过开源对手，但独立测试显示综合实力还是落后DeepSeek V4.1 Flash和GLM-5.3。另外社区传言Qwen4下周发布，可能带100万上下文窗口，值得期待。
@@ -363,29 +390,6 @@ Anthropic 自己今天新闻不少。它提出了一份 AI 安全立法草案，
       <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-17.mp3</guid>
       <pubDate>Sat, 17 Oct 2026 08:00:00 +0800</pubDate>
       <itunes:duration>06:02</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-10-16 周五</title>
-      <description>早上好，欢迎收听今天的 AI 每日快报，今天是 2026 年 10 月 16 日，星期五。今天的关键词就两个字：开源。开源权重模型的军备竞赛全面升级，同时 Agent 安全也从理论讨论走向了真实世界的实证，咱们一条条来说。
-先看模型发布，今天可以说是神仙打架。Meta 发布了 Muse Spark Open，八百一十六 B 总参数、四十二 B 激活的 MoE 多模态模型，支持文本、图像、视频、音频，上下文达到一百万 token，还和 Apple 合作，通过 MLX 在 M5 Ultra 的 Mac Studio 上本地跑起来，这是开源权重第一次在消费级 Mac 上跑出前沿多模态能力。Google 这边发布 Gemini 4 Argon，输出上限直接拉到一百万 token，Gemini API、AI Studio 和 Gemini app 全面可用，Vals Index 得分六十八点九，还同步推出了机器人专用版本。NVIDIA 也没闲着，Nemotron 3.5 Super VL 走企业级 Agent 路线，一百二十 B 参数、十二 B 激活，NVFP4 权重能在单台 DGX Spark 上运行，企业 Agent 可以七乘二十四小时常驻了。国内方面，阶跃星辰开源 Step 5 Preview，六百 B 总参数、二十七 B 激活，主打长程 Agent 和金融任务；蚂蚁百灵开源 Ling-3.0-flash，五百六十 B 参数，零点一九美元就能跑完复杂工作流，把 Agent 规模化成本压到了美分级。
-再看几条商业和安全方面的消息。Anthropic 第三季度营收一百六十八亿美元，环比增长百分之四十五，但相比第二季度的百分之一百四十明显放缓，市场预期十一月 IPO 估值可能低于一点五万亿美元，这是 AI 泡沫最大规模上市测试的风向标。同时 Anthropic 向 METR 开放了员工级访问权限，放弃否决权，让第三方独立发布风险评估报告，这是前沿实验室安全审计的首个实质先例。说到安全，Bank of America 投入四千人修复 AI 挖出的软件漏洞，还额外雇了一千名外部承包商，AI 安全审计已经开始重塑企业人力结构。另外 Accenture 限制员工每月 Claude 支出只有二十九美元，企业 AI 采购从放开用转向精细化成本管控了。
-产品侧还有几条。Google 的 Universal Cart 购物工具在美国上线，打通搜索和 Gemini app，AI 助手直接切入电商交易闭环。Amazon Bee 发布两款个人 AI 设备，七十五美元起，支持对话摘要和待办生成。ChatGPT 的 Chrome 扩展升级了，现在可以读取你打开的标签页，浏览器上下文正在成为 Agent 争夺的新入口。OpenAI 还推出了 Rosalind 学术计划，向学术实验室提供 GPT-Rosalind 的赞助访问权限，加速生命科学研究。
-论文方面今天重点很多。FreeSolo 用线性时间稀疏注意力实现零样本长度外推，长上下文推理成本有望大幅下降。LayerTrim 做到免训练结构化剪枝还能保住推理能力。还有一篇说 Transformer 其实是弹性的，免重训就能在推理时动态调整计算预算。安全方向，有研究证明 Agent 的欺骗行为可以被内部状态提前预测，另一篇 APEX-Harm 则给出了共享工作空间里的 Agent 安全基准。最抓眼球的是 GPT-6-Astra 在理论物理评测里解出五十道题中的四十九道，单题成本二点四美元，部分失败案例其实是专家参考答案本身有误，但研究者指出物理还没出现数学那样的突破，因为 Agent 缺乏品味。
-开源项目这边，morluto 的 rea 日增超过三万两千 star，用 Agent 逆向工程一切。Anthropic 官方插件目录、科学 Agent 技能库、上下文压缩工具 context-mode、还有用穴居人式表达省百分之六十五 token 的 caveman，都值得关注。Black Forest Labs 发布 FLUX 3 Image Klein，五点六 B 参数，八 GB 显存就能跑原生 4K 生成和像素级编辑。Fish Audio 发布 Drama 3，三十五 B 开源权重 TTS，覆盖八十三种语言。
-最后两条热议。G</description>
-      <itunes:summary>早上好，欢迎收听今天的 AI 每日快报，今天是 2026 年 10 月 16 日，星期五。今天的关键词就两个字：开源。开源权重模型的军备竞赛全面升级，同时 Agent 安全也从理论讨论走向了真实世界的实证，咱们一条条来说。
-先看模型发布，今天可以说是神仙打架。Meta 发布了 Muse Spark Open，八百一十六 B 总参数、四十二 B 激活的 MoE 多模态模型，支持文本、图像、视频、音频，上下文达到一百万 token，还和 Apple 合作，通过 MLX 在 M5 Ultra 的 Mac Studio 上本地跑起来，这是开源权重第一次在消费级 Mac 上跑出前沿多模态能力。Google 这边发布 Gemini 4 Argon，输出上限直接拉到一百万 token，Gemini API、AI Studio 和 Gemini app 全面可用，Vals Index 得分六十八点九，还同步推出了机器人专用版本。NVIDIA 也没闲着，Nemotron 3.5 Super VL 走企业级 Agent 路线，一百二十 B 参数、十二 B 激活，NVFP4 权重能在单台 DGX Spark 上运行，企业 Agent 可以七乘二十四小时常驻了。国内方面，阶跃星辰开源 Step 5 Preview，六百 B 总参数、二十七 B 激活，主打长程 Agent 和金融任务；蚂蚁百灵开源 Ling-3.0-flash，五百六十 B 参数，零点一九美元就能跑完复杂工作流，把 Agent 规模化成本压到了美分级。
-再看几条商业和安全方面的消息。Anthropic 第三季度营收一百六十八亿美元，环比增长百分之四十五，但相比第二季度的百分之一百四十明显放缓，市场预期十一月 IPO 估值可能低于一点五万亿美元，这是 AI 泡沫最大规模上市测试的风向标。同时 Anthropic 向 METR 开放了员工级访问权限，放弃否决权，让第三方独立发布风险评估报告，这是前沿实验室安全审计的首个实质先例。说到安全，Bank of America 投入四千人修复 AI 挖出的软件漏洞，还额外雇了一千名外部承包商，AI 安全审计已经开始重塑企业人力结构。另外 Accenture 限制员工每月 Claude 支出只有二十九美元，企业 AI 采购从放开用转向精细化成本管控了。
-产品侧还有几条。Google 的 Universal Cart 购物工具在美国上线，打通搜索和 Gemini app，AI 助手直接切入电商交易闭环。Amazon Bee 发布两款个人 AI 设备，七十五美元起，支持对话摘要和待办生成。ChatGPT 的 Chrome 扩展升级了，现在可以读取你打开的标签页，浏览器上下文正在成为 Agent 争夺的新入口。OpenAI 还推出了 Rosalind 学术计划，向学术实验室提供 GPT-Rosalind 的赞助访问权限，加速生命科学研究。
-论文方面今天重点很多。FreeSolo 用线性时间稀疏注意力实现零样本长度外推，长上下文推理成本有望大幅下降。LayerTrim 做到免训练结构化剪枝还能保住推理能力。还有一篇说 Transformer 其实是弹性的，免重训就能在推理时动态调整计算预算。安全方向，有研究证明 Agent 的欺骗行为可以被内部状态提前预测，另一篇 APEX-Harm 则给出了共享工作空间里的 Agent 安全基准。最抓眼球的是 GPT-6-Astra 在理论物理评测里解出五十道题中的四十九道，单题成本二点四美元，部分失败案例其实是专家参考答案本身有误，但研究者指出物理还没出现数学那样的突破，因为 Agent 缺乏品味。
-开源项目这边，morluto 的 rea 日增超过三万两千 star，用 Agent 逆向工程一切。Anthropic 官方插件目录、科学 Agent 技能库、上下文压缩工具 context-mode、还有用穴居人式表达省百分之六十五 token 的 caveman，都值得关注。Black Forest Labs 发布 FLUX 3 Image Klein，五点六 B 参数，八 GB 显存就能跑原生 4K 生成和像素级编辑。Fish Audio 发布 Drama 3，三十五 B 开源权重 TTS，覆盖八十三种语言。
-最后两条热议。G</itunes:summary>
-      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-10-16.mp3" length="2118240" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-16.mp3</guid>
-      <pubDate>Fri, 16 Oct 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>05:53</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
