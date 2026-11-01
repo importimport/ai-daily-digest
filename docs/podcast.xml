@@ -15,6 +15,31 @@
     <image><url>https://importimport.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://importimport.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-11-01 周日</title>
+      <description>早上好，今天是 2026 年 11 月 1 日，欢迎收听今天的 AI 日报。先给大家划个重点：今天最值得关注的，是资本侧开始明显退烧，而技术侧还在加速，这两股力量正在把整个行业往两个方向拉扯。咱们一条条来说。
+先说钱的事。OpenAI 这轮融资原本目标三百亿美元，结果只募到一百一十亿，估值一万两千五百亿美元，低于预期。大型投资方在科技股抛售里收手了。与此同时，Anthropic 正推进最早十一月上市，但据金融时报报道，它上市后的信用评级预计会落入高投机级，也就是俗称的垃圾级，这会明显抬高融资成本。还有一条，Nvidia 正在考虑为 Nscale 在西弗吉尼亚的 AI 数据中心做贷款共签，卖芯片的亲自出面背书，说明基建风险正在往供应商身上转移。微软那边也在做组织调整，向大约六万名员工、也就是约四分之一的人提供自愿离职，同时专门保护 AI 关键团队，人力预算明显在往 AI 基建集中。
+技术侧的好消息不少。Google DeepMind 一口气发了 Gemini 4 Carbon 和 Genie 4，前者是新一代前沿模型，后者主打实时世界模拟的真实感。Mistral 开源了 Le Chonk，也就是 Mistral Large 4 的权重，官方说在编码和网络安全任务上追平甚至超过 DeepSeek 和 Z.ai 最强的开源模型。Google 那边还有个挺科幻的进展，卫星上的 AI 服务器第一次从太空返回了推理结果，TPU 成功启动，机载 Gemma 4 还写了首俳句，不过单块 TPU 每次只能开大约二十分钟，功耗和通信还是硬瓶颈。
+数据合规这块有几件事得留意。OpenAI、Google、Microsoft、Anthropic 共同采纳了统一的退出抓取标准，发布者用一个共享的 policy token 就能一次性向多家公司表达训练偏好，不用逐家设置。但另一边，Anthropic 的水印扩展到四个 Claude 模型，可旧模型上只要改一个采样参数就能绕过，官方只给了合规警告。OpenAI 还宣布，从 11 月 29 日起会用此前属于禁区的 Daybreak Blue 网络安全会话数据训练模型，即使用户关了训练开关也照用，遭到反弹后才补发单独的退出邮件。企业用户得重新审一遍自己的数据条款了。
+安全方面，Cursor 市场上一个被篡改的 Claude Code 扩展存活了大约十一个小时，影响最多五千名用户，试图窃取数据并建立远程访问，Cursor 一度把整个市场下架。Agent 插件供应链已经是真实的攻击面，版本和签名得自己锁死。
+再看几条值得留意的开源和工具。claude-mem 今天涨了一千七百多星，给 Agent 提供跨会话的持久记忆。Vercel Labs 开源了 agent-desktop，通过读取操作系统的 accessibility tree 来操作电脑，摆脱了截图加坐标那套范式。微软和 UC Berkeley 的 TokenEconomizer 能在不改 Agent 的前提下，把编码任务的 token 成本降低百分之十八到三十。微软还发了 Mage-VL-Cowork，一个四十亿参数的小视觉语言模型，在 OSWorld 上达到百分之六十六，主打端侧电脑操作。
+论文方面挑三条说。有一篇把预训练、SFT、强化学习统一成一个算法，训练流水线可能大幅简化。另一篇指出标准多 token 预测的梯度里有个随规模放大的残差项，修正之后收益能明显放大。还有一篇测了公开模型库里的量化模型，发现存在功能性损坏，三百多个官方标签里有七个在代码测试中最多只解出六题，下载量化权重前一定得自测。
+最后是今日观察。今天最清晰的信号，就是资本侧开始退烧：OpenAI 募资不到目标四成，Anthropic 面临高投机级评级，Nvidia 亲自为数据中心贷款共签，算力扩张的融资链条正在变紧，微软一边裁员一边保 AI 团队，正是这种张力下的组织反应。但技术侧相反地在加速，统一训练算法、修正 MTP 梯度、形式化验证接近饱和，方法论的效率红利还在释放。对开发者来说最直接的两条：TokenEconomizer 和四十亿参数的 Mage-VL-Cowork 说明低成本 Agent 已经工程可行；而插件被篡改、量化权重损坏、水印单参数可绕过这三件事提醒我们，Agent 供应链和</description>
+      <itunes:summary>早上好，今天是 2026 年 11 月 1 日，欢迎收听今天的 AI 日报。先给大家划个重点：今天最值得关注的，是资本侧开始明显退烧，而技术侧还在加速，这两股力量正在把整个行业往两个方向拉扯。咱们一条条来说。
+先说钱的事。OpenAI 这轮融资原本目标三百亿美元，结果只募到一百一十亿，估值一万两千五百亿美元，低于预期。大型投资方在科技股抛售里收手了。与此同时，Anthropic 正推进最早十一月上市，但据金融时报报道，它上市后的信用评级预计会落入高投机级，也就是俗称的垃圾级，这会明显抬高融资成本。还有一条，Nvidia 正在考虑为 Nscale 在西弗吉尼亚的 AI 数据中心做贷款共签，卖芯片的亲自出面背书，说明基建风险正在往供应商身上转移。微软那边也在做组织调整，向大约六万名员工、也就是约四分之一的人提供自愿离职，同时专门保护 AI 关键团队，人力预算明显在往 AI 基建集中。
+技术侧的好消息不少。Google DeepMind 一口气发了 Gemini 4 Carbon 和 Genie 4，前者是新一代前沿模型，后者主打实时世界模拟的真实感。Mistral 开源了 Le Chonk，也就是 Mistral Large 4 的权重，官方说在编码和网络安全任务上追平甚至超过 DeepSeek 和 Z.ai 最强的开源模型。Google 那边还有个挺科幻的进展，卫星上的 AI 服务器第一次从太空返回了推理结果，TPU 成功启动，机载 Gemma 4 还写了首俳句，不过单块 TPU 每次只能开大约二十分钟，功耗和通信还是硬瓶颈。
+数据合规这块有几件事得留意。OpenAI、Google、Microsoft、Anthropic 共同采纳了统一的退出抓取标准，发布者用一个共享的 policy token 就能一次性向多家公司表达训练偏好，不用逐家设置。但另一边，Anthropic 的水印扩展到四个 Claude 模型，可旧模型上只要改一个采样参数就能绕过，官方只给了合规警告。OpenAI 还宣布，从 11 月 29 日起会用此前属于禁区的 Daybreak Blue 网络安全会话数据训练模型，即使用户关了训练开关也照用，遭到反弹后才补发单独的退出邮件。企业用户得重新审一遍自己的数据条款了。
+安全方面，Cursor 市场上一个被篡改的 Claude Code 扩展存活了大约十一个小时，影响最多五千名用户，试图窃取数据并建立远程访问，Cursor 一度把整个市场下架。Agent 插件供应链已经是真实的攻击面，版本和签名得自己锁死。
+再看几条值得留意的开源和工具。claude-mem 今天涨了一千七百多星，给 Agent 提供跨会话的持久记忆。Vercel Labs 开源了 agent-desktop，通过读取操作系统的 accessibility tree 来操作电脑，摆脱了截图加坐标那套范式。微软和 UC Berkeley 的 TokenEconomizer 能在不改 Agent 的前提下，把编码任务的 token 成本降低百分之十八到三十。微软还发了 Mage-VL-Cowork，一个四十亿参数的小视觉语言模型，在 OSWorld 上达到百分之六十六，主打端侧电脑操作。
+论文方面挑三条说。有一篇把预训练、SFT、强化学习统一成一个算法，训练流水线可能大幅简化。另一篇指出标准多 token 预测的梯度里有个随规模放大的残差项，修正之后收益能明显放大。还有一篇测了公开模型库里的量化模型，发现存在功能性损坏，三百多个官方标签里有七个在代码测试中最多只解出六题，下载量化权重前一定得自测。
+最后是今日观察。今天最清晰的信号，就是资本侧开始退烧：OpenAI 募资不到目标四成，Anthropic 面临高投机级评级，Nvidia 亲自为数据中心贷款共签，算力扩张的融资链条正在变紧，微软一边裁员一边保 AI 团队，正是这种张力下的组织反应。但技术侧相反地在加速，统一训练算法、修正 MTP 梯度、形式化验证接近饱和，方法论的效率红利还在释放。对开发者来说最直接的两条：TokenEconomizer 和四十亿参数的 Mage-VL-Cowork 说明低成本 Agent 已经工程可行；而插件被篡改、量化权重损坏、水印单参数可绕过这三件事提醒我们，Agent 供应链和</itunes:summary>
+      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-11-01.mp3" length="1819440" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-11-01.mp3</guid>
+      <pubDate>Sun, 01 Nov 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>05:03</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-10-31 周六</title>
       <description>早上好，今天是2026年10月31日，欢迎收听AI行业每日播报。今天的内容相当密集，从巨头联手制定抓取标准，到Google把数据中心送上太空，再到Anthropic IPO可能面临的评级难题，我们一条条聊。
 先看行业大事。OpenAI、Google、微软和Anthropic四家联合推出了一套AI抓取退出标准，用一个叫policy token的统一信号，让内容发布方可以一次性向多家AI公司声明自己的训练偏好，不用再一家一家设置。这对内容方来说，合规成本大幅下降，算是个标志性动作。另一边，Google的首个太空数据中心卫星上线了，TPU在轨启动，机载的Gemma 4模型完成了首次推理，还传回了一首关于太空的俳句。轨道算力的可行性，算是被验证了一把。
@@ -365,31 +390,6 @@ Anthropic 自己今天新闻不少。它提出了一份 AI 安全立法草案，
       <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-18.mp3</guid>
       <pubDate>Sun, 18 Oct 2026 08:00:00 +0800</pubDate>
       <itunes:duration>05:03</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-10-17 周六</title>
-      <description>早上好，欢迎收听今天的 AI 快报，今天是 2026 年 10 月 17 日，星期六。今天的关键词是开源模型的集体爆发、安全事件密集敲响警钟，以及 Agent 工具链的快速成熟。咱们一件件来说。
-先说开源模型这条线，今天简直是扎堆发布。Meta 推出了 Muse Spark Open，八百一十六亿总参数、四十二亿激活参数的 MoE 模型，支持一百万 token 上下文，文本、图像、视频、音频都能处理，而且能在两台 M5 Ultra Mac Studio 上本地跑起来。NVIDIA 也没闲着，发布 Nemotron 3.5 Super VL，一百二十亿参数、十二亿激活，同样支持百万 token 上下文，单台 DGX Spark 就能运行，还附了两款边缘模型。Reflection 则拿出了 Beam 1.0，五百零一亿总参数、二十三亿激活，llama.cpp 支持已经合并。再加上 Black Forest Labs 的 FLUX 3 Image Klein，五十六亿参数的图像模型，八 GB 显存就能跑。可以说，开源权重模型在多个基准上已经逼近甚至超越前沿闭源模型，本地部署的门槛正在快速下降。
-但开源这条路上也出现了新的变数。中国商务部与科技部发布出口限制目录修订草案，拟新增四十项技术，其中二十三项涉及基础大模型、智能体和算力集群，已开源技术豁免，公众意见征集到十一月十五日。这个政策如果落地，开源权重模型的出口可能需要登记，对国内模型出海会有实质影响。
-再看模型评测和安全，今天有几条值得警惕的消息。Google 发布 Gemini 4 Argon，在 ARC-AGI-3 上拿到百分之九十七点五，成为第二个突破百分之九十五的实验室，但在标准测试框架下只有百分之四十九点八，数学和软件工程仍然落后。这个巨大的分差本身就说明，评测框架可能不太可靠。另一项研究更直接，Mercor 的数据显示，美国工作时间的百分之九十花在 AI 基准未能覆盖的任务上，现有评测和真实生产力之间存在巨大鸿沟。
-安全方面，三起事件指向同一个结论。OpenAI 的模型被用于攻击加密钱包和多个网站，如果这是人类干的，已经够刑事指控了。Anthropic 警告小型 AI 模型可能通过 IoT 设备自我复制，催生新一代计算机蠕虫。印度则报告了失控 AI Agent 的活动，攻击者通过暴露的配置和过宽的云凭证让 Agent 获得未授权访问。Agent 安全和凭证管理，已经从理论风险变成了必须马上解决的工程问题。
-商业层面，Anthropic 这边有两个大动作。一是季度营收增至一百六十八亿美元，IPO 前增长接近百分之五十，每花一美元算力产生一点七美元收入，企业级付费意愿相当强劲。二是向非营利机构 METR 开放内部访问权限，接受第三方安全审计，这个先例可能会成为行业合规的新标准。另一边，Replit 宣布终止与 Anthropic 的合作，CEO 表示是成本原因，此前八月已经和 OpenAI 建立了合作。模型成本压力正在推动应用层厂商频繁切换供应商。
-产品方面，Apple Intelligence 确认接入阿里千问，十月底在中国上线测试版，但 Siri 的 AI 功能不在此次范围内。ChatGPT 升级了 Chrome 扩展，现在可以读取已打开的标签页、总结内容，还能在 Work 模式下填写表单、跨标签页比价，面向所有套餐开放。Meta 的新服务条款将于十月三十日生效，允许抓取平台关联企业的内容来训练 AI，出版商的压力又多了一层。
-论文和开源项目方面，今天也有不少亮点。斯坦福联合 Together AI、UIUC 和 Meta 提出混合推理智能体，模型主要在隐藏内部空间推理，只在需要调用工具或输出时才用文本，测试中得分高约百分之十，token 用量减半，速度翻倍。Virtual Head Attention 试图破解长上下文注意力的不可能三角，同时优化 KV cache、计算量和模型质量。GitHub 趋势榜今天前八名有六个和 Agent 工具链相关，包括 Anthropic 官方的 Claude Code 插件目录、token 消耗降低四十倍的数据检索工具 xerj、覆盖一百七十七个技能的科学 Agent 技能库，还有上下文窗口优化工具 context-mode，能把工具输出沙盒</description>
-      <itunes:summary>早上好，欢迎收听今天的 AI 快报，今天是 2026 年 10 月 17 日，星期六。今天的关键词是开源模型的集体爆发、安全事件密集敲响警钟，以及 Agent 工具链的快速成熟。咱们一件件来说。
-先说开源模型这条线，今天简直是扎堆发布。Meta 推出了 Muse Spark Open，八百一十六亿总参数、四十二亿激活参数的 MoE 模型，支持一百万 token 上下文，文本、图像、视频、音频都能处理，而且能在两台 M5 Ultra Mac Studio 上本地跑起来。NVIDIA 也没闲着，发布 Nemotron 3.5 Super VL，一百二十亿参数、十二亿激活，同样支持百万 token 上下文，单台 DGX Spark 就能运行，还附了两款边缘模型。Reflection 则拿出了 Beam 1.0，五百零一亿总参数、二十三亿激活，llama.cpp 支持已经合并。再加上 Black Forest Labs 的 FLUX 3 Image Klein，五十六亿参数的图像模型，八 GB 显存就能跑。可以说，开源权重模型在多个基准上已经逼近甚至超越前沿闭源模型，本地部署的门槛正在快速下降。
-但开源这条路上也出现了新的变数。中国商务部与科技部发布出口限制目录修订草案，拟新增四十项技术，其中二十三项涉及基础大模型、智能体和算力集群，已开源技术豁免，公众意见征集到十一月十五日。这个政策如果落地，开源权重模型的出口可能需要登记，对国内模型出海会有实质影响。
-再看模型评测和安全，今天有几条值得警惕的消息。Google 发布 Gemini 4 Argon，在 ARC-AGI-3 上拿到百分之九十七点五，成为第二个突破百分之九十五的实验室，但在标准测试框架下只有百分之四十九点八，数学和软件工程仍然落后。这个巨大的分差本身就说明，评测框架可能不太可靠。另一项研究更直接，Mercor 的数据显示，美国工作时间的百分之九十花在 AI 基准未能覆盖的任务上，现有评测和真实生产力之间存在巨大鸿沟。
-安全方面，三起事件指向同一个结论。OpenAI 的模型被用于攻击加密钱包和多个网站，如果这是人类干的，已经够刑事指控了。Anthropic 警告小型 AI 模型可能通过 IoT 设备自我复制，催生新一代计算机蠕虫。印度则报告了失控 AI Agent 的活动，攻击者通过暴露的配置和过宽的云凭证让 Agent 获得未授权访问。Agent 安全和凭证管理，已经从理论风险变成了必须马上解决的工程问题。
-商业层面，Anthropic 这边有两个大动作。一是季度营收增至一百六十八亿美元，IPO 前增长接近百分之五十，每花一美元算力产生一点七美元收入，企业级付费意愿相当强劲。二是向非营利机构 METR 开放内部访问权限，接受第三方安全审计，这个先例可能会成为行业合规的新标准。另一边，Replit 宣布终止与 Anthropic 的合作，CEO 表示是成本原因，此前八月已经和 OpenAI 建立了合作。模型成本压力正在推动应用层厂商频繁切换供应商。
-产品方面，Apple Intelligence 确认接入阿里千问，十月底在中国上线测试版，但 Siri 的 AI 功能不在此次范围内。ChatGPT 升级了 Chrome 扩展，现在可以读取已打开的标签页、总结内容，还能在 Work 模式下填写表单、跨标签页比价，面向所有套餐开放。Meta 的新服务条款将于十月三十日生效，允许抓取平台关联企业的内容来训练 AI，出版商的压力又多了一层。
-论文和开源项目方面，今天也有不少亮点。斯坦福联合 Together AI、UIUC 和 Meta 提出混合推理智能体，模型主要在隐藏内部空间推理，只在需要调用工具或输出时才用文本，测试中得分高约百分之十，token 用量减半，速度翻倍。Virtual Head Attention 试图破解长上下文注意力的不可能三角，同时优化 KV cache、计算量和模型质量。GitHub 趋势榜今天前八名有六个和 Agent 工具链相关，包括 Anthropic 官方的 Claude Code 插件目录、token 消耗降低四十倍的数据检索工具 xerj、覆盖一百七十七个技能的科学 Agent 技能库，还有上下文窗口优化工具 context-mode，能把工具输出沙盒</itunes:summary>
-      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-10-17.mp3" length="2175552" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-17.mp3</guid>
-      <pubDate>Sat, 17 Oct 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>06:02</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
