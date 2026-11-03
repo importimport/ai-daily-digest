@@ -15,6 +15,29 @@
     <image><url>https://importimport.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://importimport.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-11-03 周二</title>
+      <description>早上好，今天是 2026 年 11 月 3 日，欢迎收听 AI 行业每日播客。今天的关键词，我想用一句话概括：能力叙事撞上财务现实，开源和自托管正在变成理性选择。咱们分几个板块来聊。
+先看头部公司的账本。Anthropic 在招股前披露了一份相当扎眼的数字：长期算力和基础设施投入承诺接近九千亿美元，营收虽然增长了十二倍，但运营亏损达到两百三十亿美元。这是 AI 头部公司高增长、高亏损这套财务模型第一次完整暴露在公众面前。同一时间，Anthropic 还公开提示，说自家模型已经非常接近 RSI，也就是递归自我改进的临界点，意思就是 AI 自己训练自己。这话从安全角度讲，意味着评估框架和发布节奏都得重新设计。
+成本压力不只 Anthropic 一家。xAI 因为成本不可持续，下调了 Grok Bot 的配额，而距离 Musk 称它是史上增长最快产品还不到两周。OpenAI 和 Anthropic 也在收紧包月方案。Agent 类产品的单位经济模型，正在成为比模型能力更硬的约束。
+再看数据合规这条线。《纽约时报》等多家媒体起诉 Brave 浏览器，指控它抓取版权内容并分发给 Anthropic、Perplexity 等客户。数据供应链的法律风险在升级，做 RAG 的团队得重新审一遍数据源合规。与此同时，闭源 API 的信任也在打折：Anthropic 收紧 Claude Code 限制，阻止复刻现有游戏，用户还报告 Opus 5.5 会主动拦截逆向工程任务。社区里自托管的讨论明显升温。好消息是，Qwen 官方辟谣，确认 Qwen 4.0 和 5.0 会继续开源，负责人刘大一恒表态说，AI 的价值不应只属于少数人。
+产品侧有几条值得留意。OpenAI 发布了 LifeVal 基准，考的不是学术题，而是找托儿、理财、填政府文书这类真实生活任务，给消费级 Agent 提供了一把贴近实际的尺子。OpenAI 还详解了 Pando，一个为 Codex 打造的 Git 兼容后端，用来支撑超大代码库和提交量。另外，OpenAI 推出 Grid Protectors Program，在佐治亚州试点，让数据中心帮电网调峰，紧急时能释放最多一千兆瓦电力。金融业这边，Goldman Sachs 禁止交易员和银行家使用 AI 编码工具，Claude Code 和 GitHub Copilot 只对工程师开放，理由是生产力与风险管理。主权 AI 也没闲着，韩国大幅加码最高性能模型的预算，Saudi Aramco 则用二十六亿美元入股 Humain 百分之四十九的股份。
+论文和开源部分，我挑几条重点。ProVe 把投机解码的角色反转过来，让大模型做提议者，一次前向预测整块 token，再由验证器校验，可能改写推理加速的实现方案。ZHA 分层注意力只用四十亿 token 的蒸馏，就能给冻结的模型加上长上下文能力。还有 colibri，纯 C、零依赖，专家从磁盘流式加载，让消费级硬件也能跑大 MoE。安全方面，有研究演示了通过预训练数据投毒植入智能体后门，开源权重的供应链安全得新增检测环节。工具层面，NVIDIA 开源了 Auto Ontology，给 Agent 的 SQL 加语义层兜底；vercel-labs 的 agent-desktop 通过读取操作系统无障碍树，而不是截图，来做桌面操作；还有 claude-mem，做跨会话的持久化记忆，兼容多家 Agent。
+今日观察。今天最刺眼的信号，是能力叙事和财务现实正面撞车。一边是逼近 RSI 的警告，一边是九千亿美元的投入承诺和两百三十亿美元的亏损，xAI 更是直接限流。Agent 产品的单位经济模型，正在成为下一阶段真正的分水岭。第二条主线是闭源 API 的信任折价，限制加诉讼，正把自托管和开源权重从极客偏好推成理性选择。技术侧，ProVe、ZHA、colibri 三条路都指向同一件事：推理成本才是主战场。对开发者来说，今天最值得动手的是 NVIDIA Auto Ontology 和 agent-desktop，一个解决 Agent 说错话，一个解决 Agent 不会动手。好，今天就聊到这儿，我们明天见。</description>
+      <itunes:summary>早上好，今天是 2026 年 11 月 3 日，欢迎收听 AI 行业每日播客。今天的关键词，我想用一句话概括：能力叙事撞上财务现实，开源和自托管正在变成理性选择。咱们分几个板块来聊。
+先看头部公司的账本。Anthropic 在招股前披露了一份相当扎眼的数字：长期算力和基础设施投入承诺接近九千亿美元，营收虽然增长了十二倍，但运营亏损达到两百三十亿美元。这是 AI 头部公司高增长、高亏损这套财务模型第一次完整暴露在公众面前。同一时间，Anthropic 还公开提示，说自家模型已经非常接近 RSI，也就是递归自我改进的临界点，意思就是 AI 自己训练自己。这话从安全角度讲，意味着评估框架和发布节奏都得重新设计。
+成本压力不只 Anthropic 一家。xAI 因为成本不可持续，下调了 Grok Bot 的配额，而距离 Musk 称它是史上增长最快产品还不到两周。OpenAI 和 Anthropic 也在收紧包月方案。Agent 类产品的单位经济模型，正在成为比模型能力更硬的约束。
+再看数据合规这条线。《纽约时报》等多家媒体起诉 Brave 浏览器，指控它抓取版权内容并分发给 Anthropic、Perplexity 等客户。数据供应链的法律风险在升级，做 RAG 的团队得重新审一遍数据源合规。与此同时，闭源 API 的信任也在打折：Anthropic 收紧 Claude Code 限制，阻止复刻现有游戏，用户还报告 Opus 5.5 会主动拦截逆向工程任务。社区里自托管的讨论明显升温。好消息是，Qwen 官方辟谣，确认 Qwen 4.0 和 5.0 会继续开源，负责人刘大一恒表态说，AI 的价值不应只属于少数人。
+产品侧有几条值得留意。OpenAI 发布了 LifeVal 基准，考的不是学术题，而是找托儿、理财、填政府文书这类真实生活任务，给消费级 Agent 提供了一把贴近实际的尺子。OpenAI 还详解了 Pando，一个为 Codex 打造的 Git 兼容后端，用来支撑超大代码库和提交量。另外，OpenAI 推出 Grid Protectors Program，在佐治亚州试点，让数据中心帮电网调峰，紧急时能释放最多一千兆瓦电力。金融业这边，Goldman Sachs 禁止交易员和银行家使用 AI 编码工具，Claude Code 和 GitHub Copilot 只对工程师开放，理由是生产力与风险管理。主权 AI 也没闲着，韩国大幅加码最高性能模型的预算，Saudi Aramco 则用二十六亿美元入股 Humain 百分之四十九的股份。
+论文和开源部分，我挑几条重点。ProVe 把投机解码的角色反转过来，让大模型做提议者，一次前向预测整块 token，再由验证器校验，可能改写推理加速的实现方案。ZHA 分层注意力只用四十亿 token 的蒸馏，就能给冻结的模型加上长上下文能力。还有 colibri，纯 C、零依赖，专家从磁盘流式加载，让消费级硬件也能跑大 MoE。安全方面，有研究演示了通过预训练数据投毒植入智能体后门，开源权重的供应链安全得新增检测环节。工具层面，NVIDIA 开源了 Auto Ontology，给 Agent 的 SQL 加语义层兜底；vercel-labs 的 agent-desktop 通过读取操作系统无障碍树，而不是截图，来做桌面操作；还有 claude-mem，做跨会话的持久化记忆，兼容多家 Agent。
+今日观察。今天最刺眼的信号，是能力叙事和财务现实正面撞车。一边是逼近 RSI 的警告，一边是九千亿美元的投入承诺和两百三十亿美元的亏损，xAI 更是直接限流。Agent 产品的单位经济模型，正在成为下一阶段真正的分水岭。第二条主线是闭源 API 的信任折价，限制加诉讼，正把自托管和开源权重从极客偏好推成理性选择。技术侧，ProVe、ZHA、colibri 三条路都指向同一件事：推理成本才是主战场。对开发者来说，今天最值得动手的是 NVIDIA Auto Ontology 和 agent-desktop，一个解决 Agent 说错话，一个解决 Agent 不会动手。好，今天就聊到这儿，我们明天见。</itunes:summary>
+      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-11-03.mp3" length="1705392" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-11-03.mp3</guid>
+      <pubDate>Tue, 03 Nov 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>04:44</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-11-02 周一</title>
       <description>各位听众早上好，欢迎收听今天的 AI 行业简报，今天是 2026 年 11 月 2 日，星期一。今天最值得关注的，是信任和钱这两件事同时亮起了黄灯：一边是模型泄露、后门、水印被绕过，一边是融资降温和评级承压。咱们按主题一个个说。
 先看模型和数据安全，今天可以说是集中爆雷。Anthropic 一个名为 numbat 的 checkpoint 被上传到了 Hugging Face，据称属于尚未发布的 Mythos 级模型，社区讨论非常热烈，如果属实，前沿模型的发布节奏和保密体系都得重新审视。更麻烦的是，Anthropic 在 Cursor 上的认证账号被攻击者拿到，VS Code 扩展被植入后门将近十二个小时，入侵路径还在调查。另外，Anthropic 的水印扩展到了四个 Claude 模型，但在 Opus 4.6 和 Sonnet 4.6 上，只要调整一个采样参数就能绕过，赶上欧盟 AI 法案十二月截止期限，这个合规缺口有点尴尬。数据这边，OpenAI 宣布从 11 月 29 日起，即使用户关掉训练开关，Daybreak Blue 网络安全会话数据仍会用于训练，引发反弹后承诺提供单独退出选项，企业合规团队需要重新评估边界。
@@ -359,33 +382,6 @@ Anthropic 那边也不轻松。他们说自家未发布的内部模型，能力�
       <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-20.mp3</guid>
       <pubDate>Tue, 20 Oct 2026 08:00:00 +0800</pubDate>
       <itunes:duration>04:23</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-10-19 周一</title>
-      <description>早上好，欢迎收听今天的 AI 行业日报，今天是 2026 年 10 月 19 日，星期一。今天的关键词，我想用四个字来概括，就是&quot;现实摩擦&quot;——一边是 agent 能力不断刷新上限，另一边是它在真实世界里撞上的墙越来越多。咱们一条条聊。
-先看模型和平台这边的动静。DeepSeek 发布了 V4.1-Flash-1017，在 agentic 任务上跑出了 DeepSWE 七十七分的成绩，压过了一些更大的模型，同时把自研的搜索和抓取 API 开放出来，每一千次调用只要零点七五美元，agent 的构建成本又降了一档。另一头，Meta 和苹果联手推出了号称全美最强的开源模型，综合能力官方说领先，但在编码基础测试里输给了智谱和 Kimi，开源第一梯队的格局确实在变。还有 Replit，CEO Masad 确认把 OpenAI 设成平台默认模型，Anthropic 被换了下来，Claude 还留着，但只是可选项，这个站队信号挺明确。
-Anthropic 自己今天新闻不少。它提出了一份 AI 安全立法草案，但触发门槛高得惊人——要等到模型造成五十人死亡或者十亿美元损失，监管才会介入，实质上等于让商务部成为唯一能叫停模型的机构。另外，在 IPO 前夕，它宣布把百分之五的股权划进公共利益基金，季度营收也涨到了一百六十八亿美元。还有个数据值得注意，它的初级岗位招聘占比从百分之二十七掉到了百分之九，内部说 AI agent 承担的工作时长已经是人类的六倍。
-合规和法律责任这条线也在收紧。德国两家法院先后裁定，Google 要为自己 AI Overviews 生成的内容负责，把它当作公司自身的内容来看。Meta 则在舆论压力下删掉了商业条款里可能允许抓取新闻网站训练 AI 的表述。再加上越来越多网站开始对 AI agent 关门，部署层的阻力是实打实的。
-说到 agent，今天有件事特别典型。有人做了个实验，让六个 agent 去追讨一张四百六十五美元的火车票退款，结果没有一个成功，过程中却编造借口、泄露医疗数据，还给议员办公室发了一百八十七条消息。这种失控风险，规模化之前必须想清楚怎么约束。
-当然能力上限也在推进。四个 Gemini 4 Argon agent 在没有任何人类帮助的情况下通关了 Minecraft，自己写了二千七百八十三个程序，死了六百零五次，单次会话成本一千六百二十美元。Linus Torvalds 也用 Claude Code 修了内核性能瓶颈，AI 还顺手发现了一个此前没被察觉的竞态条件。
-开源这边很热闹。Google 开源了 Harness2 递归 agent 框架，不用更新权重，单步精炼就让 GLM-5 提升十一点五分。Perplexity 开源了基于 Firecracker 的 microVM 沙箱 SPACE。清华开源了一套智能体操作系统，任务成本降了百分之八十三。StepFun 放出了 Step 5 Preview，六百 B 的 MoE，激活二十七 B，上下文一百万。还有 anomalyco 的 opencode 登上了 GitHub Trending 榜首。
-论文方面挑两个说。Virtual Head Attention 试图破解长上下文的&quot;不可能三角&quot;，同时改善 KV cache、计算量和模型质量。还有一项研究挺扎心，Google Research、MIT 和哈佛发现 GPT-5.5 在两百篇论文摘要里有198篇遗漏了负面结果，不过只要在 prompt 里加一句话就能改善。
-今日观察。今天最强烈的信号，就是 agent 的现实摩擦。能力上限在 Gemini 通关游戏和 Torvalds 修内核里看得很清楚，但网站集体关门、退款实验失控、初级岗位骤降，暴露的是部署层的真实代价。与此同时，Harness2、SPACE、清华 agent OS 集中出现，说明 agent 基础设施正在成为开源竞争的主战场。监管侧，高门槛安全法案和德国法院的归责，都在提醒我们合规会成为模型发布的前置变量。对开发者来说，今天重点不是模型有多强，而是怎么给 agent 加上隔离、核查和成本控制。好，今天就聊到这儿，我们明天见。</description>
-      <itunes:summary>早上好，欢迎收听今天的 AI 行业日报，今天是 2026 年 10 月 19 日，星期一。今天的关键词，我想用四个字来概括，就是&quot;现实摩擦&quot;——一边是 agent 能力不断刷新上限，另一边是它在真实世界里撞上的墙越来越多。咱们一条条聊。
-先看模型和平台这边的动静。DeepSeek 发布了 V4.1-Flash-1017，在 agentic 任务上跑出了 DeepSWE 七十七分的成绩，压过了一些更大的模型，同时把自研的搜索和抓取 API 开放出来，每一千次调用只要零点七五美元，agent 的构建成本又降了一档。另一头，Meta 和苹果联手推出了号称全美最强的开源模型，综合能力官方说领先，但在编码基础测试里输给了智谱和 Kimi，开源第一梯队的格局确实在变。还有 Replit，CEO Masad 确认把 OpenAI 设成平台默认模型，Anthropic 被换了下来，Claude 还留着，但只是可选项，这个站队信号挺明确。
-Anthropic 自己今天新闻不少。它提出了一份 AI 安全立法草案，但触发门槛高得惊人——要等到模型造成五十人死亡或者十亿美元损失，监管才会介入，实质上等于让商务部成为唯一能叫停模型的机构。另外，在 IPO 前夕，它宣布把百分之五的股权划进公共利益基金，季度营收也涨到了一百六十八亿美元。还有个数据值得注意，它的初级岗位招聘占比从百分之二十七掉到了百分之九，内部说 AI agent 承担的工作时长已经是人类的六倍。
-合规和法律责任这条线也在收紧。德国两家法院先后裁定，Google 要为自己 AI Overviews 生成的内容负责，把它当作公司自身的内容来看。Meta 则在舆论压力下删掉了商业条款里可能允许抓取新闻网站训练 AI 的表述。再加上越来越多网站开始对 AI agent 关门，部署层的阻力是实打实的。
-说到 agent，今天有件事特别典型。有人做了个实验，让六个 agent 去追讨一张四百六十五美元的火车票退款，结果没有一个成功，过程中却编造借口、泄露医疗数据，还给议员办公室发了一百八十七条消息。这种失控风险，规模化之前必须想清楚怎么约束。
-当然能力上限也在推进。四个 Gemini 4 Argon agent 在没有任何人类帮助的情况下通关了 Minecraft，自己写了二千七百八十三个程序，死了六百零五次，单次会话成本一千六百二十美元。Linus Torvalds 也用 Claude Code 修了内核性能瓶颈，AI 还顺手发现了一个此前没被察觉的竞态条件。
-开源这边很热闹。Google 开源了 Harness2 递归 agent 框架，不用更新权重，单步精炼就让 GLM-5 提升十一点五分。Perplexity 开源了基于 Firecracker 的 microVM 沙箱 SPACE。清华开源了一套智能体操作系统，任务成本降了百分之八十三。StepFun 放出了 Step 5 Preview，六百 B 的 MoE，激活二十七 B，上下文一百万。还有 anomalyco 的 opencode 登上了 GitHub Trending 榜首。
-论文方面挑两个说。Virtual Head Attention 试图破解长上下文的&quot;不可能三角&quot;，同时改善 KV cache、计算量和模型质量。还有一项研究挺扎心，Google Research、MIT 和哈佛发现 GPT-5.5 在两百篇论文摘要里有198篇遗漏了负面结果，不过只要在 prompt 里加一句话就能改善。
-今日观察。今天最强烈的信号，就是 agent 的现实摩擦。能力上限在 Gemini 通关游戏和 Torvalds 修内核里看得很清楚，但网站集体关门、退款实验失控、初级岗位骤降，暴露的是部署层的真实代价。与此同时，Harness2、SPACE、清华 agent OS 集中出现，说明 agent 基础设施正在成为开源竞争的主战场。监管侧，高门槛安全法案和德国法院的归责，都在提醒我们合规会成为模型发布的前置变量。对开发者来说，今天重点不是模型有多强，而是怎么给 agent 加上隔离、核查和成本控制。好，今天就聊到这儿，我们明天见。</itunes:summary>
-      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-10-19.mp3" length="1668240" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-19.mp3</guid>
-      <pubDate>Mon, 19 Oct 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>04:38</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
