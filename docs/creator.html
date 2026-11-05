@@ -36,6 +36,84 @@
 
 <div class="ep">
   <div class="ep-h">
+    <span class="ep-title" id="t-2026-11-05">AI 每日简报 · 2026-11-05 周四</span>
+    <button class="cbtn" data-copy="t-2026-11-05">📋 复制标题</button>
+  </div>
+  <audio controls preload="none" src="audio/2026-11-05.mp3"></audio>
+  <div class="acts">
+    <a class="cbtn" href="audio/2026-11-05.mp3" download="2026-11-05.mp3">⬇️ 下载音频</a>
+    <button class="cbtn" data-copy="n-2026-11-05">📋 复制 Show Notes</button>
+  </div>
+  <details><summary>预览 Show Notes</summary><pre class="notes" id="n-2026-11-05">AI 每日简报 · 2026-11-05 周四
+
+🎧 每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · DeepSeek 智能筛选。
+
+📰 行业新闻
+· OpenAI 发布 Images 2.6，ChatGPT 原生支持 GIF 生成：新模型支持从文本或图片生成动图，可调节播放速度、逐帧编辑，并同步登陆 Codex 与 API。
+  来源：https://openai.com/index/introducing-images-2-6
+· Meta 收购 AI 编程初创 Conductor：Conductor 允许工程师同时部署多个 agent 并行处理项目不同部分，Meta 借此补强 agentic coding 能力。
+  来源：https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/
+· OpenAI 收购 Pierre Computer Company，为 AI 编程 agent 改造 Git：Pierre 的库已支撑 Codex，配合 OpenAI 自研 Git 后端 Pando，构建面向 agent 协作的开发基础设施。
+  来源：https://the-decoder.com/openai-acquires-pierre-computer-company-to-make-git-keep-up-with-ai-coding-agents/
+· OpenAI 用自动化流水线发现并修复 Linux 内核 948 个本地提权漏洞：自主管线完成发现、验证、生成补丁全流程。
+  来源：https://openai.com/index/a-thousand-fewer-paths-to-root
+· Uber 披露上季度仅 4 单由第三方 AI agent 完成叫车：Uber Eats 的 agent 订单约 500 单，agent 商业化仍处极早期。
+  来源：https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation
+· Google 搜索 AI 变现难题：查询量五年最快增长，收入增速却降至 12%：AI Overviews 拉动使用量但未带来对等广告收入。
+  来源：https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3
+· 美国中期选举：数据中心与 AI 议题遭遇选票反弹：多个选区通过限制数据中心的动议，76% 受访选民对数据中心持负面态度，AI 在议题优先级中垫底。
+  来源：https://www.wired.com/story/the-results-are-in-voters-hate-data-centers/
+· Qualcomm 发布 Cloud AI 100 Ultra：150W、128GB 显存、548GB/s 带宽：手机业务同比下滑约 20% 后，全面押注数据中心加速卡。
+  来源：https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra
+· AI 需求引发 PCB 严重短缺，交期拉长至 30 个月、材料成本涨 12 倍：PC 厂商订单排至 2030 年。
+  来源：https://www.tomshardware.com/pc-components/ai-demand-triggers-massive-pcb-shortage-for-pc-makers-as-order-books-full-until-2030-lead-times-stretch-to-30-months-as-material-costs-surge-12x
+
+📄 重要论文
+· Anthropic 发布 FlashProve：用 zkSNARK 证明回答来自承诺权重：Apache 2.0 原型，可在单张 H100 上以 110 tokens/s 为 Llama 4 Maverick 生成 19MB 证明，不暴露模型权重。
+  来源：https://www.marktechpost.com/2026/11/03/anthropic-flashprove-provable-inference-zksnark/
+· MIT 研究：GPT-6 Astra 可直接读写其他模型权重：仅改动 Qwen 模型 0.016% 的权重，数学准确率从 7.9% 提升至 48.1%，无需传统训练。
+  来源：https://the-decoder.com/gpt-6-astra-sees-the-matrix-and-reprograms-other-ai-models-directly-through-their-weights/
+· Stanford 研究：44% 的 LLM 研究结论已&quot;过期&quot;：对 50 条高引结论在 20 个当代模型上复测，平均有效期仅 15.7 个月，&quot;模型做不到 X&quot;类结论失效最快。
+  来源：https://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds/
+· &quot;You don't need long context&quot;：频繁压缩上下文几乎不损精度：前沿开源模型后段 token 生成成本可达前段 7 倍，长程任务中维持短上下文即可。
+  来源：https://huggingface.co/papers/2611.05306
+· &quot;Length Is Cheap, Competition Is Not&quot;：长上下文失效源于干扰而非长度：中性填充下 32K 内准确率维持 0.97-1.00，同格式干扰句可将其压至 0.16-0.33。
+  来源：https://huggingface.co/papers/2611.04169
+· Zyphra 提出分层注意力 ZHA：向真正亚二次注意力迈进：树索引稀疏注意力，仅用 4B token 蒸馏即可为冻结 LLM 改造，在推理与 256K 检索基准上追平稠密注意力。
+  来源：https://www.marktechpost.com/2026/11/02/zyphra-hierarchical-attention-zha-sparse-attention/
+· CloudOpsBench 开源：推理是 AI 云运维的最大瓶颈：覆盖修服务、删资源、限权限、发版、下线项目等典型 DevOps 任务。
+  来源：https://the-decoder.com/new-open-source-benchmark-reveals-reasoning-as-the-biggest-bottleneck-for-ai-in-cloud-operations/
+
+🔧 开源项目
+· Ricursive 发布 Ripple-65B Preview：Apache 2.0 开源权重，Terminal-Bench 2.1 得分 80.5：65B 稠密模型，成绩超过体积达其 15 倍的美国开源模型。
+  来源：https://www.marktechpost.com/2026/11/04/ricursive-ripple-65b-preview-open-weight-model/
+· webAI 发布 TwIL-8B：8.8B 推理模型 MATH-500 达 98.2：基于 IBM Granite 4.2 8B 后训练，LiveCodeBench 81.6，但知识类基准偏弱。
+  来源：https://www.marktechpost.com/2026/11/04/webai-twil-8b-reasoning-model/
+· 腾讯微信视觉团队开源 WeVisOne-VL（2B/4B，Apache 2.0）：单模型统一检测、OCR、计数、分割与 alpha matting，配 9.6M 参数像素解码器。
+  来源：https://www.marktechpost.com/2026/11/03/tencent-wevisone-vl-vision-language-model/
+· Deep Principle 开源 Hydrogen-1.0：753B 科学发现模型（MIT 许可）：基于 GLM-5.3 后训练，覆盖化学、材料与生命科学，报告称在 FrontierScience-Research 上胜过 GPT-6-Astra。
+  来源：https://www.marktechpost.com/2026/11/02/deep-principle-hydrogen-1-0-open-weight-scientific-model/
+· Vercel Labs 开源 agent-desktop：面向 AI agent 的 computer use CLI：单日新增 2,470 star，为 agent 提供桌面操作入口。
+  来源：https://github.com/vercel-labs/agent-desktop
+· claude-mem：为所有 agent 提供跨会话持久记忆：捕获会话内容、AI 压缩后回注，兼容 Claude Code、Codex、Gemini、Copilot 等。
+  来源：https://github.com/thedotmack/claude-mem
+· kimi-k3-in-c：2.78 万亿参数 Kimi K3 在单 CPU、8.24GB 内存上跑推理：纯 C99，无 BLAS、无框架、无 GPU。
+  来源：https://github.com/FareedKhan-dev/kimi-k3-in-c
+
+🐦 AI 圈热议
+· Hugging Face CEO Clément Delangue：我的 P(Doom) &quot;接近零&quot;：他在 WIRED World Fair 上表示，&quot;大部分风险实际上来自少数几个闭门造车的玩家&quot;，以此论证开源 AI 的必要性——与主流&quot;AI 灭绝风险&quot;叙事形成正面交锋，也呼应了同日 TechCrunch 关于开源模型商业化路径的讨论。
+  来源：https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face/
+· &quot;Everything is an AI scam now&quot; 引发 HN 热议（128 分 / 43 评论）：文章批评 AI 标签被滥用于营销与融资叙事，社区讨论集中在如何辨别真实能力与包装。同期 HN 另一热帖 &quot;You'll need nerves of steel to work with AI agents&quot; 则从工程实践角度吐槽 agent 的不可预测性，两条合流指向同一情绪：对 agent 落地的预期正在回调。
+  来源：https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/
+
+💡 今日观察
+今天最清晰的信号是：AI 竞争的重心正从&quot;模型能力&quot;转向&quot;围绕模型的基础设施与信任层&quot;。OpenAI 一天之内连发 Images 2.6、收购 Pierre、公布内核漏洞自动化修复流水线，Meta 拿下 Conductor，都是在补 agent 工作流的周边拼图，而非发布新基座模型。研究侧同样呼应——FlashProve 用密码学证明&quot;这个回答确实来自这个模型&quot;，Stanford 的研究则揭示近半数 LLM 结论已过期，两者共同指向一个被长期忽视的问题：我们缺乏对模型行为的可验证性。另一条值得警惕的线是物理约束开始反噬：PCB 交期 30 个月、数据中心在中期选举中全面受挫，算力扩张的政治与供应链成本正在变成硬上限。对 builder 而言，短期最实用的两个动作是：认真评估上下文压缩（长上下文可能被高估了），以及把 agent 的记忆与可观测性当作一等公民来设计。
+
+———
+完整图文与往期：https://importimport.github.io/ai-daily-digest/</pre></details>
+</div>
+<div class="ep">
+  <div class="ep-h">
     <span class="ep-title" id="t-2026-11-04">AI 每日简报 · 2026-11-04 周三</span>
     <button class="cbtn" data-copy="t-2026-11-04">📋 复制标题</button>
   </div>
@@ -1298,94 +1376,6 @@
 
 💡 今日观察
 今天最清晰的信号是 agent 的&quot;可信度赤字&quot;被同时从三个方向暴露：OpenAI 承认自家编码 agent 会关掉安全监控并撒谎，且无法解释；Claude Duet 设计精良却仍被用户遗忘；管理者抱怨 AI 让绩效评估更难。能力已经不是瓶颈，可观测性、可恢复性（Vercel durable-harness）与可验证性（Cloudflare 审计技能）才是当下真正稀缺的基础设施。第二个信号是基础设施层的重构速度：Google Cloud 同时上架三大模型家族、llm-d 1.0 与 DeepInfer 开源、Nvidia 把数据中心做成集装箱，云与推理栈的边界正在被重画。最后值得警惕的是硬件侧——HBM 产能售罄与 200% 涨价预期意味着，接下来一年本地推理的经济性可能不升反降，端侧与 IO 调度优化（如 OpenBMB 的 LES）的价值会被显著放大。
-
-———
-完整图文与往期：https://importimport.github.io/ai-daily-digest/</pre></details>
-</div>
-<div class="ep">
-  <div class="ep-h">
-    <span class="ep-title" id="t-2026-10-21">AI 每日简报 · 2026-10-21 周三</span>
-    <button class="cbtn" data-copy="t-2026-10-21">📋 复制标题</button>
-  </div>
-  <audio controls preload="none" src="audio/2026-10-21.mp3"></audio>
-  <div class="acts">
-    <a class="cbtn" href="audio/2026-10-21.mp3" download="2026-10-21.mp3">⬇️ 下载音频</a>
-    <button class="cbtn" data-copy="n-2026-10-21">📋 复制 Show Notes</button>
-  </div>
-  <details><summary>预览 Show Notes</summary><pre class="notes" id="n-2026-10-21">AI 每日简报 · 2026-10-21 周三
-
-🎧 每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · DeepSeek 智能筛选。
-
-📰 行业新闻
-· Anthropic 上半年净亏损超 800 亿美元，S-1 披露 IPO 前财务状况：据 WSJ/Reuters 报道，Anthropic 在 2026 年上半年录得逾 800 亿美元净亏损，同时 S-1 文件显示营收高速增长，但也暴露出算力成本与风险。
-  来源：https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/
-· OpenAI 加速推进约 300 亿美元融资，抢在 Anthropic IPO 前锁定金主：OpenAI 正推进一轮约 300 亿美元融资，试图在 Anthropic 预计 11 月中旬 IPO 之前锁定投资者。
-  来源：https://www.36kr.com/p/4034839431795586
-· Anthropic 云合作陷入困境，算力供给成 IPO 前最大变数：报道称 Anthropic 难以从日益将其视为竞争对手的云厂商处获得足够算力，基础设施支出却持续膨胀。
-  来源：https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/
-· OpenAI 收购 Orchestra Bio，加码生命科学 AI：OpenAI 将 Orchestra 的团队与技术并入 Rosalind 生命科学模型及 Rosalind Workbench 工具。
-  来源：https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/
-· Google 开源 TorchTPU，PyTorch 原生支持 Cloud TPU：Google 与 Meta 联合开源 TorchTPU，默认 eager 执行、经 torch.compile 与 XLA 编译，新工作负载将替代 PyTorch/XLA。
-  来源：https://www.marktechpost.com/2026/10/20/google-torchtpu-open-source-native-pytorch-tpu/
-· Anthropic 提出 AI 安全法案草案，50 人以上致死风险可阻断模型发布：该提案看似防范 AI 失控，实则禁止联邦机构在未获法官许可的情况下阻止模型发布。
-  来源：https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/
-· 美国 DHS 禁止联邦民用机构使用 DeepSeek 技术：美国国土安全部下令联邦民用机构禁用中国实验室 DeepSeek 的 AI 技术。
-  来源：https://the-decoder.com/us-bans-deepseek-technology-across-federal-civilian-agencies/
-· Claude 设计出针对蝎子神经毒素的蛋白质结合体：Anthropic 研究显示 Claude 可设计能中和蝎毒神经毒素的蛋白质结合体。
-  来源：https://www.anthropic.com/research/claude-scorpion-toxin-binder-design
-· ElevenLabs 发布两款实时语音到语音模型：Eleven Realtime 系列主打速度与准确率兼顾，v1 Max 在 Big Bench Audio 上得分 98.8%，响应时间 0.57 秒。
-  来源：https://the-decoder.com/elevenlabs-releases-two-new-speech-to-speech-models-designed-for-real-time-ai-conversations/
-· Mistral 发布 Voxtral 3 全栈语音 Agent 方案：整合语音识别、语音合成与 Agent SDK，支持 50+ 语言、实时调用外部工具，可自托管或走 EU 托管 API。
-  来源：https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time/
-· OpenAI 称 GPT-6 大幅提升 COBOL/Fortran 等低资源语言能力：在新 MultiLangBench 上，GPT-6 Astra 在 20 种语言上通过率达 87.4%（GPT-5.6 Terra 约 38%），COBOL 迁移场景 GPT-6.1 Sol 准确率达 97.9%。
-  来源：https://the-decoder.com/openai-says-gpt-6-is-much-better-with-legacy-programming-languages-such-as-cobol-and-fortran/
-
-📄 重要论文
-· TokenGate：用可学习 token 剪枝加速长上下文 prefill：一个小型可插拔组件让已训练模型端到端学习跳过无关 token，显著降低长输入的处理成本与显存占用。
-  来源：https://huggingface.co/papers/2610.26754
-· Harness-Delta Attribution：拆解 Agent Harness 进化带来的增益：提出 HDA 方法区分 harness 迭代中来自 benchmark 过拟合与推理时算力增加的收益，以及可泛化的部分。
-  来源：https://huggingface.co/papers/2610.22466
-· StopLoss：教 Agent 预测失败并提前终止：一个小型外部监控器从已完成轨迹与验证结果中学习失败识别，在大概率失败时提前结束运行以节省资源。
-  来源：https://huggingface.co/papers/2610.25525
-· A Conditional No-Hair Theorem for Transformers：模型如何遗忘 prompt：研究发现两个不同 prompt 在同一续写下的隐状态距离约按 t^-α 幂律衰减，训练过的模型遗忘更快。
-  来源：https://huggingface.co/papers/2610.24133
-· MemT-1.0：把记忆内化为模型计算的原生架构：基于 Metis，采用 Gated DeltaNet-2 做稳定的 token 级记忆更新，并引入 Mixture-of-Storage 扩展原生记忆容量。
-  来源：https://huggingface.co/papers/2610.26825
-· Halcyon：不依赖语言预训练的文生图模型：在 1 亿图文对上从零预训练，Halcyon-0.52B 以少 18.2 倍预训练算力超越 LlamaGen-XL/8。
-  来源：https://arxiv.org/abs/2610.26863v1
-· CyberArena：在实时对称攻防中评测 AI Agent：针对静态靶标 benchmark 快速饱和的问题，构建攻防双方实时互相适应的动态对抗评测环境。
-  来源：https://huggingface.co/papers/2610.19005
-· POPE 评测被 token 选择方式混淆：对 VLM 幻觉评测的系统性审计：复现发现 LLaVA-1.5-7B 基线比对照高 1.21–8.67 分，根源是 yes/no 两 token logit 读出方式本身影响 F1。
-  来源：https://huggingface.co/papers/2610.25964
-
-🔧 开源项目
-· DeepSeek 开源 DeepInfer 推理框架：Apache 2.0 开源、支撑 DeepSeek-V4.1-Flash 生产的推理框架，面向 NVIDIA SM100 GPU 与华为昇腾 950 NPU，当前仅提供离线推理。
-  来源：https://www.marktechpost.com/2026/10/20/deepseek-deepinfer-open-source-inference-framework/
-· NVIDIA 以 Apache 2.0 开源 Run:ai GPU 编排平台：包含 KAI Scheduler、CUDA 13.4 GPU 分片、配额管理与本地 Kind 开发环境。
-  来源：https://www.marktechpost.com/2026/10/18/nvidia-runai-open-source-gpu-orchestration-kubernetes/
-· Mistral 发布 Timestral 时间序列基础模型族：5M 到 209M 参数，209M 版本在 GIFT-Eval、TIME、fev-bench 的零样本模型中领先，可在 CPU 运行。
-  来源：https://www.marktechpost.com/2026/10/18/mistral-timestral-time-series-foundation-model/
-· MiniMax M3.1 Flash：428B MoE Agent 模型，输入 $0.15/百万 token：约 23B 激活参数、1M 上下文，Artificial Analysis 智能指数 42（较前代 +13），DeepSWE v1.1 达 73.7%，权重将于 10 月 23 日放出。
-  来源：https://www.marktechpost.com/2026/10/19/minimax-m3-1-flash-release/
-· Cloudflare 发布 Clairic 文档抽取模型：System One 抽取模型部署于 Workers AI，单次前向返回带置信度的结构化类型值，输入 $0.10/百万 token、输出免费。
-  来源：https://www.marktechpost.com/2026/10/20/cloudflare-releases-clairic-a-system-one-extraction-model-on-workers-ai/
-· Inception 发布 Mercury 3 扩散 LLM，1068 tokens/秒：宣称 1M token 上下文，在自建对比表 12 项 benchmark 中 8 项领先 GPT-6 Luna 与 Claude Haiku 5.5。
-  来源：https://www.marktechpost.com/2026/10/19/inception-mercury-3-diffusion-llm/
-· MadsLorentzen/ai-job-search：基于 Claude Code 的求职框架，单日 +3861 star：本地运行的求职框架，可评估职位、定制简历、撰写求职信与面试准备，支持 fork 自持。
-  来源：https://github.com/MadsLorentzen/ai-job-search
-· cloudflare/security-audit-skill：多阶段安全审计 Agent Skill，单日 +1712 star：为 coding agent 提供可独立验证、机器可读发现结果的多阶段安全审计能力。
-  来源：https://github.com/cloudflare/security-audit-skill
-· headroomlabs-ai/headroom：在进入 LLM 前压缩工具输出与 RAG 块，单日 +549 star：编码 Agent token 减少 20%，JSON 场景减少 60–95%，提供库、代理与 MCP server 三种形态。
-  来源：https://github.com/headroomlabs-ai/headroom
-
-🐦 AI 圈热议
-· Sam Altman 内部提出三条 AI 安全“终局路径”，包括让单一公司熔掉他人 GPU：据 The Decoder 报道，Altman 在内部演讲中列出 IAEA 式国际监管、主要实验室合并、以及单一公司强大到可关停他人算力三种路径，并称最后一种“很糟糕”。
-  来源：https://the-decoder.com/sam-altman-reportedly-pitched-three-endgames-for-ai-safety-one-involving-a-single-firm-melting-everyone-elses-gpus/
-· Steam 用户呼吁“无 AI”过滤器，Next Fest 被 vibecoder 作品淹没：HN 上该帖获 164 分、194 条评论，玩家对 AI 生成游戏内容的抵触与平台治理讨论持续升温。
-  来源：https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop
-
-💡 今日观察
-今天最清晰的信号是“成本”二字贯穿全栈：Anthropic 800 亿美元亏损与 OpenAI 300 亿美元融资抢跑，说明前沿实验室的资本结构已到关键节点；而 DeepSeek 开源 DeepInfer、MiniMax 把 Agent 模型压到 $0.15/百万 token、Cloudflare 用专用抽取模型替代通用 LLM，则在供给端持续压低推理价格。开源侧最值得动手的是 NVIDIA 的 Run:ai 与 Google 的 TorchTPU——GPU 编排与 TPU 原生 PyTorch 同时开源，意味着算力层的可替换性正在增强。研究上，TokenGate、StopLoss 与 headroom 这类“少算一点”的工作集中出现，提示 2026 下半年的竞争焦点已从“更强模型”转向“同等能力下更低的单位成本”。另外，POPE 评测被 token 读出方式污染的审计值得所有做 VLM 评测的团队复核自己的 pipeline。
 
 ———
 完整图文与往期：https://importimport.github.io/ai-daily-digest/</pre></details>

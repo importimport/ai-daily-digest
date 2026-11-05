@@ -15,6 +15,33 @@
     <image><url>https://importimport.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://importimport.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-11-05 周四</title>
+      <description>早上好，今天是 2026 年 11 月 5 日，欢迎收听 AI 行业每日播报。今天最值得关注的，是 AI 竞争的重心正在从模型能力本身，转向围绕模型的基础设施和信任层；另外，物理世界的约束也开始反噬算力扩张。我们逐一来听。
+先看 OpenAI，今天动作非常密集。它发布了 Images 2.6，ChatGPT 现在原生支持生成 GIF 动图，可以从文本或图片生成，还能调节播放速度、逐帧编辑，同步登陆 Codex 和 API，图像编辑的精度和一致性都有提升。同一天，OpenAI 还收购了 Pierre Computer Company，为 AI 编程 agent 改造 Git，配合自研的 Git 后端 Pando，构建面向 agent 协作的开发基础设施。更硬核的一条是，OpenAI 用自动化流水线在 Linux 内核里发现并修复了 948 个本地提权漏洞，从发现、验证到生成补丁全流程自主完成，AI 安全审计正在从辅助走向端到端自动化。
+Meta 这边也没闲着，收购了 AI 编程初创 Conductor。这家公司允许工程师同时部署多个 agent 并行处理项目的不同部分，Meta 借此补强 agentic coding 能力，多 agent 并行编程正式进入大厂产品线。
+不过，agent 的商业化现实还得冷静看。Uber 披露，上季度只有 4 单是由第三方 AI agent 完成叫车，Uber Eats 的 agent 订单大约 500 单，说明 agent 替代 App 的叙事还需要现实校准。Google 那边也有烦恼，搜索查询量创下五年最快增长，但收入增速却降到了 12%，AI Overviews 拉动了使用量，却没带来对等的广告收入，AI 搜索对广告模式的侵蚀开始显性化。
+再看硬件和政治层面。美国中期选举中，多个选区通过了限制数据中心的动议，76% 的受访选民对数据中心持负面态度，算力扩张正面临地方政治阻力。供应链上，AI 需求引发 PCB 严重短缺，交期拉长到 30 个月，材料成本涨了 12 倍，PC 厂商订单都排到 2030 年了。Qualcomm 则发布 Cloud AI 100 Ultra，150 瓦、128GB 显存、548GB/s 带宽，在手机业务下滑约 20% 后全面押注数据中心加速卡。
+研究方面有几条很值得琢磨。Anthropic 发布 FlashProve，用 zkSNARK 证明回答确实来自承诺的权重，单张 H100 上就能以每秒 110 个 token 的速度为 Llama 4 Maverick 生成 19MB 的证明，而且不暴露模型权重，给模型溯源和合规审计提供了可验证的密码学方案。MIT 的研究更有意思，GPT-6 Astra 可以直接读写其他模型的权重，只改动 Qwen 模型 0.016% 的权重，数学准确率就从 7.9% 提升到 48.1%，无需传统训练。Stanford 的研究则泼了盆冷水：44% 的 LLM 研究结论已经过期，平均有效期只有 15.7 个月。
+还有两条关于上下文的结论值得 builder 注意。一条说频繁压缩上下文几乎不损精度，长上下文成本可以大幅压缩；另一条说长上下文失效的根源是干扰而不是长度，中性填充下 32K 以内准确率能维持在 0.97 到 1.00，但同格式的干扰句能把它压到 0.16 到 0.33。也就是说，RAG 和记忆系统应该优先去重、去干扰。
+开源项目方面，Ricursive 发布 Ripple-65B Preview，Apache 2.0 开源权重，Terminal-Bench 2.1 得分 80.5，成绩超过体积达它 15 倍的美国开源模型。腾讯微信视觉团队开源 WeVisOne-VL，2B 和 4B 两个版本，单模型统一检测、OCR、计数、分割等任务。另外 claude-mem 这个项目为所有 agent 提供跨会话持久记忆，兼容 Claude Code、Codex、Gemini、Copilot 等工具。还有个极客项目挺吸睛，kimi-k3-in-c 让 2.78 万亿参数的 Kimi K3 在单 CPU、8.24GB 内存上跑推理，纯 C99，不用 GPU。
+最后看圈内热议。Hugging Face CEO Clément Delangue 说自己的 P(D</description>
+      <itunes:summary>早上好，今天是 2026 年 11 月 5 日，欢迎收听 AI 行业每日播报。今天最值得关注的，是 AI 竞争的重心正在从模型能力本身，转向围绕模型的基础设施和信任层；另外，物理世界的约束也开始反噬算力扩张。我们逐一来听。
+先看 OpenAI，今天动作非常密集。它发布了 Images 2.6，ChatGPT 现在原生支持生成 GIF 动图，可以从文本或图片生成，还能调节播放速度、逐帧编辑，同步登陆 Codex 和 API，图像编辑的精度和一致性都有提升。同一天，OpenAI 还收购了 Pierre Computer Company，为 AI 编程 agent 改造 Git，配合自研的 Git 后端 Pando，构建面向 agent 协作的开发基础设施。更硬核的一条是，OpenAI 用自动化流水线在 Linux 内核里发现并修复了 948 个本地提权漏洞，从发现、验证到生成补丁全流程自主完成，AI 安全审计正在从辅助走向端到端自动化。
+Meta 这边也没闲着，收购了 AI 编程初创 Conductor。这家公司允许工程师同时部署多个 agent 并行处理项目的不同部分，Meta 借此补强 agentic coding 能力，多 agent 并行编程正式进入大厂产品线。
+不过，agent 的商业化现实还得冷静看。Uber 披露，上季度只有 4 单是由第三方 AI agent 完成叫车，Uber Eats 的 agent 订单大约 500 单，说明 agent 替代 App 的叙事还需要现实校准。Google 那边也有烦恼，搜索查询量创下五年最快增长，但收入增速却降到了 12%，AI Overviews 拉动了使用量，却没带来对等的广告收入，AI 搜索对广告模式的侵蚀开始显性化。
+再看硬件和政治层面。美国中期选举中，多个选区通过了限制数据中心的动议，76% 的受访选民对数据中心持负面态度，算力扩张正面临地方政治阻力。供应链上，AI 需求引发 PCB 严重短缺，交期拉长到 30 个月，材料成本涨了 12 倍，PC 厂商订单都排到 2030 年了。Qualcomm 则发布 Cloud AI 100 Ultra，150 瓦、128GB 显存、548GB/s 带宽，在手机业务下滑约 20% 后全面押注数据中心加速卡。
+研究方面有几条很值得琢磨。Anthropic 发布 FlashProve，用 zkSNARK 证明回答确实来自承诺的权重，单张 H100 上就能以每秒 110 个 token 的速度为 Llama 4 Maverick 生成 19MB 的证明，而且不暴露模型权重，给模型溯源和合规审计提供了可验证的密码学方案。MIT 的研究更有意思，GPT-6 Astra 可以直接读写其他模型的权重，只改动 Qwen 模型 0.016% 的权重，数学准确率就从 7.9% 提升到 48.1%，无需传统训练。Stanford 的研究则泼了盆冷水：44% 的 LLM 研究结论已经过期，平均有效期只有 15.7 个月。
+还有两条关于上下文的结论值得 builder 注意。一条说频繁压缩上下文几乎不损精度，长上下文成本可以大幅压缩；另一条说长上下文失效的根源是干扰而不是长度，中性填充下 32K 以内准确率能维持在 0.97 到 1.00，但同格式的干扰句能把它压到 0.16 到 0.33。也就是说，RAG 和记忆系统应该优先去重、去干扰。
+开源项目方面，Ricursive 发布 Ripple-65B Preview，Apache 2.0 开源权重，Terminal-Bench 2.1 得分 80.5，成绩超过体积达它 15 倍的美国开源模型。腾讯微信视觉团队开源 WeVisOne-VL，2B 和 4B 两个版本，单模型统一检测、OCR、计数、分割等任务。另外 claude-mem 这个项目为所有 agent 提供跨会话持久记忆，兼容 Claude Code、Codex、Gemini、Copilot 等工具。还有个极客项目挺吸睛，kimi-k3-in-c 让 2.78 万亿参数的 Kimi K3 在单 CPU、8.24GB 内存上跑推理，纯 C99，不用 GPU。
+最后看圈内热议。Hugging Face CEO Clément Delangue 说自己的 P(D</itunes:summary>
+      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-11-05.mp3" length="2220768" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-11-05.mp3</guid>
+      <pubDate>Thu, 05 Nov 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>06:10</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-11-04 周三</title>
       <description>各位听众早上好，今天是2026年11月4日，欢迎收听今天的AI行业日报。今天的关键词是信任和算力，一边是模型身份认证和agent安全开始走向密码学与形式化验证，另一边是开源权重模型在真实生产环境里继续抢地盘，而支撑这一切的算力经济性，正在被债务和利润率问题反复敲打。
 先看Anthropic的两条消息。第一条挺硬核，他们发布了一个叫FlashProve的原型系统，用zkSNARK来证明某条回复确实来自某个已经承诺的模型权重，而且不用暴露权重本身。在单张H100上，给Llama 4 Maverick跑出了每秒110个token的吞吐，证明大小只有19MB，采用Apache 2.0许可。这意味着模型身份认证和API来源可信度，第一次有了密码学层面的基础。第二条更偏工程实用，Messages API新增了Message Threads，把上下文改成增量传输，agent不用每一轮都把整段对话重发一遍，只发变化的部分。在50万到100万token的请求上，首token延迟下降了大约35%，对长上下文agent来说，成本和延迟都是直接受益，而且改造成本很低。
@@ -357,29 +384,6 @@ Anthropic 那边也不轻松。他们说自家未发布的内部模型，能力�
       <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-22.mp3</guid>
       <pubDate>Thu, 22 Oct 2026 08:00:00 +0800</pubDate>
       <itunes:duration>05:51</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-10-21 周三</title>
-      <description>各位听众早上好，今天是2026年10月21日，欢迎收听AI行业每日播报。今天的关键词只有一个，成本。从头部实验室的巨额亏损，到开源社区把推理价格一压再压，整条产业链都在为同一件事算账。咱们先从资本层面说起。
-华尔街日报和路透社的消息显示，Anthropic在2026年上半年净亏损超过800亿美元，S-1文件里营收增长很快，但算力成本同样惊人。与此同时，OpenAI正在推进大约300亿美元的新一轮融资，明显是想赶在Anthropic预计11月中旬IPO之前把投资人锁定。这两家头部实验室的资本竞赛，基本决定了下一阶段的算力和人才格局。不过Anthropic还有个麻烦，TechCrunch报道说它越来越难从云厂商那里拿到足够算力，因为对方已经把它当成竞争对手，基础设施支出却在持续膨胀。算力供应链，正在成为模型公司估值里最关键的变量。
-产品和技术这边动作也不少。OpenAI收购了Orchestra Bio，团队和技术并入Rosalind生命科学模型和工作台，AI制药正从单纯拼模型转向模型加工作流的整合。Google和Meta联合开源了TorchTPU，让PyTorch原生支持Cloud TPU，默认eager执行，PyTorch用户迁移到TPU的成本大幅降低，这一招直指Nvidia的生态。Anthropic这边，Claude设计出了能中和蝎子神经毒素的蛋白质结合体，说明大模型在湿实验可验证的生物设计任务上已经能拿出实际成果。
-语音赛道今天很热闹。ElevenLabs发布两款实时语音到语音模型，v1 Max在Big Bench Audio上拿到98.8分，响应时间0.57秒。Mistral则推出Voxtral 3全栈语音Agent方案，支持50多种语言，可以自托管，也可以走欧盟托管API，给合规场景提供了端到端可控的选择。另外OpenAI宣称GPT-6在COBOL、Fortran这类低资源语言上大幅提升，新基准通过率87.4%，COBOL迁移场景甚至达到97.9%，金融行业的遗留系统现代化，可能真有一条可行的AI路径了。
-监管方面，Anthropic提出了一份AI安全法案草案，设定50人以上致死风险可以阻断模型发布，但提案同时禁止联邦机构在没有法官许可的情况下阻止模型发布，这个设计值得细品。美国国土安全部则下令联邦民用机构禁用DeepSeek技术，中美AI脱钩进一步制度化。
-开源和研究侧，DeepSeek开源了推理框架DeepInfer，Apache 2.0协议，支撑DeepSeek-V4.1-Flash的生产，面向NVIDIA SM100和华为昇腾950。NVIDIA把Run:ai GPU编排平台也开源了。MiniMax的M3.1 Flash把Agent模型价格压到输入每百万token 0.15美元。Cloudflare则推出专用文档抽取模型Clairic，输入每百万token只要0.10美元，输出免费。研究上，TokenGate、StopLoss、headroom这几个工作都在做同一件事，就是让模型少算一点、省一点。还有一篇审计值得做VLM评测的团队注意，POPE榜单的结果可能被yes/no两个token的读出方式系统性污染，建议复核自己的评测流程。
-今日观察。今天最清晰的信号就是成本二字贯穿全栈。Anthropic的800亿亏损和OpenAI的300亿融资抢跑，说明前沿实验室的资本结构已经到了关键节点；而DeepSeek开源推理框架、MiniMax和Cloudflare把价格压到新低，则在供给端持续压低推理成本。开源侧最值得动手的是NVIDIA的Run:ai和Google的TorchTPU，算力层的可替换性正在增强。研究上，一批少算一点的工作集中出现，提示2026年下半年的竞争焦点，已经从更强模型转向同等能力下更低的单位成本。好，今天就聊到这儿，我们明天见。</description>
-      <itunes:summary>各位听众早上好，今天是2026年10月21日，欢迎收听AI行业每日播报。今天的关键词只有一个，成本。从头部实验室的巨额亏损，到开源社区把推理价格一压再压，整条产业链都在为同一件事算账。咱们先从资本层面说起。
-华尔街日报和路透社的消息显示，Anthropic在2026年上半年净亏损超过800亿美元，S-1文件里营收增长很快，但算力成本同样惊人。与此同时，OpenAI正在推进大约300亿美元的新一轮融资，明显是想赶在Anthropic预计11月中旬IPO之前把投资人锁定。这两家头部实验室的资本竞赛，基本决定了下一阶段的算力和人才格局。不过Anthropic还有个麻烦，TechCrunch报道说它越来越难从云厂商那里拿到足够算力，因为对方已经把它当成竞争对手，基础设施支出却在持续膨胀。算力供应链，正在成为模型公司估值里最关键的变量。
-产品和技术这边动作也不少。OpenAI收购了Orchestra Bio，团队和技术并入Rosalind生命科学模型和工作台，AI制药正从单纯拼模型转向模型加工作流的整合。Google和Meta联合开源了TorchTPU，让PyTorch原生支持Cloud TPU，默认eager执行，PyTorch用户迁移到TPU的成本大幅降低，这一招直指Nvidia的生态。Anthropic这边，Claude设计出了能中和蝎子神经毒素的蛋白质结合体，说明大模型在湿实验可验证的生物设计任务上已经能拿出实际成果。
-语音赛道今天很热闹。ElevenLabs发布两款实时语音到语音模型，v1 Max在Big Bench Audio上拿到98.8分，响应时间0.57秒。Mistral则推出Voxtral 3全栈语音Agent方案，支持50多种语言，可以自托管，也可以走欧盟托管API，给合规场景提供了端到端可控的选择。另外OpenAI宣称GPT-6在COBOL、Fortran这类低资源语言上大幅提升，新基准通过率87.4%，COBOL迁移场景甚至达到97.9%，金融行业的遗留系统现代化，可能真有一条可行的AI路径了。
-监管方面，Anthropic提出了一份AI安全法案草案，设定50人以上致死风险可以阻断模型发布，但提案同时禁止联邦机构在没有法官许可的情况下阻止模型发布，这个设计值得细品。美国国土安全部则下令联邦民用机构禁用DeepSeek技术，中美AI脱钩进一步制度化。
-开源和研究侧，DeepSeek开源了推理框架DeepInfer，Apache 2.0协议，支撑DeepSeek-V4.1-Flash的生产，面向NVIDIA SM100和华为昇腾950。NVIDIA把Run:ai GPU编排平台也开源了。MiniMax的M3.1 Flash把Agent模型价格压到输入每百万token 0.15美元。Cloudflare则推出专用文档抽取模型Clairic，输入每百万token只要0.10美元，输出免费。研究上，TokenGate、StopLoss、headroom这几个工作都在做同一件事，就是让模型少算一点、省一点。还有一篇审计值得做VLM评测的团队注意，POPE榜单的结果可能被yes/no两个token的读出方式系统性污染，建议复核自己的评测流程。
-今日观察。今天最清晰的信号就是成本二字贯穿全栈。Anthropic的800亿亏损和OpenAI的300亿融资抢跑，说明前沿实验室的资本结构已经到了关键节点；而DeepSeek开源推理框架、MiniMax和Cloudflare把价格压到新低，则在供给端持续压低推理成本。开源侧最值得动手的是NVIDIA的Run:ai和Google的TorchTPU，算力层的可替换性正在增强。研究上，一批少算一点的工作集中出现，提示2026年下半年的竞争焦点，已经从更强模型转向同等能力下更低的单位成本。好，今天就聊到这儿，我们明天见。</itunes:summary>
-      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-10-21.mp3" length="1623312" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-21.mp3</guid>
-      <pubDate>Wed, 21 Oct 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>04:30</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
