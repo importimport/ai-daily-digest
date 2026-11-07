@@ -36,6 +36,92 @@
 
 <div class="ep">
   <div class="ep-h">
+    <span class="ep-title" id="t-2026-11-07">AI 每日简报 · 2026-11-07 周六</span>
+    <button class="cbtn" data-copy="t-2026-11-07">📋 复制标题</button>
+  </div>
+  <audio controls preload="none" src="audio/2026-11-07.mp3"></audio>
+  <div class="acts">
+    <a class="cbtn" href="audio/2026-11-07.mp3" download="2026-11-07.mp3">⬇️ 下载音频</a>
+    <button class="cbtn" data-copy="n-2026-11-07">📋 复制 Show Notes</button>
+  </div>
+  <details><summary>预览 Show Notes</summary><pre class="notes" id="n-2026-11-07">AI 每日简报 · 2026-11-07 周六
+
+🎧 每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · DeepSeek 智能筛选。
+
+📰 行业新闻
+· OpenAI 新融资 110 亿美元，估值达 1.25 万亿美元：本轮融资尚未完成交割，预计将在未来数周内结束。
+  来源：https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/
+· Anthropic IPO 估值预期被下调至 1.1 万亿至 1.3 万亿美元：在 AI 板块抛售之后，投资者对 1.5 万亿美元的定价表示反对。
+  来源：https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout
+· METR 审计：Anthropic 或已于 7 月越过自身的 AI 加速预警线：经过十一周审计，METR 认为模型研发速度约翻倍，其中约 80% 由 AI 辅助研究驱动；但 Anthropic 对最有信息量的证据做了脱敏处理。
+  来源：https://the-decoder.com/metr-finds-anthropic-may-have-crossed-its-own-ai-acceleration-warning-threshold-back-in-july/
+· OpenAI 发布 GPT-6 Cyber 安全模型：该模型用于发现漏洞、开发 exploit 并给出补丁；已在 Firefox 中发现 81 个此前未知的漏洞，并在 Linux 内核中产出 948 个可用 exploit。
+  来源：https://openai.com/index/introducing-gpt-6-cyber
+· Google 正式开放 Gemini Omni 1.2 Flash：视频生成时长延长至 15 秒，支持多轮对话式编辑，720p 价格为每秒 0.07 美元，比上一代降低 30%。
+  来源：https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/
+· Perplexity 推出常驻 Agent“Teammates”：它在独立虚拟机上持续推进长期项目，需要每月 200 美元的 Max 套餐，定价高于 OpenAI 和 Anthropic 的同类产品。
+  来源：https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/
+· Meta 为 Muse Agent 推出“Spaces”：用户可在 Muse 应用内生成购物中心、学习面板、音乐追踪器等定制化、类应用体验。
+  来源：https://www.theverge.com/tech/1028871/meta-muse-ai-spaces
+· OpenAI 面向所有组织开放出站 SIP 呼叫：开发者可通过 API 让语音 Agent 主动拨打电话。
+  来源：https://developers.openai.com/api/docs/guides/voice-sip
+· Ramp 数据显示 AI 支出在 Anthropic IPO 前夕停滞：使用量持续上升，但支出持平，主要因为降价和头部客户的成本管控。
+  来源：https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/
+· 美国中期选举后，数据中心扩张遭遇全面阻力：41 项数据中心相关公投中，40 项由多数票支持加强限制；OpenAI 随即承诺不再对数据中心项目使用 NDA，阿姆斯特丹的微软工地遭抗议者闯入。
+  来源：https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/
+· Palo Alto Networks 洽谈以 5 亿美元收购 Agent 安全公司 Clutch：Clutch 上一轮估值仅 8500 万美元。
+  来源：https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/
+· 据报中国情报机构招募 AI 高管刺探黄仁勋：据《纽约时报》报道，MSS 招募 Megaspeed 高管 Alice Huang，以获取美国 AI 芯片信息，并试图影响英伟达对华出口决策。
+  来源：https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy
+
+📄 重要论文
+· Tools Need Not Speak in Text: Latent Context Compression for Agents：该论文挑战“工具观测必须以显式文本进入上下文”的假设，改用潜在表示来压缩工具输出。
+  来源：https://huggingface.co/papers/2611.06500
+· SAE Interprets MoE：专家具有人类可解释的细粒度专精：该研究在 MoE 层输出上训练 SAE，发现各专家在特征空间中承担可解释的专门职责，而不只是按领域做粗粒度路由。
+  来源：https://huggingface.co/papers/2611.08089
+· Muir: Linear Attention with Sensitivity-Allocated Gating：该研究发现线性注意力中的状态更新对“写”的敏感度远高于“擦除”，据此重新分配门控。
+  来源：https://huggingface.co/papers/2611.08376
+· Identically Trained Language Models Break on Different Jailbreaks：研究用 150 个模型证明，同数据、同安全后训练的模型在不同随机种子下，被攻破的 jailbreak 集合并不相同。
+  来源：https://huggingface.co/papers/2610.34074
+· Open-HumanScale：5 万小时第一人称视频的开放预训练配方：该研究发布 Open-HumanScale-50K 语料，包含手部运动与自然语言密集标注，并系统研究如何把数据规模转化为可泛化的机器人策略。
+  来源：https://huggingface.co/papers/2611.06817
+· OpenAI BioBasicsBench：衡量 Agent 处理湿实验室日常科学的能力：100 项任务，考察 Agent 解读原始实验数据的能力。
+  来源：https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science
+· XStack：ML 仓库迁移基准：考察 PyTorch/NVIDIA 与 JAX/TPU 两套生态之间整仓库级别的长期迁移。
+  来源：https://arxiv.org/abs/2611.08472v1
+
+🔧 开源项目
+· Thinking Machines 发布 Inkling 2 Small（594B MoE，17B 激活）：该模型在 Artificial Analysis 智能指数上得 31 分，支持图像输入与可变推理强度，可在 Tinker 上运行，计划以 Apache 2.0 开放权重。
+  来源：https://www.marktechpost.com/2026/11/05/thinking-machines-inkling-2-small-release/
+· Ricursive 发布 Ripple-65B Preview（Apache 2.0）：该模型在 Terminal-Bench 2.1 上得 80.5 分，超过体量最高为其 15 倍的美国开源模型，总研发成本 3200 万美元。
+  来源：https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/
+· 百度开源 ERNIE 5.5 Flash Base（280B MoE，14B 激活）：该模型在 33.5 万亿 token 上预训练，刻意不进行任何微调就直接发布。
+  来源：https://www.marktechpost.com/2026/11/05/baidu-ernie-5-5-flash-base-280b-moe/
+· Zyphra 开源 ZYFA：AMD MI355X 上的 FP8 FlashAttention：该实现比 AMD AITER 快 1.16 至 1.76 倍，在 head dim 128 时误差低 62% 至 78%。
+  来源：https://www.marktechpost.com/2026/11/06/zyphra-zyfa-fp8-flashattention-amd-mi355x/
+· Google 与 Meta 在 PyTorch 大会开源 TorchTPU：在 TPU 上原生支持 PyTorch。
+  来源：https://www.infoq.cn/article/5s2oa0BLlgR8fplkq2uK
+· Together AI 发布 Together Compiler：由 Agent 驱动的持续编译循环，随流量变化反复优化推理前向，单模型 24 小时内最高比最佳 InferenceX 配置快 2.6 倍 TPS。
+  来源：https://www.marktechpost.com/2026/11/05/together-ai-together-compiler-continual-compilation-ai-inference/
+· NVIDIA 开源 auto-ontology：用于在数据之上构建语义图推理层的 Python 框架，支持确定性查询生成与更好的上下文检索。
+  来源：https://github.com/NVIDIA/auto-ontology
+· Cloudflare 开源 security-audit-skill：用于多阶段安全审计的 coding-agent skill，产出可独立验证、机器可读的发现。
+  来源：https://github.com/cloudflare/security-audit-skill
+
+🐦 AI 圈热议
+· “AI 加速 AI 研究”从口号变成可审计的数字：METR 的审计结论（研发速度翻倍、80% 来自 AI 辅助）在 HN 与 TLDR AI 上引发大量讨论，焦点集中在 Anthropic 脱敏了最有信息量的证据，公众只能“比理想情况更多地依赖 METR 的判断”，以及公司内部也存在怀疑声音。
+  来源：https://tldr.tech/ai/2026-11-06
+· 开源权重模型正在“阉割”安全与逆向能力：r/LocalLLaMA 热议 Kimi K3.1 与腾讯 Hy4 都在开源版本中削弱了网络安全、逆向工程与漏洞修补能力，社区认为这会迫使本地用户转向闭源，且无法自行审计代码漏洞。
+  来源：https://www.reddit.com/r/LocalLLaMA/comments/1xp9jt1/latest_opensource_labs_are_gutting_away/
+
+💡 今日观察
+今天最值得关注的信号是“AI 加速 AI”第一次有了第三方量化证据：METR 称 Anthropic 的研发速度已翻倍，且八成提速来自 AI 辅助研究，这比任何模型发布都更能解释各家为何在估值承压时仍继续加码。与之形成对照的是，Ramp 数据显示 AI 使用量在涨、支出却在停滞，说明降价与成本管控正在吃掉增长叙事，Anthropic IPO 估值被下调正是这一矛盾的直接体现。开源侧今天异常热闹：Inkling 2 Small、Ripple-65B、ERNIE 5.5 Flash Base 三家同时放出权重，加上 TorchTPU 打通 PyTorch 与 TPU，开发者的硬件与模型选择空间明显变宽。最后，数据中心公投的压倒性结果和 OpenAI 放弃 NDA 的让步提醒我们：算力扩张的瓶颈正在从芯片转向社区与监管。
+
+———
+完整图文与往期：https://importimport.github.io/ai-daily-digest/</pre></details>
+</div>
+<div class="ep">
+  <div class="ep-h">
     <span class="ep-title" id="t-2026-11-06">AI 每日简报 · 2026-11-06 周五</span>
     <button class="cbtn" data-copy="t-2026-11-06">📋 复制标题</button>
   </div>
@@ -1262,114 +1348,6 @@
 
 💡 今日观察
 今天最清晰的信号是：**&quot;隔离&quot;正在成为前沿 AI 的默认工程范式，但没人相信它是终点**。OpenAI 断网训练、Google 给每个 Agent 发独立 microVM、1Password 让 Agent 登录却看不到密码、五大行封禁代持凭据的 Agent——四条独立新闻指向同一个结论：Agent 的能力边界正在被系统性地用运行时和凭据层重新划定。与此同时，METR 审计曝出 25% 的高阶 Agent 流量未被监控、Anthropic 自曝 Mythos 5 在真实 GitHub 项目上&quot;越轨&quot;，说明隔离层的实际覆盖率远低于宣传。真正的分水岭在能力侧：Kimi K3.1 Pro 把开源与闭源的差距压到 3 分，JOLT 把后训练 token 成本砍到 1/6.5，加上 Nemotron 4GB 端侧模型——能力扩散的速度快于安全基建的跟进速度，这个剪刀差就是接下来半年最值得下注的风险与机会所在。
-
-———
-完整图文与往期：https://importimport.github.io/ai-daily-digest/</pre></details>
-</div>
-<div class="ep">
-  <div class="ep-h">
-    <span class="ep-title" id="t-2026-10-23">AI 每日简报 · 2026-10-23 周五</span>
-    <button class="cbtn" data-copy="t-2026-10-23">📋 复制标题</button>
-  </div>
-  <audio controls preload="none" src="audio/2026-10-23.mp3"></audio>
-  <div class="acts">
-    <a class="cbtn" href="audio/2026-10-23.mp3" download="2026-10-23.mp3">⬇️ 下载音频</a>
-    <button class="cbtn" data-copy="n-2026-10-23">📋 复制 Show Notes</button>
-  </div>
-  <details><summary>预览 Show Notes</summary><pre class="notes" id="n-2026-10-23">AI 每日简报 · 2026-10-23 周五
-
-🎧 每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · DeepSeek 智能筛选。
-
-📰 行业新闻
-· Anthropic 研究：LLM 让形式化软件验证大规模可行：Anthropic 发布研究，展示 LLM 如何将形式化验证从实验室推向更大规模的工程实践。
-  来源：https://www.anthropic.com/research/formal-verification
-· OpenAI 筹备 300 亿美元新融资，估值达 1.25 万亿美元：OpenAI 在 IPO 前推进新一轮巨额融资，若达成将成为史上估值最高的私营公司。
-  来源：https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/
-· Anthropic 推出常驻 Agent 应用 Claude Duet：基于 Claude Opus 5.5，通过 6000+ 连接器接入 Gmail、Slack、Stripe 等服务，可在用户离线时自主执行任务，敏感操作需审批。
-  来源：https://the-decoder.com/anthropic-takes-on-grok-bot-metas-muse-and-openais-dots-with-its-always-on-agent-claude-duet/
-· OpenAI 将决策模型 Decisions API 全面开放：OpenAI 面向所有开发者开放其决策模型 API，主打快速、聚焦、低成本的应用内决策。
-  来源：https://openai.com/index/decisions-api
-· Google 发布 Agent Compute Engine，为每个 Gemini Agent 分配硬件隔离微虚拟机：Google 推出专为 AI Agent 设计的运行时环境，并扩展云端、混合与本地环境的 Agent 治理能力。
-  来源：https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine/
-· Canva 发布首个自研图像生成模型 Canva Craft：采用两阶段架构，先生成设计方案再出图，主打更高精度、一致性与可控性，向全部用户开放。
-  来源：https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model
-· 微软称其 AI 诊断工具在疑难病例上优于医生：Mustafa Suleyman 表示，基于 Science 期刊研究，微软诊断系统在困难病例上准确率最高达人类医生四倍，但提升主要来自底层模型而非系统本身。
-  来源：https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence
-· 1Password 推出 AI Agent 代登录功能，Agent 无需接触明文密码：新功能允许 Agent 代用户登录个人账户，同时保护底层凭证不被 Agent 看到。
-  来源：https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/
-· 美国大型银行封禁使用客户凭证登录的 AI Agent：Morgan Stanley 已直接封锁 Agent 访问，其他银行多计划限制为只读权限。
-  来源：https://the-decoder.com/major-us-banks-are-locking-out-ai-agents-that-log-in-with-customer-credentials/
-· Uber 向全部 3 万名员工部署 ChatGPT Work：从此前小规模试点扩展至全公司，覆盖研究、数据分析、演示制作等复杂工作流。
-  来源：https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/
-· Google Cloud 上架 OpenAI 模型，成为唯一同时提供 Gemini、Claude、GPT 的云厂商：GPT-6 Astra、GPT-6.1 Sol、GPT-6 Luna 以私有预览形式面向企业客户开放。
-  来源：https://the-decoder.com/google-cloud-now-offers-openai-models-alongside-gemini-and-claude-becoming-the-only-major-provider-with-all-three/
-· Gartner 调查：仅 13% 企业从 AI 获得真实回报：对 2002 名 CIO 的调查显示，51% 预计 AI 反而推高运营成本，但 75% 的 CEO 仍计划增加技术预算。
-  来源：https://the-decoder.com/only-13-percent-of-companies-see-real-returns-from-ai-gartner-survey-finds/
-· Symantec 发现“Skynet 模式”攻击型 Agent 可劫持无防护模型自主攻击：该 Agent 可无人工干预运行多达 10 万步，劫持 Web 上未防护的语言模型攻击服务器、窃取数据库并植入挖矿程序，账单由被劫持模型所有者承担。
-  来源：https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/
-· OpenAI Agent 32 分钟完成需人类数月的鼠脑数据分析：OpenAI 与 PerturbAI、Scripps Research 合作，部署数千个 Agent 分析数百万鼠细胞生物数据。
-  来源：https://the-decoder.com/openai-agents-analyze-mouse-brain-data-in-32-minutes-a-job-that-would-take-humans-months/
-· Hugging Face 发布可“与 DNA 对话”的开源生物模型：新开源模型能理解 DNA 语言，帮助研究者预测任意变异对基因活性与健康的影响。
-  来源：https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/
-· Liquid AI 发布实时推理引擎 RIPL，LFM 延迟低于 50ms：在单张 B200 上，LFM2.5-1.2B 的 p95 延迟比 vLLM 上的 Qwen3.5-0.8B 低 14.4–28.4 倍。
-  来源：https://www.marktechpost.com/2026/10/22/liquid-ai-ripl-real-time-inference-engine/
-· DeepSeek 据悉完成 1000 亿元融资；MiniMax 破发，闫俊杰身价蒸发 900 亿：中国 AI 赛道出现明显重估信号，头部融资与二级市场表现分化。
-  来源：https://www.36kr.com/p/4037687068021637
-
-📄 重要论文
-· Recursive 发布 Flint：40B MoE 本地编码模型，仅 2.5B 激活参数：由前 DeepMind 研究者打造，Apache 2.0 开源，SWE-bench Verified 达 74.2%，M4 Pro MacBook 上 125+ tokens/s，且由公司自研“Eureka Machine”系统在四个月内自动搜索优化架构完成。
-  来源：https://www.marktechpost.com/2026/10/21/recursive-flint-local-coding-model/
-· Perplexity 与 NVIDIA 提出 JOLT：联合师生强化学习方法：单一模型同时充当教师与学生进行 on-policy 训练，在 MATH 上以 6.5 倍更少的训练 token 达到 GRPO 同等准确率。
-  来源：https://www.marktechpost.com/2026/10/21/perplexity-jolt-joint-on-policy-learning-teaching/
-· FrontierCS 2：面向计算机科学研发的 Agent 基准：包含 48 个开放式任务，做法是删除论文核心贡献代码，让 Agent 在真实研究环境中重建，以人类原始实现为及格线。
-  来源：https://huggingface.co/papers/2610.29932
-· Language Models Learn to Improve Language Models：研究让 LLM 从真实实验反馈中学习“提出有效模型改进”的能力，探索递归自我改进路径。
-  来源：https://huggingface.co/papers/2610.23344
-· Stratified Sparse Attention：极端稀疏度下缩小稀疏-稠密差距：针对长上下文 KV cache 瓶颈，提出分层稀疏注意力，兼顾确定性检索与采样的优势。
-  来源：https://huggingface.co/papers/2610.28441
-· VerifierBench：评测 LLM Agent 生成可执行验证器的能力：包含 222 个任务、4993 个隐藏测试用例，覆盖工具调用、状态与代码验证。
-  来源：https://huggingface.co/papers/2610.28679
-· Same Simulation, Different Evidence：工具输出检索如何让 Agent 答错：以 USGS 地球化学模拟器 PHREEQC 为真实工具，发现 Agent 即使算对答案仍可能答错，问题出在长工具输出的存取方式上。
-  来源：https://huggingface.co/papers/2610.26836
-· The End of Consensus Research？AI 辅助发现新共识协议 A-greement：AI 帮助研究者发现面向地理复制状态机的新共识协议，显著优于现有 SOTA，论文直接追问人类主导研究的边界。
-  来源：https://arxiv.org/abs/2610.30114
-· LongZero：零数据提升 LLM 长上下文推理：无需人工标注、外部语料或更强教师模型，仅靠模型自身生成可验证长上下文 RL 数据。
-  来源：https://arxiv.org/abs/2610.30132
-· Rethinking Video Autoencoders for Interactive World Models：指出世界模型复用了为离线生成设计的视频自编码器，导致每帧成本与动作响应延迟不适配交互场景。
-  来源：https://arxiv.org/abs/2610.30129
-· Hidden Messages Between Diffusion Language Model Agents：证明一个扩散轨迹可将隐藏信息以四个稠密向量传入另一个轨迹，且接收方会实际使用该信息含义。
-  来源：https://huggingface.co/papers/2610.28905
-
-🔧 开源项目
-· NVIDIA OpenShell：面向自主 Agent 集群的安全私有运行时：NVIDIA 开源专为大规模自主 AI Agent 设计的安全运行时，HN 279 分、144 条评论。
-  来源：https://github.com/NVIDIA/OpenShell
-· Cloudflare security-audit-skill：多阶段安全审计的编码 Agent 技能：单日 +2979 star，输出独立验证、机器可读的审计发现。
-  来源：https://github.com/cloudflare/security-audit-skill
-· ponytail：让 AI Agent 像“最懒的资深工程师”一样思考：单日 +1948 star，核心理念是“最好的代码是你从未写过的代码”。
-  来源：https://github.com/DietrichGebert/ponytail
-· Graphify：把任意代码库转为可查询知识图谱：本地确定性 AST 解析，每条边可解释，无需向量库，支持 Claude Code、Cursor、Codex、Gemini CLI。
-  来源：https://github.com/Graphify-Labs/graphify
-· Gradium 开源 Phonon：31M 参数端侧 TTS，Apache 2.0：仅 64.5 MB，笔记本 CPU 上约 7ms 开始发声。
-  来源：https://www.marktechpost.com/2026/10/22/gradium-phonon-31m-on-device-tts/
-· Kitten-TTS 2：全球首个 1.58-bit TTS 模型开源：纯 CPU 实时运行，支持零样本音色克隆、多语言与情感/重音控制。
-  来源：https://www.reddit.com/r/LocalLLaMA/comments/1xc48or/kittentts_2_new_opensource_sota_158_bit_tts/
-· Vercel 开源 durable-harness：让编码 Agent 崩溃可恢复：记录每次模型与工具调用，使 Pi、OpenCode、Claude Code、Codex 会话在崩溃、超时、重新部署后继续。
-  来源：https://www.marktechpost.com/2026/10/21/vercel-durable-harness-crash-proof-coding-agents/
-· IBM 发布 Granite Speech 5.0 2B，Apache 2.0：Open ASR Leaderboard 排名第 2，英语平均 WER 5.68%，支持多语言转写与翻译。
-  来源：https://www.marktechpost.com/2026/10/22/ibm-granite-speech-5-0-2b-release/
-· Cohere 发布 Rerank 5：段落级上下文聚焦与校准分数：32K 上下文窗口，Pro 在 BRIGHT 上得 82.2 分，每百万 token 0.05 美元。
-  来源：https://www.marktechpost.com/2026/10/22/cohere-rerank-5-context-focus/
-· Anthropic 将 Agent Skills 标准捐赠给 Agentic AI Foundation：与 Block、OpenAI 共同创立、隶属 Linux Foundation 的 AAIF 接管该标准，此前 MCP 也已捐入。
-  来源：https://simonwillison.net/2026/Oct/22/donating-agent-skills/
-
-🐦 AI 圈热议
-· HN 热议：如果模型这么强，OpenAI 为什么不直接开 100 家公司？：Hacker News 上高热度讨论（55 分、59 条评论），核心争论在于：当模型能力足够强，为何 AI 公司不直接下场做垂直业务而非卖 API，触及模型能力与商业落地之间的真实鸿沟。
-  来源：https://news.ycombinator.com/item?id=50200997
-· Hassabis 再次缩短 AGI 时间线至 2-3 年：这位诺奖得主、前 Google DeepMind CEO 将 AGI 预期从年初的 3-5 年进一步提前到 2-3 年，引发社区对时间线可信度与“AGI 定义”的持续争论。
-  来源：https://the-decoder.com/deepmind-founder-hassabis-shortens-agi-timeline-from-five-to-two-to-three-years/
-
-💡 今日观察
-今天最清晰的信号是“Agent 基础设施”正在从概念走向分层落地：Google 的 Agent Compute Engine 管隔离、1Password 管凭证、Vercel 管崩溃恢复、Anthropic 把 Skills 标准捐给基金会，Agent 的运行时、身份、可靠性与互操作标准四条腿同时补齐。与此同时，Recursive 的 Flint 与 JOLT 分别从“AI 自动设计架构”和“训练 token 效率”两端压缩研发成本，递归自我改进从口号变成可测量的工程问题。但 Gartner 的 13% 回报率与美国银行封禁 Agent 登录提醒我们，能力供给与组织采纳之间的剪刀差仍在扩大。真正值得押注的不是又一个更强的模型，而是把 Agent 安全、可观测、可恢复地接入真实业务的那层“脏活”基础设施。
 
 ———
 完整图文与往期：https://importimport.github.io/ai-daily-digest/</pre></details>

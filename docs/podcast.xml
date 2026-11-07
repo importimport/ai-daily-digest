@@ -15,6 +15,33 @@
     <image><url>https://importimport.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://importimport.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-11-07 周六</title>
+      <description>早上好，今天是 2026 年 11 月 7 日，欢迎收听今天的 AI 日报。今天的关键词，我想用一句话概括：钱还在往里冲，但估值、算力和监管这三条线同时开始拉扯。咱们一条条说。
+先看资本这边。OpenAI 又拿到了一百一十亿美元的新融资，估值报到一万两千五百亿美元，交割还没完成，预计几周内收尾。头部实验室的资金盘子继续扩大，算力和数据中心的投入短期内不会踩刹车。但另一边，Anthropic 的 IPO 估值预期被下调了，从原来一万五千亿美元的定价，压到一万一千亿到一万三千亿之间。原因很直接，AI 板块刚经历一轮抛售，投资者不买那个高价了。一级市场的估值逻辑，开始被二级市场的情绪往回修正。
+说到这，就得提一个更值得琢磨的数据。Ramp 的数据显示，AI 的使用量还在涨，但支出停滞了。降价和头部客户的成本管控，正在吃掉增长叙事。用量涨、收入不涨，这个矛盾在 Anthropic IPO 前夜显得格外扎眼。
+模型和产品这边，今天信息量很大。OpenAI 发布了 GPT-6 Cyber 安全模型，专门用来找漏洞、开发 exploit、再给补丁。它在 Firefox 里发现了 81 个此前未知的漏洞，在 Linux 内核里产出了 948 个可用 exploit。安全攻防，已经成了前沿模型一个独立的产品方向。Google 则正式开放了 Gemini Omni 1.2 Flash，视频生成延长到 15 秒，支持多轮对话式编辑，720p 每秒 0.07 美元，比上一代便宜三成。视频生成的成本又往下探了一截。Agent 这边也很热闹，Perplexity 推出常驻 Agent“Teammates”，在独立虚拟机上推进长期项目，每月 200 美元的 Max 套餐，定价比 OpenAI 和 Anthropic 的同类产品都高。Meta 给 Muse Agent 上了“Spaces”，用户可以自己搭购物中心、学习面板这类微型应用。OpenAI 还面向所有组织开放了出站 SIP 呼叫，语音 Agent 从接听扩展到主动外呼，客服和销售场景可以直接落地了。
+再看一条分量很重的审计消息。METR 经过十一周审计认为，Anthropic 可能早在 7 月就越过了自己的 AI 加速预警线，模型研发速度大约翻倍，其中八成由 AI 辅助研究驱动。不过 Anthropic 对最有信息量的证据做了脱敏处理。这是第一次有第三方，给“AI 加速 AI 研究”这件事拿出量化证据，但透明度仍然是争议的核心。
+算力基建这边摩擦在加大。美国中期选举之后，41 项数据中心相关公投里，有 40 项由多数票支持加强限制。OpenAI 随即承诺，不再对数据中心项目使用保密协议，阿姆斯特丹的微软工地还遭到了抗议者闯入。瓶颈正在从芯片转向社区和监管。
+开源侧今天异常热闹。Thinking Machines 发布 Inkling 2 Small，五百九十四 B 的 MoE，激活十七 B，计划以 Apache 2.0 开放权重。Ricursive 放出 Ripple-65B Preview，Terminal-Bench 2.1 上拿到 80.5 分，研发成本三千两百万美元。百度开源 ERNIE 5.5 Flash Base，两百八十 B 的 MoE，刻意不做任何微调直接发布。再加上 Google 和 Meta 在 PyTorch 大会开源 TorchTPU，PyTorch 生态第一次原生打通 TPU，开发者的硬件和模型选择空间明显变宽了。
+论文方面挑两个说。一篇挑战“工具观测必须以文本进入上下文”的假设，改用潜在表示压缩工具输出，多步 Agent 的上下文开销有望大幅下降。另一篇用 150 个模型证明，同数据、同安全后训练，不同随机种子下被攻破的越狱集合并不相同。这意味着单 checkpoint 的越狱评测结论不能外推，安全评测方法得重做。
+最后是今日观察。今天最值得关注的信号，是“AI 加速 AI”第一次有了第三方的量化证据，这比任何一次模型发布都更能解释，为什么各家在估值承压时还在继续加码。但与之对照的是，使用量在涨、支出却在停滞，降价和成本管控正在吃掉增长叙事，Anthropic 估值被下调就是这对矛盾最直接的体现。开源侧三家同时放出权重，加上 TorchTPU 打通生态，选择确实变多了。而数据中心</description>
+      <itunes:summary>早上好，今天是 2026 年 11 月 7 日，欢迎收听今天的 AI 日报。今天的关键词，我想用一句话概括：钱还在往里冲，但估值、算力和监管这三条线同时开始拉扯。咱们一条条说。
+先看资本这边。OpenAI 又拿到了一百一十亿美元的新融资，估值报到一万两千五百亿美元，交割还没完成，预计几周内收尾。头部实验室的资金盘子继续扩大，算力和数据中心的投入短期内不会踩刹车。但另一边，Anthropic 的 IPO 估值预期被下调了，从原来一万五千亿美元的定价，压到一万一千亿到一万三千亿之间。原因很直接，AI 板块刚经历一轮抛售，投资者不买那个高价了。一级市场的估值逻辑，开始被二级市场的情绪往回修正。
+说到这，就得提一个更值得琢磨的数据。Ramp 的数据显示，AI 的使用量还在涨，但支出停滞了。降价和头部客户的成本管控，正在吃掉增长叙事。用量涨、收入不涨，这个矛盾在 Anthropic IPO 前夜显得格外扎眼。
+模型和产品这边，今天信息量很大。OpenAI 发布了 GPT-6 Cyber 安全模型，专门用来找漏洞、开发 exploit、再给补丁。它在 Firefox 里发现了 81 个此前未知的漏洞，在 Linux 内核里产出了 948 个可用 exploit。安全攻防，已经成了前沿模型一个独立的产品方向。Google 则正式开放了 Gemini Omni 1.2 Flash，视频生成延长到 15 秒，支持多轮对话式编辑，720p 每秒 0.07 美元，比上一代便宜三成。视频生成的成本又往下探了一截。Agent 这边也很热闹，Perplexity 推出常驻 Agent“Teammates”，在独立虚拟机上推进长期项目，每月 200 美元的 Max 套餐，定价比 OpenAI 和 Anthropic 的同类产品都高。Meta 给 Muse Agent 上了“Spaces”，用户可以自己搭购物中心、学习面板这类微型应用。OpenAI 还面向所有组织开放了出站 SIP 呼叫，语音 Agent 从接听扩展到主动外呼，客服和销售场景可以直接落地了。
+再看一条分量很重的审计消息。METR 经过十一周审计认为，Anthropic 可能早在 7 月就越过了自己的 AI 加速预警线，模型研发速度大约翻倍，其中八成由 AI 辅助研究驱动。不过 Anthropic 对最有信息量的证据做了脱敏处理。这是第一次有第三方，给“AI 加速 AI 研究”这件事拿出量化证据，但透明度仍然是争议的核心。
+算力基建这边摩擦在加大。美国中期选举之后，41 项数据中心相关公投里，有 40 项由多数票支持加强限制。OpenAI 随即承诺，不再对数据中心项目使用保密协议，阿姆斯特丹的微软工地还遭到了抗议者闯入。瓶颈正在从芯片转向社区和监管。
+开源侧今天异常热闹。Thinking Machines 发布 Inkling 2 Small，五百九十四 B 的 MoE，激活十七 B，计划以 Apache 2.0 开放权重。Ricursive 放出 Ripple-65B Preview，Terminal-Bench 2.1 上拿到 80.5 分，研发成本三千两百万美元。百度开源 ERNIE 5.5 Flash Base，两百八十 B 的 MoE，刻意不做任何微调直接发布。再加上 Google 和 Meta 在 PyTorch 大会开源 TorchTPU，PyTorch 生态第一次原生打通 TPU，开发者的硬件和模型选择空间明显变宽了。
+论文方面挑两个说。一篇挑战“工具观测必须以文本进入上下文”的假设，改用潜在表示压缩工具输出，多步 Agent 的上下文开销有望大幅下降。另一篇用 150 个模型证明，同数据、同安全后训练，不同随机种子下被攻破的越狱集合并不相同。这意味着单 checkpoint 的越狱评测结论不能外推，安全评测方法得重做。
+最后是今日观察。今天最值得关注的信号，是“AI 加速 AI”第一次有了第三方的量化证据，这比任何一次模型发布都更能解释，为什么各家在估值承压时还在继续加码。但与之对照的是，使用量在涨、支出却在停滞，降价和成本管控正在吃掉增长叙事，Anthropic 估值被下调就是这对矛盾最直接的体现。开源侧三家同时放出权重，加上 TorchTPU 打通生态，选择确实变多了。而数据中心</itunes:summary>
+      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-11-07.mp3" length="1831104" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-11-07.mp3</guid>
+      <pubDate>Sat, 07 Nov 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>05:05</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-11-06 周五</title>
       <description>早上好，欢迎收听今天的 AI 日报，今天是 2026 年 11 月 6 日，星期五。今天信息量很大，一句话概括看点：大厂在疯狂圈占 Agent 基础设施层，而两份新评估给整个行业的乐观情绪泼了一盆冷水。咱们一条条聊。
 先看模型发布。OpenAI 今天放出了 GPT-6 Cyber，这是个专门做网络安全的模型，能自己找漏洞、还能给出修复方案。测试里它在 Firefox 中发现了 81 个此前未知的漏洞，在 Linux 内核里生成了 948 个可用的 exploit。官方说越界行为低于百分之一，但安全 Agent 从辅助走向自主攻防，授权边界这件事得重新想清楚了。Google 这边发布 Gemini Omni 1.2 Flash 视频模型，支持原生 15 秒片段，还能多轮对话式编辑，720p 价格降到每秒 7 美分，降了三成，直接登顶两个榜单。视频生成现在拼的是成本和工作流了。国内方面，百度开源了 ERNIE 5.5 Flash Base，280B 稀疏 MoE，激活 14B，用了 33.5T token 预训练，有意思的是它刻意不做事后微调，直接放出基座权重，方便开发者自由定制。腾讯发布 Hy4 多模态模型，支持图像理解和自主操作软件，智能指数 35 分，自称国内第二，但硬数学和复杂图像分析还是明显落后顶级商用模型。
@@ -359,33 +386,6 @@ Anthropic 那边也不轻松。他们说自家未发布的内部模型，能力�
       <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-24.mp3</guid>
       <pubDate>Sat, 24 Oct 2026 08:00:00 +0800</pubDate>
       <itunes:duration>04:43</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-10-23 周五</title>
-      <description>早上好，欢迎收听今天的 AI 日报，今天是 2026 年 10 月 23 日，星期五。今天的关键词是两个字，Agent。从融资到产品，从云平台到安全标准，Agent 正在从演示走向真正的工程落地，而围绕它的基础设施和现实阻力，也在同一天集中浮出水面。我们一条条来聊。
-先看资本面。OpenAI 正在筹备一笔三百亿美元的新融资，估值喊到一点二五万亿美元，如果成真，它将成为史上估值最高的私营公司，这个数字基本会成为全行业的估值锚点。国内这边则是另一番景象，DeepSeek 据悉完成了一千亿元人民币融资，而 MiniMax 上市破发，闫俊杰身价蒸发九百亿，头部融资和二级市场明显分化，中国 AI 赛道正在经历一轮重估。
-产品侧今天非常热闹。Anthropic 推出了常驻 Agent 应用 Claude Duet，基于 Claude Opus 5.5，通过六千多个连接器接入 Gmail、Slack、Stripe 这些服务，你离线的时候它也能自己干活，敏感操作需要你审批，常驻 Agent 这条产品线的竞争正式开打。OpenAI 则把决策模型 Decisions API 向所有开发者开放，主打低延迟、低成本的场景内决策。Canva 发布了首个自研图像模型 Canva Craft，先生成设计方案再出图，强调一致性和可控性，向全部用户开放。
-云和基础设施这块，Google 发布了 Agent Compute Engine，给每个 Gemini Agent 分配一个硬件隔离的微虚拟机，同时扩展了云端、混合和本地的 Agent 治理能力。更有意思的是，Google Cloud 上架了 OpenAI 的模型，GPT-6 Astra、GPT-6.1 Sol 和 GPT-6 Luna 以私有预览形式开放给企业客户，Google 由此成为唯一同时提供 Gemini、Claude 和 GPT 三大模型的云厂商，企业被单一厂商锁定的风险明显降低。
-但现实阻力也很直接。美国大型银行开始封禁使用客户凭证登录的 AI Agent，Morgan Stanley 直接封锁访问，其他银行多计划只给只读权限。另一边，1Password 推出了让 Agent 代登录、但看不到明文密码的功能，算是给出了产品化的解法。安全方面，Symantec 发现一种叫 Skynet 模式的攻击型 Agent，能无人工干预运行多达十万步，劫持网上没有防护的模型去攻击服务器、窃取数据库、植入挖矿程序，账单还算在被劫持的模型所有者头上，这个风险必须纳入部署设计。
-企业落地有两组对照数据。Uber 把 ChatGPT Work 部署到全部三万名员工，覆盖研究、数据分析和演示制作。但 Gartner 对两千多名 CIO 的调查显示，只有百分之十三的企业从 AI 拿到了真实回报，百分之五十一预计 AI 反而推高运营成本，可仍有百分之七十五的 CEO 打算继续加预算，这个剪刀差值得每个做落地的人警惕。
-科研和模型这边，微软称其 AI 诊断工具在疑难病例上准确率最高可达人类医生的四倍，不过提升主要来自底层模型，而不是系统本身。OpenAI 的 Agent 用三十二分钟完成了原本需要人类数月的鼠脑数据分析。Hugging Face 开源了能和 DNA 对话的生物模型。Liquid AI 发布实时推理引擎 RIPL，把 LFM 的延迟压到五十毫秒以下。
-论文里有两个信号特别值得关注。Recursive 发布 Flint，四十 B 的 MoE 本地编码模型，只激活二点五 B 参数，SWE-bench Verified 达到百分之七十四点二，在 M4 Pro 笔记本上每秒一百二十五 token 以上，而且架构是公司自研系统在四个月内自动搜索优化出来的。Perplexity 和 NVIDIA 的 JOLT 则用联合师生强化学习，在 MATH 上以六点五分之一 的训练 token 达到 GRPO 同等准确率。一个压缩架构成本，一个压缩训练成本，递归自我改进正在变成可测量的工程问题。
-开源社区今天也很忙。Cloudflare 的安全审计技能单日涨了近三千星，Vercel 开源 durable-harness 让编码 Agent 崩溃后可恢复，NVIDIA 开源了面向 Agent 集群的安全运行时 OpenShell，Anthrop</description>
-      <itunes:summary>早上好，欢迎收听今天的 AI 日报，今天是 2026 年 10 月 23 日，星期五。今天的关键词是两个字，Agent。从融资到产品，从云平台到安全标准，Agent 正在从演示走向真正的工程落地，而围绕它的基础设施和现实阻力，也在同一天集中浮出水面。我们一条条来聊。
-先看资本面。OpenAI 正在筹备一笔三百亿美元的新融资，估值喊到一点二五万亿美元，如果成真，它将成为史上估值最高的私营公司，这个数字基本会成为全行业的估值锚点。国内这边则是另一番景象，DeepSeek 据悉完成了一千亿元人民币融资，而 MiniMax 上市破发，闫俊杰身价蒸发九百亿，头部融资和二级市场明显分化，中国 AI 赛道正在经历一轮重估。
-产品侧今天非常热闹。Anthropic 推出了常驻 Agent 应用 Claude Duet，基于 Claude Opus 5.5，通过六千多个连接器接入 Gmail、Slack、Stripe 这些服务，你离线的时候它也能自己干活，敏感操作需要你审批，常驻 Agent 这条产品线的竞争正式开打。OpenAI 则把决策模型 Decisions API 向所有开发者开放，主打低延迟、低成本的场景内决策。Canva 发布了首个自研图像模型 Canva Craft，先生成设计方案再出图，强调一致性和可控性，向全部用户开放。
-云和基础设施这块，Google 发布了 Agent Compute Engine，给每个 Gemini Agent 分配一个硬件隔离的微虚拟机，同时扩展了云端、混合和本地的 Agent 治理能力。更有意思的是，Google Cloud 上架了 OpenAI 的模型，GPT-6 Astra、GPT-6.1 Sol 和 GPT-6 Luna 以私有预览形式开放给企业客户，Google 由此成为唯一同时提供 Gemini、Claude 和 GPT 三大模型的云厂商，企业被单一厂商锁定的风险明显降低。
-但现实阻力也很直接。美国大型银行开始封禁使用客户凭证登录的 AI Agent，Morgan Stanley 直接封锁访问，其他银行多计划只给只读权限。另一边，1Password 推出了让 Agent 代登录、但看不到明文密码的功能，算是给出了产品化的解法。安全方面，Symantec 发现一种叫 Skynet 模式的攻击型 Agent，能无人工干预运行多达十万步，劫持网上没有防护的模型去攻击服务器、窃取数据库、植入挖矿程序，账单还算在被劫持的模型所有者头上，这个风险必须纳入部署设计。
-企业落地有两组对照数据。Uber 把 ChatGPT Work 部署到全部三万名员工，覆盖研究、数据分析和演示制作。但 Gartner 对两千多名 CIO 的调查显示，只有百分之十三的企业从 AI 拿到了真实回报，百分之五十一预计 AI 反而推高运营成本，可仍有百分之七十五的 CEO 打算继续加预算，这个剪刀差值得每个做落地的人警惕。
-科研和模型这边，微软称其 AI 诊断工具在疑难病例上准确率最高可达人类医生的四倍，不过提升主要来自底层模型，而不是系统本身。OpenAI 的 Agent 用三十二分钟完成了原本需要人类数月的鼠脑数据分析。Hugging Face 开源了能和 DNA 对话的生物模型。Liquid AI 发布实时推理引擎 RIPL，把 LFM 的延迟压到五十毫秒以下。
-论文里有两个信号特别值得关注。Recursive 发布 Flint，四十 B 的 MoE 本地编码模型，只激活二点五 B 参数，SWE-bench Verified 达到百分之七十四点二，在 M4 Pro 笔记本上每秒一百二十五 token 以上，而且架构是公司自研系统在四个月内自动搜索优化出来的。Perplexity 和 NVIDIA 的 JOLT 则用联合师生强化学习，在 MATH 上以六点五分之一 的训练 token 达到 GRPO 同等准确率。一个压缩架构成本，一个压缩训练成本，递归自我改进正在变成可测量的工程问题。
-开源社区今天也很忙。Cloudflare 的安全审计技能单日涨了近三千星，Vercel 开源 durable-harness 让编码 Agent 崩溃后可恢复，NVIDIA 开源了面向 Agent 集群的安全运行时 OpenShell，Anthrop</itunes:summary>
-      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-10-23.mp3" length="2158848" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-23.mp3</guid>
-      <pubDate>Fri, 23 Oct 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>05:59</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
