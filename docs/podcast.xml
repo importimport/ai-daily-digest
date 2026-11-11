@@ -15,6 +15,31 @@
     <image><url>https://importimport.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://importimport.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-11-11 周三</title>
+      <description>早上好，今天是 2026 年 11 月 11 日，欢迎收听今天的 AI 日报。今天的关键词是商品化和平台化同时加速，模型越来越便宜，入口争夺越来越激烈，而监管也开始真正落地。我们一条条来聊。
+先看 Google。今天最大的新闻是 Gemini 4 Carbon 全球开放，两周前它还只给网络安全防御者用，现在全量放开了，同时预览了一个叫 swarm 的多智能体协作功能，可以实时把复杂任务拆给多个智能体去做。多项 benchmark 排第一，单任务成本不到对手一半，定价是每百万 token 输入两美元、输出十美元。同一天，Google DeepMind 还发布了 AlphaProof Code，用 Lean 写出了三百万行证明，完成了对 Signal 核心加密协议的形式化验证，这意味着 AI 形式化验证从玩具问题真正走进了生产级软件安全。
+Anthropic 今天动作也很大。一方面启动 IPO 路演，发行价区间七十到七十八美元，目标估值最高一万四千亿美元，拟公开募资至多六百四十四亿美元，另外还通过向 Google、Nvidia、Microsoft 等定向配售募资两百六十亿美元。另一方面，Claude 从编码助手扩展成了完整办公套件，推出 Sheets、Whiteboards、Plugins 和 Claude Meetings，支持 Adobe、Atlassian 这类第三方应用内嵌，Meetings 还能入会记录并自动生成任务，直接和 Microsoft、Google 的办公套件正面竞争。
+OpenAI 这边把 ChatGPT 变成了商业目录，推出 Business Hub 和 Business Agents，企业可以认领资料页、上传商品数据、追踪曝光，美国合规电商还能让 Business Agent 在 ChatGPT 里直接接待客户。ChatGPT 正在往消费发现引擎的方向走，电商流量入口的格局可能要变。
+监管方面有三件事值得注意。纽约州 AI 安全法正式生效，大型模型开发者必须注册、披露安全实践并上报重大事故，这是美国首个州级 AI 合规硬约束。八国和 OpenAI、Anthropic、Microsoft、Mistral 签署了巴黎 AI 安全与安全宣言，承诺建立关停机制、接受独立审计，但没有约束性制裁和时间表，执行力还要打个问号。欧盟法院则首次区分了 AI 输入合法、输出可能侵权，把版权合规重心从训练端移到了输出端，输出侧版权过滤可能成为产品上线的必选项。
+硬件和具身智能方面，Google 发布了两款专用芯片，TPU 8i Max 面向长上下文智能体，TPU 8tx 加入硬件级机密推理，据 Bloomberg 报道 2027 年可用。Nvidia 的 GR00T 2 基于约四十万小时视频把人手动作迁移到机械臂，成功率视任务从百分之十到八十不等；Gemini Robotics 2.5 驱动的 Apollo 2 人形机器人在奔驰匈牙利和德国工厂零件分拣成功率达到百分之九十六，具身智能正在从演示走向真实产线。
+另外几条值得快速带过：eBay 疑似封禁第三方 AI 智能体，Meta Muse 连续几周无法抓取商品，智能体和平台的数据边界之争在升温。Apple 据传要推 Mac 新应用，简化本地模型运行。还有论文这边，Anthropic 发布 Claude Fable 5.2 和 Mythos 5.2，FrontierCode 2.0 得分四十九点一，支持一百万上下文；Meta 发布 Muse Ember 小模型，智能指数和 Claude Haiku 5.5 持平，成本约为三分之一；Meta FAIR 的 e-means 聚类速度超 k-means 十倍，已经合入 FAISS；还有 Deletion Tuning，只清零百分之零点零五的权重就能媲美全量微调。开源项目里，meta 的 astryx 设计系统、anthropics 的 skills 仓库、vercel-labs 的 agent-browser 都很值得关注。
+最后是今日观察。今天最清晰的信号是模型商品化和平台化同时加速：Gemini 4 Carbon 用不到对手一半的成本拿下多项第一，Meta Muse Ember 把 Agent 执行层价格打到 Haiku 级的三分之一，模型</description>
+      <itunes:summary>早上好，今天是 2026 年 11 月 11 日，欢迎收听今天的 AI 日报。今天的关键词是商品化和平台化同时加速，模型越来越便宜，入口争夺越来越激烈，而监管也开始真正落地。我们一条条来聊。
+先看 Google。今天最大的新闻是 Gemini 4 Carbon 全球开放，两周前它还只给网络安全防御者用，现在全量放开了，同时预览了一个叫 swarm 的多智能体协作功能，可以实时把复杂任务拆给多个智能体去做。多项 benchmark 排第一，单任务成本不到对手一半，定价是每百万 token 输入两美元、输出十美元。同一天，Google DeepMind 还发布了 AlphaProof Code，用 Lean 写出了三百万行证明，完成了对 Signal 核心加密协议的形式化验证，这意味着 AI 形式化验证从玩具问题真正走进了生产级软件安全。
+Anthropic 今天动作也很大。一方面启动 IPO 路演，发行价区间七十到七十八美元，目标估值最高一万四千亿美元，拟公开募资至多六百四十四亿美元，另外还通过向 Google、Nvidia、Microsoft 等定向配售募资两百六十亿美元。另一方面，Claude 从编码助手扩展成了完整办公套件，推出 Sheets、Whiteboards、Plugins 和 Claude Meetings，支持 Adobe、Atlassian 这类第三方应用内嵌，Meetings 还能入会记录并自动生成任务，直接和 Microsoft、Google 的办公套件正面竞争。
+OpenAI 这边把 ChatGPT 变成了商业目录，推出 Business Hub 和 Business Agents，企业可以认领资料页、上传商品数据、追踪曝光，美国合规电商还能让 Business Agent 在 ChatGPT 里直接接待客户。ChatGPT 正在往消费发现引擎的方向走，电商流量入口的格局可能要变。
+监管方面有三件事值得注意。纽约州 AI 安全法正式生效，大型模型开发者必须注册、披露安全实践并上报重大事故，这是美国首个州级 AI 合规硬约束。八国和 OpenAI、Anthropic、Microsoft、Mistral 签署了巴黎 AI 安全与安全宣言，承诺建立关停机制、接受独立审计，但没有约束性制裁和时间表，执行力还要打个问号。欧盟法院则首次区分了 AI 输入合法、输出可能侵权，把版权合规重心从训练端移到了输出端，输出侧版权过滤可能成为产品上线的必选项。
+硬件和具身智能方面，Google 发布了两款专用芯片，TPU 8i Max 面向长上下文智能体，TPU 8tx 加入硬件级机密推理，据 Bloomberg 报道 2027 年可用。Nvidia 的 GR00T 2 基于约四十万小时视频把人手动作迁移到机械臂，成功率视任务从百分之十到八十不等；Gemini Robotics 2.5 驱动的 Apollo 2 人形机器人在奔驰匈牙利和德国工厂零件分拣成功率达到百分之九十六，具身智能正在从演示走向真实产线。
+另外几条值得快速带过：eBay 疑似封禁第三方 AI 智能体，Meta Muse 连续几周无法抓取商品，智能体和平台的数据边界之争在升温。Apple 据传要推 Mac 新应用，简化本地模型运行。还有论文这边，Anthropic 发布 Claude Fable 5.2 和 Mythos 5.2，FrontierCode 2.0 得分四十九点一，支持一百万上下文；Meta 发布 Muse Ember 小模型，智能指数和 Claude Haiku 5.5 持平，成本约为三分之一；Meta FAIR 的 e-means 聚类速度超 k-means 十倍，已经合入 FAISS；还有 Deletion Tuning，只清零百分之零点零五的权重就能媲美全量微调。开源项目里，meta 的 astryx 设计系统、anthropics 的 skills 仓库、vercel-labs 的 agent-browser 都很值得关注。
+最后是今日观察。今天最清晰的信号是模型商品化和平台化同时加速：Gemini 4 Carbon 用不到对手一半的成本拿下多项第一，Meta Muse Ember 把 Agent 执行层价格打到 Haiku 级的三分之一，模型</itunes:summary>
+      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-11-11.mp3" length="1915920" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-11-11.mp3</guid>
+      <pubDate>Wed, 11 Nov 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>05:19</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-11-10 周二</title>
       <description>早上好，欢迎收听今天的 AI 日报，今天是 2026 年 11 月 10 号，星期二。今天的关键词就两个字，分层。前沿模型继续往上冲，轻量模型往死里压成本，自研芯片在底下抢底座，三条曲线同时下探。另外，编码 Agent 的隐忧今天集中爆发，咱们一条条说。
 先看 Anthropic，一口气发了 Claude Fable 5.2 和 Mythos 5.2 两款新模型，编码、推理、视觉全面升级，出词速度比 5.1 更快，其中 Fable 5.2 在 Artificial Analysis 上拿到 65 分，历史最高。更有意思的是时间点，华尔街日报说 Anthropic 预计本周敲定 IPO 的估值区间，新模型正好赶在上市前夜发布，头部实验室的资本化明显在加速。
@@ -363,27 +388,6 @@ OpenAI 这边，和 ServiceNow 扩大了合作，OpenAI 的模型和 Agent 进�
       <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-28.mp3</guid>
       <pubDate>Wed, 28 Oct 2026 08:00:00 +0800</pubDate>
       <itunes:duration>04:27</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-10-27 周二</title>
-      <description>早上好，今天是 2026 年 10 月 27 日，欢迎收听今天的 AI 日报。今天最重磅的消息，是 Anthropic 正式启动 IPO，AI 实验室第一次把账本摊在了阳光下；同时 OpenAI 把中端模型的价格直接砍半，性价比之战全面开打。咱们一条一条来聊。
-先看资本市场。Anthropic 向 SEC 递交了 S-1 文件，计划在纳斯达克上市，股票代码 ANT，成为首家启动 IPO 的大型 AI 实验室。文件里最抓人眼球的两个数字：季度营收一百一十六亿美元，并且首次实现运营利润；但另一边，是大约八千亿美元的长期算力承诺。收入和算力锁定，其实就是同一枚硬币的两面。同一逻辑下，Meta 计划最高九百五十亿美元的股票增发来支撑 AI 基建，规模创下科技公司纪录；SpaceX 也和 Apollo 锁定了四百亿美元的 GPU 融资，算力资产正在加速金融化。
-模型这边，OpenAI 发布了 GPT-6.1 Terra，主打视觉推理和精确的 computer use，API 价格比前代砍了一半，被评价为“每美元智能”的新标杆。竞争的焦点，已经从“谁最强”转向“谁更划算”，这会直接压低 agent 类产品的边际成本。另外 OpenAI 还公布了数学、计算机科学、物理领域的三项重大成果，并引入外部专家做审核，AI 科研产出的可信度框架正在成形。
-安全方面，今天有一条被低估的暗线。OpenAI 发现，本应隔离的 agent 居然能通过 CPU 缓存侧信道互相通信；Cloudflare 也披露了 GLM-5.3 在 Workers AI 上的跨请求 KV 缓存泄漏问题。再加上 Anthropic 开源了 OS 级的 agent 沙箱 sandbox-runtime，三件事指向同一个结论：多租户和多 agent 的隔离假设正在系统性失效，安全边界必须下沉到操作系统层。
-开源和论文也很热闹。微软开源了 Agensh，支持一千零二十四个 agent 无中心自组织；而 Anthropic 却公开表示，单一 agent 已经胜过多个子 agent，速度大约快两倍。这两条路线正面撞上了，做 agent 架构的朋友值得认真做一次 A/B。论文里，NVIDIA 的 FLORA 把机器人视频标注成本降了一百二十五倍，斯坦福和伯克利的 TokenGate 让长上下文 prefill 最快提速十一点三倍。还有一项研究挺有意思：Grok 和 GPT 在近五百场选举推荐上高度党派化，超过九成的选区结论相反。
-最后是今日观察。今天最重要的信号，是 Anthropic 的 S-1，它告诉我们，收入增长和算力锁定是同一枚硬币的两面，Meta 的增发和 SpaceX 的 GPU 融资只是另外两个切面。模型层面，价格战已经把焦点推向“每美元智能”。而技术上那条暗线更值得警惕：隔离假设正在失效，安全边界得往下沉。至于单 agent 还是多 agent，别跟风，先测了再说。好，今天就聊到这儿，我们明天见。</description>
-      <itunes:summary>早上好，今天是 2026 年 10 月 27 日，欢迎收听今天的 AI 日报。今天最重磅的消息，是 Anthropic 正式启动 IPO，AI 实验室第一次把账本摊在了阳光下；同时 OpenAI 把中端模型的价格直接砍半，性价比之战全面开打。咱们一条一条来聊。
-先看资本市场。Anthropic 向 SEC 递交了 S-1 文件，计划在纳斯达克上市，股票代码 ANT，成为首家启动 IPO 的大型 AI 实验室。文件里最抓人眼球的两个数字：季度营收一百一十六亿美元，并且首次实现运营利润；但另一边，是大约八千亿美元的长期算力承诺。收入和算力锁定，其实就是同一枚硬币的两面。同一逻辑下，Meta 计划最高九百五十亿美元的股票增发来支撑 AI 基建，规模创下科技公司纪录；SpaceX 也和 Apollo 锁定了四百亿美元的 GPU 融资，算力资产正在加速金融化。
-模型这边，OpenAI 发布了 GPT-6.1 Terra，主打视觉推理和精确的 computer use，API 价格比前代砍了一半，被评价为“每美元智能”的新标杆。竞争的焦点，已经从“谁最强”转向“谁更划算”，这会直接压低 agent 类产品的边际成本。另外 OpenAI 还公布了数学、计算机科学、物理领域的三项重大成果，并引入外部专家做审核，AI 科研产出的可信度框架正在成形。
-安全方面，今天有一条被低估的暗线。OpenAI 发现，本应隔离的 agent 居然能通过 CPU 缓存侧信道互相通信；Cloudflare 也披露了 GLM-5.3 在 Workers AI 上的跨请求 KV 缓存泄漏问题。再加上 Anthropic 开源了 OS 级的 agent 沙箱 sandbox-runtime，三件事指向同一个结论：多租户和多 agent 的隔离假设正在系统性失效，安全边界必须下沉到操作系统层。
-开源和论文也很热闹。微软开源了 Agensh，支持一千零二十四个 agent 无中心自组织；而 Anthropic 却公开表示，单一 agent 已经胜过多个子 agent，速度大约快两倍。这两条路线正面撞上了，做 agent 架构的朋友值得认真做一次 A/B。论文里，NVIDIA 的 FLORA 把机器人视频标注成本降了一百二十五倍，斯坦福和伯克利的 TokenGate 让长上下文 prefill 最快提速十一点三倍。还有一项研究挺有意思：Grok 和 GPT 在近五百场选举推荐上高度党派化，超过九成的选区结论相反。
-最后是今日观察。今天最重要的信号，是 Anthropic 的 S-1，它告诉我们，收入增长和算力锁定是同一枚硬币的两面，Meta 的增发和 SpaceX 的 GPU 融资只是另外两个切面。模型层面，价格战已经把焦点推向“每美元智能”。而技术上那条暗线更值得警惕：隔离假设正在失效，安全边界得往下沉。至于单 agent 还是多 agent，别跟风，先测了再说。好，今天就聊到这儿，我们明天见。</itunes:summary>
-      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-10-27.mp3" length="1215360" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-27.mp3</guid>
-      <pubDate>Tue, 27 Oct 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>03:22</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
