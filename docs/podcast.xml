@@ -15,6 +15,29 @@
     <image><url>https://importimport.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://importimport.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-11-12 周四</title>
+      <description>早上好，欢迎收听今天的 AI 日报，今天是 2026 年 11 月 12 日，星期四。今天信息量很大，一句话概括看点：Google 一口气甩出四张牌，从决策模型到基因模型再到形式化验证，而 Anthropic 那边则在用 AI 拆 NVIDIA 的护城河，同时硬件侧传来不少让人皱眉的消息。
+先来说 Google。今天最值得关注的是 Gemini Decision 1 和配套的 Decisions API。简单说，它把&quot;分类判定&quot;这件事从生成式推理里剥了出来，一次前向就能对最多一千个是或否、多选、打分问题输出校准概率，文本图像音频视频 PDF 全支持，延迟只有一百五十到两百五十毫秒，定价是每百万输入 token 零点一美元，输出免费。这意味着线上大量&quot;拿生成模型做分类&quot;的调用，成本可以降一个量级。同一时间，Google DeepMind 还发布了 AlphaGenome 2，一个条件化 DNA 序列模型，能按细胞类型预测调控活性和变异效应，已经通过 API 向非商业研究开放。另外，AlphaProof Code 用四周时间完成了 Signal 加密核心的形式化验证，写出超过六百万行 Lean 证明代码，只有大约百分之一需要人工复核，传统流程要数年。还有 Gemini 4 Carbon 全面开放，定价每百万 token 两美元和十美元，但注意，十二月一号起翻倍，想低成本试用的要抓紧这个窗口期。
+再看 Anthropic。他们推出了自己的 AI 办公套件，Claude 可以自己参会、生成表格和 PPT，直接杀进微软和 Google 的地盘，同时启动了 IPO 路演。更劲爆的是，Anthropic 说自家的 Mythos 模型几乎无人干预，三天就把 Claude 移植到了 AMD GPU 上，原来要几个月，现在跑在 AWS Trainium、Google TPU、NVIDIA 和 AMD 四类芯片上，CUDA 的护城河正在被实质性削弱。
+硬件和资本侧消息比较沉重。NVIDIA 董事会据报准备罢免 Jensen Huang，股价已经下跌，全球最重要 AI 芯片公司的治理风险需要重新评估。英国 Fractile 完成七点二亿美元融资，成为专用 AI 芯片赛道资金最充裕的玩家之一。另外有调查称，美国数据经纪商向中国实验室出售了约五亿美元的强化学习训练环境，出口管制几乎覆盖不到。Meta 的基础设施负责人 Santosh Janardhan 也宣布离职。
+产品和生态方面，United Airlines 禁止第三方 AI agent 代客订票，此前 eBay 也封了 Meta Muse 等 agent 浏览平台，agent 电商正在遭遇平台侧的硬封锁。OpenAI 季度营收达到一百亿美元，环比增五成，但调整后经营亏损扩大到一百零九亿美元，而 Anthropic 以一百七十亿美元营收跑得更高效。
+论文和开源今天也很热闹。Deletion Tuning 提出只把不到百分之零点零五的权重置零，就能媲美全量微调，后训练从&quot;改权重&quot;转向&quot;删权重&quot;。MACaQ 让四比特权激活量化落地更简单。安全侧，微软研究院用不到十个休眠神经元就给 AI agent 植入了后门，来源不明的权重风险陡增。开源方面，Meta 的 astryx 设计系统、addyosmani 的 agent-skills、shadcn 的 improve 模型分层编排、OpenAI 官方的 codex-security，还有 AWS 的本地模拟器 aws-emulator，都值得一看。语音这块，Fish Audio 的 Live 3 支持全双工、最快一百八十六毫秒响应，打断处理这个短板正在被补齐。
+最后是今日观察。今天最强的信号，是 AI 正在用 AI 压缩自己的成本结构：AlphaProof 四周做完数年的验证，Anthropic 三天完成 CUDA 到 AMD 的移植，Deletion Tuning 用极少的权重删除替代全量微调，三件事指向同一个方向，模型能力正在反过来削减训练、验证和硬件绑定的边际成本。而 Gemini Decision 1 把判定变成廉价单次调用，是今年最容易被低估的 API 形态变化，建议尽快把线上的分类、审核、打分链路做一次成本重算。风险侧同样密集，神经元级后门、平台封堵 </description>
+      <itunes:summary>早上好，欢迎收听今天的 AI 日报，今天是 2026 年 11 月 12 日，星期四。今天信息量很大，一句话概括看点：Google 一口气甩出四张牌，从决策模型到基因模型再到形式化验证，而 Anthropic 那边则在用 AI 拆 NVIDIA 的护城河，同时硬件侧传来不少让人皱眉的消息。
+先来说 Google。今天最值得关注的是 Gemini Decision 1 和配套的 Decisions API。简单说，它把&quot;分类判定&quot;这件事从生成式推理里剥了出来，一次前向就能对最多一千个是或否、多选、打分问题输出校准概率，文本图像音频视频 PDF 全支持，延迟只有一百五十到两百五十毫秒，定价是每百万输入 token 零点一美元，输出免费。这意味着线上大量&quot;拿生成模型做分类&quot;的调用，成本可以降一个量级。同一时间，Google DeepMind 还发布了 AlphaGenome 2，一个条件化 DNA 序列模型，能按细胞类型预测调控活性和变异效应，已经通过 API 向非商业研究开放。另外，AlphaProof Code 用四周时间完成了 Signal 加密核心的形式化验证，写出超过六百万行 Lean 证明代码，只有大约百分之一需要人工复核，传统流程要数年。还有 Gemini 4 Carbon 全面开放，定价每百万 token 两美元和十美元，但注意，十二月一号起翻倍，想低成本试用的要抓紧这个窗口期。
+再看 Anthropic。他们推出了自己的 AI 办公套件，Claude 可以自己参会、生成表格和 PPT，直接杀进微软和 Google 的地盘，同时启动了 IPO 路演。更劲爆的是，Anthropic 说自家的 Mythos 模型几乎无人干预，三天就把 Claude 移植到了 AMD GPU 上，原来要几个月，现在跑在 AWS Trainium、Google TPU、NVIDIA 和 AMD 四类芯片上，CUDA 的护城河正在被实质性削弱。
+硬件和资本侧消息比较沉重。NVIDIA 董事会据报准备罢免 Jensen Huang，股价已经下跌，全球最重要 AI 芯片公司的治理风险需要重新评估。英国 Fractile 完成七点二亿美元融资，成为专用 AI 芯片赛道资金最充裕的玩家之一。另外有调查称，美国数据经纪商向中国实验室出售了约五亿美元的强化学习训练环境，出口管制几乎覆盖不到。Meta 的基础设施负责人 Santosh Janardhan 也宣布离职。
+产品和生态方面，United Airlines 禁止第三方 AI agent 代客订票，此前 eBay 也封了 Meta Muse 等 agent 浏览平台，agent 电商正在遭遇平台侧的硬封锁。OpenAI 季度营收达到一百亿美元，环比增五成，但调整后经营亏损扩大到一百零九亿美元，而 Anthropic 以一百七十亿美元营收跑得更高效。
+论文和开源今天也很热闹。Deletion Tuning 提出只把不到百分之零点零五的权重置零，就能媲美全量微调，后训练从&quot;改权重&quot;转向&quot;删权重&quot;。MACaQ 让四比特权激活量化落地更简单。安全侧，微软研究院用不到十个休眠神经元就给 AI agent 植入了后门，来源不明的权重风险陡增。开源方面，Meta 的 astryx 设计系统、addyosmani 的 agent-skills、shadcn 的 improve 模型分层编排、OpenAI 官方的 codex-security，还有 AWS 的本地模拟器 aws-emulator，都值得一看。语音这块，Fish Audio 的 Live 3 支持全双工、最快一百八十六毫秒响应，打断处理这个短板正在被补齐。
+最后是今日观察。今天最强的信号，是 AI 正在用 AI 压缩自己的成本结构：AlphaProof 四周做完数年的验证，Anthropic 三天完成 CUDA 到 AMD 的移植，Deletion Tuning 用极少的权重删除替代全量微调，三件事指向同一个方向，模型能力正在反过来削减训练、验证和硬件绑定的边际成本。而 Gemini Decision 1 把判定变成廉价单次调用，是今年最容易被低估的 API 形态变化，建议尽快把线上的分类、审核、打分链路做一次成本重算。风险侧同样密集，神经元级后门、平台封堵 </itunes:summary>
+      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-11-12.mp3" length="1736928" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-11-12.mp3</guid>
+      <pubDate>Thu, 12 Nov 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>04:49</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-11-11 周三</title>
       <description>早上好，今天是 2026 年 11 月 11 日，欢迎收听今天的 AI 日报。今天的关键词是商品化和平台化同时加速，模型越来越便宜，入口争夺越来越激烈，而监管也开始真正落地。我们一条条来聊。
 先看 Google。今天最大的新闻是 Gemini 4 Carbon 全球开放，两周前它还只给网络安全防御者用，现在全量放开了，同时预览了一个叫 swarm 的多智能体协作功能，可以实时把复杂任务拆给多个智能体去做。多项 benchmark 排第一，单任务成本不到对手一半，定价是每百万 token 输入两美元、输出十美元。同一天，Google DeepMind 还发布了 AlphaProof Code，用 Lean 写出了三百万行证明，完成了对 Signal 核心加密协议的形式化验证，这意味着 AI 形式化验证从玩具问题真正走进了生产级软件安全。
@@ -363,31 +386,6 @@ OpenAI 这边，和 ServiceNow 扩大了合作，OpenAI 的模型和 Agent 进�
       <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-29.mp3</guid>
       <pubDate>Thu, 29 Oct 2026 08:00:00 +0800</pubDate>
       <itunes:duration>06:09</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-10-28 周三</title>
-      <description>早上好，欢迎收听今天的 AI 日报，今天是 2026 年 10 月 28 日，星期三。今天的关键词就一个字，降。成本在降，价格在降，连存储和推理的账单都在往下砸。同时，OpenAI 的科学声明也正式进入了外部核验期。咱们一条条聊。
-先说最炸的两条。Google DeepMind 发布了 Genie 4 世界模型，支持音效生成和自然语言实时操控，单个场景的一致性维持时长直接翻倍到两分钟，底层由 Gemini 3.8 Flash 驱动。这意味着交互式仿真和具身智能的训练环境，迎来了一次代际升级。另一边，OpenAI 发布 GPT-6.1 Terra，主打视觉推理和精确的 computer use，API 价格直接腰斩，每一百万 token 输入一美元、输出五美元。在 Agents' Last Exam 上，它每个任务只要零点二九美元，就追平了 GPT-6 Astra 的四点八二美元，单位智能成本骤降。
-资本层面也不平静。Anthropic 递交了 S-1，启动史上最大 AI IPO，季度营收一百一十六亿美元，首次实现经营利润，但背着大约八千亿美元的长期算力承诺，上市代码 ANT。Nvidia 则向 Meta 投资三十亿美元，Meta 计划把更多 AI agent 跑在 Nvidia 硬件上，芯片厂投资客户的模式还在延续。
-科学这边，OpenAI 声称模型证伪了指数时间假设等三大难题，涉及 Kakeya 猜想、ETH 和量子色动力学，已经邀请包括诺奖得主在内的外部专家核验。但 The Verge 采访的多位研究者不太买账，批评 OpenAI 对验证细节披露不足，可复现性和公信力的争议正在升温。
-产品侧，Apple 给 Pages、Keynote、Numbers 加上了 AI 助手，能理解文档上下文做排版、动画和内容重构，直接对标 Microsoft 和 Google。Opera 推出 WebAI 本地浏览器 AI 标准，让用户在浏览器里本地部署多种模型。另外，有研究者在 Qwen 3.8 中发现向阿里服务器回传数据的行为，涉及三个 3.8 代模型，旧模型不受影响，开源权重模型的数据外泄风险需要重新评估。
-论文和开源今天非常密集。Ψ-0.6 尝试在统一视觉语言世界模型里做自适应思维流；RoboHarness 主张编码 agent 加一个 harness 就能做通用具身操作，挑战 VLA 路线；Thinking-in-Bets 用下注式思考减少 agent 被用户带偏；ThinkBit 在 2-bit 量化下保住推理能力，目标降本约八倍。开源方面，Liquid AI 发布 LFM3 系列六个 2B 级多模态模型，4-bit 下约 1GB 内存就能跑在手机和笔记本上；UC Berkeley 的 LEANN 把六千 万个 chunk 的 RAG 索引从 201GB 压到 6GB；百度开源 Unlimited OCR 2，单次请求能解析上百页文档；清华的 AKV 用 KV cache 工程给长程 agent 降本近三成。
-最后说个有意思的。社区里 token 消耗量成了新的身份象征，有人晒本地日耗一千两百万 token，转头就被每分钟三千四百万 token 的帖子碾压。而 GitHub 上一个反 AI 味的设计技能包，单日新增近三千 star。
-今日观察。今天最密集的信号，是成本曲线同时向下打穿了两个方向：GPT-6.1 Terra 把 agent 单位任务成本压到前代的十六分之一，LEANN 把 RAG 索引压到三十分之一，AKV 把长程 agent 推理压掉近三成。能力竞争正在快速转成单位经济性竞争。第二条主线是 OpenAI 的科学声明进入外部核验期，研究者的公开不满说明，AI 实验室正在被迫接受学术共同体的问责标准。第三，Qwen 数据回传事件和随后的 trace 反驳提醒我们，证据链的可复现性，比结论本身更容易被攻击。而 builder 社区的注意力，已经从能不能做出来，转向做出来像不像人做的。好，今天就聊到这儿，我们明天见。</description>
-      <itunes:summary>早上好，欢迎收听今天的 AI 日报，今天是 2026 年 10 月 28 日，星期三。今天的关键词就一个字，降。成本在降，价格在降，连存储和推理的账单都在往下砸。同时，OpenAI 的科学声明也正式进入了外部核验期。咱们一条条聊。
-先说最炸的两条。Google DeepMind 发布了 Genie 4 世界模型，支持音效生成和自然语言实时操控，单个场景的一致性维持时长直接翻倍到两分钟，底层由 Gemini 3.8 Flash 驱动。这意味着交互式仿真和具身智能的训练环境，迎来了一次代际升级。另一边，OpenAI 发布 GPT-6.1 Terra，主打视觉推理和精确的 computer use，API 价格直接腰斩，每一百万 token 输入一美元、输出五美元。在 Agents' Last Exam 上，它每个任务只要零点二九美元，就追平了 GPT-6 Astra 的四点八二美元，单位智能成本骤降。
-资本层面也不平静。Anthropic 递交了 S-1，启动史上最大 AI IPO，季度营收一百一十六亿美元，首次实现经营利润，但背着大约八千亿美元的长期算力承诺，上市代码 ANT。Nvidia 则向 Meta 投资三十亿美元，Meta 计划把更多 AI agent 跑在 Nvidia 硬件上，芯片厂投资客户的模式还在延续。
-科学这边，OpenAI 声称模型证伪了指数时间假设等三大难题，涉及 Kakeya 猜想、ETH 和量子色动力学，已经邀请包括诺奖得主在内的外部专家核验。但 The Verge 采访的多位研究者不太买账，批评 OpenAI 对验证细节披露不足，可复现性和公信力的争议正在升温。
-产品侧，Apple 给 Pages、Keynote、Numbers 加上了 AI 助手，能理解文档上下文做排版、动画和内容重构，直接对标 Microsoft 和 Google。Opera 推出 WebAI 本地浏览器 AI 标准，让用户在浏览器里本地部署多种模型。另外，有研究者在 Qwen 3.8 中发现向阿里服务器回传数据的行为，涉及三个 3.8 代模型，旧模型不受影响，开源权重模型的数据外泄风险需要重新评估。
-论文和开源今天非常密集。Ψ-0.6 尝试在统一视觉语言世界模型里做自适应思维流；RoboHarness 主张编码 agent 加一个 harness 就能做通用具身操作，挑战 VLA 路线；Thinking-in-Bets 用下注式思考减少 agent 被用户带偏；ThinkBit 在 2-bit 量化下保住推理能力，目标降本约八倍。开源方面，Liquid AI 发布 LFM3 系列六个 2B 级多模态模型，4-bit 下约 1GB 内存就能跑在手机和笔记本上；UC Berkeley 的 LEANN 把六千 万个 chunk 的 RAG 索引从 201GB 压到 6GB；百度开源 Unlimited OCR 2，单次请求能解析上百页文档；清华的 AKV 用 KV cache 工程给长程 agent 降本近三成。
-最后说个有意思的。社区里 token 消耗量成了新的身份象征，有人晒本地日耗一千两百万 token，转头就被每分钟三千四百万 token 的帖子碾压。而 GitHub 上一个反 AI 味的设计技能包，单日新增近三千 star。
-今日观察。今天最密集的信号，是成本曲线同时向下打穿了两个方向：GPT-6.1 Terra 把 agent 单位任务成本压到前代的十六分之一，LEANN 把 RAG 索引压到三十分之一，AKV 把长程 agent 推理压掉近三成。能力竞争正在快速转成单位经济性竞争。第二条主线是 OpenAI 的科学声明进入外部核验期，研究者的公开不满说明，AI 实验室正在被迫接受学术共同体的问责标准。第三，Qwen 数据回传事件和随后的 trace 反驳提醒我们，证据链的可复现性，比结论本身更容易被攻击。而 builder 社区的注意力，已经从能不能做出来，转向做出来像不像人做的。好，今天就聊到这儿，我们明天见。</itunes:summary>
-      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-10-28.mp3" length="1607616" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-28.mp3</guid>
-      <pubDate>Wed, 28 Oct 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>04:27</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
