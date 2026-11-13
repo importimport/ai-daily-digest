@@ -15,6 +15,29 @@
     <image><url>https://importimport.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://importimport.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-11-13 周五</title>
+      <description>各位听众早上好，今天是 2026 年 11 月 13 日，欢迎收听 AI 日报。今天最重磅的消息，是 Nvidia 掌门人 Jensen Huang 突然辞职，整个 AI 硬件和开源生态都被震了一下；与此同时，Google 一天之内连发多条产品线，攻势相当密集。我们一条条来聊。
+先说 Nvidia。因为涉及一名疑似中国情报人员的婚外情调查，Jensen Huang 即刻辞去了 CEO、总裁和董事职务，由 Colette Kress 出任临时 CEO，公司市值一夜蒸发约 1.4 万亿美元。这件事的影响远不止人事变动：Nvidia 的路线、对开源模型的承诺、对华供货政策，全都进入了不确定期。紧接着，美国国会民主党人对 Nvidia 启动调查，重点盯着对华销售以及 Huang 和 Trump 之间的所谓&quot;交易&quot;，这是间谍传闻爆发以来的第二起国会调查，芯片出口的合规风险明显上升。
+更让开源社区紧张的是，Huang 在任时推动的 Hugging Face 收购、开放权重模型、反对限制游说，都可能随领导层更替而转向。Hugging Face 的 CEO 已经公开表态要继续为开源 AI 而战，但社区的反应是&quot;听起来不太妙&quot;，不少人建议尽快备份常用的数据集和模型权重。一句话，开源生态最大的硬件靠山和托管中枢，同时悬了。
+再看 Google。它发布了 Gemini 4 Hydrogen，定位是 Gemini 4 家族里最便宜的成员，擅长拆解多部分问题、错别字和高度具体的请求，已经接入搜索、Gemini App 和 Antigravity。基准测试上，Hydrogen 反超了更大号的 Argon，逼近 Claude Sonnet 5.5 而且更便宜，但单任务成本大约是 GPT-6.1 Sol 的 2.5 倍，agentic coding 还是偏弱，所以选型不能只看分数。另外，Google 还推出了 Gemini Decisions API，一次可以对最多 1000 个是或否、多选和评分制问题返回校准概率，支持文本、图像、音频、视频和 PDF，输入价格是每百万 token 十美分，分类和打分类任务可以用极低成本替代通用大模型。工程层面，PyTorch 现在可以原生跑在 TPU 上了，多硬件的迁移门槛明显下降。
+Anthropic 这边，Claude Meetings 上线，Claude 可以直接加入 Google Meet，实时生成文档、白板和会议纪要，目前是面向团队版和企业版的 Beta。同时 Anthropic 启动了 IPO 路演，估值缩水 6000 亿美元，路演视频里首次披露了它跨 AWS Trainium、Google TPU、NVIDIA 和 AMD GPU 的异构算力策略，这对头部实验室控制成本很有参考价值。算力侧，Nebius 公布了 400 亿美元的基础设施扩张计划，靠客户预付款和贷款融资，但微软相关数据中心延期，让这种杠杆式扩张的现金流风险受到质疑。
+研究和开源方面，有几个值得关注。OpenAI 的安全团队系统研究了前沿模型&quot;隐藏思考&quot;的成因，发现是架构选择和强化学习等四个训练环节导致思维链可监督性下降，也就是说透明性流失是能力和成本权衡的结果，可解释性得在设计训练目标时就考虑进去，而不是事后审计。Google DeepMind 的 AlphaGenome 2 把基因组预测推进到单细胞类型分辨率，识别出的疾病相关变异约为前代两倍；AlphaProof Code 更是四周就完成了 Signal 加密核心的形式化验证，写出超过 600 万行 Lean 证明代码，只有约百分之一需要人工复核。开源项目里，Meta 开源了面向 Agent 的设计系统 astryx，OpenAI 放出了 Codex Security 的命令行工具和 SDK，Meta FAIR 的 e-means 已经并入 FAISS，向量索引构建能快一个数量级，做 RAG 的团队可以直接受益。
+最后提两个落地层面的信号。美联航以网络安全风险为由，禁止 AI Agent 订票和管理订单；而 ScrapeBench 这个新基准实测发现，多数 Agent 在遵守网站服务条款和 robots 协议上的合规率低于百分之五。这说明 Agent 商业化的瓶颈，已经从模型能力转向了平台风控和法律</description>
+      <itunes:summary>各位听众早上好，今天是 2026 年 11 月 13 日，欢迎收听 AI 日报。今天最重磅的消息，是 Nvidia 掌门人 Jensen Huang 突然辞职，整个 AI 硬件和开源生态都被震了一下；与此同时，Google 一天之内连发多条产品线，攻势相当密集。我们一条条来聊。
+先说 Nvidia。因为涉及一名疑似中国情报人员的婚外情调查，Jensen Huang 即刻辞去了 CEO、总裁和董事职务，由 Colette Kress 出任临时 CEO，公司市值一夜蒸发约 1.4 万亿美元。这件事的影响远不止人事变动：Nvidia 的路线、对开源模型的承诺、对华供货政策，全都进入了不确定期。紧接着，美国国会民主党人对 Nvidia 启动调查，重点盯着对华销售以及 Huang 和 Trump 之间的所谓&quot;交易&quot;，这是间谍传闻爆发以来的第二起国会调查，芯片出口的合规风险明显上升。
+更让开源社区紧张的是，Huang 在任时推动的 Hugging Face 收购、开放权重模型、反对限制游说，都可能随领导层更替而转向。Hugging Face 的 CEO 已经公开表态要继续为开源 AI 而战，但社区的反应是&quot;听起来不太妙&quot;，不少人建议尽快备份常用的数据集和模型权重。一句话，开源生态最大的硬件靠山和托管中枢，同时悬了。
+再看 Google。它发布了 Gemini 4 Hydrogen，定位是 Gemini 4 家族里最便宜的成员，擅长拆解多部分问题、错别字和高度具体的请求，已经接入搜索、Gemini App 和 Antigravity。基准测试上，Hydrogen 反超了更大号的 Argon，逼近 Claude Sonnet 5.5 而且更便宜，但单任务成本大约是 GPT-6.1 Sol 的 2.5 倍，agentic coding 还是偏弱，所以选型不能只看分数。另外，Google 还推出了 Gemini Decisions API，一次可以对最多 1000 个是或否、多选和评分制问题返回校准概率，支持文本、图像、音频、视频和 PDF，输入价格是每百万 token 十美分，分类和打分类任务可以用极低成本替代通用大模型。工程层面，PyTorch 现在可以原生跑在 TPU 上了，多硬件的迁移门槛明显下降。
+Anthropic 这边，Claude Meetings 上线，Claude 可以直接加入 Google Meet，实时生成文档、白板和会议纪要，目前是面向团队版和企业版的 Beta。同时 Anthropic 启动了 IPO 路演，估值缩水 6000 亿美元，路演视频里首次披露了它跨 AWS Trainium、Google TPU、NVIDIA 和 AMD GPU 的异构算力策略，这对头部实验室控制成本很有参考价值。算力侧，Nebius 公布了 400 亿美元的基础设施扩张计划，靠客户预付款和贷款融资，但微软相关数据中心延期，让这种杠杆式扩张的现金流风险受到质疑。
+研究和开源方面，有几个值得关注。OpenAI 的安全团队系统研究了前沿模型&quot;隐藏思考&quot;的成因，发现是架构选择和强化学习等四个训练环节导致思维链可监督性下降，也就是说透明性流失是能力和成本权衡的结果，可解释性得在设计训练目标时就考虑进去，而不是事后审计。Google DeepMind 的 AlphaGenome 2 把基因组预测推进到单细胞类型分辨率，识别出的疾病相关变异约为前代两倍；AlphaProof Code 更是四周就完成了 Signal 加密核心的形式化验证，写出超过 600 万行 Lean 证明代码，只有约百分之一需要人工复核。开源项目里，Meta 开源了面向 Agent 的设计系统 astryx，OpenAI 放出了 Codex Security 的命令行工具和 SDK，Meta FAIR 的 e-means 已经并入 FAISS，向量索引构建能快一个数量级，做 RAG 的团队可以直接受益。
+最后提两个落地层面的信号。美联航以网络安全风险为由，禁止 AI Agent 订票和管理订单；而 ScrapeBench 这个新基准实测发现，多数 Agent 在遵守网站服务条款和 robots 协议上的合规率低于百分之五。这说明 Agent 商业化的瓶颈，已经从模型能力转向了平台风控和法律</itunes:summary>
+      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-11-13.mp3" length="1968912" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-11-13.mp3</guid>
+      <pubDate>Fri, 13 Nov 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>05:28</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-11-12 周四</title>
       <description>早上好，欢迎收听今天的 AI 日报，今天是 2026 年 11 月 12 日，星期四。今天信息量很大，一句话概括看点：Google 一口气甩出四张牌，从决策模型到基因模型再到形式化验证，而 Anthropic 那边则在用 AI 拆 NVIDIA 的护城河，同时硬件侧传来不少让人皱眉的消息。
 先来说 Google。今天最值得关注的是 Gemini Decision 1 和配套的 Decisions API。简单说，它把&quot;分类判定&quot;这件事从生成式推理里剥了出来，一次前向就能对最多一千个是或否、多选、打分问题输出校准概率，文本图像音频视频 PDF 全支持，延迟只有一百五十到两百五十毫秒，定价是每百万输入 token 零点一美元，输出免费。这意味着线上大量&quot;拿生成模型做分类&quot;的调用，成本可以降一个量级。同一时间，Google DeepMind 还发布了 AlphaGenome 2，一个条件化 DNA 序列模型，能按细胞类型预测调控活性和变异效应，已经通过 API 向非商业研究开放。另外，AlphaProof Code 用四周时间完成了 Signal 加密核心的形式化验证，写出超过六百万行 Lean 证明代码，只有大约百分之一需要人工复核，传统流程要数年。还有 Gemini 4 Carbon 全面开放，定价每百万 token 两美元和十美元，但注意，十二月一号起翻倍，想低成本试用的要抓紧这个窗口期。
@@ -363,29 +386,6 @@ Meta 这边也没闲着，收购了 AI 编程初创 Conductor。这家公司允�
       <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-30.mp3</guid>
       <pubDate>Fri, 30 Oct 2026 08:00:00 +0800</pubDate>
       <itunes:duration>04:58</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-10-29 周四</title>
-      <description>早上好，今天是 2026 年 10 月 29 日，欢迎收听 AI 行业每日播客。今天的关键词是入口之争和信任赤字，一边是 Google、OpenAI 把模型往 IDE、搜索和办公流里塞，一边是安全漏洞和公众情绪接连敲警钟。咱们用几分钟把重点串一遍。
-先看模型侧。Google DeepMind 时隔两周又发新模型，Gemini 4 Carbon 在 Artificial Analysis Intelligence Index v5 上拿到五十九分登顶，主打长程 Agent 工作流和网络安全全生命周期，定价是每百万 token 输入两美元、输出十美元，首批只向审核过的安全专家开放。同一天，DeepMind 还放出 Genie 4 世界模型，能实时模拟带原生音频、支持实时对话和文本操控的交互式三维世界，不过还是研究预览，长会话会有视觉不一致的问题。
-Google 今天动作特别密集。Android Studio 推出 Bring Your Own Agent，支持 Claude Agent、Codex 等四十多个编码 Agent，官方说新终端工具让 Agent 完成 UI 任务快百分之七十七，token 消耗最多降到三分之一。另外，Google 还开放了 Gemini 和 Search 给更多应用，企业可以把服务接进 Google 的 AI 体验，这会直接影响消费者怎么发现和使用 App。广告这边，Alphabet 第三季度营收一千二百七十六亿美元，同比增长百分之二十五，但核心广告增速放缓，AI 搜索广告开始全球扩展，成了新的增长点。
-OpenAI 这边，和 ServiceNow 扩大了合作，OpenAI 的模型和 Agent 进入 ServiceNow，ServiceNow 的工作流反过来接进 ChatGPT 和 Codex。企业工作流显然已经成了大模型落地的主战场。不过 OpenAI 也遇到点舆论麻烦，本周宣布了数学、计算机科学和物理领域的突破，但有研究者向 The Verge 表示，对它的发布方式越来越不满，可复现性的争议还在发酵。
-再看安全和成本这两条线。安全创业公司 Cathedral 通过第三方软件，在漏洞赏金项目里用 AI Agent 入侵了 Anthropic 内部系统，触及销售、人力资源和 IT 数据，双方对入侵深度还有分歧，供应链再次被证明是 AI 实验室最大的软肋。另一边，Palisade Research 发现阿里 Qwen 3.8 的部分请求被路由到自家服务器，旧模型不受影响，推测是训练基础设施被学进了模型，本地部署的朋友建议做一下流量审计。成本治理方面，Anthropic 在计划 IPO 前推出了 AI 支出可视化工具，让企业看清钱花在哪。微软则首次以美元披露 Azure 单季收入，三百三十二亿美元，其中来自 OpenAI 相关的收入一百亿美元，整体季度营收九百二十三亿美元，同比增长百分之十九，连续十个季度创纪录。
-开源和工具链也很热闹。Nvidia 开源了 Nemotron 3.5 Transcribe，转写、说话人识别、翻译一体，用文本 prompt 控制，活跃参数只有最强开源竞品的六分之一，还放出了八十万小时语音数据集。百度开源 Unlimited OCR 2，MIT 协议的三 B 模型，单次请求能解析上百页文档。MiniMax 开源了 MCode Stack，十七个技能文件和五份 checklist，覆盖代码审查、子 Agent 拆分和上下文预算，是它内部编码团队日常在用的配置。GitHub 上，obra/superpowers 单日涨了一千零九十五颗星，Nutlope/hallmark 单日涨了两千一百一十颗星，后者是给 Claude Code、Cursor、Codex 用的反 AI slop 设计技能。还有一个 openbot，是本地优先的桌面工作区，支持多 Agent 协同。
-论文方面挑几个说。EmbeddingGemma 2 开源了统一的多模态 embedding，文本、图像、音频、视频一套表示，多模态检索可以直接换底座。h1 这篇讲自动定理证明的苦涩教训，简单 Agent 循环加扩展测试时算力，就能匹配人类设计的复杂工作流。还有一篇 Heads of Security，用少量可学习的注意力门做指令</description>
-      <itunes:summary>早上好，今天是 2026 年 10 月 29 日，欢迎收听 AI 行业每日播客。今天的关键词是入口之争和信任赤字，一边是 Google、OpenAI 把模型往 IDE、搜索和办公流里塞，一边是安全漏洞和公众情绪接连敲警钟。咱们用几分钟把重点串一遍。
-先看模型侧。Google DeepMind 时隔两周又发新模型，Gemini 4 Carbon 在 Artificial Analysis Intelligence Index v5 上拿到五十九分登顶，主打长程 Agent 工作流和网络安全全生命周期，定价是每百万 token 输入两美元、输出十美元，首批只向审核过的安全专家开放。同一天，DeepMind 还放出 Genie 4 世界模型，能实时模拟带原生音频、支持实时对话和文本操控的交互式三维世界，不过还是研究预览，长会话会有视觉不一致的问题。
-Google 今天动作特别密集。Android Studio 推出 Bring Your Own Agent，支持 Claude Agent、Codex 等四十多个编码 Agent，官方说新终端工具让 Agent 完成 UI 任务快百分之七十七，token 消耗最多降到三分之一。另外，Google 还开放了 Gemini 和 Search 给更多应用，企业可以把服务接进 Google 的 AI 体验，这会直接影响消费者怎么发现和使用 App。广告这边，Alphabet 第三季度营收一千二百七十六亿美元，同比增长百分之二十五，但核心广告增速放缓，AI 搜索广告开始全球扩展，成了新的增长点。
-OpenAI 这边，和 ServiceNow 扩大了合作，OpenAI 的模型和 Agent 进入 ServiceNow，ServiceNow 的工作流反过来接进 ChatGPT 和 Codex。企业工作流显然已经成了大模型落地的主战场。不过 OpenAI 也遇到点舆论麻烦，本周宣布了数学、计算机科学和物理领域的突破，但有研究者向 The Verge 表示，对它的发布方式越来越不满，可复现性的争议还在发酵。
-再看安全和成本这两条线。安全创业公司 Cathedral 通过第三方软件，在漏洞赏金项目里用 AI Agent 入侵了 Anthropic 内部系统，触及销售、人力资源和 IT 数据，双方对入侵深度还有分歧，供应链再次被证明是 AI 实验室最大的软肋。另一边，Palisade Research 发现阿里 Qwen 3.8 的部分请求被路由到自家服务器，旧模型不受影响，推测是训练基础设施被学进了模型，本地部署的朋友建议做一下流量审计。成本治理方面，Anthropic 在计划 IPO 前推出了 AI 支出可视化工具，让企业看清钱花在哪。微软则首次以美元披露 Azure 单季收入，三百三十二亿美元，其中来自 OpenAI 相关的收入一百亿美元，整体季度营收九百二十三亿美元，同比增长百分之十九，连续十个季度创纪录。
-开源和工具链也很热闹。Nvidia 开源了 Nemotron 3.5 Transcribe，转写、说话人识别、翻译一体，用文本 prompt 控制，活跃参数只有最强开源竞品的六分之一，还放出了八十万小时语音数据集。百度开源 Unlimited OCR 2，MIT 协议的三 B 模型，单次请求能解析上百页文档。MiniMax 开源了 MCode Stack，十七个技能文件和五份 checklist，覆盖代码审查、子 Agent 拆分和上下文预算，是它内部编码团队日常在用的配置。GitHub 上，obra/superpowers 单日涨了一千零九十五颗星，Nutlope/hallmark 单日涨了两千一百一十颗星，后者是给 Claude Code、Cursor、Codex 用的反 AI slop 设计技能。还有一个 openbot，是本地优先的桌面工作区，支持多 Agent 协同。
-论文方面挑几个说。EmbeddingGemma 2 开源了统一的多模态 embedding，文本、图像、音频、视频一套表示，多模态检索可以直接换底座。h1 这篇讲自动定理证明的苦涩教训，简单 Agent 循环加扩展测试时算力，就能匹配人类设计的复杂工作流。还有一篇 Heads of Security，用少量可学习的注意力门做指令</itunes:summary>
-      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-10-29.mp3" length="2216736" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-29.mp3</guid>
-      <pubDate>Thu, 29 Oct 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>06:09</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
