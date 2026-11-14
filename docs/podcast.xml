@@ -15,6 +15,33 @@
     <image><url>https://importimport.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://importimport.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-11-14 周六</title>
+      <description>各位听众早上好，今天是2026年11月14日，欢迎收听AI行业每日播报。今天的关键词有两个，一个是决策模型，一个是融资变局。Google和Perplexity同一天在决策接口上发力，而英伟达那边的震荡还在持续发酵，我们一个个来说。
+先看Google，今天一口气放出了两个大动作。第一个是Gemini 4 Hydrogen，速度是Gemini 3.8 Flash的二点五倍，上下文窗口达到一百万token，带四档thinking级别，定价每百万输入token一块五美元、输出七块五，已经同步上线Google Search和Gemini App全档位。第二个更值得注意，是Gemini Decisions API，也就是Gemini Decision 1，它能针对文本、图像、音频、视频和PDF上的最多一千个是或否、选择、评分问题，直接返回校准过的概率，输入每百万token只要一毛钱，输出免费。这意味着什么呢，后面今日观察我们再展开。
+OpenAI这边，推出了ChatGPT Wallet，让agent替用户完成购物和结账。用户一次性绑定银行卡，每笔购买用Face ID或指纹确认，卡号以支付token的形式隐藏起来，首批面向美国十八岁以上的Pro订阅用户。同一天，OpenAI还以Daybreak品牌进军网络安全市场，发布两款安全产品，同时开源了Codex Security的命令行工具和TypeScript SDK。
+Anthropic今天新闻不少。先是发布Claude for Manufacturing插件，直接接入Autodesk Fusion、Oracle NetSuite和Infor，十七项专用技能可以起草报价、比价供应商、在延迟交付时下备用订单，全部需要人工审批。另外，Anthropic的IPO超额认购六倍，有望成为史上最大IPO，但彭博报道说，承销银行以美国出口管制为由，拒绝了中国大陆和香港投资者的认购订单。还有一条，Claude Meetings上线，Claude可以直接加入视频会议，率先支持Google Meet，实时生成文档、白板和会议纪要。
+再说两条和资本、算力相关的。LangChain估值达到三十亿美元，它的agent管理工具LangSmith已经有七千家客户。而黄仁勋辞职的冲击还在扩散，风险投资和创始人都预期支票会变小、估值会走低，同时美国众议院民主党人对英伟达中国销售发起了第二轮国会调查。
+另外有条挺有意思的消息，前OpenAI研究员Will DePue称，他在六个中国模型中检出了Nvidia Blackwell芯片的指纹，是通过读取已发布模型权重里的芯片特征签名，指认DeepSeek、Moonshot AI、MiniMax和蚂蚁集团在出口管制下使用了Blackwell GPU，估算五次训练run的硬件成本超过五亿美元。权重取证，正在成为一种新的审计手段。
+论文方面快速过几条。EgoX提出跨具身第一人称操作学习框架，让异构数据可以混合训练。Back to Pixels，也就是PixVid，尝试把潜空间视频扩散模型直接提升到像素空间，绕开VAE压缩瓶颈。The Value of Thinking提出zero-or-T思考范式，让模型学习何时该思考，而不是思考多少。还有JustRUA，对GPT-6机器人操作agent做了受控消融研究，结论是精简harness就能拿到大部分收益。
+开源侧，llama.cpp发布v1.0.0，本地推理的事实标准进入稳定版。Google开源TPU Sync，KV cache传输延迟降低九成以上。AWS发布AWS Emulator，两百多个服务的本地克隆，代码由AI agent编写，三周产生近三万次提交。阿里开源open-code-review，规则加LLM的混合代码审查工具。还有Perplexity开源Decider v1.3和Flash v1.3，返回概率而非文本，六十三项查询分类任务上平均准确率九成一六。
+最后是社区热议。黄仁勋离任引发硅谷分裂，员工请愿Bring Back THE Boss，马斯克公开表态参与。讨论焦点已经从私德转向财务担保风险，有报道称真正导火索可能是英伟达向云厂商提供数千亿美元购芯担保的高风险做法。另一条是No AI Slop宣言在Hacker News引发激烈争论，围绕AI生</description>
+      <itunes:summary>各位听众早上好，今天是2026年11月14日，欢迎收听AI行业每日播报。今天的关键词有两个，一个是决策模型，一个是融资变局。Google和Perplexity同一天在决策接口上发力，而英伟达那边的震荡还在持续发酵，我们一个个来说。
+先看Google，今天一口气放出了两个大动作。第一个是Gemini 4 Hydrogen，速度是Gemini 3.8 Flash的二点五倍，上下文窗口达到一百万token，带四档thinking级别，定价每百万输入token一块五美元、输出七块五，已经同步上线Google Search和Gemini App全档位。第二个更值得注意，是Gemini Decisions API，也就是Gemini Decision 1，它能针对文本、图像、音频、视频和PDF上的最多一千个是或否、选择、评分问题，直接返回校准过的概率，输入每百万token只要一毛钱，输出免费。这意味着什么呢，后面今日观察我们再展开。
+OpenAI这边，推出了ChatGPT Wallet，让agent替用户完成购物和结账。用户一次性绑定银行卡，每笔购买用Face ID或指纹确认，卡号以支付token的形式隐藏起来，首批面向美国十八岁以上的Pro订阅用户。同一天，OpenAI还以Daybreak品牌进军网络安全市场，发布两款安全产品，同时开源了Codex Security的命令行工具和TypeScript SDK。
+Anthropic今天新闻不少。先是发布Claude for Manufacturing插件，直接接入Autodesk Fusion、Oracle NetSuite和Infor，十七项专用技能可以起草报价、比价供应商、在延迟交付时下备用订单，全部需要人工审批。另外，Anthropic的IPO超额认购六倍，有望成为史上最大IPO，但彭博报道说，承销银行以美国出口管制为由，拒绝了中国大陆和香港投资者的认购订单。还有一条，Claude Meetings上线，Claude可以直接加入视频会议，率先支持Google Meet，实时生成文档、白板和会议纪要。
+再说两条和资本、算力相关的。LangChain估值达到三十亿美元，它的agent管理工具LangSmith已经有七千家客户。而黄仁勋辞职的冲击还在扩散，风险投资和创始人都预期支票会变小、估值会走低，同时美国众议院民主党人对英伟达中国销售发起了第二轮国会调查。
+另外有条挺有意思的消息，前OpenAI研究员Will DePue称，他在六个中国模型中检出了Nvidia Blackwell芯片的指纹，是通过读取已发布模型权重里的芯片特征签名，指认DeepSeek、Moonshot AI、MiniMax和蚂蚁集团在出口管制下使用了Blackwell GPU，估算五次训练run的硬件成本超过五亿美元。权重取证，正在成为一种新的审计手段。
+论文方面快速过几条。EgoX提出跨具身第一人称操作学习框架，让异构数据可以混合训练。Back to Pixels，也就是PixVid，尝试把潜空间视频扩散模型直接提升到像素空间，绕开VAE压缩瓶颈。The Value of Thinking提出zero-or-T思考范式，让模型学习何时该思考，而不是思考多少。还有JustRUA，对GPT-6机器人操作agent做了受控消融研究，结论是精简harness就能拿到大部分收益。
+开源侧，llama.cpp发布v1.0.0，本地推理的事实标准进入稳定版。Google开源TPU Sync，KV cache传输延迟降低九成以上。AWS发布AWS Emulator，两百多个服务的本地克隆，代码由AI agent编写，三周产生近三万次提交。阿里开源open-code-review，规则加LLM的混合代码审查工具。还有Perplexity开源Decider v1.3和Flash v1.3，返回概率而非文本，六十三项查询分类任务上平均准确率九成一六。
+最后是社区热议。黄仁勋离任引发硅谷分裂，员工请愿Bring Back THE Boss，马斯克公开表态参与。讨论焦点已经从私德转向财务担保风险，有报道称真正导火索可能是英伟达向云厂商提供数千亿美元购芯担保的高风险做法。另一条是No AI Slop宣言在Hacker News引发激烈争论，围绕AI生</itunes:summary>
+      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-11-14.mp3" length="1567872" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-11-14.mp3</guid>
+      <pubDate>Sat, 14 Nov 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>04:21</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-11-13 周五</title>
       <description>各位听众早上好，今天是 2026 年 11 月 13 日，欢迎收听 AI 日报。今天最重磅的消息，是 Nvidia 掌门人 Jensen Huang 突然辞职，整个 AI 硬件和开源生态都被震了一下；与此同时，Google 一天之内连发多条产品线，攻势相当密集。我们一条条来聊。
 先说 Nvidia。因为涉及一名疑似中国情报人员的婚外情调查，Jensen Huang 即刻辞去了 CEO、总裁和董事职务，由 Colette Kress 出任临时 CEO，公司市值一夜蒸发约 1.4 万亿美元。这件事的影响远不止人事变动：Nvidia 的路线、对开源模型的承诺、对华供货政策，全都进入了不确定期。紧接着，美国国会民主党人对 Nvidia 启动调查，重点盯着对华销售以及 Huang 和 Trump 之间的所谓&quot;交易&quot;，这是间谍传闻爆发以来的第二起国会调查，芯片出口的合规风险明显上升。
@@ -363,29 +390,6 @@ Meta 这边也没闲着，收购了 AI 编程初创 Conductor。这家公司允�
       <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-31.mp3</guid>
       <pubDate>Sat, 31 Oct 2026 08:00:00 +0800</pubDate>
       <itunes:duration>06:02</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-10-30 周五</title>
-      <description>早上好，今天是2026年10月30日，欢迎收听AI行业日报。今天的看点相当密集：前沿模型进入两周一代的节奏，Google一边发新模型一边被财报泼了冷水，Anthropic正式启动IPO，而开源社区的重心正在从模型本身转向Agent周边基建。我们一个个说。
-先看模型侧。Google发布了Gemini 4 Carbon，距离上一个版本Argon只隔了两周，在AA智能指数上拿下59分，超过Claude Opus 5.5和GPT-6 Astra，主打长时程Agent工作流和网络防御，定价是每百万token输入2美元、输出10美元。不过因为安全能力太强，初期只开放给审核过的安全专家。另一边，Mistral开源了1万亿参数的Large 4，代号Le Chonk，原生多模态MoE，每个token激活大约490亿参数，完全在欧洲用3800块NVIDIA Grace训练完成。官方说编码能力超过开源对手，但独立测试显示综合实力还是落后DeepSeek V4.1 Flash和GLM-5.3。另外社区传言Qwen4下周发布，可能带100万上下文窗口，值得期待。
-再看商业和资本侧，今天的戏很足。Google财报显示云收入翻倍到307亿美元，但搜索收入只增了12%，低于预期，公司也承认AI Mode单次查询的收入低于传统搜索，市值一度蒸发5000亿美元，AI搜索侵蚀广告模式这件事第一次在财报里摆上了台面。OpenAI这边把付费套餐用量上限翻倍，Pro 100提升到Pro 500，之前削减Pro 200配额的计划在用户反对后撤回。Anthropic则正式递交S-1启动纳斯达克IPO，这份文件被解读为尽可能多买算力的财务论证。还有一笔大并购，OpenAI支持的Thrive Holdings以153亿美元收购ADT，要把AI带进家庭安防。
-监管和治理方面也有几条。美国司法部正在审查Nvidia收购Hugging Face的交易以及它的芯片销售行为，如果交易受阻，开源模型的分发格局会受影响。还有一条挺吓人的：一名国防承包商员工把自己的个人Claude Agent接入了五角大楼安全系统，跑了两个月才被发现，个人Agent的治理缺口成了高安全环境的真实风险。Microsoft这边向约6万名员工提供自愿离职补偿，被看作AI实质改变大厂人力结构的清晰信号。
-产品和生态上，Google向第三方Agent开放了Android开发，Android Studio支持Claude Agent、Codex等40多个编码Agent，新终端工具让Agent完成UI任务快77%。Gemini聊天里现在可以直接生成和编辑Google Docs、Sheets、PDF和代码，所有用户即日可用。国产算力方面，天数智芯公布天垓300实测数据，部分推理场景达到H200水平。
-论文和开源项目也挑几个说。EmbeddingGemma 2统一了文本、图像、音频、视频的嵌入空间，多模态基准刷新SOTA。Anthropic有项研究很有意思：给50名专家配置偏好由抛硬币决定的Agent，结果专家在判断类任务上跟随Agent观点的比例高达86%，多数人还以为结论是自己想的。开源项目里，impeccable给编码Agent补上设计质量闸门，日增近2900星；claude-mem解决跨会话记忆断裂；openbot做本地多Agent协作工作台；NVIDIA开源了30B的语音模型Nemotron 3.5 Transcribe，支持40种语言。
-最后进入今日观察。今天最清晰的信号是，前沿模型竞赛已经进入两周一代的节奏，Gemini 4 Carbon距Argon只有14天，Mistral用万亿开源权重把欧洲拉回牌桌，Qwen4又在门口，能力差距正被压缩成周级别的窗口。但真正的张力在商业侧：Google用财报证明AI搜索正在稀释自己的现金牛，OpenAI和Anthropic一个翻倍用量、一个递交S-1，都在用资本叙事为算力军备竞赛融资。而Anthropic那项86%的研究值得每个做Agent产品的人反复读，能力越强，人类判断的让渡越隐蔽。开源生态的重心也在迁移，霸榜的不再是模型本身，而是记忆、设计审查、多Agent工作台这类Agent周边基建，工程化落地正在成为新的主战场。好，今天就聊到这，我们明天见。</description>
-      <itunes:summary>早上好，今天是2026年10月30日，欢迎收听AI行业日报。今天的看点相当密集：前沿模型进入两周一代的节奏，Google一边发新模型一边被财报泼了冷水，Anthropic正式启动IPO，而开源社区的重心正在从模型本身转向Agent周边基建。我们一个个说。
-先看模型侧。Google发布了Gemini 4 Carbon，距离上一个版本Argon只隔了两周，在AA智能指数上拿下59分，超过Claude Opus 5.5和GPT-6 Astra，主打长时程Agent工作流和网络防御，定价是每百万token输入2美元、输出10美元。不过因为安全能力太强，初期只开放给审核过的安全专家。另一边，Mistral开源了1万亿参数的Large 4，代号Le Chonk，原生多模态MoE，每个token激活大约490亿参数，完全在欧洲用3800块NVIDIA Grace训练完成。官方说编码能力超过开源对手，但独立测试显示综合实力还是落后DeepSeek V4.1 Flash和GLM-5.3。另外社区传言Qwen4下周发布，可能带100万上下文窗口，值得期待。
-再看商业和资本侧，今天的戏很足。Google财报显示云收入翻倍到307亿美元，但搜索收入只增了12%，低于预期，公司也承认AI Mode单次查询的收入低于传统搜索，市值一度蒸发5000亿美元，AI搜索侵蚀广告模式这件事第一次在财报里摆上了台面。OpenAI这边把付费套餐用量上限翻倍，Pro 100提升到Pro 500，之前削减Pro 200配额的计划在用户反对后撤回。Anthropic则正式递交S-1启动纳斯达克IPO，这份文件被解读为尽可能多买算力的财务论证。还有一笔大并购，OpenAI支持的Thrive Holdings以153亿美元收购ADT，要把AI带进家庭安防。
-监管和治理方面也有几条。美国司法部正在审查Nvidia收购Hugging Face的交易以及它的芯片销售行为，如果交易受阻，开源模型的分发格局会受影响。还有一条挺吓人的：一名国防承包商员工把自己的个人Claude Agent接入了五角大楼安全系统，跑了两个月才被发现，个人Agent的治理缺口成了高安全环境的真实风险。Microsoft这边向约6万名员工提供自愿离职补偿，被看作AI实质改变大厂人力结构的清晰信号。
-产品和生态上，Google向第三方Agent开放了Android开发，Android Studio支持Claude Agent、Codex等40多个编码Agent，新终端工具让Agent完成UI任务快77%。Gemini聊天里现在可以直接生成和编辑Google Docs、Sheets、PDF和代码，所有用户即日可用。国产算力方面，天数智芯公布天垓300实测数据，部分推理场景达到H200水平。
-论文和开源项目也挑几个说。EmbeddingGemma 2统一了文本、图像、音频、视频的嵌入空间，多模态基准刷新SOTA。Anthropic有项研究很有意思：给50名专家配置偏好由抛硬币决定的Agent，结果专家在判断类任务上跟随Agent观点的比例高达86%，多数人还以为结论是自己想的。开源项目里，impeccable给编码Agent补上设计质量闸门，日增近2900星；claude-mem解决跨会话记忆断裂；openbot做本地多Agent协作工作台；NVIDIA开源了30B的语音模型Nemotron 3.5 Transcribe，支持40种语言。
-最后进入今日观察。今天最清晰的信号是，前沿模型竞赛已经进入两周一代的节奏，Gemini 4 Carbon距Argon只有14天，Mistral用万亿开源权重把欧洲拉回牌桌，Qwen4又在门口，能力差距正被压缩成周级别的窗口。但真正的张力在商业侧：Google用财报证明AI搜索正在稀释自己的现金牛，OpenAI和Anthropic一个翻倍用量、一个递交S-1，都在用资本叙事为算力军备竞赛融资。而Anthropic那项86%的研究值得每个做Agent产品的人反复读，能力越强，人类判断的让渡越隐蔽。开源生态的重心也在迁移，霸榜的不再是模型本身，而是记忆、设计审查、多Agent工作台这类Agent周边基建，工程化落地正在成为新的主战场。好，今天就聊到这，我们明天见。</itunes:summary>
-      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-10-30.mp3" length="1793088" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-10-30.mp3</guid>
-      <pubDate>Fri, 30 Oct 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>04:58</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>

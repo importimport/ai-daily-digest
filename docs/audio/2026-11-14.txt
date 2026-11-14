@@ -1,0 +1,10 @@
+各位听众早上好，今天是2026年11月14日，欢迎收听AI行业每日播报。今天的关键词有两个，一个是决策模型，一个是融资变局。Google和Perplexity同一天在决策接口上发力，而英伟达那边的震荡还在持续发酵，我们一个个来说。
+先看Google，今天一口气放出了两个大动作。第一个是Gemini 4 Hydrogen，速度是Gemini 3.8 Flash的二点五倍，上下文窗口达到一百万token，带四档thinking级别，定价每百万输入token一块五美元、输出七块五，已经同步上线Google Search和Gemini App全档位。第二个更值得注意，是Gemini Decisions API，也就是Gemini Decision 1，它能针对文本、图像、音频、视频和PDF上的最多一千个是或否、选择、评分问题，直接返回校准过的概率，输入每百万token只要一毛钱，输出免费。这意味着什么呢，后面今日观察我们再展开。
+OpenAI这边，推出了ChatGPT Wallet，让agent替用户完成购物和结账。用户一次性绑定银行卡，每笔购买用Face ID或指纹确认，卡号以支付token的形式隐藏起来，首批面向美国十八岁以上的Pro订阅用户。同一天，OpenAI还以Daybreak品牌进军网络安全市场，发布两款安全产品，同时开源了Codex Security的命令行工具和TypeScript SDK。
+Anthropic今天新闻不少。先是发布Claude for Manufacturing插件，直接接入Autodesk Fusion、Oracle NetSuite和Infor，十七项专用技能可以起草报价、比价供应商、在延迟交付时下备用订单，全部需要人工审批。另外，Anthropic的IPO超额认购六倍，有望成为史上最大IPO，但彭博报道说，承销银行以美国出口管制为由，拒绝了中国大陆和香港投资者的认购订单。还有一条，Claude Meetings上线，Claude可以直接加入视频会议，率先支持Google Meet，实时生成文档、白板和会议纪要。
+再说两条和资本、算力相关的。LangChain估值达到三十亿美元，它的agent管理工具LangSmith已经有七千家客户。而黄仁勋辞职的冲击还在扩散，风险投资和创始人都预期支票会变小、估值会走低，同时美国众议院民主党人对英伟达中国销售发起了第二轮国会调查。
+另外有条挺有意思的消息，前OpenAI研究员Will DePue称，他在六个中国模型中检出了Nvidia Blackwell芯片的指纹，是通过读取已发布模型权重里的芯片特征签名，指认DeepSeek、Moonshot AI、MiniMax和蚂蚁集团在出口管制下使用了Blackwell GPU，估算五次训练run的硬件成本超过五亿美元。权重取证，正在成为一种新的审计手段。
+论文方面快速过几条。EgoX提出跨具身第一人称操作学习框架，让异构数据可以混合训练。Back to Pixels，也就是PixVid，尝试把潜空间视频扩散模型直接提升到像素空间，绕开VAE压缩瓶颈。The Value of Thinking提出zero-or-T思考范式，让模型学习何时该思考，而不是思考多少。还有JustRUA，对GPT-6机器人操作agent做了受控消融研究，结论是精简harness就能拿到大部分收益。
+开源侧，llama.cpp发布v1.0.0，本地推理的事实标准进入稳定版。Google开源TPU Sync，KV cache传输延迟降低九成以上。AWS发布AWS Emulator，两百多个服务的本地克隆，代码由AI agent编写，三周产生近三万次提交。阿里开源open-code-review，规则加LLM的混合代码审查工具。还有Perplexity开源Decider v1.3和Flash v1.3，返回概率而非文本，六十三项查询分类任务上平均准确率九成一六。
+最后是社区热议。黄仁勋离任引发硅谷分裂，员工请愿Bring Back THE Boss，马斯克公开表态参与。讨论焦点已经从私德转向财务担保风险，有报道称真正导火索可能是英伟达向云厂商提供数千亿美元购芯担保的高风险做法。另一条是No AI Slop宣言在Hacker News引发激烈争论，围绕AI生成内容是否正在稀释公共信息质量。
+今日观察。今天最清晰的信号，是决策模型作为一个独立品类正在成型。Google的Gemini Decisions API和Perplexity开源的Decider v1.3同一天出现，都返回校准概率而非文本，价格压到每百万token一毛钱量级。这意味着大量原本靠prompt硬凑的分类和打分环节，正在被专用小模型替代，成本可能下降一到两个数量级。另一个值得警惕的是英伟达事件的叙事转向，如果供应商为云厂商购芯提供巨额担保的模式被重新审视，受冲击的不只是英伟达估值，而是整个算力换股权的AI融资循环。好，今天就聊到这里，我们明天见。
