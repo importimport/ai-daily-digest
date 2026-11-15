@@ -1,0 +1,7 @@
+早上好，今天是 2026 年 11 月 15 日，欢迎收听今天的 AI 日报。今天最值得关注的，是算力叙事出现了明显裂缝，同时 Agent 正从会说话跨进能付钱、能下单的阶段，但治理问题也跟着集中爆发。我们一条条来聊。
+先看英伟达。黄仁勋因为个人关系风波辞任 CEO，英伟达三十三年来首次换帅。马斯克等科技高管联署请愿要求他回归，签名已经超过十一万五千。但华尔街日报的报道给出了另一个版本：离职可能源于英伟达高风险的商业操作，公司曾为云厂商芯片采购提供数千亿美元财务担保，其中还包括和 OpenAI 的二千五百亿美元计划，临时 CEO Colette Kress 此前曾试图控制风险。与此同时，一项新研究追踪到超过一点五吉瓦被禁运的英伟达芯片流入中国，中国最强的 AI 模型正是训练在这些芯片上，出口管制的有效性被打上问号。
+另一头，Anthropic 临近创纪录 IPO，CEO Amodei 承认明年存在巨大不确定性，算力采购承诺总额接近九千零一十亿美元，IPO 主要当作财务缓冲。更有意思的是，Anthropic 前研究员 Coxon 说，Mythos 可以用原始算力的一小部分重新训练。供给端的稀缺溢价，正在被两头挤压。
+产品这边动作很密。Anthropic 把 Claude Opus 5.5 设为所有付费计划的默认模型，并提醒大家放弃“think hard”式的旧提示习惯，从 Medium effort 起步。OpenAI 解散了独立机器人团队，研究人员分流，信号很明确：GPT-6 Astra 这类通用模型可以直接控制机器人。OpenAI 还推出了 ChatGPT Wallet，绑定一次卡，每次购买用 Face ID 或指纹确认，卡号以支付 token 隐藏，先向美国 Pro 订阅者开放。Anthropic 则发布 Claude for Manufacturing 插件，直连 Autodesk Fusion、Oracle NetSuite 和 Infor，能起草报价、比价、延迟时下备选订单，但需要人工批准。
+模型层面，Google 发布 Gemini 4 Hydrogen，一百万 token 窗口，四档思考等级，输入一点五美元、输出七点五美元，比 Gemini 3.8 Flash 快二点五倍。Gemini 4 Carbon 登顶 MathArena，但成本是 GPT-6.1 Sol 的十五倍。最强和最划算，分野越来越清晰。
+开源和研究也热闹。Google 开源 TPU Sync，跨 TPU 的 KV Cache 传输延迟降低九成以上；阿里开源 open-code-review；腾讯开源 LoopForge；llama.cpp 发布 v1.0.0。论文方面，AlphaProof Code 为 Signal 的核心加密验证了三百万行 Lean 证明；Runway 开源机器人控制模型 Praxis-1；斯坦福开源 Memorilla 潜在记忆模块。
+今日观察。今天最响的信号不是某个模型刷榜，而是算力叙事的裂缝：黄仁勋离场牵出数千亿美元财务担保和芯片走私调查，重训前沿模型的算力门槛又可能被大幅削弱。产品侧，Agent 正在拿到写权限和资金权限，但 HN 上 Claude 删光法学教授整年讲义、Lovable 泄露护照信息和二十万条私信这两件事提醒我们，治理远远落后于能力。对开发者来说，今天最该做的，是审计自家 Agent 的破坏性操作权限，并重读 Anthropic 的新提示指南。我们明天见。
