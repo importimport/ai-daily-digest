@@ -15,6 +15,31 @@
     <image><url>https://importimport.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://importimport.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-11-16 周一</title>
+      <description>各位听众早上好，今天是2026年11月16日，欢迎收听AI行业每日播报。今天的关键词是通用模型吞掉专用栈，另外还有几条关于算力、成本和开源工具链的重要消息，我们一条条来聊。
+先看模型这边。美团今天开源了一个大块头，叫LongCat-2.5，参数规模达到一点六万亿，专门面向Agent场景。最值得关注的是，它全程没有用Nvidia的GPU，而是完全跑在中国本土硬件上训练，示例部署用了194颗华为Ascend芯片。在Terminal Bench上拿到88.4分，仅次于Claude Opus 5。这件事的意义很直接，就是证明了不用Nvidia硬件，也能训练出前沿级别的Agent模型。
+Google这边也没闲着，发布了Gemini 4 Hydrogen，速度是Gemini 3.8 Flash的二点五倍，具备一百万token的上下文窗口，还有四档思考深度，定价是输入1.5美元、输出7.5美元。它已经接入Google搜索，主打的就是低成本、高吞吐的Agent场景，直接冲击现有API的定价体系。另外，Gemini 4 Carbon在MathArena上拿了第一，这是OpenAI模型首次丢掉这个数学基准的头名，但代价是成本达到GPT-6.1 Sol的十五倍，所以性能和成本怎么权衡，成了选型时的关键问题。
+Anthropic今天有两个动作。一是把Claude Opus 5.5设为付费计划的默认模型，同时发布新的提示词指南，官方说很多过时的提示习惯正在拖慢模型表现，核心建议是别再写“think hard”这类指令，从Medium effort起步就好。二是CEO Amodei在可能是史上最大IPO前夕公开承认，明年有巨大不确定性，购买算力是公司最深的商业困境，目前算力承诺总额已经接近九千零一十亿美元，IPO主要作为财务缓冲。
+其他几条行业消息也值得留意。OpenAI第二次解散了独立机器人团队，研究人员转岗，原因不是缺数据，而是GPT-6 Astra这类通用模型可以直接控制机器人，专用机器人AI可能不再必要。DeepSeek开放了全家桶API，官方App的各项功能现在都能自由组合调用。LangChain估值达到三十亿美元，旗下的LangSmith已经拥有七千家客户。印度芯片初创Bharat Semi拿到两千四百万美元种子轮，瞄准全球AI传感器市场。监管层面，美国国会拟在Nvidia间谍丑闻后收紧AI芯片出口，两党都支持，并要求黄仁勋等高层赴国会作证。另外澳大利亚央行发现，AI首先冲击的是年轻劳动者，软件开发与客服岗位最明显。
+论文方面今天有几篇值得一读。Experience-Handoff RL提出系统化构建可交接的经验工件，为Agent自我进化提供可复用的经验传递范式。Back to Pixels把预训练潜空间视频模型直接提升到像素空间，突破分辨率和逐帧控制的瓶颈。还有The Value of Thinking，提出zero-or-T thinking范式，让模型自己决定什么时候值得花token推理，从而显著降低平均延迟。优化器方面，FOAM把二阶优化的状态内存和分解开销降到接近AdamW的水平，训练提速值得期待。
+开源项目今天几乎被Agent工具链包场。Google开源了TPU Sync，这是一个KV Cache传输库，官方称在235B到480B的MoE模型上，KV传输延迟降低超过九成。Runway开源了机器人模型Praxis-1，用视频训练知识做机器人控制。GitHub趋势榜上，plannotator帮开发者和Agent保持同步，chrome-devtools-mcp让编码Agent直接驱动浏览器调试，阿里的open-code-review用确定性流水线加LLM Agent做代码评审，还有Chrome的modern-web-guidance给Agent提供持续更新的Web规范。另外斯坦福开源了Memorilla，用十六个memory token给冻结的LLM做长期记忆，token成本比全上下文少一百零八倍。llama.cpp也发布了v1.0.0，本地推理栈进入稳定期。
+最后是圈内热议。有文章主张所有AI生成的代码都应当开源，在Hacker News上收获了一千多分和近六百条评论，争论焦点是版权归属、审计需求和商业闭源的边界。还有前研究员Jacob Co</description>
+      <itunes:summary>各位听众早上好，今天是2026年11月16日，欢迎收听AI行业每日播报。今天的关键词是通用模型吞掉专用栈，另外还有几条关于算力、成本和开源工具链的重要消息，我们一条条来聊。
+先看模型这边。美团今天开源了一个大块头，叫LongCat-2.5，参数规模达到一点六万亿，专门面向Agent场景。最值得关注的是，它全程没有用Nvidia的GPU，而是完全跑在中国本土硬件上训练，示例部署用了194颗华为Ascend芯片。在Terminal Bench上拿到88.4分，仅次于Claude Opus 5。这件事的意义很直接，就是证明了不用Nvidia硬件，也能训练出前沿级别的Agent模型。
+Google这边也没闲着，发布了Gemini 4 Hydrogen，速度是Gemini 3.8 Flash的二点五倍，具备一百万token的上下文窗口，还有四档思考深度，定价是输入1.5美元、输出7.5美元。它已经接入Google搜索，主打的就是低成本、高吞吐的Agent场景，直接冲击现有API的定价体系。另外，Gemini 4 Carbon在MathArena上拿了第一，这是OpenAI模型首次丢掉这个数学基准的头名，但代价是成本达到GPT-6.1 Sol的十五倍，所以性能和成本怎么权衡，成了选型时的关键问题。
+Anthropic今天有两个动作。一是把Claude Opus 5.5设为付费计划的默认模型，同时发布新的提示词指南，官方说很多过时的提示习惯正在拖慢模型表现，核心建议是别再写“think hard”这类指令，从Medium effort起步就好。二是CEO Amodei在可能是史上最大IPO前夕公开承认，明年有巨大不确定性，购买算力是公司最深的商业困境，目前算力承诺总额已经接近九千零一十亿美元，IPO主要作为财务缓冲。
+其他几条行业消息也值得留意。OpenAI第二次解散了独立机器人团队，研究人员转岗，原因不是缺数据，而是GPT-6 Astra这类通用模型可以直接控制机器人，专用机器人AI可能不再必要。DeepSeek开放了全家桶API，官方App的各项功能现在都能自由组合调用。LangChain估值达到三十亿美元，旗下的LangSmith已经拥有七千家客户。印度芯片初创Bharat Semi拿到两千四百万美元种子轮，瞄准全球AI传感器市场。监管层面，美国国会拟在Nvidia间谍丑闻后收紧AI芯片出口，两党都支持，并要求黄仁勋等高层赴国会作证。另外澳大利亚央行发现，AI首先冲击的是年轻劳动者，软件开发与客服岗位最明显。
+论文方面今天有几篇值得一读。Experience-Handoff RL提出系统化构建可交接的经验工件，为Agent自我进化提供可复用的经验传递范式。Back to Pixels把预训练潜空间视频模型直接提升到像素空间，突破分辨率和逐帧控制的瓶颈。还有The Value of Thinking，提出zero-or-T thinking范式，让模型自己决定什么时候值得花token推理，从而显著降低平均延迟。优化器方面，FOAM把二阶优化的状态内存和分解开销降到接近AdamW的水平，训练提速值得期待。
+开源项目今天几乎被Agent工具链包场。Google开源了TPU Sync，这是一个KV Cache传输库，官方称在235B到480B的MoE模型上，KV传输延迟降低超过九成。Runway开源了机器人模型Praxis-1，用视频训练知识做机器人控制。GitHub趋势榜上，plannotator帮开发者和Agent保持同步，chrome-devtools-mcp让编码Agent直接驱动浏览器调试，阿里的open-code-review用确定性流水线加LLM Agent做代码评审，还有Chrome的modern-web-guidance给Agent提供持续更新的Web规范。另外斯坦福开源了Memorilla，用十六个memory token给冻结的LLM做长期记忆，token成本比全上下文少一百零八倍。llama.cpp也发布了v1.0.0，本地推理栈进入稳定期。
+最后是圈内热议。有文章主张所有AI生成的代码都应当开源，在Hacker News上收获了一千多分和近六百条评论，争论焦点是版权归属、审计需求和商业闭源的边界。还有前研究员Jacob Co</itunes:summary>
+      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-11-16.mp3" length="2215152" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-11-16.mp3</guid>
+      <pubDate>Mon, 16 Nov 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>06:09</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-11-15 周日</title>
       <description>早上好，今天是 2026 年 11 月 15 日，欢迎收听今天的 AI 日报。今天最值得关注的，是算力叙事出现了明显裂缝，同时 Agent 正从会说话跨进能付钱、能下单的阶段，但治理问题也跟着集中爆发。我们一条条来聊。
 先看英伟达。黄仁勋因为个人关系风波辞任 CEO，英伟达三十三年来首次换帅。马斯克等科技高管联署请愿要求他回归，签名已经超过十一万五千。但华尔街日报的报道给出了另一个版本：离职可能源于英伟达高风险的商业操作，公司曾为云厂商芯片采购提供数千亿美元财务担保，其中还包括和 OpenAI 的二千五百亿美元计划，临时 CEO Colette Kress 此前曾试图控制风险。与此同时，一项新研究追踪到超过一点五吉瓦被禁运的英伟达芯片流入中国，中国最强的 AI 模型正是训练在这些芯片上，出口管制的有效性被打上问号。
@@ -361,31 +386,6 @@ Meta 这边也没闲着，收购了 AI 编程初创 Conductor。这家公司允�
       <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-11-02.mp3</guid>
       <pubDate>Mon, 02 Nov 2026 08:00:00 +0800</pubDate>
       <itunes:duration>04:31</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-11-01 周日</title>
-      <description>早上好，今天是 2026 年 11 月 1 日，欢迎收听今天的 AI 日报。先给大家划个重点：今天最值得关注的，是资本侧开始明显退烧，而技术侧还在加速，这两股力量正在把整个行业往两个方向拉扯。咱们一条条来说。
-先说钱的事。OpenAI 这轮融资原本目标三百亿美元，结果只募到一百一十亿，估值一万两千五百亿美元，低于预期。大型投资方在科技股抛售里收手了。与此同时，Anthropic 正推进最早十一月上市，但据金融时报报道，它上市后的信用评级预计会落入高投机级，也就是俗称的垃圾级，这会明显抬高融资成本。还有一条，Nvidia 正在考虑为 Nscale 在西弗吉尼亚的 AI 数据中心做贷款共签，卖芯片的亲自出面背书，说明基建风险正在往供应商身上转移。微软那边也在做组织调整，向大约六万名员工、也就是约四分之一的人提供自愿离职，同时专门保护 AI 关键团队，人力预算明显在往 AI 基建集中。
-技术侧的好消息不少。Google DeepMind 一口气发了 Gemini 4 Carbon 和 Genie 4，前者是新一代前沿模型，后者主打实时世界模拟的真实感。Mistral 开源了 Le Chonk，也就是 Mistral Large 4 的权重，官方说在编码和网络安全任务上追平甚至超过 DeepSeek 和 Z.ai 最强的开源模型。Google 那边还有个挺科幻的进展，卫星上的 AI 服务器第一次从太空返回了推理结果，TPU 成功启动，机载 Gemma 4 还写了首俳句，不过单块 TPU 每次只能开大约二十分钟，功耗和通信还是硬瓶颈。
-数据合规这块有几件事得留意。OpenAI、Google、Microsoft、Anthropic 共同采纳了统一的退出抓取标准，发布者用一个共享的 policy token 就能一次性向多家公司表达训练偏好，不用逐家设置。但另一边，Anthropic 的水印扩展到四个 Claude 模型，可旧模型上只要改一个采样参数就能绕过，官方只给了合规警告。OpenAI 还宣布，从 11 月 29 日起会用此前属于禁区的 Daybreak Blue 网络安全会话数据训练模型，即使用户关了训练开关也照用，遭到反弹后才补发单独的退出邮件。企业用户得重新审一遍自己的数据条款了。
-安全方面，Cursor 市场上一个被篡改的 Claude Code 扩展存活了大约十一个小时，影响最多五千名用户，试图窃取数据并建立远程访问，Cursor 一度把整个市场下架。Agent 插件供应链已经是真实的攻击面，版本和签名得自己锁死。
-再看几条值得留意的开源和工具。claude-mem 今天涨了一千七百多星，给 Agent 提供跨会话的持久记忆。Vercel Labs 开源了 agent-desktop，通过读取操作系统的 accessibility tree 来操作电脑，摆脱了截图加坐标那套范式。微软和 UC Berkeley 的 TokenEconomizer 能在不改 Agent 的前提下，把编码任务的 token 成本降低百分之十八到三十。微软还发了 Mage-VL-Cowork，一个四十亿参数的小视觉语言模型，在 OSWorld 上达到百分之六十六，主打端侧电脑操作。
-论文方面挑三条说。有一篇把预训练、SFT、强化学习统一成一个算法，训练流水线可能大幅简化。另一篇指出标准多 token 预测的梯度里有个随规模放大的残差项，修正之后收益能明显放大。还有一篇测了公开模型库里的量化模型，发现存在功能性损坏，三百多个官方标签里有七个在代码测试中最多只解出六题，下载量化权重前一定得自测。
-最后是今日观察。今天最清晰的信号，就是资本侧开始退烧：OpenAI 募资不到目标四成，Anthropic 面临高投机级评级，Nvidia 亲自为数据中心贷款共签，算力扩张的融资链条正在变紧，微软一边裁员一边保 AI 团队，正是这种张力下的组织反应。但技术侧相反地在加速，统一训练算法、修正 MTP 梯度、形式化验证接近饱和，方法论的效率红利还在释放。对开发者来说最直接的两条：TokenEconomizer 和四十亿参数的 Mage-VL-Cowork 说明低成本 Agent 已经工程可行；而插件被篡改、量化权重损坏、水印单参数可绕过这三件事提醒我们，Agent 供应链和</description>
-      <itunes:summary>早上好，今天是 2026 年 11 月 1 日，欢迎收听今天的 AI 日报。先给大家划个重点：今天最值得关注的，是资本侧开始明显退烧，而技术侧还在加速，这两股力量正在把整个行业往两个方向拉扯。咱们一条条来说。
-先说钱的事。OpenAI 这轮融资原本目标三百亿美元，结果只募到一百一十亿，估值一万两千五百亿美元，低于预期。大型投资方在科技股抛售里收手了。与此同时，Anthropic 正推进最早十一月上市，但据金融时报报道，它上市后的信用评级预计会落入高投机级，也就是俗称的垃圾级，这会明显抬高融资成本。还有一条，Nvidia 正在考虑为 Nscale 在西弗吉尼亚的 AI 数据中心做贷款共签，卖芯片的亲自出面背书，说明基建风险正在往供应商身上转移。微软那边也在做组织调整，向大约六万名员工、也就是约四分之一的人提供自愿离职，同时专门保护 AI 关键团队，人力预算明显在往 AI 基建集中。
-技术侧的好消息不少。Google DeepMind 一口气发了 Gemini 4 Carbon 和 Genie 4，前者是新一代前沿模型，后者主打实时世界模拟的真实感。Mistral 开源了 Le Chonk，也就是 Mistral Large 4 的权重，官方说在编码和网络安全任务上追平甚至超过 DeepSeek 和 Z.ai 最强的开源模型。Google 那边还有个挺科幻的进展，卫星上的 AI 服务器第一次从太空返回了推理结果，TPU 成功启动，机载 Gemma 4 还写了首俳句，不过单块 TPU 每次只能开大约二十分钟，功耗和通信还是硬瓶颈。
-数据合规这块有几件事得留意。OpenAI、Google、Microsoft、Anthropic 共同采纳了统一的退出抓取标准，发布者用一个共享的 policy token 就能一次性向多家公司表达训练偏好，不用逐家设置。但另一边，Anthropic 的水印扩展到四个 Claude 模型，可旧模型上只要改一个采样参数就能绕过，官方只给了合规警告。OpenAI 还宣布，从 11 月 29 日起会用此前属于禁区的 Daybreak Blue 网络安全会话数据训练模型，即使用户关了训练开关也照用，遭到反弹后才补发单独的退出邮件。企业用户得重新审一遍自己的数据条款了。
-安全方面，Cursor 市场上一个被篡改的 Claude Code 扩展存活了大约十一个小时，影响最多五千名用户，试图窃取数据并建立远程访问，Cursor 一度把整个市场下架。Agent 插件供应链已经是真实的攻击面，版本和签名得自己锁死。
-再看几条值得留意的开源和工具。claude-mem 今天涨了一千七百多星，给 Agent 提供跨会话的持久记忆。Vercel Labs 开源了 agent-desktop，通过读取操作系统的 accessibility tree 来操作电脑，摆脱了截图加坐标那套范式。微软和 UC Berkeley 的 TokenEconomizer 能在不改 Agent 的前提下，把编码任务的 token 成本降低百分之十八到三十。微软还发了 Mage-VL-Cowork，一个四十亿参数的小视觉语言模型，在 OSWorld 上达到百分之六十六，主打端侧电脑操作。
-论文方面挑三条说。有一篇把预训练、SFT、强化学习统一成一个算法，训练流水线可能大幅简化。另一篇指出标准多 token 预测的梯度里有个随规模放大的残差项，修正之后收益能明显放大。还有一篇测了公开模型库里的量化模型，发现存在功能性损坏，三百多个官方标签里有七个在代码测试中最多只解出六题，下载量化权重前一定得自测。
-最后是今日观察。今天最清晰的信号，就是资本侧开始退烧：OpenAI 募资不到目标四成，Anthropic 面临高投机级评级，Nvidia 亲自为数据中心贷款共签，算力扩张的融资链条正在变紧，微软一边裁员一边保 AI 团队，正是这种张力下的组织反应。但技术侧相反地在加速，统一训练算法、修正 MTP 梯度、形式化验证接近饱和，方法论的效率红利还在释放。对开发者来说最直接的两条：TokenEconomizer 和四十亿参数的 Mage-VL-Cowork 说明低成本 Agent 已经工程可行；而插件被篡改、量化权重损坏、水印单参数可绕过这三件事提醒我们，Agent 供应链和</itunes:summary>
-      <enclosure url="https://importimport.github.io/ai-daily-digest/audio/2026-11-01.mp3" length="1819440" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://importimport.github.io/ai-daily-digest/audio/2026-11-01.mp3</guid>
-      <pubDate>Sun, 01 Nov 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>05:03</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://importimport.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
